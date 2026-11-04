@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="2" result="Passed" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-11-03 13:00:20Z" end-time="2026-11-03 13:03:16Z" duration="175.9200556">
+  <test-suite type="TestSuite" id="1023" name="VelvetVows" fullname="VelvetVows" runstate="Runnable" testcasecount="11" result="Passed" start-time="2026-11-03 13:00:20Z" end-time="2026-11-03 13:03:16Z" duration="175.920056" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="PlayMode" />
+    </properties>
+    <test-suite type="Assembly" id="1020" name="VelvetVows.AnimationCompatibility.PlayModeTests.dll" fullname="/private/tmp/VelvetVows_Phase2A_Test/Library/ScriptAssemblies/VelvetVows.AnimationCompatibility.PlayModeTests.dll" runstate="Runnable" testcasecount="11" result="Passed" start-time="2026-11-03 13:00:20Z" end-time="2026-11-03 13:03:16Z" duration="175.911218" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="53157" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="PlayMode" />
+        <property name="EditorOnly" value="False" />
+      </properties>
+      <test-suite type="TestSuite" id="1021" name="VelvetVows" fullname="VelvetVows" runstate="Runnable" testcasecount="11" result="Passed" start-time="2026-11-03 13:00:20Z" end-time="2026-11-03 13:03:16Z" duration="175.909476" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-suite type="TestSuite" id="1022" name="Tests" fullname="VelvetVows.Tests" runstate="Runnable" testcasecount="11" result="Passed" start-time="2026-11-03 13:00:20Z" end-time="2026-11-03 13:03:16Z" duration="175.907807" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <test-suite type="TestFixture" id="1006" name="Phase2APlayModeTests" fullname="VelvetVows.Tests.Phase2APlayModeTests" classname="VelvetVows.Tests.Phase2APlayModeTests" runstate="Runnable" testcasecount="2" result="Passed" start-time="2026-11-03 13:00:20Z" end-time="2026-11-03 13:03:16Z" duration="175.900117" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1008" name="CompletePlayerDrivenPhase2ARoute" fullname="VelvetVows.Tests.Phase2APlayModeTests.CompletePlayerDrivenPhase2ARoute" methodname="CompletePlayerDrivenPhase2ARoute" classname="VelvetVows.Tests.Phase2APlayModeTests" runstate="Runnable" seed="2049682918" result="Passed" start-time="2026-11-03 13:00:20Z" end-time="2026-11-03 13:02:41Z" duration="140.382865" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[VelvetVows] GameManager Awake
+[VelvetVows] GameHUD initialized
+[VelvetVows] Canvas active: True, enabled: True, mode: ScreenSpaceOverlay
+[VelvetVows] Canvas scale: (1.00, 1.00, 1.00)
+[VelvetVows] StartPanel active: True
+[VelvetVows] StartPanel scale: (1.00, 1.00, 1.00)
+[VelvetVows] UI input: EventSystem=True, InputSystemUIInputModule=True, actions=True, cursor=None/visible=True
+[VelvetVows] BEGIN listener registered (serialized)
+[VelvetVows] State: Introduction
+[VelvetVows] Canvas active: True, enabled: True, mode: ScreenSpaceOverlay
+[VelvetVows] Canvas scale: (1.00, 1.00, 1.00)
+[VelvetVows] StartPanel active: True
+[VelvetVows] StartPanel scale: (1.00, 1.00, 1.00)
+[VelvetVows] UI input: EventSystem=True, InputSystemUIInputModule=True, actions=True, cursor=None/visible=True
+[Phase2A] Stage: Opening; reputation=0
+[Phase2A] Stage: MissingStudent; reputation=0
+[Phase2A] Stage: Overhear; reputation=0
+[Phase2A] Stage: Overhearing; reputation=0
+[Phase2A Test] Walk toward (-4.40, 0.00, 2.80): now (-2.82, -0.01, 1.07), elapsed 1.7s
+[Phase2A] Stage: WatchAdrian; reputation=0
+[Phase2A Test] Navigation probes: start=True, end=True, hall=True, hall west=False, library door=True, music door=True
+[Phase2A Test] Route (-2.98, -0.01, 1.25) → (-20.00, 0.00, 14.00): 9 turns: (-3.55, 0.00, 2.10); (-9.40, 0.00, 7.95); (-9.40, 0.00, 8.60); (-10.05, 0.00, 8.60); (-14.60, 0.00, 13.15); (-17.20, 0.00, 13.15); (-17.85, 0.00, 12.50); (-18.50, 0.00, 12.50); (-19.15, 0.00, 13.15)
+[Phase2A Test] Walk toward (-3.55, 0.00, 2.10): now (-3.37, -0.01, 1.84), elapsed 0.3s
+[Phase2A Test] Walk toward (-9.40, 0.00, 7.95): now (-9.18, -0.02, 7.72), elapsed 3.2s
+[Phase2A Test] Walk toward (-9.40, 0.00, 8.60): now (-9.32, -0.02, 8.29), elapsed 0.2s
+[Phase2A Test] Walk toward (-10.05, 0.00, 8.60): now (-9.76, -0.02, 8.48), elapsed 0.2s
+[Phase2A Test] Walk toward (-14.60, 0.00, 13.15): now (-14.37, -0.02, 12.93), elapsed 2.5s
+[Phase2A] Stage: Watching; reputation=0
+[Phase2A Test] Walk toward (-17.20, 0.00, 13.15): now (-16.32, -0.02, 13.08), elapsed 0.8s
+[Phase2A] Stage: Errands; reputation=0
+[Phase2A Test] Navigation probes: start=True, end=False, hall=True, hall west=False, library door=True, music door=True
+[Phase2A Test] Route (-16.56, -0.02, 13.10) → (-15.00, 0.00, 17.00): 3 turns: (-17.20, 0.00, 13.80); (-17.20, 0.00, 15.10); (-15.90, 0.00, 16.40)
+[Phase2A Test] Walk toward (-17.20, 0.00, 13.80): now (-16.99, -0.02, 13.57), elapsed 0.3s
+[Phase2A Test] Walk toward (-17.20, 0.00, 15.10): now (-17.16, -0.02, 14.78), elapsed 0.5s
+[Phase2A Test] Walk toward (-15.90, 0.00, 16.40): now (-16.10, -0.02, 16.15), elapsed 0.7s
+[Phase2A Test] Walk toward (-15.00, 0.00, 17.00): now (-16.07, -0.02, 16.17), elapsed 0.0s
+[Phase2A Test] Injected E: device=1, current=1, isPressed=True, wasPressed=False, mode=ProcessEventsInDynamicUpdate
+[Phase2A Test] Physical approach, observation and Reputation 0 refusal passed
+[Phase2A Test] Navigation probes: start=True, end=False, hall=True, hall west=False, library door=True, music door=True
+[Phase2A Test] Route (-16.03, -0.02, 16.20) → (-22.60, 0.00, 17.40): 4 turns: (-16.55, 0.00, 15.75); (-19.15, 0.00, 18.35); (-21.10, 0.00, 18.35); (-21.75, 0.00, 17.70)
+[Phase2A Test] Walk toward (-16.55, 0.00, 15.75): now (-16.31, -0.02, 15.96), elapsed 0.2s
+[Phase2A Test] Walk toward (-19.15, 0.00, 18.35): now (-18.91, -0.02, 18.14), elapsed 1.3s
+[Phase2A Test] Walk toward (-21.10, 0.00, 18.35): now (-20.79, -0.02, 18.32), elapsed 0.7s
+[Phase2A Test] Walk toward (-21.75, 0.00, 17.70): now (-21.48, -0.02, 17.87), elapsed 0.3s
+[Phase2A Test] Walk toward (-22.60, 0.00, 17.40): now (-21.48, -0.02, 17.87), elapsed 0.0s
+[Phase2A Test] Injected E: device=1, current=1, isPressed=True, wasPressed=False, mode=ProcessEventsInDynamicUpdate
+[Phase2A Test] Navigation probes: start=True, end=True, hall=True, hall west=False, library door=True, music door=True
+[Phase2A Test] Route (-21.55, -0.02, 17.83) → (-21.00, 0.00, 21.00): 3 turns: (-21.75, 0.00, 18.35); (-21.10, 0.00, 19.00); (-21.10, 0.00, 20.30)
+[Phase2A Test] Walk toward (-21.75, 0.00, 18.35): now (-21.64, -0.02, 18.05), elapsed 0.1s
+[Phase2A Test] Walk toward (-21.10, 0.00, 19.00): now (-21.26, -0.02, 18.73), elapsed 0.3s
+[Phase2A Test] Walk toward (-21.10, 0.00, 20.30): now (-21.13, -0.02, 19.98), elapsed 0.5s
+[Phase2A Test] Walk toward (-21.00, 0.00, 21.00): now (-21.13, -0.02, 19.98), elapsed 0.0s
+[Phase2A Test] Injected E: device=1, current=1, isPressed=True, wasPressed=False, mode=ProcessEventsInDynamicUpdate
+[Phase2A] Reputation +2 (library-books) = 2
+[Phase2A Test] Library book errand and +2 reputation passed
+[Phase2A Test] Navigation probes: start=True, end=True, hall=True, hall west=False, library door=True, music door=True
+[Phase2A Test] Route (-21.13, -0.02, 20.02) → (-19.70, 0.00, -2.45): 14 turns: (-20.45, 0.00, 19.65); (-17.85, 0.00, 17.05); (-17.85, 0.00, 16.40); (-10.05, 0.00, 8.60); (-9.40, 0.00, 8.60); (-9.40, 0.00, 7.30); (-6.80, 0.00, 4.70); (-6.80, 0.00, -0.50); (-9.40, 0.00, -3.10); (-12.65, 0.00, -3.10); (-13.30, 0.00, -3.75); (-16.55, 0.00, -3.75); (-17.85, 0.00, -2.45); (-19.15, 0.00, -2.45)
+[Phase2A Test] Walk toward (-20.45, 0.00, 19.65): now (-20.73, -0.02, 19.80), elapsed 0.2s
+[Phase2A Test] Walk toward (-17.85, 0.00, 17.05): now (-18.08, -0.02, 17.27), elapsed 1.4s
+[Phase2A Test] Walk toward (-17.85, 0.00, 16.40): now (-17.93, -0.02, 16.71), elapsed 0.2s
+[Phase2A Test] Walk toward (-10.05, 0.00, 8.60): now (-10.27, -0.02, 8.83), elapsed 4.2s
+[Phase2A Test] Walk toward (-9.40, 0.00, 8.60): now (-9.70, -0.02, 8.68), elapsed 0.2s
+[Phase2A Test] Walk toward (-9.40, 0.00, 7.30): now (-9.47, -0.02, 7.61), elapsed 0.4s
+[Phase2A Test] Walk toward (-6.80, 0.00, 4.70): now (-7.01, -0.01, 4.93), elapsed 1.4s
+[Phase2A Test] Walk toward (-6.80, 0.00, -0.50): now (-6.81, -0.01, -0.18), elapsed 2.0s
+[Phase2A Test] Walk toward (-9.40, 0.00, -3.10): now (-9.19, -0.01, -2.86), elapsed 1.4s
+[Phase2A Test] Walk toward (-12.65, 0.00, -3.10): now (-12.33, -0.01, -3.08), elapsed 1.2s
+[Phase2A Test] Walk toward (-13.30, 0.00, -3.75): now (-13.04, -0.01, -3.57), elapsed 0.3s
+[Phase2A Test] Walk toward (-16.55, 0.00, -3.75): now (-16.23, -0.01, -3.73), elapsed 1.2s
+[Phase2A Test] Walk toward (-17.85, 0.00, -2.45): now (-17.60, -0.01, -2.65), elapsed 0.7s
+[Phase2A Test] Walk toward (-19.15, 0.00, -2.45): now (-18.83, -0.01, -2.48), elapsed 0.5s
+[Phase2A Test] Walk toward (-19.70, 0.00, -2.45): now (-18.83, -0.01, -2.48), elapsed 0.0s
+[Phase2A Test] Injected E: device=1, current=1, isPressed=True, wasPressed=False, mode=ProcessEventsInDynamicUpdate
+[Phase2A Test] Navigation probes: start=True, end=True, hall=True, hall west=False, library door=True, music door=True
+[Phase2A Test] Route (-18.86, -0.01, -2.48) → (-17.00, 0.00, -1.00): 2 turns: (-18.50, 0.00, -2.45); (-17.85, 0.00, -1.80)
+[Phase2A Test] Walk toward (-18.50, 0.00, -2.45): now (-18.82, -0.01, -2.48), elapsed 0.0s
+[Phase2A Test] Walk toward (-17.85, 0.00, -1.80): now (-18.11, -0.01, -1.98), elapsed 0.3s
+[Phase2A Test] Walk toward (-17.00, 0.00, -1.00): now (-18.01, -0.01, -1.89), elapsed 0.1s
+[Phase2A Test] Injected E: device=1, current=1, isPressed=True, wasPressed=False, mode=ProcessEventsInDynamicUpdate
+[Phase2A] Reputation +2 (art-materials) = 4
+[Phase2A Test] Art materials errand and +2 reputation passed
+[Phase2A Test] Navigation probes: start=True, end=True, hall=True, hall west=False, library door=True, music door=True
+[Phase2A Test] Route (-18.00, -0.01, -1.89) → (-9.40, 0.00, 8.60): 9 turns: (-17.20, 0.00, -2.45); (-15.90, 0.00, -3.75); (-13.30, 0.00, -3.75); (-12.65, 0.00, -3.10); (-9.40, 0.00, -3.10); (-6.80, 0.00, -0.50); (-6.80, 0.00, 4.70); (-9.40, 0.00, 7.30); (-9.40, 0.00, 7.95)
+[Phase2A Test] Walk toward (-17.20, 0.00, -2.45): now (-17.46, -0.01, -2.27), elapsed 0.3s
+[Phase2A Test] Walk toward (-15.90, 0.00, -3.75): now (-16.13, -0.01, -3.53), elapsed 0.7s
+[Phase2A Test] Walk toward (-13.30, 0.00, -3.75): now (-13.62, -0.01, -3.73), elapsed 1.0s
+[Phase2A Test] Walk toward (-12.65, 0.00, -3.10): now (-12.92, -0.01, -3.27), elapsed 0.3s
+[Phase2A Test] Walk toward (-9.40, 0.00, -3.10): now (-9.72, -0.01, -3.12), elapsed 1.2s
+[Phase2A Test] Walk toward (-6.80, 0.00, -0.50): now (-7.04, -0.01, -0.71), elapsed 1.4s
+[Phase2A Test] Walk toward (-6.80, 0.00, 4.70): now (-6.81, -0.01, 4.38), elapsed 2.0s
+[Phase2A Test] Walk toward (-9.40, 0.00, 7.30): now (-9.19, -0.02, 7.06), elapsed 1.4s
+[Phase2A Test] Walk toward (-9.40, 0.00, 7.95): now (-9.33, -0.02, 7.64), elapsed 0.2s
+[Phase2A Test] Walk toward (-9.40, 0.00, 8.60): now (-9.33, -0.02, 7.64), elapsed 0.0s
+[Phase2A Test] Walk toward (-10.05, 0.00, 8.60): now (-9.66, -0.02, 8.37), elapsed 4.6s
+[Phase2A Test] Walk toward (-14.60, 0.00, 13.15): now (-14.13, -0.02, 12.70), elapsed 2.5s
+[Phase2A Test] Navigation probes: start=True, end=False, hall=True, hall west=False, library door=True, music door=True
+[Phase2A Test] Route (-14.13, -0.02, 12.70) → (-16.30, 0.00, 11.60): 5 turns: (-13.95, 0.00, 11.85); (-13.95, 0.00, 11.20); (-14.60, 0.00, 10.55); (-15.25, 0.00, 10.55); (-15.90, 0.00, 11.20)
+[Phase2A Test] Walk toward (-13.95, 0.00, 11.85): now (-14.02, -0.02, 12.16), elapsed 0.2s
+[Phase2A Test] Walk toward (-13.95, 0.00, 11.20): now (-13.97, -0.02, 11.51), elapsed 0.2s
+[Phase2A Test] Walk toward (-14.60, 0.00, 10.55): now (-14.43, -0.02, 10.81), elapsed 0.3s
+[Phase2A Test] Walk toward (-15.25, 0.00, 10.55): now (-14.95, -0.02, 10.65), elapsed 0.2s
+[Phase2A Test] Walk toward (-15.90, 0.00, 11.20): now (-15.63, -0.02, 11.04), elapsed 0.3s
+[Phase2A Test] Walk toward (-16.30, 0.00, 11.60): now (-15.63, -0.02, 11.04), elapsed 0.0s
+[Phase2A Test] Injected E: device=1, current=1, isPressed=True, wasPressed=False, mode=ProcessEventsInDynamicUpdate
+[Phase2A Test] Navigation probes: start=True, end=True, hall=True, hall west=False, library door=True, music door=True
+[Phase2A Test] Route (-15.66, -0.02, 11.06) → (-13.50, 0.00, 14.60): 6 turns: (-15.25, 0.00, 10.55); (-14.60, 0.00, 10.55); (-13.95, 0.00, 11.20); (-13.95, 0.00, 12.50); (-14.60, 0.00, 13.15); (-13.95, 0.00, 13.80)
+[Phase2A Test] Walk toward (-15.25, 0.00, 10.55): now (-15.45, -0.02, 10.80), elapsed 0.1s
+[Phase2A Test] Walk toward (-14.60, 0.00, 10.55): now (-14.91, -0.02, 10.64), elapsed 0.2s
+[Phase2A Test] Walk toward (-13.95, 0.00, 11.20): now (-14.23, -0.02, 11.04), elapsed 0.3s
+[Phase2A Test] Walk toward (-13.95, 0.00, 12.50): now (-14.01, -0.02, 12.19), elapsed 0.4s
+[Phase2A Test] Walk toward (-14.60, 0.00, 13.15): now (-14.43, -0.02, 12.88), elapsed 0.3s
+[Phase2A Test] Walk toward (-13.95, 0.00, 13.80): now (-14.10, -0.02, 13.52), elapsed 0.3s
+[Phase2A Test] Walk toward (-13.50, 0.00, 14.60): now (-14.10, -0.02, 13.52), elapsed 0.0s
+[Phase2A Test] Injected E: device=1, current=1, isPressed=True, wasPressed=False, mode=ProcessEventsInDynamicUpdate
+[Phase2A] Reputation +1 (odette-pendant) = 5
+[Phase2A Test] Pendant errand and exact Reputation 5 passed
+[Phase2A Test] Navigation probes: start=True, end=False, hall=True, hall west=False, library door=True, music door=True
+[Phase2A Test] Route (-14.09, -0.02, 13.53) → (-15.00, 0.00, 17.00): 3 turns: (-14.60, 0.00, 14.45); (-15.90, 0.00, 15.75); (-15.90, 0.00, 16.40)
+[Phase2A Test] Walk toward (-14.60, 0.00, 14.45): now (-14.45, -0.02, 14.17), elapsed 0.3s
+[Phase2A Test] Walk toward (-15.90, 0.00, 15.75): now (-15.68, -0.02, 15.52), elapsed 0.7s
+[Phase2A Test] Walk toward (-15.90, 0.00, 16.40): now (-15.82, -0.02, 16.09), elapsed 0.2s
+[Phase2A Test] Walk toward (-15.00, 0.00, 17.00): now (-15.82, -0.02, 16.09), elapsed 0.0s
+[Phase2A Test] Injected E: device=1, current=1, isPressed=True, wasPressed=False, mode=ProcessEventsInDynamicUpdate
+[Phase2A] Stage: RibbonSearch; reputation=5
+[Phase2A Test] Reputation 5 trust gate and ribbon request passed
+[Phase2A Test] Navigation probes: start=True, end=True, hall=True, hall west=False, library door=True, music door=True
+[Phase2A Test] Route (-15.83, -0.02, 16.10) → (-18.40, 0.00, 20.50): 2 turns: (-16.55, 0.00, 17.05); (-19.15, 0.00, 19.65)
+[Phase2A Test] Walk toward (-16.55, 0.00, 17.05): now (-16.36, -0.02, 16.80), elapsed 0.3s
+[Phase2A Test] Walk toward (-19.15, 0.00, 19.65): now (-18.93, -0.02, 19.42), elapsed 1.4s
+[Phase2A Test] Walk toward (-18.40, 0.00, 20.50): now (-18.93, -0.02, 19.42), elapsed 0.0s
+[Phase2A Test] Injected E: device=1, current=1, isPressed=True, wasPressed=False, mode=ProcessEventsInDynamicUpdate
+[Phase2A Test] Optional five-page sketchbook passed
+[Phase2A Test] Navigation probes: start=True, end=True, hall=True, hall west=False, library door=True, music door=True
+[Phase2A Test] Route (-18.93, -0.02, 19.43) → (-22.00, 0.00, 19.30): 3 turns: (-19.80, 0.00, 19.00); (-20.45, 0.00, 18.35); (-21.10, 0.00, 18.35)
+[Phase2A Test] Walk toward (-19.80, 0.00, 19.00): now (-19.51, -0.02, 19.14), elapsed 0.2s
+[Phase2A Test] Walk toward (-20.45, 0.00, 18.35): now (-20.21, -0.02, 18.56), elapsed 0.3s
+[Phase2A Test] Walk toward (-21.10, 0.00, 18.35): now (-20.79, -0.02, 18.42), elapsed 0.2s
+[Phase2A Test] Walk toward (-22.00, 0.00, 19.30): now (-20.91, -0.02, 18.51), elapsed 0.1s
+[Phase2A Test] Injected E: device=1, current=1, isPressed=True, wasPressed=False, mode=ProcessEventsInDynamicUpdate
+[Phase2A] Stage: RibbonReturn; reputation=5
+[Phase2A Test] Navigation probes: start=True, end=False, hall=True, hall west=False, library door=True, music door=True
+[Phase2A Test] Route (-20.92, -0.02, 18.51) → (-15.00, 0.00, 17.00): 4 turns: (-20.45, 0.00, 18.35); (-19.15, 0.00, 18.35); (-16.55, 0.00, 15.75); (-15.90, 0.00, 16.40)
+[Phase2A Test] Walk toward (-20.45, 0.00, 18.35): now (-20.75, -0.02, 18.46), elapsed 0.1s
+[Phase2A Test] Walk toward (-19.15, 0.00, 18.35): now (-19.47, -0.02, 18.37), elapsed 0.5s
+[Phase2A Test] Walk toward (-16.55, 0.00, 15.75): now (-16.79, -0.02, 15.96), elapsed 1.4s
+[Phase2A Test] Walk toward (-15.90, 0.00, 16.40): now (-16.19, -0.02, 16.26), elapsed 0.3s
+[Phase2A Test] Walk toward (-15.00, 0.00, 17.00): now (-16.14, -0.02, 16.29), elapsed 0.0s
+[Phase2A Test] Injected E: device=1, current=1, isPressed=True, wasPressed=False, mode=ProcessEventsInDynamicUpdate
+[Phase2A] Stage: FollowCeleste; reputation=5
+[Phase2A Test] Physical ribbon return and Celeste follow start passed
+[Phase2A Test] Navigation probes: start=True, end=False, hall=True, hall west=False, library door=True, music door=True
+[Phase2A Test] Route (-16.13, -0.02, 16.29) → (-20.50, 0.00, -2.50): 13 turns: (-16.55, 0.00, 15.75); (-16.55, 0.00, 15.10); (-10.05, 0.00, 8.60); (-9.40, 0.00, 8.60); (-9.40, 0.00, 7.30); (-6.80, 0.00, 4.70); (-6.80, 0.00, -0.50); (-9.40, 0.00, -3.10); (-12.65, 0.00, -3.10); (-13.30, 0.00, -3.75); (-16.55, 0.00, -3.75); (-17.85, 0.00, -2.45); (-19.80, 0.00, -2.45)
+[Phase2A Test] Walk toward (-16.55, 0.00, 15.75): now (-16.36, -0.02, 16.00), elapsed 0.1s
+[Phase2A Test] Walk toward (-16.55, 0.00, 15.10): now (-16.48, -0.02, 15.41), elapsed 0.2s
+[Phase2A Test] Walk toward (-10.05, 0.00, 8.60): now (-10.27, -0.02, 8.83), elapsed 3.5s
+[Phase2A Test] Walk toward (-9.40, 0.00, 8.60): now (-9.71, -0.02, 8.68), elapsed 0.2s
+[Phase2A Test] Walk toward (-9.40, 0.00, 7.30): now (-9.47, -0.02, 7.61), elapsed 0.4s
+[Phase2A Test] Walk toward (-6.80, 0.00, 4.70): now (-7.02, -0.01, 4.94), elapsed 1.4s
+[Phase2A Test] Walk toward (-6.80, 0.00, -0.50): now (-6.81, -0.01, -0.18), elapsed 2.0s
+[Phase2A Test] Walk toward (-9.40, 0.00, -3.10): now (-9.19, -0.01, -2.86), elapsed 1.4s
+[Phase2A Test] Walk toward (-12.65, 0.00, -3.10): now (-12.33, -0.01, -3.08), elapsed 1.2s
+[Phase2A Test] Walk toward (-13.30, 0.00, -3.75): now (-13.04, -0.01, -3.57), elapsed 0.3s
+[Phase2A Test] Walk toward (-16.55, 0.00, -3.75): now (-16.23, -0.01, -3.73), elapsed 1.2s
+[Phase2A Test] Walk toward (-17.85, 0.00, -2.45): now (-17.60, -0.01, -2.65), elapsed 0.7s
+[Phase2A Test] Walk toward (-19.80, 0.00, -2.45): now (-19.48, -0.01, -2.46), elapsed 1.0s
+[Phase2A Test] Walk toward (-20.50, 0.00, -2.50): now (-19.48, -0.01, -2.46), elapsed 0.0s
+[Phase2A] Stage: Witness; reputation=5
+[Phase2A Test] Celeste physically followed into Art Studio: (-17.20, 0.00, -2.95)
+[Phase2A Test] Walk toward (-17.00, 0.00, -1.00): now (-18.10, -0.01, -1.69), elapsed 1.3s
+[Phase2A Test] Injected E: device=1, current=1, isPressed=True, wasPressed=False, mode=ProcessEventsInDynamicUpdate
+[Phase2A] Stage: WitnessLeaving; reputation=5
+[Phase2A] Stage: CloseDoor; reputation=5
+[Phase2A Test] Witness physically left Art Studio: (-8.15, 0.00, -2.00)
+[Phase2A Test] Navigation probes: start=True, end=True, hall=True, hall west=False, library door=True, music door=True
+[Phase2A Test] Route (-17.98, -0.01, -1.62) → (-14.10, 0.00, -2.00): 4 turns: (-17.20, 0.00, -1.80); (-16.55, 0.00, -1.80); (-15.25, 0.00, -3.10); (-14.60, 0.00, -2.45)
+[Phase2A Test] Walk toward (-17.20, 0.00, -1.80): now (-17.51, -0.01, -1.73), elapsed 0.3s
+[Phase2A Test] Walk toward (-16.55, 0.00, -1.80): now (-16.87, -0.01, -1.78), elapsed 0.2s
+[Phase2A Test] Walk toward (-15.25, 0.00, -3.10): now (-15.50, -0.01, -2.90), elapsed 0.7s
+[Phase2A Test] Walk toward (-14.60, 0.00, -2.45): now (-14.88, -0.01, -2.59), elapsed 0.3s
+[Phase2A Test] Walk toward (-14.10, 0.00, -2.00): now (-14.88, -0.01, -2.59), elapsed 0.0s
+[Phase2A Test] Injected E: device=1, current=1, isPressed=True, wasPressed=False, mode=ProcessEventsInDynamicUpdate
+[Phase2A] Stage: WitnessLeaving; reputation=5
+[Phase2A] Stage: Confront; reputation=5
+[Phase2A Test] Walk toward (-17.20, 0.00, -2.95): now (-15.83, -0.01, -2.70), elapsed 0.5s
+[Phase2A Test] Injected E: device=1, current=1, isPressed=True, wasPressed=False, mode=ProcessEventsInDynamicUpdate
+[Phase2A] Stage: Complete; reputation=5
+[Phase2A Test] Full player route and automatic Phase 2B integration passed
+]]></output>
+            </test-case>
+            <test-case id="1007" name="OpeningRunsAndPlayerControlReturns" fullname="VelvetVows.Tests.Phase2APlayModeTests.OpeningRunsAndPlayerControlReturns" methodname="OpeningRunsAndPlayerControlReturns" classname="VelvetVows.Tests.Phase2APlayModeTests" runstate="Runnable" seed="1822816207" result="Passed" start-time="2026-11-03 13:02:41Z" end-time="2026-11-03 13:03:16Z" duration="35.444085" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[VelvetVows] GameManager Awake
+[VelvetVows] GameHUD initialized
+[VelvetVows] Canvas active: True, enabled: True, mode: ScreenSpaceOverlay
+[VelvetVows] Canvas scale: (1.00, 1.00, 1.00)
+[VelvetVows] StartPanel active: True
+[VelvetVows] StartPanel scale: (1.00, 1.00, 1.00)
+[VelvetVows] UI input: EventSystem=True, InputSystemUIInputModule=True, actions=True, cursor=None/visible=True
+[VelvetVows] BEGIN listener registered (serialized)
+[VelvetVows] State: Introduction
+[VelvetVows] Canvas active: True, enabled: True, mode: ScreenSpaceOverlay
+[VelvetVows] Canvas scale: (1.00, 1.00, 1.00)
+[VelvetVows] StartPanel active: True
+[VelvetVows] StartPanel scale: (1.00, 1.00, 1.00)
+[VelvetVows] UI input: EventSystem=True, InputSystemUIInputModule=True, actions=True, cursor=None/visible=True
+[Phase2A] Stage: Opening; reputation=0
+[Phase2A] Stage: MissingStudent; reputation=0
+[Phase2A] Stage: Overhear; reputation=0
+[Phase2A Test] Opening, missing-student conversation, and control restoration passed
+Saving results to: /Users/sanzar/Library/Application Support/DefaultCompany/VelvetVows/TestResults.xml
+]]></output>
+            </test-case>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

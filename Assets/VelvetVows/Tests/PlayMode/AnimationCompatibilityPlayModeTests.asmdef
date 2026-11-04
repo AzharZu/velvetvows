@@ -1,0 +1,8 @@
+{
+  "name": "VelvetVows.AnimationCompatibility.PlayModeTests",
+  "rootNamespace": "VelvetVows.Tests",
+  "references": ["Unity.InputSystem"],
+  "includePlatforms": [],
+  "optionalUnityReferences": ["TestAssemblies"],
+  "autoReferenced": false
+}

@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 93ab2216c7e8c684d84873bd2ae72c6e
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 217443
+  packageName: 'Akio: Highschool Uniform'
+  packageVersion: 1.0.1
+  assetPath: Assets/Novacorp Studios/Shaders/VRMShaders/GLTF/IO/Runtime/IResponsibilityForDestroyObjects.cs
+  uploadId: 502152

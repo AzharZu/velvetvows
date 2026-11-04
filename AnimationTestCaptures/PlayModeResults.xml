@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="1" result="Passed" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-11-02 18:32:45Z" end-time="2026-11-02 18:33:22Z" duration="36.6934197">
+  <test-suite type="TestSuite" id="1009" name="VelvetVows" fullname="VelvetVows" runstate="Runnable" testcasecount="1" result="Passed" start-time="2026-11-02 18:32:45Z" end-time="2026-11-02 18:33:22Z" duration="36.693420" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="PlayMode" />
+    </properties>
+    <test-suite type="Assembly" id="1006" name="VelvetVows.AnimationCompatibility.PlayModeTests.dll" fullname="/Users/sanzar/VelvetVows/Library/ScriptAssemblies/VelvetVows.AnimationCompatibility.PlayModeTests.dll" runstate="Runnable" testcasecount="1" result="Passed" start-time="2026-11-02 18:32:45Z" end-time="2026-11-02 18:33:22Z" duration="36.686441" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="39018" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="PlayMode" />
+        <property name="EditorOnly" value="False" />
+      </properties>
+      <test-suite type="TestSuite" id="1007" name="VelvetVows" fullname="VelvetVows" runstate="Runnable" testcasecount="1" result="Passed" start-time="2026-11-02 18:32:45Z" end-time="2026-11-02 18:33:22Z" duration="36.685778" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-suite type="TestSuite" id="1008" name="Tests" fullname="VelvetVows.Tests" runstate="Runnable" testcasecount="1" result="Passed" start-time="2026-11-02 18:32:45Z" end-time="2026-11-02 18:33:22Z" duration="36.685213" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <test-suite type="TestFixture" id="1004" name="AnimationCompatibilityPlayModeTests" fullname="VelvetVows.Tests.AnimationCompatibilityPlayModeTests" classname="VelvetVows.Tests.AnimationCompatibilityPlayModeTests" runstate="Runnable" testcasecount="1" result="Passed" start-time="2026-11-02 18:32:45Z" end-time="2026-11-02 18:33:22Z" duration="36.683247" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1005" name="RunActualSceneAndCaptureEverySequence" fullname="VelvetVows.Tests.AnimationCompatibilityPlayModeTests.RunActualSceneAndCaptureEverySequence" methodname="RunActualSceneAndCaptureEverySequence" classname="VelvetVows.Tests.AnimationCompatibilityPlayModeTests" runstate="Runnable" seed="1347804819" result="Passed" start-time="2026-11-02 18:32:45Z" end-time="2026-11-02 18:33:21Z" duration="36.654393" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[AnimationTest] Slot 0: HumanF@Attack1H01_R; humanoid=True; duration=1.10; loop=False
+[AnimationTest] Slot 0: HumanF@Attack1H01_R; humanoid=True; duration=1.10; loop=False
+[AnimationTest] Slot 1: HumanF@CombatDamage01; humanoid=True; duration=1.00; loop=False
+[AnimationTest] Slot 1: HumanF@Death01; humanoid=True; duration=0.73; loop=False
+[AnimationTest] Death mesh bottom before alignment=0.063; root y=-0.043
+[AnimationTest] Slot 0: HumanF@Dance01 - Loop; humanoid=True; duration=2.00; loop=True
+[AnimationTest] Slot 1: HumanM@Dance01 - Loop; humanoid=True; duration=2.00; loop=True
+[AnimationTest] Slot 2: HumanF@Dance01 - Loop; humanoid=True; duration=2.00; loop=True
+[AnimationTest] Slot 3: HumanM@Dance01 - Loop; humanoid=True; duration=2.00; loop=True
+[AnimationTest] Slot 4: HumanF@Dance01 - Loop; humanoid=True; duration=2.00; loop=True
+[AnimationTest] Slot 5: HumanM@Dance01 - Loop; humanoid=True; duration=2.00; loop=True
+[AnimationTest] Slot 0: HumanF@Dance02 - Loop; humanoid=True; duration=1.00; loop=True
+[AnimationTest] Slot 1: HumanM@Dance02 - Loop; humanoid=True; duration=1.00; loop=True
+[AnimationTest] Slot 2: HumanF@Dance02 - Loop; humanoid=True; duration=1.00; loop=True
+[AnimationTest] Slot 3: HumanM@Dance02 - Loop; humanoid=True; duration=1.00; loop=True
+[AnimationTest] Slot 4: HumanF@Dance02 - Loop; humanoid=True; duration=1.00; loop=True
+[AnimationTest] Slot 5: HumanM@Dance02 - Loop; humanoid=True; duration=1.00; loop=True
+[AnimationTest] Slot 0: HumanF@Dance03 - Loop; humanoid=True; duration=2.00; loop=True
+[AnimationTest] Slot 1: HumanM@Dance03 - Loop; humanoid=True; duration=2.00; loop=True
+[AnimationTest] Slot 2: HumanF@Dance03 - Loop; humanoid=True; duration=2.00; loop=True
+[AnimationTest] Slot 3: HumanM@Dance03 - Loop; humanoid=True; duration=2.00; loop=True
+[AnimationTest] Slot 4: HumanF@Dance03 - Loop; humanoid=True; duration=2.00; loop=True
+[AnimationTest] Slot 5: HumanM@Dance03 - Loop; humanoid=True; duration=2.00; loop=True
+[AnimationTest] Slot 0: HumanF@Dance04 - Loop; humanoid=True; duration=2.00; loop=True
+[AnimationTest] Slot 1: HumanM@Dance04 - Loop; humanoid=True; duration=2.00; loop=True
+[AnimationTest] Slot 2: HumanF@Dance04 - Loop; humanoid=True; duration=2.00; loop=True
+[AnimationTest] Slot 3: HumanM@Dance04 - Loop; humanoid=True; duration=2.00; loop=True
+[AnimationTest] Slot 4: HumanF@Dance04 - Loop; humanoid=True; duration=2.00; loop=True
+[AnimationTest] Slot 5: HumanM@Dance04 - Loop; humanoid=True; duration=2.00; loop=True
+[AnimationTest] Slot 0: HumanF@Dance05 - Loop; humanoid=True; duration=2.00; loop=True
+[AnimationTest] Slot 1: HumanM@Dance05 - Loop; humanoid=True; duration=2.00; loop=True
+[AnimationTest] Slot 2: HumanF@Dance05 - Loop; humanoid=True; duration=2.00; loop=True
+[AnimationTest] Slot 3: HumanM@Dance05 - Loop; humanoid=True; duration=2.00; loop=True
+[AnimationTest] Slot 4: HumanF@Dance05 - Loop; humanoid=True; duration=2.00; loop=True
+[AnimationTest] Slot 5: HumanM@Dance05 - Loop; humanoid=True; duration=2.00; loop=True
+[AnimationTest] Slot 0: HumanF@Dance06 - Loop; humanoid=True; duration=2.00; loop=True
+[AnimationTest] Slot 1: HumanM@Dance06 - Loop; humanoid=True; duration=2.00; loop=True
+[AnimationTest] Slot 2: HumanF@Dance06 - Loop; humanoid=True; duration=2.00; loop=True
+[AnimationTest] Slot 3: HumanM@Dance06 - Loop; humanoid=True; duration=2.00; loop=True
+[AnimationTest] Slot 4: HumanF@Dance06 - Loop; humanoid=True; duration=2.00; loop=True
+[AnimationTest] Slot 5: HumanM@Dance06 - Loop; humanoid=True; duration=2.00; loop=True
+[AnimationTest] Slot 0: HumanF@DancePose01 - Begin; humanoid=True; duration=1.70; loop=False
+[AnimationTest] Slot 1: HumanM@DancePose01 - Begin; humanoid=True; duration=1.70; loop=False
+[AnimationTest] Slot 2: HumanF@DancePose01 - Begin; humanoid=True; duration=1.70; loop=False
+[AnimationTest] Slot 3: HumanM@DancePose01 - Begin; humanoid=True; duration=1.70; loop=False
+[AnimationTest] Slot 4: HumanF@DancePose01 - Begin; humanoid=True; duration=1.70; loop=False
+[AnimationTest] Slot 5: HumanM@DancePose01 - Begin; humanoid=True; duration=1.70; loop=False
+[AnimationTest] Slot 0: HumanF@DancePose01 - Loop; humanoid=True; duration=2.00; loop=True
+[AnimationTest] Slot 1: HumanM@DancePose01 - Loop; humanoid=True; duration=2.00; loop=True
+[AnimationTest] Slot 2: HumanF@DancePose01 - Loop; humanoid=True; duration=2.00; loop=True
+[AnimationTest] Slot 3: HumanM@DancePose01 - Loop; humanoid=True; duration=2.00; loop=True
+[AnimationTest] Slot 4: HumanF@DancePose01 - Loop; humanoid=True; duration=2.00; loop=True
+[AnimationTest] Slot 5: HumanM@DancePose01 - Loop; humanoid=True; duration=2.00; loop=True
+[AnimationTest] Slot 0: HumanF@DancePose01 - Stop; humanoid=True; duration=1.30; loop=False
+[AnimationTest] Slot 1: HumanM@DancePose01 - Stop; humanoid=True; duration=1.30; loop=False
+[AnimationTest] Slot 2: HumanF@DancePose01 - Stop; humanoid=True; duration=1.30; loop=False
+[AnimationTest] Slot 3: HumanM@DancePose01 - Stop; humanoid=True; duration=1.30; loop=False
+[AnimationTest] Slot 4: HumanF@DancePose01 - Stop; humanoid=True; duration=1.30; loop=False
+[AnimationTest] Slot 5: HumanM@DancePose01 - Stop; humanoid=True; duration=1.30; loop=False
+[AnimationTest] Slot 0: HumanF@DancePose02 - Begin; humanoid=True; duration=2.33; loop=False
+[AnimationTest] Slot 1: HumanM@DancePose02 - Begin; humanoid=True; duration=2.33; loop=False
+[AnimationTest] Slot 2: HumanF@DancePose02 - Begin; humanoid=True; duration=2.33; loop=False
+[AnimationTest] Slot 3: HumanM@DancePose02 - Begin; humanoid=True; duration=2.33; loop=False
+[AnimationTest] Slot 4: HumanF@DancePose02 - Begin; humanoid=True; duration=2.33; loop=False
+[AnimationTest] Slot 5: HumanM@DancePose02 - Begin; humanoid=True; duration=2.33; loop=False
+[AnimationTest] Slot 0: HumanF@DancePose02 - Loop; humanoid=True; duration=1.30; loop=True
+[AnimationTest] Slot 1: HumanM@DancePose02 - Loop; humanoid=True; duration=1.30; loop=True
+[AnimationTest] Slot 2: HumanF@DancePose02 - Loop; humanoid=True; duration=1.30; loop=True
+[AnimationTest] Slot 3: HumanM@DancePose02 - Loop; humanoid=True; duration=1.30; loop=True
+[AnimationTest] Slot 4: HumanF@DancePose02 - Loop; humanoid=True; duration=1.30; loop=True
+[AnimationTest] Slot 5: HumanM@DancePose02 - Loop; humanoid=True; duration=1.30; loop=True
+[AnimationTest] Slot 0: HumanF@DancePose02 - Stop; humanoid=True; duration=1.20; loop=False
+[AnimationTest] Slot 1: HumanM@DancePose02 - Stop; humanoid=True; duration=1.20; loop=False
+[AnimationTest] Slot 2: HumanF@DancePose02 - Stop; humanoid=True; duration=1.20; loop=False
+[AnimationTest] Slot 3: HumanM@DancePose02 - Stop; humanoid=True; duration=1.20; loop=False
+[AnimationTest] Slot 4: HumanF@DancePose02 - Stop; humanoid=True; duration=1.20; loop=False
+[AnimationTest] Slot 5: HumanM@DancePose02 - Stop; humanoid=True; duration=1.20; loop=False
+[AnimationTest] Play Mode sequence passed and screenshots captured
+Saving results to: /Users/sanzar/Library/Application Support/DefaultCompany/VelvetVows/TestResults.xml
+]]></output>
+            </test-case>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

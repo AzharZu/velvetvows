@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="1" result="Passed" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-11-03 20:13:05Z" end-time="2026-11-03 20:13:20Z" duration="15.2424543">
+  <test-suite type="TestSuite" id="1044" name="VelvetVows" fullname="VelvetVows" runstate="Runnable" testcasecount="27" result="Passed" start-time="2026-11-03 20:13:05Z" end-time="2026-11-03 20:13:20Z" duration="15.242454" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="PlayMode" />
+    </properties>
+    <test-suite type="Assembly" id="1041" name="VelvetVows.AnimationCompatibility.PlayModeTests.dll" fullname="/private/tmp/VelvetVows_Phase2A_Test/Library/ScriptAssemblies/VelvetVows.AnimationCompatibility.PlayModeTests.dll" runstate="Runnable" testcasecount="27" result="Passed" start-time="2026-11-03 20:13:05Z" end-time="2026-11-03 20:13:20Z" duration="15.231973" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="24293" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="PlayMode" />
+        <property name="EditorOnly" value="False" />
+      </properties>
+      <test-suite type="TestSuite" id="1042" name="VelvetVows" fullname="VelvetVows" runstate="Runnable" testcasecount="27" result="Passed" start-time="2026-11-03 20:13:05Z" end-time="2026-11-03 20:13:20Z" duration="15.223885" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-suite type="TestSuite" id="1043" name="Tests" fullname="VelvetVows.Tests" runstate="Runnable" testcasecount="27" result="Passed" start-time="2026-11-03 20:13:05Z" end-time="2026-11-03 20:13:20Z" duration="15.218033" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <test-suite type="TestFixture" id="1030" name="Phase3CPlayModeTests" fullname="VelvetVows.Tests.Phase3CPlayModeTests" classname="VelvetVows.Tests.Phase3CPlayModeTests" runstate="Runnable" testcasecount="3" result="Passed" start-time="2026-11-03 20:13:05Z" end-time="2026-11-03 20:13:20Z" duration="15.209762" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1033" name="BloodCleaningPlaysEffectAndFailureRetryClearsAudio" fullname="VelvetVows.Tests.Phase3CPlayModeTests.BloodCleaningPlaysEffectAndFailureRetryClearsAudio" methodname="BloodCleaningPlaysEffectAndFailureRetryClearsAudio" classname="VelvetVows.Tests.Phase3CPlayModeTests" runstate="Runnable" seed="429842322" result="Passed" start-time="2026-11-03 20:13:05Z" end-time="2026-11-03 20:13:20Z" duration="15.190808" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[VelvetVows] GameManager Awake
+[VelvetVows] GameHUD initialized
+[VelvetVows] Canvas active: True, enabled: True, mode: ScreenSpaceOverlay
+[VelvetVows] Canvas scale: (1.00, 1.00, 1.00)
+[VelvetVows] StartPanel active: True
+[VelvetVows] StartPanel scale: (1.00, 1.00, 1.00)
+[VelvetVows] UI input: EventSystem=True, InputSystemUIInputModule=True, actions=True, cursor=None/visible=True
+[VelvetVows] BEGIN listener registered (serialized)
+[VelvetVows] State: Introduction
+[VelvetVows] Canvas active: True, enabled: True, mode: ScreenSpaceOverlay
+[VelvetVows] Canvas scale: (1.00, 1.00, 1.00)
+[VelvetVows] StartPanel active: True
+[VelvetVows] StartPanel scale: (1.00, 1.00, 1.00)
+[VelvetVows] UI input: EventSystem=True, InputSystemUIInputModule=True, actions=True, cursor=None/visible=True
+[Phase2B] Cleanup challenge began at 120 seconds
+[Phase2B Test] Walk to (-18.00, 0.00, -5.30): reached (-17.50, -0.01, -4.71) in 1.1s
+[Phase2B Test] Walk to (-17.20, 0.00, -3.10): reached (-17.37, -0.01, -3.86) in 0.4s
+[Phase2B] Cleanup challenge began at 120 seconds
+Saving results to: /Users/sanzar/Library/Application Support/DefaultCompany/VelvetVows/TestResults.xml
+]]></output>
+            </test-case>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

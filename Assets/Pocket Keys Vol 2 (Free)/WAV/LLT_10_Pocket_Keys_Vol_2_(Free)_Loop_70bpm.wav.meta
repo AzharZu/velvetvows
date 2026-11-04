@@ -1,0 +1,30 @@
+fileFormatVersion: 2
+guid: cf0f2b6a4d936784d8a8644a626c2b6e
+AudioImporter:
+  externalObjects: {}
+  serializedVersion: 8
+  defaultSettings:
+    serializedVersion: 2
+    loadType: 0
+    sampleRateSetting: 0
+    sampleRateOverride: 44100
+    compressionFormat: 1
+    quality: 1
+    conversionMode: 0
+    preloadAudioData: 0
+  platformSettingOverrides: {}
+  forceToMono: 0
+  normalize: 1
+  loadInBackground: 0
+  ambisonic: 0
+  3D: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 418756
+  packageName: Pocket Keys Vol 2 (Free) - Minimalist Piano & Relaxing Puzzle Music
+  packageVersion: 1.0
+  assetPath: Assets/Pocket Keys Vol 2 (Free)/WAV/LLT_10_Pocket_Keys_Vol_2_(Free)_Loop_70bpm.wav
+  uploadId: 1023896

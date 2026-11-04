@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="1" result="Passed" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-11-03 18:15:12Z" end-time="2026-11-03 18:15:53Z" duration="41.9454642">
+  <test-suite type="TestSuite" id="1039" name="VelvetVows" fullname="VelvetVows" runstate="Runnable" testcasecount="23" result="Passed" start-time="2026-11-03 18:15:12Z" end-time="2026-11-03 18:15:53Z" duration="41.945464" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="PlayMode" />
+    </properties>
+    <test-suite type="Assembly" id="1036" name="VelvetVows.AnimationCompatibility.PlayModeTests.dll" fullname="/private/tmp/VelvetVows_Phase2A_Test/Library/ScriptAssemblies/VelvetVows.AnimationCompatibility.PlayModeTests.dll" runstate="Runnable" testcasecount="23" result="Passed" start-time="2026-11-03 18:15:12Z" end-time="2026-11-03 18:15:53Z" duration="41.927586" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="98335" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="PlayMode" />
+        <property name="EditorOnly" value="False" />
+      </properties>
+      <test-suite type="TestSuite" id="1037" name="VelvetVows" fullname="VelvetVows" runstate="Runnable" testcasecount="23" result="Passed" start-time="2026-11-03 18:15:12Z" end-time="2026-11-03 18:15:53Z" duration="41.916196" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-suite type="TestSuite" id="1038" name="Tests" fullname="VelvetVows.Tests" runstate="Runnable" testcasecount="23" result="Passed" start-time="2026-11-03 18:15:12Z" end-time="2026-11-03 18:15:53Z" duration="41.909162" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <test-suite type="TestFixture" id="1034" name="Phase3DPlayModeTests" fullname="VelvetVows.Tests.Phase3DPlayModeTests" classname="VelvetVows.Tests.Phase3DPlayModeTests" runstate="Runnable" testcasecount="1" result="Passed" start-time="2026-11-03 18:15:12Z" end-time="2026-11-03 18:15:53Z" duration="41.898986" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1035" name="BallroomDanceAndEndingKeepBothLeadsTogether" fullname="VelvetVows.Tests.Phase3DPlayModeTests.BallroomDanceAndEndingKeepBothLeadsTogether" methodname="BallroomDanceAndEndingKeepBothLeadsTogether" classname="VelvetVows.Tests.Phase3DPlayModeTests" runstate="Runnable" seed="7087228" result="Passed" start-time="2026-11-03 18:15:12Z" end-time="2026-11-03 18:15:53Z" duration="41.869980" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[VelvetVows] GameManager Awake
+[VelvetVows] GameHUD initialized
+[VelvetVows] Canvas active: True, enabled: True, mode: ScreenSpaceOverlay
+[VelvetVows] Canvas scale: (1.00, 1.00, 1.00)
+[VelvetVows] StartPanel active: True
+[VelvetVows] StartPanel scale: (1.00, 1.00, 1.00)
+[VelvetVows] UI input: EventSystem=True, InputSystemUIInputModule=True, actions=True, cursor=None/visible=True
+[VelvetVows] BEGIN listener registered (serialized)
+[VelvetVows] State: Introduction
+[VelvetVows] Canvas active: True, enabled: True, mode: ScreenSpaceOverlay
+[VelvetVows] Canvas scale: (1.00, 1.00, 1.00)
+[VelvetVows] StartPanel active: True
+[VelvetVows] StartPanel scale: (1.00, 1.00, 1.00)
+[VelvetVows] UI input: EventSystem=True, InputSystemUIInputModule=True, actions=True, cursor=None/visible=True
+[Phase2C] Formal palette applied to Evelyn
+[Phase2C] Formal palette applied to Adrian
+Ignoring depth surface load action as it is memoryless
+Ignoring depth surface store action as it is memoryless
+Saving results to: /Users/sanzar/Library/Application Support/DefaultCompany/VelvetVows/TestResults.xml
+]]></output>
+            </test-case>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

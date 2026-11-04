@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="1" result="Passed" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-11-03 11:59:38Z" end-time="2026-11-03 11:59:41Z" duration="2.5268224">
+  <test-suite type="TestSuite" id="1020" name="VelvetVows" fullname="VelvetVows" runstate="Runnable" testcasecount="9" result="Passed" start-time="2026-11-03 11:59:38Z" end-time="2026-11-03 11:59:41Z" duration="2.526822" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="PlayMode" />
+    </properties>
+    <test-suite type="Assembly" id="1017" name="VelvetVows.AnimationCompatibility.PlayModeTests.dll" fullname="/private/tmp/VelvetVows_Phase2A_Test/Library/ScriptAssemblies/VelvetVows.AnimationCompatibility.PlayModeTests.dll" runstate="Runnable" testcasecount="9" result="Passed" start-time="2026-11-03 11:59:38Z" end-time="2026-11-03 11:59:41Z" duration="2.522523" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="38018" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="PlayMode" />
+        <property name="EditorOnly" value="False" />
+      </properties>
+      <test-suite type="TestSuite" id="1018" name="VelvetVows" fullname="VelvetVows" runstate="Runnable" testcasecount="9" result="Passed" start-time="2026-11-03 11:59:38Z" end-time="2026-11-03 11:59:41Z" duration="2.522075" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-suite type="TestSuite" id="1019" name="Tests" fullname="VelvetVows.Tests" runstate="Runnable" testcasecount="9" result="Passed" start-time="2026-11-03 11:59:38Z" end-time="2026-11-03 11:59:41Z" duration="2.521602" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <test-suite type="TestFixture" id="1015" name="Phase2BRegressionPlayModeTests" fullname="VelvetVows.Tests.Phase2BRegressionPlayModeTests" classname="VelvetVows.Tests.Phase2BRegressionPlayModeTests" runstate="Runnable" testcasecount="1" result="Passed" start-time="2026-11-03 11:59:38Z" end-time="2026-11-03 11:59:41Z" duration="2.520781" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1016" name="LovesickAndBlackRoseStillWorkAfterPhase2BInstall" fullname="VelvetVows.Tests.Phase2BRegressionPlayModeTests.LovesickAndBlackRoseStillWorkAfterPhase2BInstall" methodname="LovesickAndBlackRoseStillWorkAfterPhase2BInstall" classname="VelvetVows.Tests.Phase2BRegressionPlayModeTests" runstate="Runnable" seed="2045708149" result="Passed" start-time="2026-11-03 11:59:38Z" end-time="2026-11-03 11:59:41Z" duration="2.513203" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[VelvetVows] GameManager Awake
+[VelvetVows] GameHUD initialized
+[VelvetVows] Canvas active: True, enabled: True, mode: ScreenSpaceOverlay
+[VelvetVows] Canvas scale: (1.00, 1.00, 1.00)
+[VelvetVows] StartPanel active: True
+[VelvetVows] StartPanel scale: (1.00, 1.00, 1.00)
+[VelvetVows] UI input: EventSystem=True, InputSystemUIInputModule=True, actions=True, cursor=None/visible=True
+[VelvetVows] BEGIN listener registered (serialized)
+[VelvetVows] State: Introduction
+[VelvetVows] Canvas active: True, enabled: True, mode: ScreenSpaceOverlay
+[VelvetVows] Canvas scale: (1.00, 1.00, 1.00)
+[VelvetVows] StartPanel active: True
+[VelvetVows] StartPanel scale: (1.00, 1.00, 1.00)
+[VelvetVows] UI input: EventSystem=True, InputSystemUIInputModule=True, actions=True, cursor=None/visible=True
+[Phase2B Regression] Lovesick proximity and spawned Black Rose collection passed
+Saving results to: /Users/sanzar/Library/Application Support/DefaultCompany/VelvetVows/TestResults.xml
+]]></output>
+            </test-case>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

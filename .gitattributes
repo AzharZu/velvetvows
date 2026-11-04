@@ -1,0 +1,2 @@
+/Assets/GothicLikeStructures_blend_gltf_fbx/GothicLikeStructures.blend filter=lfs diff=lfs merge=lfs -text
+/Assets/GothicLikeStructures_blend_gltf_fbx/gltf/GothicLikeStructures.glb filter=lfs diff=lfs merge=lfs -text
