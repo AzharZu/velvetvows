@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="3" result="Passed" total="3" passed="3" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-11-10 05:21:16Z" end-time="2026-11-10 05:22:18Z" duration="62.2028257">
+  <test-suite type="TestSuite" id="1062" name="VelvetVows" fullname="VelvetVows" runstate="Runnable" testcasecount="40" result="Passed" start-time="2026-11-10 05:21:16Z" end-time="2026-11-10 05:22:18Z" duration="62.202826" total="3" passed="3" failed="0" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="PlayMode" />
+    </properties>
+    <test-suite type="Assembly" id="1059" name="VelvetVows.AnimationCompatibility.PlayModeTests.dll" fullname="/Users/sanzar/VelvetVows/Library/ScriptAssemblies/VelvetVows.AnimationCompatibility.PlayModeTests.dll" runstate="Runnable" testcasecount="40" result="Passed" start-time="2026-11-10 05:21:16Z" end-time="2026-11-10 05:22:18Z" duration="62.194747" total="3" passed="3" failed="0" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="40403" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="PlayMode" />
+        <property name="EditorOnly" value="False" />
+      </properties>
+      <test-suite type="TestSuite" id="1060" name="VelvetVows" fullname="VelvetVows" runstate="Runnable" testcasecount="40" result="Passed" start-time="2026-11-10 05:21:16Z" end-time="2026-11-10 05:22:18Z" duration="62.193232" total="3" passed="3" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-suite type="TestSuite" id="1061" name="Tests" fullname="VelvetVows.Tests" runstate="Runnable" testcasecount="40" result="Passed" start-time="2026-11-10 05:21:16Z" end-time="2026-11-10 05:22:18Z" duration="62.191745" total="3" passed="3" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <test-suite type="TestFixture" id="1055" name="Phase3GPlayModeTests" fullname="VelvetVows.Tests.Phase3GPlayModeTests" classname="VelvetVows.Tests.Phase3GPlayModeTests" runstate="Runnable" testcasecount="3" result="Passed" start-time="2026-11-10 05:21:16Z" end-time="2026-11-10 05:22:18Z" duration="62.188605" total="3" passed="3" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1057" name="BurnChoiceShowsThreeDiaryPagesAndReachesPerfectDuet" fullname="VelvetVows.Tests.Phase3GPlayModeTests.BurnChoiceShowsThreeDiaryPagesAndReachesPerfectDuet" methodname="BurnChoiceShowsThreeDiaryPagesAndReachesPerfectDuet" classname="VelvetVows.Tests.Phase3GPlayModeTests" runstate="Runnable" seed="2006493306" result="Passed" start-time="2026-11-10 05:21:16Z" end-time="2026-11-10 05:21:49Z" duration="32.711883" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[VelvetVows] GameManager Awake
+[VelvetVows] GameHUD initialized
+[VelvetVows] Canvas active: True, enabled: True, mode: ScreenSpaceOverlay
+[VelvetVows] Canvas scale: (1.00, 1.00, 1.00)
+[VelvetVows] StartPanel active: True
+[VelvetVows] StartPanel scale: (1.00, 1.00, 1.00)
+[VelvetVows] UI input: EventSystem=True, InputSystemUIInputModule=True, actions=True, cursor=None/visible=True
+[VelvetVows] BEGIN listener registered (serialized)
+[VelvetVows] State: Introduction
+[VelvetVows] Canvas active: True, enabled: True, mode: ScreenSpaceOverlay
+[VelvetVows] Canvas scale: (1.00, 1.00, 1.00)
+[VelvetVows] StartPanel active: True
+[VelvetVows] StartPanel scale: (1.00, 1.00, 1.00)
+[VelvetVows] UI input: EventSystem=True, InputSystemUIInputModule=True, actions=True, cursor=None/visible=True
+[Phase2B] Cleanup challenge began at 120 seconds
+[Phase3B] Adrian monologue completed
+[Phase2C] Formal palette applied to Evelyn
+[Phase2C] Formal palette applied to Adrian
+]]></output>
+            </test-case>
+            <test-case id="1056" name="HiddenEvidenceIsSafeButVisibleStainsCauseOneFailureSound" fullname="VelvetVows.Tests.Phase3GPlayModeTests.HiddenEvidenceIsSafeButVisibleStainsCauseOneFailureSound" methodname="HiddenEvidenceIsSafeButVisibleStainsCauseOneFailureSound" classname="VelvetVows.Tests.Phase3GPlayModeTests" runstate="Runnable" seed="1269801168" result="Passed" start-time="2026-11-10 05:21:49Z" end-time="2026-11-10 05:21:50Z" duration="1.260964" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[VelvetVows] GameManager Awake
+[VelvetVows] GameHUD initialized
+[VelvetVows] Canvas active: True, enabled: True, mode: ScreenSpaceOverlay
+[VelvetVows] Canvas scale: (1.00, 1.00, 1.00)
+[VelvetVows] StartPanel active: True
+[VelvetVows] StartPanel scale: (1.00, 1.00, 1.00)
+[VelvetVows] UI input: EventSystem=True, InputSystemUIInputModule=True, actions=True, cursor=None/visible=True
+[VelvetVows] BEGIN listener registered (serialized)
+[VelvetVows] State: Introduction
+[VelvetVows] Canvas active: True, enabled: True, mode: ScreenSpaceOverlay
+[VelvetVows] Canvas scale: (1.00, 1.00, 1.00)
+[VelvetVows] StartPanel active: True
+[VelvetVows] StartPanel scale: (1.00, 1.00, 1.00)
+[VelvetVows] UI input: EventSystem=True, InputSystemUIInputModule=True, actions=True, cursor=None/visible=True
+[Phase2B] Cleanup challenge began at 120 seconds
+[Phase2B] Cleanup challenge began at 120 seconds
+]]></output>
+            </test-case>
+            <test-case id="1058" name="LeaveChoiceInterruptsBallAndShowsHeartbroken" fullname="VelvetVows.Tests.Phase3GPlayModeTests.LeaveChoiceInterruptsBallAndShowsHeartbroken" methodname="LeaveChoiceInterruptsBallAndShowsHeartbroken" classname="VelvetVows.Tests.Phase3GPlayModeTests" runstate="Runnable" seed="897914210" result="Passed" start-time="2026-11-10 05:21:50Z" end-time="2026-11-10 05:22:18Z" duration="28.191980" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[VelvetVows] GameManager Awake
+[VelvetVows] GameHUD initialized
+[VelvetVows] Canvas active: True, enabled: True, mode: ScreenSpaceOverlay
+[VelvetVows] Canvas scale: (1.00, 1.00, 1.00)
+[VelvetVows] StartPanel active: True
+[VelvetVows] StartPanel scale: (1.00, 1.00, 1.00)
+[VelvetVows] UI input: EventSystem=True, InputSystemUIInputModule=True, actions=True, cursor=None/visible=True
+[VelvetVows] BEGIN listener registered (serialized)
+[VelvetVows] State: Introduction
+[VelvetVows] Canvas active: True, enabled: True, mode: ScreenSpaceOverlay
+[VelvetVows] Canvas scale: (1.00, 1.00, 1.00)
+[VelvetVows] StartPanel active: True
+[VelvetVows] StartPanel scale: (1.00, 1.00, 1.00)
+[VelvetVows] UI input: EventSystem=True, InputSystemUIInputModule=True, actions=True, cursor=None/visible=True
+[Phase2B] Cleanup challenge began at 120 seconds
+[Phase3B] Adrian monologue completed
+[Phase2C] Formal palette applied to Evelyn
+[Phase2C] Formal palette applied to Adrian
+Saving results to: /Users/sanzar/Library/Application Support/DefaultCompany/VelvetVows/TestResults.xml
+]]></output>
+            </test-case>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

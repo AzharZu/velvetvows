@@ -1,0 +1,1141 @@
+Unity Editor version:    6000.0.84f1 (78ab6fc243d5)
+Branch:                  6000.0/staging
+Build type:              Release
+Batch mode:              NO
+macOS version:           Version 27.2 (Build 26B123)
+Darwin version:          27.2.0
+Architecture:            arm64
+Running under Rosetta:   NO
+Available memory:        8192 MB
+[Licensing::Module] Trying to connect to existing licensing client channel...
+[Licensing::IpcConnector] Channel LicenseClient-sanzar doesn't exist
+Launching external process: /Applications/Unity/Hub/Editor/6000.0.84f1/Unity.app/Contents/Frameworks/UnityLicensingClient.app/Contents/MacOS/Unity.Licensing.Client
+[Licensing::Module] Successfully launched the LicensingClient (PId: 71738)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-sanzar" at "2026-11-11T08:31:31.384968Z"
+Launching external process: /Applications/Unity/Hub/Editor/6000.0.84f1/Unity.app/Contents/Resources/PackageManager/Server/UnityPackageManager
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/6000.0.84f1/Unity.app/Contents/MacOS/Unity
+-projectPath
+/Users/sanzar/VelvetVows
+-runTests
+-testPlatform
+PlayMode
+-testFilter
+VelvetVows.Tests.Phase3LAnimationPlayModeTests.BodyHidingKeepsBothActorsVisibleAndReleasesControl
+-testResults
+/Users/sanzar/VelvetVows/Phase3N_Captures/body_current.xml
+-logFile
+/Users/sanzar/VelvetVows/Phase3N_Captures/body_current.log
+Successfully changed project path to: /Users/sanzar/VelvetVows
+/Users/sanzar/VelvetVows
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-remapper-allocator-initial-capacity=32768"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [8638550784]  Target information:
+
+Player connection [8638550784]  * "[IP] 192.168.0.9 [Port] 55504 [Flags] 2 [Guid] 3750600573 [EditorId] 3750600573 [Version] 1048832 [Id] OSXEditor(0,MacBook-Air-Sanzar-2.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
+
+Player connection [8638550784] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [8638550784] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.3+d7ffd15
+  Session Id:              adca3f3094604596bcf3803ee51bf731
+  Correlation Id:          a26fd6babe472678bdadc6fc310321b7
+  External correlation Id: 5949355531166605351
+  Machine Id:              o43xNC1xSw0mqRBJBZTbFgDKjeQ=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-sanzar" (connect: 4.39s, validation: 0.66s, handshake: 2.96s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-sanzar-notifications" at "2026-11-11T08:31:35.019572Z"
+[Licensing::Module] Connected to LicensingClient (PId: 71738, launch time: 0.01, total connection time: 8.02s)
+[Licensing::Module] Error: Access token is unavailable; failed to update
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 18968492690164-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+[Licensing::Client] Successfully updated license, isAsync: True, time: 0.63
+[Licensing::Module] Licensing Background thread has ended after 8.79s
+[Package Manager] Connected to IPC stream "Upm-71724" after 5.8 seconds.
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 2.77 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.0.84f1 (78ab6fc243d5)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/6000.0.84f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/sanzar/VelvetVows/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+ preferred device: Apple M1 (high power)
+Metal devices available: 1
+0: Apple M1 (high power)
+Using device Apple M1 (high power)
+Initializing Metal device caps: Apple M1
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/6000.0.84f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/6000.0.84f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/6000.0.84f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56724
+Using cacheserver namespaces - metadata:defaultmetadata, artifacts:defaultartifacts
+Using cacheserver namespaces - metadata:defaultmetadata, artifacts:defaultartifacts
+ImportWorker Server TCP listen port: 0
+AcceleratorClientConnectionCallback - disconnected - :0
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/6000.0.84f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.008309 seconds.
+- Loaded All Assemblies, in  1.320 seconds
+Native extension for OSXStandalone target not found
+Package Manager log level set to [2]
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.039 seconds
+Domain Reload Profiling: 2361ms
+	BeginReloadAssembly (496ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (10ms)
+	RebuildCommonClasses (122ms)
+	RebuildNativeTypeToScriptingClass (30ms)
+	initialDomainReloadingComplete (138ms)
+	LoadAllAssembliesAndSetupDomain (533ms)
+		LoadAssemblies (468ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (510ms)
+			TypeCache.Refresh (500ms)
+				TypeCache.ScanAssembly (423ms)
+			BuildScriptInfoCaches (2ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (1041ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (943ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (95ms)
+			SetLoadedEditorAssemblies (16ms)
+			BeforeProcessingInitializeOnLoad (171ms)
+			ProcessInitializeOnLoadAttributes (365ms)
+			ProcessInitializeOnLoadMethodAttributes (295ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+[Licensing::Client] Successfully resolved entitlement details
+Application.AssetDatabase Initial Refresh Start
+[Package Manager] Restoring resolved packages state from cache
+[Licensing::Client] Successfully resolved entitlement details
+[Package Manager] Registered 59 packages:
+  Packages from [https://packages.unity.com]:
+    com.unity.ai.navigation@2.0.14 (location: /Users/sanzar/VelvetVows/Library/PackageCache/com.unity.ai.navigation@134dd6a3b97b)
+    com.unity.cinemachine@3.1.2 (location: /Users/sanzar/VelvetVows/Library/PackageCache/com.unity.cinemachine@b2e7bffab772)
+    com.unity.collab-proxy@2.13.6 (location: /Users/sanzar/VelvetVows/Library/PackageCache/com.unity.collab-proxy@4628d2ba6ea4)
+    com.unity.collections@2.6.8 (location: /Users/sanzar/VelvetVows/Library/PackageCache/com.unity.collections@84e8eb3fc12e)
+    com.unity.ide.rider@3.0.39 (location: /Users/sanzar/VelvetVows/Library/PackageCache/com.unity.ide.rider@4504839d03f7)
+    com.unity.ide.visualstudio@2.0.27 (location: /Users/sanzar/VelvetVows/Library/PackageCache/com.unity.ide.visualstudio@dc1ddd4f09b6)
+    com.unity.inputsystem@1.20.0 (location: /Users/sanzar/VelvetVows/Library/PackageCache/com.unity.inputsystem@7a4e1a2a8194)
+    com.unity.timeline@1.8.13 (location: /Users/sanzar/VelvetVows/Library/PackageCache/com.unity.timeline@3a22918286f5)
+    com.unity.visualscripting@1.9.12 (location: /Users/sanzar/VelvetVows/Library/PackageCache/com.unity.visualscripting@4edfcc09512f)
+    com.unity.mathematics@1.3.2 (location: /Users/sanzar/VelvetVows/Library/PackageCache/com.unity.mathematics@8017b507cc74)
+    com.unity.burst@1.8.30 (location: /Users/sanzar/VelvetVows/Library/PackageCache/com.unity.burst@2f3d916873ea)
+    com.unity.nuget.mono-cecil@1.11.6 (location: /Users/sanzar/VelvetVows/Library/PackageCache/com.unity.nuget.mono-cecil@ecb9724e46ff)
+    com.unity.test-framework.performance@3.5.0 (location: /Users/sanzar/VelvetVows/Library/PackageCache/com.unity.test-framework.performance@8b56083ec0f0)
+    com.unity.splines@2.8.4 (location: /Users/sanzar/VelvetVows/Library/PackageCache/com.unity.splines@9b00833aca09)
+    com.unity.searcher@4.9.3 (location: /Users/sanzar/VelvetVows/Library/PackageCache/com.unity.searcher@1e17ce91558d)
+    com.unity.settings-manager@2.1.0 (location: /Users/sanzar/VelvetVows/Library/PackageCache/com.unity.settings-manager@41738c275190)
+  Built-in packages:
+    com.unity.multiplayer.center@1.0.0 (location: /Users/sanzar/VelvetVows/Library/PackageCache/com.unity.multiplayer.center@f3fb577b3546)
+    com.unity.render-pipelines.core@17.0.4 (location: /Users/sanzar/VelvetVows/Library/PackageCache/com.unity.render-pipelines.core@36dd213002aa)
+    com.unity.render-pipelines.universal@17.0.4 (location: /Users/sanzar/VelvetVows/Library/PackageCache/com.unity.render-pipelines.universal@ab605b8cbe5e)
+    com.unity.render-pipelines.universal-config@17.0.3 (location: /Users/sanzar/VelvetVows/Library/PackageCache/com.unity.render-pipelines.universal-config@dd206bf35d04)
+    com.unity.rendering.light-transport@1.0.1 (location: /Users/sanzar/VelvetVows/Library/PackageCache/com.unity.rendering.light-transport@9bd588f963c0)
+    com.unity.test-framework@1.6.0 (location: /Users/sanzar/VelvetVows/Library/PackageCache/com.unity.test-framework@082c24152fd4)
+    com.unity.ugui@2.0.0 (location: /Users/sanzar/VelvetVows/Library/PackageCache/com.unity.ugui@5d6a93c81cc4)
+    com.unity.modules.accessibility@1.0.0 (location: /Users/sanzar/VelvetVows/Library/PackageCache/com.unity.modules.accessibility)
+    com.unity.modules.ai@1.0.0 (location: /Users/sanzar/VelvetVows/Library/PackageCache/com.unity.modules.ai)
+    com.unity.modules.androidjni@1.0.0 (location: /Users/sanzar/VelvetVows/Library/PackageCache/com.unity.modules.androidjni)
+    com.unity.modules.animation@1.0.0 (location: /Users/sanzar/VelvetVows/Library/PackageCache/com.unity.modules.animation)
+    com.unity.modules.assetbundle@1.0.0 (location: /Users/sanzar/VelvetVows/Library/PackageCache/com.unity.modules.assetbundle)
+    com.unity.modules.audio@1.0.0 (location: /Users/sanzar/VelvetVows/Library/PackageCache/com.unity.modules.audio)
+    com.unity.modules.cloth@1.0.0 (location: /Users/sanzar/VelvetVows/Library/PackageCache/com.unity.modules.cloth)
+    com.unity.modules.director@1.0.0 (location: /Users/sanzar/VelvetVows/Library/PackageCache/com.unity.modules.director)
+    com.unity.modules.imageconversion@1.0.0 (location: /Users/sanzar/VelvetVows/Library/PackageCache/com.unity.modules.imageconversion)
+    com.unity.modules.imgui@1.0.0 (location: /Users/sanzar/VelvetVows/Library/PackageCache/com.unity.modules.imgui)
+    com.unity.modules.jsonserialize@1.0.0 (location: /Users/sanzar/VelvetVows/Library/PackageCache/com.unity.modules.jsonserialize)
+    com.unity.modules.particlesystem@1.0.0 (location: /Users/sanzar/VelvetVows/Library/PackageCache/com.unity.modules.particlesystem)
+    com.unity.modules.physics@1.0.0 (location: /Users/sanzar/VelvetVows/Library/PackageCache/com.unity.modules.physics)
+    com.unity.modules.physics2d@1.0.0 (location: /Users/sanzar/VelvetVows/Library/PackageCache/com.unity.modules.physics2d)
+    com.unity.modules.screencapture@1.0.0 (location: /Users/sanzar/VelvetVows/Library/PackageCache/com.unity.modules.screencapture)
+    com.unity.modules.terrain@1.0.0 (location: /Users/sanzar/VelvetVows/Library/PackageCache/com.unity.modules.terrain)
+    com.unity.modules.terrainphysics@1.0.0 (location: /Users/sanzar/VelvetVows/Library/PackageCache/com.unity.modules.terrainphysics)
+    com.unity.modules.tilemap@1.0.0 (location: /Users/sanzar/VelvetVows/Library/PackageCache/com.unity.modules.tilemap)
+    com.unity.modules.ui@1.0.0 (location: /Users/sanzar/VelvetVows/Library/PackageCache/com.unity.modules.ui)
+    com.unity.modules.uielements@1.0.0 (location: /Users/sanzar/VelvetVows/Library/PackageCache/com.unity.modules.uielements)
+    com.unity.modules.umbra@1.0.0 (location: /Users/sanzar/VelvetVows/Library/PackageCache/com.unity.modules.umbra)
+    com.unity.modules.unityanalytics@1.0.0 (location: /Users/sanzar/VelvetVows/Library/PackageCache/com.unity.modules.unityanalytics)
+    com.unity.modules.unitywebrequest@1.0.0 (location: /Users/sanzar/VelvetVows/Library/PackageCache/com.unity.modules.unitywebrequest)
+    com.unity.modules.unitywebrequestassetbundle@1.0.0 (location: /Users/sanzar/VelvetVows/Library/PackageCache/com.unity.modules.unitywebrequestassetbundle)
+    com.unity.modules.unitywebrequestaudio@1.0.0 (location: /Users/sanzar/VelvetVows/Library/PackageCache/com.unity.modules.unitywebrequestaudio)
+    com.unity.modules.unitywebrequesttexture@1.0.0 (location: /Users/sanzar/VelvetVows/Library/PackageCache/com.unity.modules.unitywebrequesttexture)
+    com.unity.modules.unitywebrequestwww@1.0.0 (location: /Users/sanzar/VelvetVows/Library/PackageCache/com.unity.modules.unitywebrequestwww)
+    com.unity.modules.vehicles@1.0.0 (location: /Users/sanzar/VelvetVows/Library/PackageCache/com.unity.modules.vehicles)
+    com.unity.modules.video@1.0.0 (location: /Users/sanzar/VelvetVows/Library/PackageCache/com.unity.modules.video)
+    com.unity.modules.vr@1.0.0 (location: /Users/sanzar/VelvetVows/Library/PackageCache/com.unity.modules.vr)
+    com.unity.modules.wind@1.0.0 (location: /Users/sanzar/VelvetVows/Library/PackageCache/com.unity.modules.wind)
+    com.unity.modules.xr@1.0.0 (location: /Users/sanzar/VelvetVows/Library/PackageCache/com.unity.modules.xr)
+    com.unity.modules.subsystems@1.0.0 (location: /Users/sanzar/VelvetVows/Library/PackageCache/com.unity.modules.subsystems)
+    com.unity.modules.hierarchycore@1.0.0 (location: /Users/sanzar/VelvetVows/Library/PackageCache/com.unity.modules.hierarchycore)
+    com.unity.ext.nunit@2.0.5 (location: /Users/sanzar/VelvetVows/Library/PackageCache/com.unity.ext.nunit@031a54704bff)
+    com.unity.shadergraph@17.0.4 (location: /Users/sanzar/VelvetVows/Library/PackageCache/com.unity.shadergraph@867249b1c940)
+[Subsystems] No new subsystems found in resolved package list.
+[Package Manager] Done registering packages in 0.33 seconds
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+[ScriptCompilation] Requested script compilation because: Assetdatabase observed changes in script compilation related files
+[40m[32minfo[39m[22m[49m: Microsoft.Hosting.Lifetime[14]
+      Now listening on: http://unix:/tmp/ilpp.sock-29d6b975abf50cb65704ba458aa25766
+[40m[32minfo[39m[22m[49m: Microsoft.Hosting.Lifetime[0]
+      Application started. Press Ctrl+C to shut down.
+[40m[32minfo[39m[22m[49m: Microsoft.Hosting.Lifetime[0]
+      Hosting environment: Production
+[40m[32minfo[39m[22m[49m: Microsoft.Hosting.Lifetime[0]
+      Content root path: /Users/sanzar/VelvetVows/
+[40m[32minfo[39m[22m[49m: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/Ping application/grpc -
+[40m[32minfo[39m[22m[49m: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'gRPC - /UnityILPP.PostProcessing/Ping'
+[40m[32minfo[39m[22m[49m: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'gRPC - /UnityILPP.PostProcessing/Ping'
+[40m[32minfo[39m[22m[49m: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/Ping application/grpc - - 200 - application/grpc 376.7942ms
+Starting: /Applications/Unity/Hub/Editor/6000.0.84f1/Unity.app/Contents/bee_backend --ipc --defer-dag-verification --dagfile="Library/Bee/200b0aE.dag" --continue-on-failure --profile="Library/Bee/backend1.traceevents" ScriptAssemblies
+WorkingDir: /Users/sanzar/VelvetVows
+[40m[32minfo[39m[22m[49m: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/ConfigurePostProcessors application/grpc -
+[40m[32minfo[39m[22m[49m: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'gRPC - /UnityILPP.PostProcessing/ConfigurePostProcessors'
+[40m[1m[33mwarn[39m[22m[49m: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
+      Assembly system.runtime.interopservices.windowsruntime has duplicate hint path. Ignoring "/Applications/Unity/Hub/Editor/6000.0.84f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.InteropServices.WindowsRuntime.dll" in favor of "/Applications/Unity/Hub/Editor/6000.0.84f1/Unity.app/Contents/NetStandard/Extensions/2.0.0/System.Runtime.InteropServices.WindowsRuntime.dll"
+[40m[1m[33mwarn[39m[22m[49m: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
+      Assembly system.componentmodel.composition has duplicate hint path. Ignoring "/Applications/Unity/Hub/Editor/6000.0.84f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/System.ComponentModel.Composition.dll" in favor of "/Applications/Unity/Hub/Editor/6000.0.84f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netfx/System.ComponentModel.Composition.dll"
+[40m[32minfo[39m[22m[49m: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
+      Resolved Unity.Burst.Cecil, Version=0.11.6.0, Culture=neutral, PublicKeyToken=50cebf1cceb9d05e with Library/PackageCache/com.unity.burst@2f3d916873ea/Unity.Burst.CodeGen/Unity.Burst.Cecil.dll
+[40m[32minfo[39m[22m[49m: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
+      Resolved Mono.Cecil, Version=0.11.5.0, Culture=neutral, PublicKeyToken=50cebf1cceb9d05e with Library/PackageCache/com.unity.nuget.mono-cecil@ecb9724e46ff/Mono.Cecil.dll
+[40m[32minfo[39m[22m[49m: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'gRPC - /UnityILPP.PostProcessing/ConfigurePostProcessors'
+[40m[32minfo[39m[22m[49m: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/ConfigurePostProcessors application/grpc - - 200 - application/grpc 343.6829ms
+[40m[32minfo[39m[22m[49m: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/PostProcessAssembly application/grpc -
+[40m[32minfo[39m[22m[49m: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'gRPC - /UnityILPP.PostProcessing/PostProcessAssembly'
+[40m[32minfo[39m[22m[49m: Unity.ILPP.Runner.PostProcessingPipeline[0]
+      Processing assembly Library/Bee/artifacts/200b0aE.dag/VelvetVows.AnimationCompatibility.PlayModeTests.dll, with 126 defines and 249 references
+[40m[32minfo[39m[22m[49m: Unity.ILPP.Runner.PostProcessingPipeline[0]
+      processors: Unity.Jobs.CodeGen.JobsILPostProcessor, zzzUnity.Burst.CodeGen.BurstILPostProcessor
+[40m[32minfo[39m[22m[49m: Unity.ILPP.Runner.PostProcessingPipeline[0]
+      running Unity.Jobs.CodeGen.JobsILPostProcessor
+[40m[32minfo[39m[22m[49m: Unity.ILPP.Runner.PostProcessingPipeline[0]
+      running zzzUnity.Burst.CodeGen.BurstILPostProcessor
+[40m[32minfo[39m[22m[49m: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'gRPC - /UnityILPP.PostProcessing/PostProcessAssembly'
+[40m[32minfo[39m[22m[49m: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/PostProcessAssembly application/grpc - - 200 - application/grpc 314.6795ms
+ExitCode: 0 Duration: 18s
+[740/988    1s] ILPP-Configuration Library/ilpp-configuration.nevergeneratedoutput
+[BUSY       6s] Csc Library/Bee/artifacts/200b0aE.dag/VelvetVows.AnimationCompatibility.PlayModeTests.dll (+2 others)
+[984/988   12s] Csc Library/Bee/artifacts/200b0aE.dag/VelvetVows.AnimationCompatibility.PlayModeTests.dll (+2 others)
+[985/988    4s] ILPostProcess Library/Bee/artifacts/200b0aE.dag/post-processed/VelvetVows.AnimationCompatibility.PlayModeTests.dll (+pdb)
+Processing assembly Library/Bee/artifacts/200b0aE.dag/VelvetVows.AnimationCompatibility.PlayModeTests.dll, with 126 defines and 249 references
+processors: Unity.Jobs.CodeGen.JobsILPostProcessor, zzzUnity.Burst.CodeGen.BurstILPostProcessor
+running Unity.Jobs.CodeGen.JobsILPostProcessor
+running zzzUnity.Burst.CodeGen.BurstILPostProcessor
+[986/988    0s] CopyFiles Library/ScriptAssemblies/VelvetVows.AnimationCompatibility.PlayModeTests.pdb
+[987/988    0s] CopyFiles Library/ScriptAssemblies/VelvetVows.AnimationCompatibility.PlayModeTests.dll
+*** Tundra build success (18.45 seconds), 5 items updated, 988 evaluated
+AssetDatabase: script compilation time: 23.185324s
+Total cache size 83793604
+Total cache size after purge 83793604, took 00:00:00.5571501
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  3.985 seconds
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 13.64 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Refreshing native plugins compatible for Editor in 3.08 ms, found 2 plugins.
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  9.588 seconds
+Domain Reload Profiling: 13590ms
+	BeginReloadAssembly (1437ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (70ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (3ms)
+		CreateAndSetChildDomain (394ms)
+	RebuildCommonClasses (80ms)
+	RebuildNativeTypeToScriptingClass (35ms)
+	initialDomainReloadingComplete (107ms)
+	LoadAllAssembliesAndSetupDomain (2329ms)
+		LoadAssemblies (1623ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (1351ms)
+			TypeCache.Refresh (1124ms)
+				TypeCache.ScanAssembly (853ms)
+			BuildScriptInfoCaches (153ms)
+			ResolveRequiredComponents (41ms)
+	FinalizeReload (9603ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (8169ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (43ms)
+			SetLoadedEditorAssemblies (22ms)
+			BeforeProcessingInitializeOnLoad (447ms)
+			ProcessInitializeOnLoadAttributes (6820ms)
+			ProcessInitializeOnLoadMethodAttributes (827ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (6ms)
+		ExecutionOrderSort2 (2ms)
+		AwakeInstancesAfterBackupRestoration (31ms)
+Refreshing native plugins compatible for Editor in 51.44 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=3521a5a0e5020497fb55d5fc526421e3): Total: 49.796 seconds - Initiated by InitialRefreshV2(ForceSynchronousImport)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=19427 ms
+		Asset DB Callback time: managed=2155 ms, native=787 ms
+		Scripting: domain reloads=1, domain reload time=4034 ms, compile time=23254 ms, other=129 ms
+		Project Asset Count: scripts=1825, non-scripts=4922
+		Asset File Changes: new=0, changed=1, moved=0, deleted=0
+		Scan Filter Count: 1
+	InvokeCustomDependenciesCallbacks: 0.001ms
+	InvokePackagesCallback: 386.403ms
+	ApplyChangesToAssetFolders: 10.025ms
+	Scan: 4668.661ms
+	OnSourceAssetsModified: 7.378ms
+	CategorizeAssetsWithTransientArtifact: 219.333ms
+	ProcessAssetsWithTransientArtifactChanges: 310.270ms
+	CategorizeAssets: 3296.625ms
+	ImportOutOfDateAssets: 9758.350ms (-13567.704ms without children)
+		CompileScripts: 23254.359ms
+		ReloadNativeAssets: 0.318ms
+		UnloadImportedAssets: 65.146ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 3.400ms
+		InitializingProgressBar: 0.001ms
+		PostProcessAllAssetNotificationsAddChangedAssets: 0.001ms
+		OnDemandSchedulerStart: 2.829ms
+	PostProcessAllAssets: 2172.595ms
+	Hotreload: 397.296ms
+	GatherAllCurrentPrimaryArtifactRevisions: 0.001ms
+	UnloadStreamsBegin: 49.837ms
+	PersistCurrentRevisions: 0.310ms
+	UnloadStreamsEnd: 0.003ms
+	GenerateScriptTypeHashes: 1853.771ms
+	Untracked: 28518.467ms
+
+Application.AssetDatabase Initial Refresh End
+Scanning for USB devices : 0.077ms
+Initializing Unity extensions:
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-VelvetVows
+2026-11-11 13:32:51.412 Unity[71724:6519943] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x74f0289220 SDF, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Unloading 19 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7168 unused Assets / (2.7 MB). Loaded Objects now: 7900.
+Memory consumption went from 219.6 MB to 216.8 MB.
+Total: 1134.339708 ms (FindLiveObjects: 11.898666 ms CreateObjectMapping: 18.311042 ms MarkObjects: 824.927625 ms  DeleteObjects: 277.594791 ms)
+
+[LAYOUT] About to load UserSettings/Layouts/default-6000.dwlt, keepMainWindow=False
+[MODES] ModeService[default].InitializeCurrentMode
+[MODES] ModeService[default].RaiseModeChanged(default, default)
+2026-11-11 13:33:02.061 Unity[71724:6519943] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x74f02805a0 SDF, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+[Project] Loading completed in 99.706 seconds
+	Project init time: 				73.480 seconds
+		Template init time: 		0.000 seconds
+		Package Manager init time: 		5.979 seconds
+		Asset Database init time: 		4.117 seconds
+		Global illumination init time: 	0.008 seconds
+		Assemblies load time: 			2.431 seconds
+		Unity extensions init time: 	0.091 seconds
+		Asset Database refresh time: 	50.228 seconds
+	Scene opening time: 			18.540 seconds
+##utp:{"type":"ProjectInfo","version":2,"phase":"Immediate","time":1794385986501,"processId":71724,"projectLoad":99.70550737500001,"projectInit":73.479560292,"templateInit":0.0,"packageManagerInit":5.979395833,"assetDatabaseInit":4.117250875,"globalIlluminationInit":0.007673041,"assembliesLoad":2.431216834,"unityExtensionsInit":0.091142083,"assetDatabaseRefresh":50.227834042,"sceneOpening":18.539775333}
+##utp:{"type":"EditorInfo","version":2,"phase":"Immediate","time":1794385986501,"processId":71724,"editorVersion":"6000.0.84f1 (78ab6fc243d5)","branch":"6000.0/staging","buildType":"Release","platform":"OSX"}
+Subscribe to USB device events
+[Licensing::Client] Successfully resolved entitlement details
+Asset Pipeline Refresh (id=eed732ee1c1684f36b779aca45c56906): Total: 3.303 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=3301 ms
+		Asset DB Callback time: managed=0 ms, native=0 ms
+		Scripting: domain reloads=0, domain reload time=0 ms, compile time=0 ms, other=0 ms
+		Project Asset Count: scripts=1825, non-scripts=4922
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 1
+	InvokeCustomDependenciesCallbacks: 0.001ms
+	InvokePackagesCallback: 0.002ms
+	ApplyChangesToAssetFolders: 8.919ms
+	Scan: 2135.873ms
+	OnSourceAssetsModified: 0.314ms
+	CategorizeAssetsWithTransientArtifact: 0.006ms
+	ProcessAssetsWithTransientArtifactChanges: 12.767ms
+	CategorizeAssets: 378.492ms
+	ImportOutOfDateAssets: 7.446ms (2.792ms without children)
+		ReloadNativeAssets: 0.070ms
+		UnloadImportedAssets: 1.117ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 2.036ms
+		InitializingProgressBar: 0.001ms
+		PostProcessAllAssetNotificationsAddChangedAssets: 0.001ms
+		OnDemandSchedulerStart: 1.428ms
+	GatherAllCurrentPrimaryArtifactRevisions: 66.876ms
+	UnloadStreamsBegin: 78.797ms
+	PersistCurrentRevisions: 0.505ms
+	UnloadStreamsEnd: 0.003ms
+	Untracked: 613.200ms
+
+Launching external process: /Applications/Unity/Hub/Editor/6000.0.84f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.81 seconds
+Running tests for ExecutionSettings with details:
+targetPlatform = 
+playerHeartbeatTimeout = 600
+filters[0] = 
+   Filter with settings:
+   testMode = PlayMode
+   targetPlatform = 
+   testNames = null
+   groupNames = VelvetVows.Tests.Phase3LAnimationPlayModeTests.BodyHidingKeepsBothActorsVisibleAndReleasesControl
+   categoryNames = null
+   assemblyNames = null
+ignoreTests = {}
+featureFlags = null
+
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+UnityEditor.TestTools.TestRunner.CommandLineTest.Executer:InitializeAndExecuteRun (string[]) (at ./Library/PackageCache/com.unity.test-framework@082c24152fd4/UnityEditor.TestRunner/CommandLineTest/Executer.cs:53)
+UnityEditor.TestTools.TestRunner.CommandLineTest.TestStarter:InitializeAndExecuteRun () (at ./Library/PackageCache/com.unity.test-framework@082c24152fd4/UnityEditor.TestRunner/CommandLineTest/TestStarter.cs:64)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions () (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorApplication.cs:384)
+
+(Filename: ./Library/PackageCache/com.unity.test-framework@082c24152fd4/UnityEditor.TestRunner/CommandLineTest/Executer.cs Line: 53)
+
+[Licensing::Client] Successfully resolved entitlement details
+Created GICache directory at /Users/sanzar/Library/Caches/com.unity3d.UnityEditor/GiCache. Took: 0.015s, timestamps: [99.999 - 100.014]
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4 unused Assets / (37.4 KB). Loaded Objects now: 9049.
+Memory consumption went from 370.5 MB to 370.5 MB.
+Total: 893.619000 ms (FindLiveObjects: 9.434791 ms CreateObjectMapping: 0.374542 ms MarkObjects: 880.376041 ms  DeleteObjects: 3.429500 ms)
+
+Start importing Assets/InitTestScenedfbd35cb-549c-43d6-aebe-b15879b3ecc3.unity using Guid(706cefdc18aea40b59e32d2ba02a923a) (DefaultImporter) -> (artifact id: '328d50720c3ad3c9eae653849e012787') in 0.20766525 seconds
+Refreshing native plugins compatible for Editor in 9.63 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=a5a4db03f074043a6afd44efdb8b4821): Total: 2.018 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+	Summary:
+		Imports: total=1 (actual=1, local cache=0, cache server=0)
+		Asset DB Process Time: managed=36 ms, native=1556 ms
+		Asset DB Callback time: managed=235 ms, native=189 ms
+		Scripting: domain reloads=0, domain reload time=0 ms, compile time=0 ms, other=0 ms
+		Project Asset Count: scripts=1825, non-scripts=4923
+		Asset File Changes: new=1, changed=1, moved=0, deleted=0
+		Scan Filter Count: 2
+	InvokeCustomDependenciesCallbacks: 0.001ms
+	InvokePackagesCallback: 0.001ms
+	ApplyChangesToAssetFolders: 1.408ms
+	Scan: 68.152ms
+	OnSourceAssetsModified: 5.624ms
+	CategorizeAssetsWithTransientArtifact: 0.014ms
+	ProcessAssetsWithTransientArtifactChanges: 5.646ms
+	CategorizeAssets: 288.520ms
+	ImportOutOfDateAssets: 815.309ms (18.647ms without children)
+		ImportManagerImport: 243.587ms (3.388ms without children)
+			ImportInProcess: 240.163ms
+			UpdateCategorizedAssets: 0.037ms
+		ReloadNativeAssets: 0.368ms
+		UnloadImportedAssets: 0.679ms
+		ReloadImportedAssets: 0.000ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 1.464ms
+		InitializingProgressBar: 549.530ms
+		PostProcessAllAssetNotificationsAddChangedAssets: 0.001ms
+		OnDemandSchedulerStart: 1.033ms
+	PostProcessAllAssets: 236.460ms
+	Hotreload: 183.076ms
+	GatherAllCurrentPrimaryArtifactRevisions: 7.969ms
+	UnloadStreamsBegin: 0.004ms
+	PersistCurrentRevisions: 3.918ms
+	UnloadStreamsEnd: 0.057ms
+	Untracked: 401.960ms
+
+Executing IPrebuildSetup for: Unity.PerformanceTesting.Editor.TestRunBuilder.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+UnityEditor.TestTools.TestRunner.TestRun.Tasks.BuildActionTaskBase`1/<ExecuteMethods>d__8<UnityEngine.TestTools.IPrebuildSetup>:MoveNext () (at ./Library/PackageCache/com.unity.test-framework@082c24152fd4/UnityEditor.TestRunner/TestRun/Tasks/BuildActionTaskBase.cs:48)
+UnityEditor.TestTools.TestRunner.TestRun.Tasks.BuildActionTaskBase`1/<Execute>d__7<UnityEngine.TestTools.IPrebuildSetup>:MoveNext () (at ./Library/PackageCache/com.unity.test-framework@082c24152fd4/UnityEditor.TestRunner/TestRun/Tasks/BuildActionTaskBase.cs:34)
+UnityEditor.TestTools.TestRunner.TestRun.TestJobRunner:ExecuteStep () (at ./Library/PackageCache/com.unity.test-framework@082c24152fd4/UnityEditor.TestRunner/TestRun/TestJobRunner.cs:173)
+UnityEditor.TestTools.TestRunner.TestRun.TestJobRunner:ExecuteCallback () (at ./Library/PackageCache/com.unity.test-framework@082c24152fd4/UnityEditor.TestRunner/TestRun/TestJobRunner.cs:108)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions () (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorApplication.cs:384)
+
+(Filename: ./Library/PackageCache/com.unity.test-framework@082c24152fd4/UnityEditor.TestRunner/TestRun/Tasks/BuildActionTaskBase.cs Line: 48)
+
+Thread 0x70061a3000 may have been prematurely finalized
+Reloading assemblies for play mode.
+Reloading assemblies after forced synchronous recompile.
+Begin MonoManager ReloadAssembly
+2026-11-11 13:33:40.647 Unity[71724:6519943] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x74f028ac60 SDF, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+2026-11-11 13:33:40.675 Unity[71724:6519943] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x74f0281360 SDF, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+2026-11-11 13:33:40.695 Unity[71724:6519943] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x74f0278c80 SDF, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+2026-11-11 13:33:40.714 Unity[71724:6519943] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x74f0279ae0 SDF, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+<CFData 0x75000f3e30 [0x1f7958fc8]>{length = 6, capacity = 6, bytes = 0xfce26c2d429c}
+- Loaded All Assemblies, in 21.785 seconds
+Refreshing native plugins compatible for Editor in 33.60 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in 11.317 seconds
+Domain Reload Profiling: 33150ms
+	BeginReloadAssembly (18079ms)
+		ExecutionOrderSort (17ms)
+		DisableScriptedObjects (651ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (8ms)
+		CreateAndSetChildDomain (15152ms)
+	RebuildCommonClasses (94ms)
+	RebuildNativeTypeToScriptingClass (49ms)
+	initialDomainReloadingComplete (308ms)
+	LoadAllAssembliesAndSetupDomain (3299ms)
+		LoadAssemblies (3082ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (1585ms)
+			TypeCache.Refresh (387ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (1080ms)
+			ResolveRequiredComponents (62ms)
+	FinalizeReload (11320ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (6108ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (49ms)
+			SetLoadedEditorAssemblies (43ms)
+			BeforeProcessingInitializeOnLoad (553ms)
+			ProcessInitializeOnLoadAttributes (3525ms)
+			ProcessInitializeOnLoadMethodAttributes (1904ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (26ms)
+		ExecutionOrderSort2 (1ms)
+		AwakeInstancesAfterBackupRestoration (2983ms)
+Asset Pipeline Refresh (id=fb63ac56fa4ac42cab3b6f893f0b295d): Total: 35.260 seconds - Initiated by StopAssetImportingV2(ForceSynchronousImport | ForceDomainReload)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=13160 ms
+		Asset DB Callback time: managed=105 ms, native=5 ms
+		Scripting: domain reloads=1, domain reload time=21985 ms, compile time=2 ms, other=0 ms
+		Project Asset Count: scripts=1825, non-scripts=4923
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 0
+	InvokeCustomDependenciesCallbacks: 0.002ms
+	InvokePackagesCallback: 9.530ms
+	ApplyChangesToAssetFolders: 6.482ms
+	Scan: 0.588ms
+	OnSourceAssetsModified: 0.004ms
+	CategorizeAssetsWithTransientArtifact: 0.890ms
+	ProcessAssetsWithTransientArtifactChanges: 22.159ms
+	CategorizeAssets: 440.679ms
+	ImportOutOfDateAssets: 11483.576ms (11383.574ms without children)
+		CompileScripts: 2.349ms
+		CollectScriptTypesHashes: 38.446ms
+		ReloadNativeAssets: 4.678ms
+		UnloadImportedAssets: 48.728ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 2.844ms
+		InitializingProgressBar: 0.000ms
+		PostProcessAllAssetNotificationsAddChangedAssets: 0.001ms
+		OnDemandSchedulerStart: 2.956ms
+	PostProcessAllAssets: 105.687ms
+	GatherAllCurrentPrimaryArtifactRevisions: 8.884ms
+	UnloadStreamsBegin: 2.501ms
+	PersistCurrentRevisions: 0.551ms
+	UnloadStreamsEnd: 0.006ms
+	GenerateScriptTypeHashes: 33.035ms
+	Untracked: 23178.802ms
+
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            6.981 ms
+	Integration:            3793.999 ms
+	Integration of assets:  0.011 ms
+	Thread Wait Time:       0.003 ms
+	Total Operation Time:   3800.993 ms
+TrimDiskCacheJob: Current cache size 0mb
+Unloading 732 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 37.004583 ms
+[VelvetVows] GameManager Awake
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:Log (object,UnityEngine.Object)
+VelvetVows.GameManager:Awake () (at Assets/VelvetVows/Scripts/GameManager.cs:64)
+
+(Filename: Assets/VelvetVows/Scripts/GameManager.cs Line: 64)
+
+[VelvetVows] GameHUD initialized
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:Log (object,UnityEngine.Object)
+VelvetVows.GameHUD:Awake () (at Assets/VelvetVows/Scripts/GameHUD.cs:61)
+
+(Filename: Assets/VelvetVows/Scripts/GameHUD.cs Line: 61)
+
+[VelvetVows] Canvas active: True, enabled: True, mode: ScreenSpaceOverlay
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:Log (object,UnityEngine.Object)
+VelvetVows.GameHUD:LogStartScreenState () (at Assets/VelvetVows/Scripts/GameHUD.cs:104)
+VelvetVows.GameHUD:Awake () (at Assets/VelvetVows/Scripts/GameHUD.cs:62)
+
+(Filename: Assets/VelvetVows/Scripts/GameHUD.cs Line: 104)
+
+[VelvetVows] Canvas scale: (1.00, 1.00, 1.00)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:Log (object,UnityEngine.Object)
+VelvetVows.GameHUD:LogStartScreenState () (at Assets/VelvetVows/Scripts/GameHUD.cs:107)
+VelvetVows.GameHUD:Awake () (at Assets/VelvetVows/Scripts/GameHUD.cs:62)
+
+(Filename: Assets/VelvetVows/Scripts/GameHUD.cs Line: 107)
+
+[VelvetVows] StartPanel active: True
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:Log (object,UnityEngine.Object)
+VelvetVows.GameHUD:LogStartScreenState () (at Assets/VelvetVows/Scripts/GameHUD.cs:108)
+VelvetVows.GameHUD:Awake () (at Assets/VelvetVows/Scripts/GameHUD.cs:62)
+
+(Filename: Assets/VelvetVows/Scripts/GameHUD.cs Line: 108)
+
+[VelvetVows] StartPanel scale: (1.00, 1.00, 1.00)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:Log (object,UnityEngine.Object)
+VelvetVows.GameHUD:LogStartScreenState () (at Assets/VelvetVows/Scripts/GameHUD.cs:109)
+VelvetVows.GameHUD:Awake () (at Assets/VelvetVows/Scripts/GameHUD.cs:62)
+
+(Filename: Assets/VelvetVows/Scripts/GameHUD.cs Line: 109)
+
+[VelvetVows] UI input: EventSystem=True, InputSystemUIInputModule=True, actions=True, cursor=None/visible=True
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:Log (object,UnityEngine.Object)
+VelvetVows.GameHUD:LogStartScreenState () (at Assets/VelvetVows/Scripts/GameHUD.cs:112)
+VelvetVows.GameHUD:Awake () (at Assets/VelvetVows/Scripts/GameHUD.cs:62)
+
+(Filename: Assets/VelvetVows/Scripts/GameHUD.cs Line: 112)
+
+Loaded scene 'Assets/VelvetVows/Scenes/VelvetVows_Main.unity'
+	Deserialize:            3096.843 ms
+	Integration:            23964.506 ms
+	Integration of assets:  1.011 ms
+	Thread Wait Time:       5736.439 ms
+	Total Operation Time:   32798.801 ms
+Unloading 5204 unused Assets / (4.8 MB). Loaded Objects now: 26570.
+Memory consumption went from 1.05 GB to 1.04 GB.
+Total: 1188.236750 ms (FindLiveObjects: 242.299833 ms CreateObjectMapping: 10.932250 ms MarkObjects: 753.048000 ms  DeleteObjects: 181.367250 ms)
+
+[VelvetVows] BEGIN listener registered (serialized)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:Log (object,UnityEngine.Object)
+VelvetVows.GameHUD:EnsureBeginListener (VelvetVows.GameManager) (at Assets/VelvetVows/Scripts/GameHUD.cs:92)
+VelvetVows.GameManager:Start () (at Assets/VelvetVows/Scripts/GameManager.cs:73)
+
+(Filename: Assets/VelvetVows/Scripts/GameHUD.cs Line: 92)
+
+[VelvetVows] State: Introduction
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:Log (object,UnityEngine.Object)
+VelvetVows.GameManager:Start () (at Assets/VelvetVows/Scripts/GameManager.cs:84)
+
+(Filename: Assets/VelvetVows/Scripts/GameManager.cs Line: 84)
+
+[VelvetVows] Canvas active: True, enabled: True, mode: ScreenSpaceOverlay
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:Log (object,UnityEngine.Object)
+VelvetVows.GameHUD:LogStartScreenState () (at Assets/VelvetVows/Scripts/GameHUD.cs:104)
+VelvetVows.GameManager:Start () (at Assets/VelvetVows/Scripts/GameManager.cs:85)
+
+(Filename: Assets/VelvetVows/Scripts/GameHUD.cs Line: 104)
+
+[VelvetVows] Canvas scale: (1.00, 1.00, 1.00)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:Log (object,UnityEngine.Object)
+VelvetVows.GameHUD:LogStartScreenState () (at Assets/VelvetVows/Scripts/GameHUD.cs:107)
+VelvetVows.GameManager:Start () (at Assets/VelvetVows/Scripts/GameManager.cs:85)
+
+(Filename: Assets/VelvetVows/Scripts/GameHUD.cs Line: 107)
+
+[VelvetVows] StartPanel active: True
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:Log (object,UnityEngine.Object)
+VelvetVows.GameHUD:LogStartScreenState () (at Assets/VelvetVows/Scripts/GameHUD.cs:108)
+VelvetVows.GameManager:Start () (at Assets/VelvetVows/Scripts/GameManager.cs:85)
+
+(Filename: Assets/VelvetVows/Scripts/GameHUD.cs Line: 108)
+
+[VelvetVows] StartPanel scale: (1.00, 1.00, 1.00)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:Log (object,UnityEngine.Object)
+VelvetVows.GameHUD:LogStartScreenState () (at Assets/VelvetVows/Scripts/GameHUD.cs:109)
+VelvetVows.GameManager:Start () (at Assets/VelvetVows/Scripts/GameManager.cs:85)
+
+(Filename: Assets/VelvetVows/Scripts/GameHUD.cs Line: 109)
+
+[VelvetVows] UI input: EventSystem=True, InputSystemUIInputModule=True, actions=True, cursor=None/visible=True
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:Log (object,UnityEngine.Object)
+VelvetVows.GameHUD:LogStartScreenState () (at Assets/VelvetVows/Scripts/GameHUD.cs:112)
+VelvetVows.GameManager:Start () (at Assets/VelvetVows/Scripts/GameManager.cs:85)
+
+(Filename: Assets/VelvetVows/Scripts/GameHUD.cs Line: 112)
+
+[Phase3L] Murder camera=(-13.40, 1.85, -2.83) target=(-16.50, 1.00, -2.83) clear=True
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+VelvetVows.Phase2BMurderSequence:Frame (UnityEngine.Vector3,UnityEngine.Vector3,single) (at Assets/VelvetVows/Scripts/Phase2BMurderSequence.cs:177)
+VelvetVows.Phase2BMurderSequence/<Sequence>d__32:MoveNext () (at Assets/VelvetVows/Scripts/Phase2BMurderSequence.cs:72)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+UnityEngine.MonoBehaviour:StartCoroutineManaged2 (System.Collections.IEnumerator)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/MonoBehaviour.bindings.cs:114)
+VelvetVows.Phase2BMurderSequence:Begin () (at Assets/VelvetVows/Scripts/Phase2BMurderSequence.cs:54)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+VelvetVows.Tests.Phase2BPlayModeTests:Call (object,string,object[]) (at Assets/VelvetVows/Tests/PlayMode/Phase2BPlayModeTests.cs:24)
+VelvetVows.Tests.Phase2BPlayModeTests/<StartCleanup>d__8:MoveNext () (at Assets/VelvetVows/Tests/PlayMode/Phase2BPlayModeTests.cs:43)
+UnityEngine.TestTools.TestEnumerator/<Execute>d__7:MoveNext () (at ./Library/PackageCache/com.unity.test-framework@082c24152fd4/UnityEngine.TestRunner/NUnitExtensions/Attributes/TestEnumerator.cs:44)
+UnityEngine.TestTools.EnumerableTestMethodCommand/<ExecuteEnumerableAndRecordExceptions>d__4:MoveNext () (at ./Library/PackageCache/com.unity.test-framework@082c24152fd4/UnityEngine.TestRunner/NUnitExtensions/Commands/EnumerableTestMethodCommand.cs:79)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: Assets/VelvetVows/Scripts/Phase2BMurderSequence.cs Line: 177)
+
+[Phase2B] Cleanup challenge began at 120 seconds
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:Log (object,UnityEngine.Object)
+VelvetVows.Phase2BCleanupManager:BeginChallenge () (at Assets/VelvetVows/Scripts/Phase2BCleanupManager.cs:79)
+VelvetVows.Phase2BMurderSequence/<Sequence>d__32:MoveNext () (at Assets/VelvetVows/Scripts/Phase2BMurderSequence.cs:127)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: Assets/VelvetVows/Scripts/Phase2BCleanupManager.cs Line: 79)
+
+[Phase3M] Body contact: player=(-18.65, 0.03, -2.22), body=(-19.57, 0.18, -2.57), chest=(-18.98, 0.20, -2.46), deadarms=(-18.76, 0.21, -2.54)/(-18.80, 0.19, -2.33), elbows=(-18.96, 0.18, -2.64)/(-19.01, 0.21, -2.26), upperarms=(-18.84, 0.64, -2.17)/(-18.79, 0.62, -2.39), hands=(-18.82, 0.22, -2.31)/(-18.87, 0.23, -2.31), targets=(-18.82, 0.22, -2.31)/(-18.87, 0.23, -2.31), weight=1, bend=1, right=0.024, left=0.025
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+VelvetVows.Tests.Phase3LAnimationPlayModeTests/<BodyHidingKeepsBothActorsVisibleAndReleasesControl>d__13:MoveNext () (at Assets/VelvetVows/Tests/PlayMode/Phase3LAnimationPlayModeTests.cs:238)
+UnityEngine.TestTools.TestEnumerator/<Execute>d__7:MoveNext () (at ./Library/PackageCache/com.unity.test-framework@082c24152fd4/UnityEngine.TestRunner/NUnitExtensions/Attributes/TestEnumerator.cs:44)
+UnityEngine.TestTools.EnumerableTestMethodCommand/<ExecuteEnumerableAndRecordExceptions>d__4:MoveNext () (at ./Library/PackageCache/com.unity.test-framework@082c24152fd4/UnityEngine.TestRunner/NUnitExtensions/Commands/EnumerableTestMethodCommand.cs:79)
+UnityEngine.TestTools.EnumerableTestMethodCommand:AdvanceEnumerator (System.Collections.IEnumerator) (at ./Library/PackageCache/com.unity.test-framework@082c24152fd4/UnityEngine.TestRunner/NUnitExtensions/Commands/EnumerableTestMethodCommand.cs:64)
+UnityEngine.TestTools.EnumerableTestMethodCommand/<ExecuteEnumerable>d__2:MoveNext () (at ./Library/PackageCache/com.unity.test-framework@082c24152fd4/UnityEngine.TestRunner/NUnitExtensions/Commands/EnumerableTestMethodCommand.cs:47)
+UnityEngine.TestRunner.NUnitExtensions.Runner.UnityLogCheckDelegatingCommand/<ExecuteEnumerable>d__3:MoveNext () (at ./Library/PackageCache/com.unity.test-framework@082c24152fd4/UnityEngine.TestRunner/NUnitExtensions/Runner/UnityLogCheckDelegatingCommand.cs:48)
+UnityEngine.TestTools.BeforeAfterTestCommandBase`1/<ExecuteEnumerable>d__16<NUnit.Framework.ITestAction>:MoveNext () (at ./Library/PackageCache/com.unity.test-framework@082c24152fd4/UnityEngine.TestRunner/NUnitExtensions/Commands/BeforeAfterTestCommandBase.cs:212)
+UnityEngine.TestTools.BeforeAfterTestCommandBase`1/<ExecuteEnumerable>d__16<System.Reflection.MethodInfo>:MoveNext () (at ./Library/PackageCache/com.unity.test-framework@082c24152fd4/UnityEngine.TestRunner/NUnitExtensions/Commands/BeforeAfterTestCommandBase.cs:212)
+UnityEngine.TestTools.BeforeAfterTestCommandBase`1/<ExecuteEnumerable>d__16<System.Reflection.MethodInfo>:MoveNext () (at ./Library/PackageCache/com.unity.test-framework@082c24152fd4/UnityEngine.TestRunner/NUnitExtensions/Commands/BeforeAfterTestCommandBase.cs:212)
+UnityEngine.TestTools.BeforeAfterTestCommandBase`1/<ExecuteEnumerable>d__16<UnityEngine.TestTools.IOuterUnityTestAction>:MoveNext () (at ./Library/PackageCache/com.unity.test-framework@082c24152fd4/UnityEngine.TestRunner/NUnitExtensions/Commands/BeforeAfterTestCommandBase.cs:212)
+UnityEngine.TestTools.RetryCommand/<ExecuteEnumerable>d__2:MoveNext () (at ./Library/PackageCache/com.unity.test-framework@082c24152fd4/UnityEngine.TestRunner/NUnitExtensions/Commands/RetryCommand.cs:37)
+UnityEngine.TestTools.RepeatCommand/<ExecuteEnumerable>d__2:MoveNext () (at ./Library/PackageCache/com.unity.test-framework@082c24152fd4/UnityEngine.TestRunner/NUnitExtensions/Commands/RepeatCommand.cs:36)
+UnityEngine.TestTools.EnumerableApplyChangesToContextCommand/<ExecuteEnumerable>d__1:MoveNext () (at ./Library/PackageCache/com.unity.test-framework@082c24152fd4/UnityEngine.TestRunner/NUnitExtensions/Commands/EnumerableApplyChangesToContextCommand.cs:23)
+UnityEngine.TestTools.IgnoreTestCommand/<ExecuteEnumerable>d__3:MoveNext () (at ./Library/PackageCache/com.unity.test-framework@082c24152fd4/UnityEngine.TestRunner/NUnitExtensions/Commands/IgnoreTestCommand.cs:42)
+UnityEngine.TestTools.StrictCheckCommand/<ExecuteEnumerable>d__2:MoveNext () (at ./Library/PackageCache/com.unity.test-framework@082c24152fd4/UnityEngine.TestRunner/NUnitExtensions/Commands/StrictCheckCommand.cs:29)
+UnityEngine.TestTools.Utils.CoroutineRunner/<WrapEnumeratorForChecks>d__8:MoveNext () (at ./Library/PackageCache/com.unity.test-framework@082c24152fd4/UnityEngine.TestRunner/Utils/CoroutineRunner.cs:58)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+UnityEditor.EditorGUIUtility:RenderPlayModeViewCamerasInternal (UnityEngine.RenderTexture,int,UnityEngine.Vector2,bool,bool)
+UnityEditor.PlayModeView:RenderView (UnityEngine.Vector2,bool) (at /Users/bokken/build/output/unity/unity/Editor/Mono/PlayModeView/PlayModeView.cs:246)
+UnityEditor.GameView:OnGUI () (at /Users/bokken/build/output/unity/unity/Editor/Mono/GameView/GameView.cs:1054)
+UnityEditor.HostView:InvokeOnGUI (UnityEngine.Rect) (at /Users/bokken/build/output/unity/unity/Editor/Mono/HostView.cs:514)
+UnityEditor.DockArea:DrawView (UnityEngine.Rect) (at /Users/bokken/build/output/unity/unity/Editor/Mono/GUI/DockArea.cs:399)
+UnityEditor.DockArea:OldOnGUI () (at /Users/bokken/build/output/unity/unity/Editor/Mono/GUI/DockArea.cs:390)
+UnityEngine.UIElements.IMGUIContainer:DoOnGUI (UnityEngine.Event,UnityEngine.Matrix4x4,UnityEngine.Rect,bool,UnityEngine.Rect,System.Action,bool) (at /Users/bokken/build/output/unity/unity/Modules/UIElements/Core/IMGUIContainer.cs:403)
+UnityEngine.UIElements.IMGUIContainer:HandleIMGUIEvent (UnityEngine.Event,UnityEngine.Matrix4x4,UnityEngine.Rect,System.Action,bool) (at /Users/bokken/build/output/unity/unity/Modules/UIElements/Core/IMGUIContainer.cs:726)
+UnityEngine.UIElements.IMGUIContainer:DoIMGUIRepaint () (at /Users/bokken/build/output/unity/unity/Modules/UIElements/Core/IMGUIContainer.cs:590)
+UnityEngine.UIElements.UIR.RenderChainCommand:ExecuteNonDrawMesh (UnityEngine.UIElements.UIR.DrawParams,single,System.Exception&) (at /Users/bokken/build/output/unity/unity/Modules/UIElements/Core/Renderer/UIRenderer/UIRenderers.cs:127)
+UnityEngine.UIElements.UIR.UIRenderDevice:EvaluateChain (UnityEngine.UIElements.UIR.RenderChainCommand,UnityEngine.Material,UnityEngine.Material,UnityEngine.Texture,UnityEngine.Texture,single,System.Exception&) (at /Users/bokken/build/output/unity/unity/Modules/UIElements/Core/Renderer/UIRenderer/UIRenderDevice.cs:996)
+UnityEngine.UIElements.UIR.RenderChain:Render () (at /Users/bokken/build/output/unity/unity/Modules/UIElements/Core/Renderer/UIRRenderChain.cs:545)
+UnityEngine.UIElements.UIRRepaintUpdater:Render () (at /Users/bokken/build/output/unity/unity/Modules/UIElements/Core/Renderer/UIRRepaintUpdater.cs:125)
+UnityEngine.UIElements.BaseVisualElementPanel:Render () (at /Users/bokken/build/output/unity/unity/Modules/UIElements/Core/Panel.cs:737)
+UnityEngine.UIElements.Panel:Render () (at /Users/bokken/build/output/unity/unity/Modules/UIElements/Core/Panel.cs:1402)
+UnityEditor.UIElements.EditorPanel:Render () (at /Users/bokken/build/output/unity/unity/Modules/UIElementsEditor/EditorPanel.cs:97)
+UnityEngine.UIElements.UIElementsUtility:DoDispatch (UnityEngine.UIElements.BaseVisualElementPanel) (at /Users/bokken/build/output/unity/unity/Modules/UIElements/Core/UIElementsUtility.cs:484)
+UnityEngine.UIElements.UIElementsUtility:UnityEngine.UIElements.IUIElementsUtility.ProcessEvent (int,intptr,bool&) (at /Users/bokken/build/output/unity/unity/Modules/UIElements/Core/UIElementsUtility.cs:232)
+UnityEngine.UIElements.UIEventRegistration:ProcessEvent (int,intptr) (at /Users/bokken/build/output/unity/unity/Modules/UIElements/Core/UIElementsUtility.cs:76)
+UnityEngine.UIElements.UIEventRegistration/<>c:<.cctor>b__1_2 (int,intptr) (at /Users/bokken/build/output/unity/unity/Modules/UIElements/Core/UIElementsUtility.cs:30)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&) (at /Users/bokken/build/output/unity/unity/Modules/IMGUI/GUIUtility.cs:219)
+
+(Filename: Assets/VelvetVows/Tests/PlayMode/Phase3LAnimationPlayModeTests.cs Line: 238)
+
+Ignoring depth surface load action as it is memoryless
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.ScreenCapture:CaptureScreenshotAsTexture (int,UnityEngine.ScreenCapture/StereoScreenCaptureMode)
+UnityEngine.ScreenCapture:CaptureScreenshotAsTexture () (at /Users/bokken/build/output/unity/unity/Modules/ScreenCapture/ScriptBindings/ScreenCapture.bindings.cs:25)
+VelvetVows.Tests.Phase3LAnimationPlayModeTests/<Capture>d__17:MoveNext () (at Assets/VelvetVows/Tests/PlayMode/Phase3LAnimationPlayModeTests.cs:360)
+UnityEngine.TestTools.TestEnumerator/<Execute>d__7:MoveNext () (at ./Library/PackageCache/com.unity.test-framework@082c24152fd4/UnityEngine.TestRunner/NUnitExtensions/Attributes/TestEnumerator.cs:44)
+UnityEngine.TestTools.EnumerableTestMethodCommand/<ExecuteEnumerableAndRecordExceptions>d__4:MoveNext () (at ./Library/PackageCache/com.unity.test-framework@082c24152fd4/UnityEngine.TestRunner/NUnitExtensions/Commands/EnumerableTestMethodCommand.cs:79)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+UnityEditor.EditorGUIUtility:RenderPlayModeViewCamerasInternal (UnityEngine.RenderTexture,int,UnityEngine.Vector2,bool,bool)
+UnityEditor.PlayModeView:RenderView (UnityEngine.Vector2,bool) (at /Users/bokken/build/output/unity/unity/Editor/Mono/PlayModeView/PlayModeView.cs:246)
+UnityEditor.GameView:OnGUI () (at /Users/bokken/build/output/unity/unity/Editor/Mono/GameView/GameView.cs:1054)
+UnityEditor.HostView:InvokeOnGUI (UnityEngine.Rect) (at /Users/bokken/build/output/unity/unity/Editor/Mono/HostView.cs:514)
+UnityEditor.DockArea:DrawView (UnityEngine.Rect) (at /Users/bokken/build/output/unity/unity/Editor/Mono/GUI/DockArea.cs:399)
+UnityEditor.DockArea:OldOnGUI () (at /Users/bokken/build/output/unity/unity/Editor/Mono/GUI/DockArea.cs:390)
+UnityEngine.UIElements.IMGUIContainer:DoOnGUI (UnityEngine.Event,UnityEngine.Matrix4x4,UnityEngine.Rect,bool,UnityEngine.Rect,System.Action,bool) (at /Users/bokken/build/output/unity/unity/Modules/UIElements/Core/IMGUIContainer.cs:403)
+UnityEngine.UIElements.IMGUIContainer:HandleIMGUIEvent (UnityEngine.Event,UnityEngine.Matrix4x4,UnityEngine.Rect,System.Action,bool) (at /Users/bokken/build/output/unity/unity/Modules/UIElements/Core/IMGUIContainer.cs:726)
+UnityEngine.UIElements.IMGUIContainer:DoIMGUIRepaint () (at /Users/bokken/build/output/unity/unity/Modules/UIElements/Core/IMGUIContainer.cs:590)
+UnityEngine.UIElements.UIR.RenderChainCommand:ExecuteNonDrawMesh (UnityEngine.UIElements.UIR.DrawParams,single,System.Exception&) (at /Users/bokken/build/output/unity/unity/Modules/UIElements/Core/Renderer/UIRenderer/UIRenderers.cs:127)
+UnityEngine.UIElements.UIR.UIRenderDevice:EvaluateChain (UnityEngine.UIElements.UIR.RenderChainCommand,UnityEngine.Material,UnityEngine.Material,UnityEngine.Texture,UnityEngine.Texture,single,System.Exception&) (at /Users/bokken/build/output/unity/unity/Modules/UIElements/Core/Renderer/UIRenderer/UIRenderDevice.cs:996)
+UnityEngine.UIElements.UIR.RenderChain:Render () (at /Users/bokken/build/output/unity/unity/Modules/UIElements/Core/Renderer/UIRRenderChain.cs:545)
+UnityEngine.UIElements.UIRRepaintUpdater:Render () (at /Users/bokken/build/output/unity/unity/Modules/UIElements/Core/Renderer/UIRRepaintUpdater.cs:125)
+UnityEngine.UIElements.BaseVisualElementPanel:Render () (at /Users/bokken/build/output/unity/unity/Modules/UIElements/Core/Panel.cs:737)
+UnityEngine.UIElements.Panel:Render () (at /Users/bokken/build/output/unity/unity/Modules/UIElements/Core/Panel.cs:1402)
+UnityEditor.UIElements.EditorPanel:Render () (at /Users/bokken/build/output/unity/unity/Modules/UIElementsEditor/EditorPanel.cs:97)
+UnityEngine.UIElements.UIElementsUtility:DoDispatch (UnityEngine.UIElements.BaseVisualElementPanel) (at /Users/bokken/build/output/unity/unity/Modules/UIElements/Core/UIElementsUtility.cs:484)
+UnityEngine.UIElements.UIElementsUtility:UnityEngine.UIElements.IUIElementsUtility.ProcessEvent (int,intptr,bool&) (at /Users/bokken/build/output/unity/unity/Modules/UIElements/Core/UIElementsUtility.cs:232)
+UnityEngine.UIElements.UIEventRegistration:ProcessEvent (int,intptr) (at /Users/bokken/build/output/unity/unity/Modules/UIElements/Core/UIElementsUtility.cs:76)
+UnityEngine.UIElements.UIEventRegistration/<>c:<.cctor>b__1_2 (int,intptr) (at /Users/bokken/build/output/unity/unity/Modules/UIElements/Core/UIElementsUtility.cs:30)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&) (at /Users/bokken/build/output/unity/unity/Modules/IMGUI/GUIUtility.cs:219)
+
+[/Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs line 35]
+
+Ignoring depth surface store action as it is memoryless
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.ScreenCapture:CaptureScreenshotAsTexture (int,UnityEngine.ScreenCapture/StereoScreenCaptureMode)
+UnityEngine.ScreenCapture:CaptureScreenshotAsTexture () (at /Users/bokken/build/output/unity/unity/Modules/ScreenCapture/ScriptBindings/ScreenCapture.bindings.cs:25)
+VelvetVows.Tests.Phase3LAnimationPlayModeTests/<Capture>d__17:MoveNext () (at Assets/VelvetVows/Tests/PlayMode/Phase3LAnimationPlayModeTests.cs:360)
+UnityEngine.TestTools.TestEnumerator/<Execute>d__7:MoveNext () (at ./Library/PackageCache/com.unity.test-framework@082c24152fd4/UnityEngine.TestRunner/NUnitExtensions/Attributes/TestEnumerator.cs:44)
+UnityEngine.TestTools.EnumerableTestMethodCommand/<ExecuteEnumerableAndRecordExceptions>d__4:MoveNext () (at ./Library/PackageCache/com.unity.test-framework@082c24152fd4/UnityEngine.TestRunner/NUnitExtensions/Commands/EnumerableTestMethodCommand.cs:79)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+UnityEditor.EditorGUIUtility:RenderPlayModeViewCamerasInternal (UnityEngine.RenderTexture,int,UnityEngine.Vector2,bool,bool)
+UnityEditor.PlayModeView:RenderView (UnityEngine.Vector2,bool) (at /Users/bokken/build/output/unity/unity/Editor/Mono/PlayModeView/PlayModeView.cs:246)
+UnityEditor.GameView:OnGUI () (at /Users/bokken/build/output/unity/unity/Editor/Mono/GameView/GameView.cs:1054)
+UnityEditor.HostView:InvokeOnGUI (UnityEngine.Rect) (at /Users/bokken/build/output/unity/unity/Editor/Mono/HostView.cs:514)
+UnityEditor.DockArea:DrawView (UnityEngine.Rect) (at /Users/bokken/build/output/unity/unity/Editor/Mono/GUI/DockArea.cs:399)
+UnityEditor.DockArea:OldOnGUI () (at /Users/bokken/build/output/unity/unity/Editor/Mono/GUI/DockArea.cs:390)
+UnityEngine.UIElements.IMGUIContainer:DoOnGUI (UnityEngine.Event,UnityEngine.Matrix4x4,UnityEngine.Rect,bool,UnityEngine.Rect,System.Action,bool) (at /Users/bokken/build/output/unity/unity/Modules/UIElements/Core/IMGUIContainer.cs:403)
+UnityEngine.UIElements.IMGUIContainer:HandleIMGUIEvent (UnityEngine.Event,UnityEngine.Matrix4x4,UnityEngine.Rect,System.Action,bool) (at /Users/bokken/build/output/unity/unity/Modules/UIElements/Core/IMGUIContainer.cs:726)
+UnityEngine.UIElements.IMGUIContainer:DoIMGUIRepaint () (at /Users/bokken/build/output/unity/unity/Modules/UIElements/Core/IMGUIContainer.cs:590)
+UnityEngine.UIElements.UIR.RenderChainCommand:ExecuteNonDrawMesh (UnityEngine.UIElements.UIR.DrawParams,single,System.Exception&) (at /Users/bokken/build/output/unity/unity/Modules/UIElements/Core/Renderer/UIRenderer/UIRenderers.cs:127)
+UnityEngine.UIElements.UIR.UIRenderDevice:EvaluateChain (UnityEngine.UIElements.UIR.RenderChainCommand,UnityEngine.Material,UnityEngine.Material,UnityEngine.Texture,UnityEngine.Texture,single,System.Exception&) (at /Users/bokken/build/output/unity/unity/Modules/UIElements/Core/Renderer/UIRenderer/UIRenderDevice.cs:996)
+UnityEngine.UIElements.UIR.RenderChain:Render () (at /Users/bokken/build/output/unity/unity/Modules/UIElements/Core/Renderer/UIRRenderChain.cs:545)
+UnityEngine.UIElements.UIRRepaintUpdater:Render () (at /Users/bokken/build/output/unity/unity/Modules/UIElements/Core/Renderer/UIRRepaintUpdater.cs:125)
+UnityEngine.UIElements.BaseVisualElementPanel:Render () (at /Users/bokken/build/output/unity/unity/Modules/UIElements/Core/Panel.cs:737)
+UnityEngine.UIElements.Panel:Render () (at /Users/bokken/build/output/unity/unity/Modules/UIElements/Core/Panel.cs:1402)
+UnityEditor.UIElements.EditorPanel:Render () (at /Users/bokken/build/output/unity/unity/Modules/UIElementsEditor/EditorPanel.cs:97)
+UnityEngine.UIElements.UIElementsUtility:DoDispatch (UnityEngine.UIElements.BaseVisualElementPanel) (at /Users/bokken/build/output/unity/unity/Modules/UIElements/Core/UIElementsUtility.cs:484)
+UnityEngine.UIElements.UIElementsUtility:UnityEngine.UIElements.IUIElementsUtility.ProcessEvent (int,intptr,bool&) (at /Users/bokken/build/output/unity/unity/Modules/UIElements/Core/UIElementsUtility.cs:232)
+UnityEngine.UIElements.UIEventRegistration:ProcessEvent (int,intptr) (at /Users/bokken/build/output/unity/unity/Modules/UIElements/Core/UIElementsUtility.cs:76)
+UnityEngine.UIElements.UIEventRegistration/<>c:<.cctor>b__1_2 (int,intptr) (at /Users/bokken/build/output/unity/unity/Modules/UIElements/Core/UIElementsUtility.cs:30)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&) (at /Users/bokken/build/output/unity/unity/Modules/IMGUI/GUIUtility.cs:219)
+
+[/Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs line 35]
+
+[Phase3N] Body grip samples=4 worst gap=0.04455533
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+VelvetVows.Tests.Phase3LAnimationPlayModeTests/<BodyHidingKeepsBothActorsVisibleAndReleasesControl>d__13:MoveNext () (at Assets/VelvetVows/Tests/PlayMode/Phase3LAnimationPlayModeTests.cs:259)
+UnityEngine.TestTools.TestEnumerator/<Execute>d__7:MoveNext () (at ./Library/PackageCache/com.unity.test-framework@082c24152fd4/UnityEngine.TestRunner/NUnitExtensions/Attributes/TestEnumerator.cs:44)
+UnityEngine.TestTools.EnumerableTestMethodCommand/<ExecuteEnumerableAndRecordExceptions>d__4:MoveNext () (at ./Library/PackageCache/com.unity.test-framework@082c24152fd4/UnityEngine.TestRunner/NUnitExtensions/Commands/EnumerableTestMethodCommand.cs:79)
+UnityEngine.TestTools.EnumerableTestMethodCommand:AdvanceEnumerator (System.Collections.IEnumerator) (at ./Library/PackageCache/com.unity.test-framework@082c24152fd4/UnityEngine.TestRunner/NUnitExtensions/Commands/EnumerableTestMethodCommand.cs:64)
+UnityEngine.TestTools.EnumerableTestMethodCommand/<ExecuteEnumerable>d__2:MoveNext () (at ./Library/PackageCache/com.unity.test-framework@082c24152fd4/UnityEngine.TestRunner/NUnitExtensions/Commands/EnumerableTestMethodCommand.cs:47)
+UnityEngine.TestRunner.NUnitExtensions.Runner.UnityLogCheckDelegatingCommand/<ExecuteEnumerable>d__3:MoveNext () (at ./Library/PackageCache/com.unity.test-framework@082c24152fd4/UnityEngine.TestRunner/NUnitExtensions/Runner/UnityLogCheckDelegatingCommand.cs:48)
+UnityEngine.TestTools.BeforeAfterTestCommandBase`1/<ExecuteEnumerable>d__16<NUnit.Framework.ITestAction>:MoveNext () (at ./Library/PackageCache/com.unity.test-framework@082c24152fd4/UnityEngine.TestRunner/NUnitExtensions/Commands/BeforeAfterTestCommandBase.cs:212)
+UnityEngine.TestTools.BeforeAfterTestCommandBase`1/<ExecuteEnumerable>d__16<System.Reflection.MethodInfo>:MoveNext () (at ./Library/PackageCache/com.unity.test-framework@082c24152fd4/UnityEngine.TestRunner/NUnitExtensions/Commands/BeforeAfterTestCommandBase.cs:212)
+UnityEngine.TestTools.BeforeAfterTestCommandBase`1/<ExecuteEnumerable>d__16<System.Reflection.MethodInfo>:MoveNext () (at ./Library/PackageCache/com.unity.test-framework@082c24152fd4/UnityEngine.TestRunner/NUnitExtensions/Commands/BeforeAfterTestCommandBase.cs:212)
+UnityEngine.TestTools.BeforeAfterTestCommandBase`1/<ExecuteEnumerable>d__16<UnityEngine.TestTools.IOuterUnityTestAction>:MoveNext () (at ./Library/PackageCache/com.unity.test-framework@082c24152fd4/UnityEngine.TestRunner/NUnitExtensions/Commands/BeforeAfterTestCommandBase.cs:212)
+UnityEngine.TestTools.RetryCommand/<ExecuteEnumerable>d__2:MoveNext () (at ./Library/PackageCache/com.unity.test-framework@082c24152fd4/UnityEngine.TestRunner/NUnitExtensions/Commands/RetryCommand.cs:37)
+UnityEngine.TestTools.RepeatCommand/<ExecuteEnumerable>d__2:MoveNext () (at ./Library/PackageCache/com.unity.test-framework@082c24152fd4/UnityEngine.TestRunner/NUnitExtensions/Commands/RepeatCommand.cs:36)
+UnityEngine.TestTools.EnumerableApplyChangesToContextCommand/<ExecuteEnumerable>d__1:MoveNext () (at ./Library/PackageCache/com.unity.test-framework@082c24152fd4/UnityEngine.TestRunner/NUnitExtensions/Commands/EnumerableApplyChangesToContextCommand.cs:23)
+UnityEngine.TestTools.IgnoreTestCommand/<ExecuteEnumerable>d__3:MoveNext () (at ./Library/PackageCache/com.unity.test-framework@082c24152fd4/UnityEngine.TestRunner/NUnitExtensions/Commands/IgnoreTestCommand.cs:42)
+UnityEngine.TestTools.StrictCheckCommand/<ExecuteEnumerable>d__2:MoveNext () (at ./Library/PackageCache/com.unity.test-framework@082c24152fd4/UnityEngine.TestRunner/NUnitExtensions/Commands/StrictCheckCommand.cs:29)
+UnityEngine.TestTools.Utils.CoroutineRunner/<WrapEnumeratorForChecks>d__8:MoveNext () (at ./Library/PackageCache/com.unity.test-framework@082c24152fd4/UnityEngine.TestRunner/Utils/CoroutineRunner.cs:58)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+UnityEditor.EditorGUIUtility:RenderPlayModeViewCamerasInternal (UnityEngine.RenderTexture,int,UnityEngine.Vector2,bool,bool)
+UnityEditor.PlayModeView:RenderView (UnityEngine.Vector2,bool) (at /Users/bokken/build/output/unity/unity/Editor/Mono/PlayModeView/PlayModeView.cs:246)
+UnityEditor.GameView:OnGUI () (at /Users/bokken/build/output/unity/unity/Editor/Mono/GameView/GameView.cs:1054)
+UnityEditor.HostView:InvokeOnGUI (UnityEngine.Rect) (at /Users/bokken/build/output/unity/unity/Editor/Mono/HostView.cs:514)
+UnityEditor.DockArea:DrawView (UnityEngine.Rect) (at /Users/bokken/build/output/unity/unity/Editor/Mono/GUI/DockArea.cs:399)
+UnityEditor.DockArea:OldOnGUI () (at /Users/bokken/build/output/unity/unity/Editor/Mono/GUI/DockArea.cs:390)
+UnityEngine.UIElements.IMGUIContainer:DoOnGUI (UnityEngine.Event,UnityEngine.Matrix4x4,UnityEngine.Rect,bool,UnityEngine.Rect,System.Action,bool) (at /Users/bokken/build/output/unity/unity/Modules/UIElements/Core/IMGUIContainer.cs:403)
+UnityEngine.UIElements.IMGUIContainer:HandleIMGUIEvent (UnityEngine.Event,UnityEngine.Matrix4x4,UnityEngine.Rect,System.Action,bool) (at /Users/bokken/build/output/unity/unity/Modules/UIElements/Core/IMGUIContainer.cs:726)
+UnityEngine.UIElements.IMGUIContainer:DoIMGUIRepaint () (at /Users/bokken/build/output/unity/unity/Modules/UIElements/Core/IMGUIContainer.cs:590)
+UnityEngine.UIElements.UIR.RenderChainCommand:ExecuteNonDrawMesh (UnityEngine.UIElements.UIR.DrawParams,single,System.Exception&) (at /Users/bokken/build/output/unity/unity/Modules/UIElements/Core/Renderer/UIRenderer/UIRenderers.cs:127)
+UnityEngine.UIElements.UIR.UIRenderDevice:EvaluateChain (UnityEngine.UIElements.UIR.RenderChainCommand,UnityEngine.Material,UnityEngine.Material,UnityEngine.Texture,UnityEngine.Texture,single,System.Exception&) (at /Users/bokken/build/output/unity/unity/Modules/UIElements/Core/Renderer/UIRenderer/UIRenderDevice.cs:996)
+UnityEngine.UIElements.UIR.RenderChain:Render () (at /Users/bokken/build/output/unity/unity/Modules/UIElements/Core/Renderer/UIRRenderChain.cs:545)
+UnityEngine.UIElements.UIRRepaintUpdater:Render () (at /Users/bokken/build/output/unity/unity/Modules/UIElements/Core/Renderer/UIRRepaintUpdater.cs:125)
+UnityEngine.UIElements.BaseVisualElementPanel:Render () (at /Users/bokken/build/output/unity/unity/Modules/UIElements/Core/Panel.cs:737)
+UnityEngine.UIElements.Panel:Render () (at /Users/bokken/build/output/unity/unity/Modules/UIElements/Core/Panel.cs:1402)
+UnityEditor.UIElements.EditorPanel:Render () (at /Users/bokken/build/output/unity/unity/Modules/UIElementsEditor/EditorPanel.cs:97)
+UnityEngine.UIElements.UIElementsUtility:DoDispatch (UnityEngine.UIElements.BaseVisualElementPanel) (at /Users/bokken/build/output/unity/unity/Modules/UIElements/Core/UIElementsUtility.cs:484)
+UnityEngine.UIElements.UIElementsUtility:UnityEngine.UIElements.IUIElementsUtility.ProcessEvent (int,intptr,bool&) (at /Users/bokken/build/output/unity/unity/Modules/UIElements/Core/UIElementsUtility.cs:232)
+UnityEngine.UIElements.UIEventRegistration:ProcessEvent (int,intptr) (at /Users/bokken/build/output/unity/unity/Modules/UIElements/Core/UIElementsUtility.cs:76)
+UnityEngine.UIElements.UIEventRegistration/<>c:<.cctor>b__1_2 (int,intptr) (at /Users/bokken/build/output/unity/unity/Modules/UIElements/Core/UIElementsUtility.cs:30)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&) (at /Users/bokken/build/output/unity/unity/Modules/IMGUI/GUIUtility.cs:219)
+
+(Filename: Assets/VelvetVows/Tests/PlayMode/Phase3LAnimationPlayModeTests.cs Line: 259)
+
+Saving results to: /Users/sanzar/Library/Application Support/DefaultCompany/VelvetVows/TestResults.xml
+Saving results to: /Users/sanzar/VelvetVows/Phase3N_Captures/body_current.xml
+Thread 0x179103000 may have been prematurely finalized
+Unloading 9 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            24.403 ms
+	Integration:            3541.060 ms
+	Integration of assets:  0.013 ms
+	Thread Wait Time:       9.459 ms
+	Total Operation Time:   3574.935 ms
+Unloading 465 unused Assets / (40.5 MB). Loaded Objects now: 9068.
+Memory consumption went from 1.07 GB to 1.03 GB.
+Total: 548.734125 ms (FindLiveObjects: 81.888500 ms CreateObjectMapping: 7.389917 ms MarkObjects: 355.394792 ms  DeleteObjects: 103.848375 ms)
+
+[Licensing::Client] Successfully resolved entitlement details
+Executing IPostBuildCleanup for: Unity.PerformanceTesting.Editor.TestRunBuilder.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+UnityEditor.TestTools.TestRunner.TestRun.Tasks.BuildActionTaskBase`1/<ExecuteMethods>d__8<UnityEngine.TestTools.IPostBuildCleanup>:MoveNext () (at ./Library/PackageCache/com.unity.test-framework@082c24152fd4/UnityEditor.TestRunner/TestRun/Tasks/BuildActionTaskBase.cs:48)
+UnityEditor.TestTools.TestRunner.TestRun.Tasks.BuildActionTaskBase`1/<Execute>d__7<UnityEngine.TestTools.IPostBuildCleanup>:MoveNext () (at ./Library/PackageCache/com.unity.test-framework@082c24152fd4/UnityEditor.TestRunner/TestRun/Tasks/BuildActionTaskBase.cs:34)
+UnityEditor.TestTools.TestRunner.TestRun.TestJobRunner:ExecuteStep () (at ./Library/PackageCache/com.unity.test-framework@082c24152fd4/UnityEditor.TestRunner/TestRun/TestJobRunner.cs:173)
+UnityEditor.TestTools.TestRunner.TestRun.TestJobRunner:ExecuteCallback () (at ./Library/PackageCache/com.unity.test-framework@082c24152fd4/UnityEditor.TestRunner/TestRun/TestJobRunner.cs:108)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions () (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorApplication.cs:384)
+
+(Filename: ./Library/PackageCache/com.unity.test-framework@082c24152fd4/UnityEditor.TestRunner/TestRun/Tasks/BuildActionTaskBase.cs Line: 48)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1 unused Assets / (1.8 KB). Loaded Objects now: 9256.
+Memory consumption went from 421.8 MB to 421.8 MB.
+Total: 397.210667 ms (FindLiveObjects: 14.343083 ms CreateObjectMapping: 1.636500 ms MarkObjects: 380.499750 ms  DeleteObjects: 0.724583 ms)
+
+Refreshing native plugins compatible for Editor in 2.89 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=df089d783dbc74b51bcfb776899a2900): Total: 2.219 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=1765 ms
+		Asset DB Callback time: managed=377 ms, native=76 ms
+		Scripting: domain reloads=0, domain reload time=0 ms, compile time=0 ms, other=0 ms
+		Project Asset Count: scripts=1825, non-scripts=4922
+		Asset File Changes: new=0, changed=0, moved=0, deleted=1
+		Scan Filter Count: 2
+	InvokeCustomDependenciesCallbacks: 0.001ms
+	InvokePackagesCallback: 0.001ms
+	ApplyChangesToAssetFolders: 6.895ms
+	Scan: 249.531ms
+	OnSourceAssetsModified: 15.583ms
+	CategorizeAssetsWithTransientArtifact: 1.868ms
+	ProcessAssetsWithTransientArtifactChanges: 9.710ms
+	UnregisterDeletedAssets: 0.108ms
+	CategorizeAssets: 276.129ms
+	ImportOutOfDateAssets: 6.276ms (1.537ms without children)
+		ReloadNativeAssets: 1.335ms
+		UnloadImportedAssets: 0.454ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 1.479ms
+		InitializingProgressBar: 0.001ms
+		PostProcessAllAssetNotificationsAddChangedAssets: 0.000ms
+		OnDemandSchedulerStart: 1.470ms
+	PostProcessAllAssets: 366.952ms
+	Hotreload: 71.424ms
+	GatherAllCurrentPrimaryArtifactRevisions: 50.066ms
+	UnloadStreamsBegin: 0.582ms
+	PersistCurrentRevisions: 3.149ms
+	UnloadStreamsEnd: 0.005ms
+	Untracked: 1160.988ms
+
+Test run completed. Exiting with code 0 (Ok). Run completed.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+UnityEditor.TestTools.TestRunner.CommandLineTest.Executer:ExitApplication (UnityEditor.TestTools.TestRunner.CommandLineTest.Executer/ReturnCodes,string) (at ./Library/PackageCache/com.unity.test-framework@082c24152fd4/UnityEditor.TestRunner/CommandLineTest/Executer.cs:81)
+UnityEditor.TestTools.TestRunner.CommandLineTest.Executer:ExitIfRunIsCompleted () (at ./Library/PackageCache/com.unity.test-framework@082c24152fd4/UnityEditor.TestRunner/CommandLineTest/Executer.cs:74)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions () (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorApplication.cs:384)
+
+(Filename: ./Library/PackageCache/com.unity.test-framework@082c24152fd4/UnityEditor.TestRunner/CommandLineTest/Executer.cs Line: 81)
+
+Start importing ProjectSettings/ProjectSettings.asset using Guid(00000000000000004000000000000000) (LibraryAssetImporter) -> (artifact id: '2644caa2ac43fc5de2cffadfc5cd84a2') in 0.137997625 seconds
+Refreshing native plugins compatible for Editor in 7.13 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=a0958137d411c47b8afd01bc7ad47651): Total: 0.357 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+	Summary:
+		Imports: total=1 (actual=1, local cache=0, cache server=0)
+		Asset DB Process Time: managed=15 ms, native=234 ms
+		Asset DB Callback time: managed=34 ms, native=72 ms
+		Scripting: domain reloads=0, domain reload time=0 ms, compile time=0 ms, other=0 ms
+		Project Asset Count: scripts=1825, non-scripts=4922
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 1
+	InvokeCustomDependenciesCallbacks: 0.001ms
+	InvokePackagesCallback: 0.000ms
+	ApplyChangesToAssetFolders: 2.347ms
+	Scan: 18.956ms
+	OnSourceAssetsModified: 0.004ms
+	CategorizeAssetsWithTransientArtifact: 0.241ms
+	ProcessAssetsWithTransientArtifactChanges: 0.420ms
+	CategorizeAssets: 19.209ms
+	ImportOutOfDateAssets: 177.327ms (0.494ms without children)
+		ImportManagerImport: 171.271ms (23.483ms without children)
+			ImportInProcess: 147.753ms
+			UpdateCategorizedAssets: 0.035ms
+		ReloadNativeAssets: 1.524ms
+		UnloadImportedAssets: 0.434ms
+		ReloadImportedAssets: 0.000ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 1.076ms
+		InitializingProgressBar: 0.001ms
+		PostProcessAllAssetNotificationsAddChangedAssets: 0.000ms
+		OnDemandSchedulerStart: 2.526ms
+	PostProcessAllAssets: 36.724ms
+	Hotreload: 70.065ms
+	GatherAllCurrentPrimaryArtifactRevisions: 1.747ms
+	UnloadStreamsBegin: 0.003ms
+	PersistCurrentRevisions: 0.271ms
+	UnloadStreamsEnd: 0.002ms
+	Untracked: 29.888ms
+
+Thread 0x179103000 may have been prematurely finalized
+Input System module state changed to: ShutdownInProgress.
+Input System polling thread exited.
+Input System module state changed to: Shutdown.
+[Physics::Module] Cleanup current backned.
+[Physics::Module] Id: 0xf2b8ea05
+[Licensing::IpcConnector] LicenseClient-sanzar-notifications channel disconnected successfully.
+[Licensing::IpcConnector] LicenseClient-sanzar channel disconnected successfully.
+Thread 0x16ec2f000 may have been prematurely finalized
+Thread 0x16ed47000 may have been prematurely finalized
+Thread 0x16ee5f000 may have been prematurely finalized
+Thread 0x16eba3000 may have been prematurely finalized
+Thread 0x16eeeb000 may have been prematurely finalized
+Thread 0x16edd3000 may have been prematurely finalized
+Thread 0x16ecbb000 may have been prematurely finalized
+AcceleratorClientConnectionCallback - disconnected - :0
+Cleanup mono
+[40m[32minfo[39m[22m[49m: Microsoft.Hosting.Lifetime[0]
+      Application is shutting down...
+[40m[32minfo[39m[22m[49m: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
+      ALC ILPP context 1 is unloading
+debugger-agent: Unable to listen on 44
+[Package Manager] Server process was shutdown
+Checking for leaked weakptr:
+  Found no leaked weakptrs.
+##utp:{"type":"MemoryLeaks","version":2,"phase":"Immediate","time":1794386181002,"processId":71724,"allocatedMemory":16529295,"memoryLabels":[{"Default":14085},{"Permanent":15320},{"Thread":1088712},{"Manager":815646},{"VertexData":8},{"Geometry":408},{"VFX":-104},{"Texture":432},{"Shader":79716},{"Material":24},{"GfxDevice":43632},{"GfxThread":1920},{"Animation":408},{"Audio":4600},{"FontEngine":272},{"Physics":2113},{"Serialization":512},{"Input":9488},{"JobScheduler":33216},{"TextLib":160},{"Mono":32},{"MonoCode":72},{"ScriptingNativeRuntime":155032},{"BaseObject":1620888},{"Resource":912},{"Renderer":3456},{"Transform":4654},{"File":9591},{"WebCam":32},{"Culling":32},{"Terrain":11298},{"Wind":24},{"String":8191},{"DynamicArray":116231},{"HashMap":91575},{"Utility":2675032},{"PoolAlloc":1760},{"AI":72},{"TypeTree":5005},{"ScriptManager":512},{"RuntimeInitializeOnLoadManager":64},{"SpriteAtlas":112},{"GI":7280},{"Director":8192},{"WebRequest":520},{"VR":45593},{"SceneManager":504},{"Video":2112},{"LazyScriptCache":32},{"NativeArray":1872},{"Camera":17},{"Secure":9465},{"SerializationCache":1576},{"APIUpdating":10320},{"Subsystems":336},{"VirtualTexturing":57504},{"StaticSafetyDebugInfo":278528},{"Baselib":16},{"Analytics":312},{"Hierarchy":384},{"CoreStats":12616},{"Identifiers":6192},{"Gui":275725},{"EditorUtility":99312},{"VersionControl":4},{"Undo":955},{"AssetDatabase":8848424},{"EditorGi":328},{"UnityConnect":25552},{"Upm":1804},{"DrivenProperties":72},{"HubClient":4136},{"LocalIPC":205},{"ProfilerEditor":9738},{"CoreBusinessMetrics":3052},{"Licensing":1408},{"AssetReference":32},{"IPCStream":32}]}

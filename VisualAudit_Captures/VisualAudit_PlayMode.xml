@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="1" result="Passed" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-11-10 09:34:27Z" end-time="2026-11-10 09:34:32Z" duration="4.4740284">
+  <test-suite type="TestSuite" id="1064" name="VelvetVows" fullname="VelvetVows" runstate="Runnable" testcasecount="41" result="Passed" start-time="2026-11-10 09:34:27Z" end-time="2026-11-10 09:34:32Z" duration="4.474028" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="PlayMode" />
+    </properties>
+    <test-suite type="Assembly" id="1061" name="VelvetVows.AnimationCompatibility.PlayModeTests.dll" fullname="/Users/sanzar/VelvetVows/Library/ScriptAssemblies/VelvetVows.AnimationCompatibility.PlayModeTests.dll" runstate="Runnable" testcasecount="41" result="Passed" start-time="2026-11-10 09:34:27Z" end-time="2026-11-10 09:34:32Z" duration="4.468520" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="92813" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="PlayMode" />
+        <property name="EditorOnly" value="False" />
+      </properties>
+      <test-suite type="TestSuite" id="1062" name="VelvetVows" fullname="VelvetVows" runstate="Runnable" testcasecount="41" result="Passed" start-time="2026-11-10 09:34:27Z" end-time="2026-11-10 09:34:32Z" duration="4.467251" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-suite type="TestSuite" id="1063" name="Tests" fullname="VelvetVows.Tests" runstate="Runnable" testcasecount="41" result="Passed" start-time="2026-11-10 09:34:27Z" end-time="2026-11-10 09:34:32Z" duration="4.466207" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <test-suite type="TestFixture" id="1059" name="VisualAuditPlayModeTests" fullname="VelvetVows.Tests.VisualAuditPlayModeTests" classname="VelvetVows.Tests.VisualAuditPlayModeTests" runstate="Runnable" testcasecount="1" result="Passed" start-time="2026-11-10 09:34:27Z" end-time="2026-11-10 09:34:32Z" duration="4.464561" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1060" name="CaptureWorldAndCheckMaterials" fullname="VelvetVows.Tests.VisualAuditPlayModeTests.CaptureWorldAndCheckMaterials" methodname="CaptureWorldAndCheckMaterials" classname="VelvetVows.Tests.VisualAuditPlayModeTests" runstate="Runnable" seed="551025357" result="Passed" start-time="2026-11-10 09:34:27Z" end-time="2026-11-10 09:34:32Z" duration="4.455966" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[VelvetVows] GameManager Awake
+[VelvetVows] GameHUD initialized
+[VelvetVows] Canvas active: True, enabled: True, mode: ScreenSpaceOverlay
+[VelvetVows] Canvas scale: (1.00, 1.00, 1.00)
+[VelvetVows] StartPanel active: True
+[VelvetVows] StartPanel scale: (1.00, 1.00, 1.00)
+[VelvetVows] UI input: EventSystem=True, InputSystemUIInputModule=True, actions=True, cursor=None/visible=True
+[VelvetVows] BEGIN listener registered (serialized)
+[VelvetVows] State: Introduction
+[VelvetVows] Canvas active: True, enabled: True, mode: ScreenSpaceOverlay
+[VelvetVows] Canvas scale: (1.00, 1.00, 1.00)
+[VelvetVows] StartPanel active: True
+[VelvetVows] StartPanel scale: (1.00, 1.00, 1.00)
+[VelvetVows] UI input: EventSystem=True, InputSystemUIInputModule=True, actions=True, cursor=None/visible=True
+[VisualAudit] yellow floor prop: Velvet Vows Main/SYSTEMS/Core Gameplay/PHASE 2B CLEANUP/Clean studio cloth @2.43 | Velvet Vows Main/ENVIRONMENT/ArtStudio/Modular floors/Stone and wood floor -18,-6 @3.43 | Velvet Vows Main/SYSTEMS/Core Gameplay/Mechanics/Art Studio story trigger @3.59
+[VisualAudit] white floor prop: Velvet Vows Main/SYSTEMS/Core Gameplay/Mechanics/Art Studio story trigger @2.56 | Velvet Vows Main/SYSTEMS/Core Gameplay/PHASE 2B CLEANUP/Studio disposal bin @7.60 | Velvet Vows Main/WORLD/GOTHIC_ACADEMY/Simple Gothic wall and post colliders/Post collider - Art Studio - Art Studio post -21,1 @9.39 | Velvet Vows Main/ENVIRONMENT/Visual Polish 2.1/Art Studio work in progress/Second art-supply cabinet @11.17 | Velvet Vows Main/ENVIRONMENT/ArtStudio/Modular floors/Stone and wood floor -22,2 @11.31
+[VisualAudit] brown door slab: Velvet Vows Main/SYSTEMS/Core Gameplay/Mechanics/Art Studio story trigger @5.63 | Velvet Vows Main/SYSTEMS/Core Gameplay/PHASE 2B CLEANUP/Clean studio cloth @8.11 | Velvet Vows Main/ENVIRONMENT/ArtStudio/Modular floors/Stone and wood floor -22,-6 @12.28
+[Phase2C] Formal palette applied to Evelyn
+[Phase2C] Formal palette applied to Adrian
+[VisualAudit] Scene renderers=1620, missing materials=0, unsupported shaders=0
+Saving results to: /Users/sanzar/Library/Application Support/DefaultCompany/VelvetVows/TestResults.xml
+]]></output>
+            </test-case>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="1" result="Failed(Child)" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-11-10 16:01:02Z" end-time="2026-11-10 16:01:12Z" duration="9.9360818">
+  <test-suite type="TestSuite" id="1075" name="VelvetVows" fullname="VelvetVows" runstate="Runnable" testcasecount="47" result="Failed" site="Child" start-time="2026-11-10 16:01:02Z" end-time="2026-11-10 16:01:12Z" duration="9.936082" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="PlayMode" />
+    </properties>
+    <failure>
+      <message><![CDATA[One or more child tests had errors]]></message>
+    </failure>
+    <test-suite type="Assembly" id="1072" name="VelvetVows.AnimationCompatibility.PlayModeTests.dll" fullname="/Users/sanzar/VelvetVows/Library/ScriptAssemblies/VelvetVows.AnimationCompatibility.PlayModeTests.dll" runstate="Runnable" testcasecount="47" result="Failed" site="Child" start-time="2026-11-10 16:01:02Z" end-time="2026-11-10 16:01:12Z" duration="9.922422" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="50351" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="PlayMode" />
+        <property name="EditorOnly" value="False" />
+      </properties>
+      <failure>
+        <message><![CDATA[One or more child tests had errors]]></message>
+      </failure>
+      <test-suite type="TestSuite" id="1073" name="VelvetVows" fullname="VelvetVows" runstate="Runnable" testcasecount="47" result="Failed" site="Child" start-time="2026-11-10 16:01:02Z" end-time="2026-11-10 16:01:12Z" duration="9.915994" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <failure>
+          <message><![CDATA[One or more child tests had errors]]></message>
+        </failure>
+        <test-suite type="TestSuite" id="1074" name="Tests" fullname="VelvetVows.Tests" runstate="Runnable" testcasecount="47" result="Failed" site="Child" start-time="2026-11-10 16:01:02Z" end-time="2026-11-10 16:01:12Z" duration="9.909452" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <failure>
+            <message><![CDATA[One or more child tests had errors]]></message>
+          </failure>
+          <test-suite type="TestFixture" id="1065" name="Phase3KCharacterPlayModeTests" fullname="VelvetVows.Tests.Phase3KCharacterPlayModeTests" classname="VelvetVows.Tests.Phase3KCharacterPlayModeTests" runstate="Runnable" testcasecount="1" result="Failed" site="Child" start-time="2026-11-10 16:01:02Z" end-time="2026-11-10 16:01:12Z" duration="9.901035" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <failure>
+              <message><![CDATA[One or more child tests had errors]]></message>
+            </failure>
+            <test-case id="1066" name="FacesFollowRecordingSilenceAndPhysicalFootsteps" fullname="VelvetVows.Tests.Phase3KCharacterPlayModeTests.FacesFollowRecordingSilenceAndPhysicalFootsteps" methodname="FacesFollowRecordingSilenceAndPhysicalFootsteps" classname="VelvetVows.Tests.Phase3KCharacterPlayModeTests" runstate="Runnable" seed="1501288409" result="Failed" start-time="2026-11-10 16:01:02Z" end-time="2026-11-10 16:01:12Z" duration="9.873962" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="Timeout" value="180000" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <failure>
+                <message><![CDATA[  Speech should lower music
+  Expected: less than 0.0f
+  But was:  0.0857116431f
+]]></message>
+                <stack-trace><![CDATA[at VelvetVows.Tests.Phase3KCharacterPlayModeTests+<FacesFollowRecordingSilenceAndPhysicalFootsteps>d__9.MoveNext () [0x00721] in /Users/sanzar/VelvetVows/Assets/VelvetVows/Tests/PlayMode/Phase3KCharacterPlayModeTests.cs:79
+at UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in ./Library/PackageCache/com.unity.test-framework@082c24152fd4/UnityEngine.TestRunner/NUnitExtensions/Attributes/TestEnumerator.cs:44
+]]></stack-trace>
+              </failure>
+              <output><![CDATA[[VelvetVows] GameManager Awake
+[VelvetVows] GameHUD initialized
+[VelvetVows] Canvas active: True, enabled: True, mode: ScreenSpaceOverlay
+[VelvetVows] Canvas scale: (1.00, 1.00, 1.00)
+[VelvetVows] StartPanel active: True
+[VelvetVows] StartPanel scale: (1.00, 1.00, 1.00)
+[VelvetVows] UI input: EventSystem=True, InputSystemUIInputModule=True, actions=True, cursor=None/visible=True
+[VelvetVows] BEGIN listener registered (serialized)
+[VelvetVows] State: Introduction
+[VelvetVows] Canvas active: True, enabled: True, mode: ScreenSpaceOverlay
+[VelvetVows] Canvas scale: (1.00, 1.00, 1.00)
+[VelvetVows] StartPanel active: True
+[VelvetVows] StartPanel scale: (1.00, 1.00, 1.00)
+[VelvetVows] UI input: EventSystem=True, InputSystemUIInputModule=True, actions=True, cursor=None/visible=True
+Ignoring depth surface load action as it is memoryless
+Ignoring depth surface store action as it is memoryless
+Saving results to: /Users/sanzar/Library/Application Support/DefaultCompany/VelvetVows/TestResults.xml
+]]></output>
+            </test-case>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

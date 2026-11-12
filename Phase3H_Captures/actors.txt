@@ -1,0 +1,406 @@
+ACTOR Velvet Vows Main/CHARACTERS/AmbientNPCs/Clara pos=(-21.00, 0.00, 22.00) scale=(1.00, 1.00, 1.00)
+HEAD Velvet Vows Main/CHARACTERS/AmbientNPCs/Clara/Armature/Spine/Chest/Neck/Head (1.00, 1.00, 1.00)
+MESH Casual1 bounds=Center: (-21.03, 0.64, 22.00), Extents: (0.32, 0.73, 0.56) blendshapes=0
+MAT 0 Clara Casual Student_Casual1_0 shader=Universal Render Pipeline/Lit tex=Assets/AnimeGirls/Casual1/SourceFiles/Texture/Casual1.png
+MESH Casual1_Body bounds=Center: (-21.00, 0.81, 22.00), Extents: (0.32, 0.79, 0.71) blendshapes=35
+MAT 0 Clara Casual Student_Casual1_Body_0 shader=Universal Render Pipeline/Lit tex=Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Tex/Tex_Mouth.png
+MAT 1 Clara Casual Student_Casual1_Body_1 shader=Universal Render Pipeline/Lit tex=
+MAT 2 Clara Casual Student_Casual1_Body_2 shader=Universal Render Pipeline/Lit tex=Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Tex/Tex_Eyeliner.png
+MAT 3 Clara Casual Student_Casual1_Body_3 shader=Universal Render Pipeline/Lit tex=Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Tex/Tex_Eyelashes.png
+MAT 4 Clara Casual Student_Casual1_Body_4 shader=Universal Render Pipeline/Lit tex=Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Tex/Tex_Eyebrows.png
+MAT 5 Clara Casual Student_Casual1_Body_5 shader=Universal Render Pipeline/Lit tex=Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Tex/Tex_EyeReflection.png
+MAT 6 Clara Casual Student_Casual1_Body_6 shader=Universal Render Pipeline/Lit tex=Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Tex/Tex_Eyes.png
+MAT 7 Clara Casual Student_Casual1_Body_7 shader=Universal Render Pipeline/Lit tex=Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Tex/Tex_Face.png
+MAT 8 Clara Casual Student_Casual1_Body_8 shader=Universal Render Pipeline/Lit tex=Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Tex/Tex_Body.png
+MAT 9 Clara Casual Student_Casual1_Body_9 shader=Universal Render Pipeline/Lit tex=Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Tex/Tex_Hair1_head.png
+MESH Hair bounds=Center: (-21.03, 0.64, 22.00), Extents: (0.32, 0.73, 0.56) blendshapes=0
+MAT 0 Clara Casual Student_Hair_0 shader=Universal Render Pipeline/Lit tex=Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Tex/Tex_Hair1_hair.png
+ACTOR Velvet Vows Main/SYSTEMS/Core Gameplay/PHASE 2C BLACK ROSE BALL/Ball guests - ten existing academy prefabs/Ball guest 08 pos=(24.45, 0.00, -2.20) scale=(1.00, 1.00, 1.00)
+HEAD Velvet Vows Main/SYSTEMS/Core Gameplay/PHASE 2C BLACK ROSE BALL/Ball guests - ten existing academy prefabs/Ball guest 08/Armature/Spine/Chest/Neck/Head (1.00, 1.00, 1.00)
+MESH Casual1 bounds=Center: (24.42, 0.64, -2.21), Extents: (0.49, 0.73, 0.60) blendshapes=0
+MAT 0 Isabelle Casual Student_Casual1_0 shader=Universal Render Pipeline/Lit tex=Assets/AnimeGirls/Casual1/SourceFiles/Texture/Casual1.png
+MESH Casual1_Body bounds=Center: (24.45, 0.81, -2.20), Extents: (0.56, 0.79, 0.74) blendshapes=35
+MAT 0 Isabelle Casual Student_Casual1_Body_0 shader=Universal Render Pipeline/Lit tex=Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Tex/Tex_Mouth.png
+MAT 1 Isabelle Casual Student_Casual1_Body_1 shader=Universal Render Pipeline/Lit tex=
+MAT 2 Isabelle Casual Student_Casual1_Body_2 shader=Universal Render Pipeline/Lit tex=Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Tex/Tex_Eyeliner.png
+MAT 3 Isabelle Casual Student_Casual1_Body_3 shader=Universal Render Pipeline/Lit tex=Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Tex/Tex_Eyelashes.png
+MAT 4 Isabelle Casual Student_Casual1_Body_4 shader=Universal Render Pipeline/Lit tex=Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Tex/Tex_Eyebrows.png
+MAT 5 Isabelle Casual Student_Casual1_Body_5 shader=Universal Render Pipeline/Lit tex=Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Tex/Tex_EyeReflection.png
+MAT 6 Isabelle Casual Student_Casual1_Body_6 shader=Universal Render Pipeline/Lit tex=Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Tex/Tex_Eyes.png
+MAT 7 Isabelle Casual Student_Casual1_Body_7 shader=Universal Render Pipeline/Lit tex=Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Tex/Tex_Face.png
+MAT 8 Isabelle Casual Student_Casual1_Body_8 shader=Universal Render Pipeline/Lit tex=Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Tex/Tex_Body.png
+MAT 9 Isabelle Casual Student_Casual1_Body_9 shader=Universal Render Pipeline/Lit tex=Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Tex/Tex_Hair1_head.png
+MESH Hair bounds=Center: (24.42, 0.64, -2.21), Extents: (0.49, 0.73, 0.60) blendshapes=0
+MAT 0 Isabelle Casual Student_Hair_0 shader=Universal Render Pipeline/Lit tex=Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Tex/Tex_Hair1_hair.png
+ACTOR Velvet Vows Main/SYSTEMS/Core Gameplay/PHASE 2C BLACK ROSE BALL/Ball guests - ten existing academy prefabs/Ball guest 10/Akio Highschool Uniform pos=(25.10, 0.00, 0.65) scale=(1.00, 1.00, 1.00)
+HEAD Velvet Vows Main/SYSTEMS/Core Gameplay/PHASE 2C BLACK ROSE BALL/Ball guests - ten existing academy prefabs/Ball guest 10/Akio Highschool Uniform/Armature/Hips/Spine/Chest/Upper Chest/Neck/Head (1.00, 1.00, 1.00)
+MESH Body bounds=Center: (25.10, 0.83, 0.65), Extents: (0.54, 0.92, 0.76) blendshapes=54
+MAT 0 Male Student Slate_Body_0 shader=Universal Render Pipeline/Lit tex=Assets/Novacorp Studios/Characters/Hikari Series/Akio/Highschool Uniform/Materials/6569948208 Body.png
+MAT 1 Male Student Slate_Body_1 shader=Universal Render Pipeline/Lit tex=Assets/Novacorp Studios/Characters/Hikari Series/Akio/Highschool Uniform/Materials/6569948208 Face.png
+MAT 2 Male Student Slate_Body_2 shader=Universal Render Pipeline/Lit tex=Assets/Novacorp Studios/Characters/Hikari Series/Akio/Highschool Uniform/Materials/6569948208 Face.png
+MAT 3 Male Student Slate_Body_3 shader=Universal Render Pipeline/Lit tex=Assets/Novacorp Studios/Characters/Hikari Series/Akio/Highschool Uniform/Materials/6569948208 Face.png
+MAT 4 Male Student Slate_Body_4 shader=Universal Render Pipeline/Lit tex=Assets/Novacorp Studios/Characters/Hikari Series/Akio/Highschool Uniform/Materials/6569948208 Face.png
+MAT 5 Male Student Slate_Body_5 shader=Universal Render Pipeline/Lit tex=Assets/Novacorp Studios/Characters/Hikari Series/Akio/Highschool Uniform/Materials/6569948208 Face.png
+MAT 6 Male Student Slate_Body_6 shader=Universal Render Pipeline/Lit tex=Assets/Novacorp Studios/Characters/Hikari Series/Akio/Highschool Uniform/Materials/6569948208 Body.png
+MAT 7 Male Student Slate_Body_7 shader=Universal Render Pipeline/Lit tex=Assets/Novacorp Studios/Characters/Hikari Series/Akio/Highschool Uniform/Materials/6569948208 Body.png
+MAT 8 Male Student Slate_Body_8 shader=Universal Render Pipeline/Lit tex=Assets/Novacorp Studios/Characters/Hikari Series/Akio/Highschool Uniform/Materials/6569948208 Body.png
+ACTOR Velvet Vows Main/CHARACTERS/AmbientNPCs/Ballroom guest/Akio Highschool Uniform pos=(30.00, 0.00, -7.00) scale=(1.00, 1.00, 1.00)
+HEAD Velvet Vows Main/CHARACTERS/AmbientNPCs/Ballroom guest/Akio Highschool Uniform/Armature/Hips/Spine/Chest/Upper Chest/Neck/Head (1.00, 1.00, 1.00)
+MESH Body bounds=Center: (30.00, 0.83, -7.01), Extents: (0.75, 0.92, 0.21) blendshapes=54
+MAT 0 Male Student Slate_Body_0 shader=Universal Render Pipeline/Lit tex=Assets/Novacorp Studios/Characters/Hikari Series/Akio/Highschool Uniform/Materials/6569948208 Body.png
+MAT 1 Male Student Slate_Body_1 shader=Universal Render Pipeline/Lit tex=Assets/Novacorp Studios/Characters/Hikari Series/Akio/Highschool Uniform/Materials/6569948208 Face.png
+MAT 2 Male Student Slate_Body_2 shader=Universal Render Pipeline/Lit tex=Assets/Novacorp Studios/Characters/Hikari Series/Akio/Highschool Uniform/Materials/6569948208 Face.png
+MAT 3 Male Student Slate_Body_3 shader=Universal Render Pipeline/Lit tex=Assets/Novacorp Studios/Characters/Hikari Series/Akio/Highschool Uniform/Materials/6569948208 Face.png
+MAT 4 Male Student Slate_Body_4 shader=Universal Render Pipeline/Lit tex=Assets/Novacorp Studios/Characters/Hikari Series/Akio/Highschool Uniform/Materials/6569948208 Face.png
+MAT 5 Male Student Slate_Body_5 shader=Universal Render Pipeline/Lit tex=Assets/Novacorp Studios/Characters/Hikari Series/Akio/Highschool Uniform/Materials/6569948208 Face.png
+MAT 6 Male Student Slate_Body_6 shader=Universal Render Pipeline/Lit tex=Assets/Novacorp Studios/Characters/Hikari Series/Akio/Highschool Uniform/Materials/6569948208 Body.png
+MAT 7 Male Student Slate_Body_7 shader=Universal Render Pipeline/Lit tex=Assets/Novacorp Studios/Characters/Hikari Series/Akio/Highschool Uniform/Materials/6569948208 Body.png
+MAT 8 Male Student Slate_Body_8 shader=Universal Render Pipeline/Lit tex=Assets/Novacorp Studios/Characters/Hikari Series/Akio/Highschool Uniform/Materials/6569948208 Body.png
+ACTOR Velvet Vows Main/SYSTEMS/Core Gameplay/PHASE 2C BLACK ROSE BALL/Ball guests - ten existing academy prefabs/Ball guest 09 pos=(15.10, 0.00, 0.65) scale=(1.00, 1.00, 1.00)
+HEAD Velvet Vows Main/SYSTEMS/Core Gameplay/PHASE 2C BLACK ROSE BALL/Ball guests - ten existing academy prefabs/Ball guest 09/Armature/Spine/Chest/Neck/Head (1.00, 1.00, 1.00)
+MESH Casual1 bounds=Center: (15.13, 0.64, 0.66), Extents: (0.49, 0.73, 0.60) blendshapes=0
+MAT 0 Clara Casual Student_Casual1_0 shader=Universal Render Pipeline/Lit tex=Assets/AnimeGirls/Casual1/SourceFiles/Texture/Casual1.png
+MESH Casual1_Body bounds=Center: (15.10, 0.81, 0.65), Extents: (0.56, 0.79, 0.74) blendshapes=35
+MAT 0 Clara Casual Student_Casual1_Body_0 shader=Universal Render Pipeline/Lit tex=Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Tex/Tex_Mouth.png
+MAT 1 Clara Casual Student_Casual1_Body_1 shader=Universal Render Pipeline/Lit tex=
+MAT 2 Clara Casual Student_Casual1_Body_2 shader=Universal Render Pipeline/Lit tex=Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Tex/Tex_Eyeliner.png
+MAT 3 Clara Casual Student_Casual1_Body_3 shader=Universal Render Pipeline/Lit tex=Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Tex/Tex_Eyelashes.png
+MAT 4 Clara Casual Student_Casual1_Body_4 shader=Universal Render Pipeline/Lit tex=Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Tex/Tex_Eyebrows.png
+MAT 5 Clara Casual Student_Casual1_Body_5 shader=Universal Render Pipeline/Lit tex=Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Tex/Tex_EyeReflection.png
+MAT 6 Clara Casual Student_Casual1_Body_6 shader=Universal Render Pipeline/Lit tex=Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Tex/Tex_Eyes.png
+MAT 7 Clara Casual Student_Casual1_Body_7 shader=Universal Render Pipeline/Lit tex=Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Tex/Tex_Face.png
+MAT 8 Clara Casual Student_Casual1_Body_8 shader=Universal Render Pipeline/Lit tex=Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Tex/Tex_Body.png
+MAT 9 Clara Casual Student_Casual1_Body_9 shader=Universal Render Pipeline/Lit tex=Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Tex/Tex_Hair1_head.png
+MESH Hair bounds=Center: (15.13, 0.64, 0.66), Extents: (0.49, 0.73, 0.60) blendshapes=0
+MAT 0 Clara Casual Student_Hair_0 shader=Universal Render Pipeline/Lit tex=Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Tex/Tex_Hair1_hair.png
+ACTOR Velvet Vows Main/CHARACTERS/AmbientNPCs/Odette pos=(-13.20, 0.00, 15.20) scale=(1.00, 1.00, 1.00)
+HEAD Velvet Vows Main/CHARACTERS/AmbientNPCs/Odette/Armature/Spine/Chest/Neck/Head (1.00, 1.00, 1.00)
+MESH Casual1 bounds=Center: (-13.20, 0.64, 15.17), Extents: (0.54, 0.73, 0.27) blendshapes=0
+MAT 0 Odette Casual Student_Casual1_0 shader=Universal Render Pipeline/Lit tex=Assets/AnimeGirls/Casual1/SourceFiles/Texture/Casual1.png
+MESH Casual1_Body bounds=Center: (-13.20, 0.81, 15.20), Extents: (0.69, 0.79, 0.26) blendshapes=35
+MAT 0 Odette Casual Student_Casual1_Body_0 shader=Universal Render Pipeline/Lit tex=Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Tex/Tex_Mouth.png
+MAT 1 Odette Casual Student_Casual1_Body_1 shader=Universal Render Pipeline/Lit tex=
+MAT 2 Odette Casual Student_Casual1_Body_2 shader=Universal Render Pipeline/Lit tex=Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Tex/Tex_Eyeliner.png
+MAT 3 Odette Casual Student_Casual1_Body_3 shader=Universal Render Pipeline/Lit tex=Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Tex/Tex_Eyelashes.png
+MAT 4 Odette Casual Student_Casual1_Body_4 shader=Universal Render Pipeline/Lit tex=Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Tex/Tex_Eyebrows.png
+MAT 5 Odette Casual Student_Casual1_Body_5 shader=Universal Render Pipeline/Lit tex=Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Tex/Tex_EyeReflection.png
+MAT 6 Odette Casual Student_Casual1_Body_6 shader=Universal Render Pipeline/Lit tex=Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Tex/Tex_Eyes.png
+MAT 7 Odette Casual Student_Casual1_Body_7 shader=Universal Render Pipeline/Lit tex=Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Tex/Tex_Face.png
+MAT 8 Odette Casual Student_Casual1_Body_8 shader=Universal Render Pipeline/Lit tex=Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Tex/Tex_Body.png
+MAT 9 Odette Casual Student_Casual1_Body_9 shader=Universal Render Pipeline/Lit tex=Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Tex/Tex_Hair1_head.png
+MESH Hair bounds=Center: (-13.20, 0.64, 15.17), Extents: (0.54, 0.73, 0.27) blendshapes=0
+MAT 0 Odette Casual Student_Hair_0 shader=Universal Render Pipeline/Lit tex=Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Tex/Tex_Hair1_hair.png
+ACTOR Velvet Vows Main/PLAYER/Evelyn Moreau - player controller/Evelyn Moreau/Kasumi - School pos=(0.00, 0.02, -2.00) scale=(1.00, 1.00, 1.00)
+HEAD Velvet Vows Main/PLAYER/Evelyn Moreau - player controller/Evelyn Moreau/Kasumi - School/Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_C_Neck/J_Bip_C_Head (1.00, 1.00, 1.00)
+MESH all_mesh bounds=Center: (0.00, 0.85, -2.02), Extents: (0.73, 0.83, 0.16) blendshapes=57
+MAT 0 N00_000_00_FaceMouth_00_FACE (Instance) shader=Universal Render Pipeline/Lit tex=Assets/Visutronik/Characters/Volleyball - Sky Strikers/Kasumi Hoshino/Textures/School/_01.png
+MAT 1 N00_000_00_EyeIris_00_EYE (Instance) shader=Universal Render Pipeline/Lit tex=Assets/Visutronik/Characters/Volleyball - Sky Strikers/Kasumi Hoshino/Textures/School/_02.png
+MAT 2 N00_000_00_EyeHighlight_00_EYE (Instance) shader=Universal Render Pipeline/Lit tex=Assets/Visutronik/Characters/Volleyball - Sky Strikers/Kasumi Hoshino/Textures/School/_03.png
+MAT 3 N00_000_00_Face_00_SKIN (Instance) shader=Universal Render Pipeline/Lit tex=Assets/Visutronik/Characters/Volleyball - Sky Strikers/Kasumi Hoshino/Textures/School/_04.png
+MAT 4 N00_000_00_EyeWhite_00_EYE (Instance) shader=Universal Render Pipeline/Lit tex=Assets/Visutronik/Characters/Volleyball - Sky Strikers/Kasumi Hoshino/Textures/School/_06.png
+MAT 5 N00_000_00_FaceBrow_00_FACE (Instance) shader=Universal Render Pipeline/Lit tex=Assets/Visutronik/Characters/Volleyball - Sky Strikers/Kasumi Hoshino/Textures/School/_07.png
+MAT 6 N00_000_00_FaceEyeline_00_FACE (Instance) shader=Universal Render Pipeline/Lit tex=Assets/Visutronik/Characters/Volleyball - Sky Strikers/Kasumi Hoshino/Textures/School/_09.png
+MAT 7 N00_000_00_Body_00_SKIN (Instance) shader=Universal Render Pipeline/Lit tex=Assets/Visutronik/Characters/Volleyball - Sky Strikers/Kasumi Hoshino/Textures/School/_10.png
+MAT 8 N00_007_02_Tops_01_CLOTH (Instance) shader=Universal Render Pipeline/Lit tex=Assets/Visutronik/Characters/Volleyball - Sky Strikers/Kasumi Hoshino/Textures/School/_12.png
+MAT 9 N00_001_03_Bottoms_01_CLOTH (Instance) shader=Universal Render Pipeline/Lit tex=Assets/Visutronik/Characters/Volleyball - Sky Strikers/Kasumi Hoshino/Textures/School/_13.png
+MAT 10 N00_000_00_HairBack_00_HAIR (Instance) shader=Universal Render Pipeline/Lit tex=Assets/Visutronik/Characters/Volleyball - Sky Strikers/Kasumi Hoshino/Textures/School/_14.png
+MAT 11 N00_001_01_Shoes_01_CLOTH (Instance) shader=Universal Render Pipeline/Lit tex=Assets/Visutronik/Characters/Volleyball - Sky Strikers/Kasumi Hoshino/Textures/School/_15.png
+MAT 12 N00_001_02_Accessory_Tie_01_CLOTH (Instance) shader=Universal Render Pipeline/Lit tex=Assets/Visutronik/Characters/Volleyball - Sky Strikers/Kasumi Hoshino/Textures/School/_16.png
+MAT 13 N00_007_01_Tops_01_CLOTH (Instance) shader=Universal Render Pipeline/Lit tex=Assets/Visutronik/Characters/Volleyball - Sky Strikers/Kasumi Hoshino/Textures/School/_17.png
+MAT 14 N00_000_Hair_00_HAIR (Instance) shader=Universal Render Pipeline/Lit tex=Assets/Visutronik/Characters/Volleyball - Sky Strikers/Kasumi Hoshino/Textures/School/_18.png
+ACTOR Velvet Vows Main/CHARACTERS/AmbientNPCs/Amelie pos=(1.20, 0.00, -1.20) scale=(1.00, 1.00, 1.00)
+HEAD Velvet Vows Main/CHARACTERS/AmbientNPCs/Amelie/Armature/Spine/Chest/Neck/Head (1.00, 1.00, 1.00)
+MESH Casual1 bounds=Center: (1.17, 0.64, -1.20), Extents: (0.27, 0.73, 0.54) blendshapes=0
+MAT 0 Amelie Casual Student_Casual1_0 shader=Universal Render Pipeline/Lit tex=Assets/AnimeGirls/Casual1/SourceFiles/Texture/Casual1.png
+MESH Casual1_Body bounds=Center: (1.20, 0.81, -1.20), Extents: (0.26, 0.79, 0.69) blendshapes=35
+MAT 0 Amelie Casual Student_Casual1_Body_0 shader=Universal Render Pipeline/Lit tex=Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Tex/Tex_Mouth.png
+MAT 1 Amelie Casual Student_Casual1_Body_1 shader=Universal Render Pipeline/Lit tex=
+MAT 2 Amelie Casual Student_Casual1_Body_2 shader=Universal Render Pipeline/Lit tex=Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Tex/Tex_Eyeliner.png
+MAT 3 Amelie Casual Student_Casual1_Body_3 shader=Universal Render Pipeline/Lit tex=Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Tex/Tex_Eyelashes.png
+MAT 4 Amelie Casual Student_Casual1_Body_4 shader=Universal Render Pipeline/Lit tex=Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Tex/Tex_Eyebrows.png
+MAT 5 Amelie Casual Student_Casual1_Body_5 shader=Universal Render Pipeline/Lit tex=Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Tex/Tex_EyeReflection.png
+MAT 6 Amelie Casual Student_Casual1_Body_6 shader=Universal Render Pipeline/Lit tex=Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Tex/Tex_Eyes.png
+MAT 7 Amelie Casual Student_Casual1_Body_7 shader=Universal Render Pipeline/Lit tex=Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Tex/Tex_Face.png
+MAT 8 Amelie Casual Student_Casual1_Body_8 shader=Universal Render Pipeline/Lit tex=Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Tex/Tex_Body.png
+MAT 9 Amelie Casual Student_Casual1_Body_9 shader=Universal Render Pipeline/Lit tex=Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Tex/Tex_Hair1_head.png
+MESH Hair bounds=Center: (1.17, 0.64, -1.20), Extents: (0.27, 0.73, 0.54) blendshapes=0
+MAT 0 Amelie Casual Student_Hair_0 shader=Universal Render Pipeline/Lit tex=Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Tex/Tex_Hair1_hair.png
+ACTOR Velvet Vows Main/ENVIRONMENT/Visual Polish 2.1/Ballroom gala composition/Ballroom gala guest 2/Akio Highschool Uniform pos=(29.00, 0.00, -9.00) scale=(1.00, 1.00, 1.00)
+HEAD Velvet Vows Main/ENVIRONMENT/Visual Polish 2.1/Ballroom gala composition/Ballroom gala guest 2/Akio Highschool Uniform/Armature/Hips/Spine/Chest/Upper Chest/Neck/Head (1.00, 1.00, 1.00)
+MESH Body bounds=Center: (29.00, 0.83, -8.99), Extents: (0.78, 0.92, 0.46) blendshapes=54
+MAT 0 Male Student Burgundy_Body_0 shader=Universal Render Pipeline/Lit tex=Assets/Novacorp Studios/Characters/Hikari Series/Akio/Highschool Uniform/Materials/6569948208 Body.png
+MAT 1 Male Student Burgundy_Body_1 shader=Universal Render Pipeline/Lit tex=Assets/Novacorp Studios/Characters/Hikari Series/Akio/Highschool Uniform/Materials/6569948208 Face.png
+MAT 2 Male Student Burgundy_Body_2 shader=Universal Render Pipeline/Lit tex=Assets/Novacorp Studios/Characters/Hikari Series/Akio/Highschool Uniform/Materials/6569948208 Face.png
+MAT 3 Male Student Burgundy_Body_3 shader=Universal Render Pipeline/Lit tex=Assets/Novacorp Studios/Characters/Hikari Series/Akio/Highschool Uniform/Materials/6569948208 Face.png
+MAT 4 Male Student Burgundy_Body_4 shader=Universal Render Pipeline/Lit tex=Assets/Novacorp Studios/Characters/Hikari Series/Akio/Highschool Uniform/Materials/6569948208 Face.png
+MAT 5 Male Student Burgundy_Body_5 shader=Universal Render Pipeline/Lit tex=Assets/Novacorp Studios/Characters/Hikari Series/Akio/Highschool Uniform/Materials/6569948208 Face.png
+MAT 6 Male Student Burgundy_Body_6 shader=Universal Render Pipeline/Lit tex=Assets/Novacorp Studios/Characters/Hikari Series/Akio/Highschool Uniform/Materials/6569948208 Body.png
+MAT 7 Male Student Burgundy_Body_7 shader=Universal Render Pipeline/Lit tex=Assets/Novacorp Studios/Characters/Hikari Series/Akio/Highschool Uniform/Materials/6569948208 Body.png
+MAT 8 Male Student Burgundy_Body_8 shader=Universal Render Pipeline/Lit tex=Assets/Novacorp Studios/Characters/Hikari Series/Akio/Highschool Uniform/Materials/6569948208 Body.png
+ACTOR Velvet Vows Main/SYSTEMS/Core Gameplay/Gameplay Actors/Academy Caretaker - restricted patrol/Adrian Valmont/Akio Highschool Uniform pos=(-2.00, 0.00, 17.00) scale=(1.00, 1.00, 1.00)
+HEAD Velvet Vows Main/SYSTEMS/Core Gameplay/Gameplay Actors/Academy Caretaker - restricted patrol/Adrian Valmont/Akio Highschool Uniform/Armature/Hips/Spine/Chest/Upper Chest/Neck/Head (1.00, 1.00, 1.00)
+MESH Body bounds=Center: (-2.00, 0.83, 17.01), Extents: (0.75, 0.92, 0.21) blendshapes=54
+MAT 0 Hair HAIR shader=Universal Render Pipeline/Lit tex=Assets/Novacorp Studios/Characters/Hikari Series/Akio/Highschool Uniform/Materials/6569948208 Body.png
+MAT 1 FaceMouth FACE shader=Universal Render Pipeline/Lit tex=Assets/Novacorp Studios/Characters/Hikari Series/Akio/Highschool Uniform/Materials/6569948208 Face.png
+MAT 2 EyeIris EYE shader=Universal Render Pipeline/Lit tex=Assets/Novacorp Studios/Characters/Hikari Series/Akio/Highschool Uniform/Materials/6569948208 Face.png
+MAT 3 EyeHighlight EYE shader=Universal Render Pipeline/Lit tex=Assets/Novacorp Studios/Characters/Hikari Series/Akio/Highschool Uniform/Materials/6569948208 Face.png
+MAT 4 Face SKIN shader=Universal Render Pipeline/Lit tex=Assets/Novacorp Studios/Characters/Hikari Series/Akio/Highschool Uniform/Materials/6569948208 Face.png
+MAT 5 FaceBrow FACE shader=Universal Render Pipeline/Lit tex=Assets/Novacorp Studios/Characters/Hikari Series/Akio/Highschool Uniform/Materials/6569948208 Face.png
+MAT 6 Body SKIN shader=Universal Render Pipeline/Lit tex=Assets/Novacorp Studios/Characters/Hikari Series/Akio/Highschool Uniform/Materials/6569948208 Body.png
+MAT 7 HairBack HAIR shader=Universal Render Pipeline/Lit tex=Assets/Novacorp Studios/Characters/Hikari Series/Akio/Highschool Uniform/Materials/6569948208 Body.png
+MAT 8 Bottoms CLOTH shader=Universal Render Pipeline/Lit tex=Assets/Novacorp Studios/Characters/Hikari Series/Akio/Highschool Uniform/Materials/6569948208 Body.png
+ACTOR Velvet Vows Main/SYSTEMS/Core Gameplay/PHASE 2C BLACK ROSE BALL/Ball guests - ten existing academy prefabs/Ball guest 01 pos=(15.70, 0.00, 2.20) scale=(1.00, 1.00, 1.00)
+HEAD Velvet Vows Main/SYSTEMS/Core Gameplay/PHASE 2C BLACK ROSE BALL/Ball guests - ten existing academy prefabs/Ball guest 01/Armature/Spine/Chest/Neck/Head (1.00, 1.00, 1.00)
+MESH Casual1 bounds=Center: (15.73, 0.64, 2.21), Extents: (0.49, 0.73, 0.60) blendshapes=0
+MAT 0 Amelie Casual Student_Casual1_0 shader=Universal Render Pipeline/Lit tex=Assets/AnimeGirls/Casual1/SourceFiles/Texture/Casual1.png
+MESH Casual1_Body bounds=Center: (15.70, 0.81, 2.20), Extents: (0.56, 0.79, 0.74) blendshapes=35
+MAT 0 Amelie Casual Student_Casual1_Body_0 shader=Universal Render Pipeline/Lit tex=Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Tex/Tex_Mouth.png
+MAT 1 Amelie Casual Student_Casual1_Body_1 shader=Universal Render Pipeline/Lit tex=
+MAT 2 Amelie Casual Student_Casual1_Body_2 shader=Universal Render Pipeline/Lit tex=Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Tex/Tex_Eyeliner.png
+MAT 3 Amelie Casual Student_Casual1_Body_3 shader=Universal Render Pipeline/Lit tex=Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Tex/Tex_Eyelashes.png
+MAT 4 Amelie Casual Student_Casual1_Body_4 shader=Universal Render Pipeline/Lit tex=Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Tex/Tex_Eyebrows.png
+MAT 5 Amelie Casual Student_Casual1_Body_5 shader=Universal Render Pipeline/Lit tex=Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Tex/Tex_EyeReflection.png
+MAT 6 Amelie Casual Student_Casual1_Body_6 shader=Universal Render Pipeline/Lit tex=Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Tex/Tex_Eyes.png
+MAT 7 Amelie Casual Student_Casual1_Body_7 shader=Universal Render Pipeline/Lit tex=Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Tex/Tex_Face.png
+MAT 8 Amelie Casual Student_Casual1_Body_8 shader=Universal Render Pipeline/Lit tex=Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Tex/Tex_Body.png
+MAT 9 Amelie Casual Student_Casual1_Body_9 shader=Universal Render Pipeline/Lit tex=Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Tex/Tex_Hair1_head.png
+MESH Hair bounds=Center: (15.73, 0.64, 2.21), Extents: (0.49, 0.73, 0.60) blendshapes=0
+MAT 0 Amelie Casual Student_Hair_0 shader=Universal Render Pipeline/Lit tex=Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Tex/Tex_Hair1_hair.png
+ACTOR Velvet Vows Main/SYSTEMS/Core Gameplay/PHASE 2C BLACK ROSE BALL/Ball guests - ten existing academy prefabs/Ball guest 02/Akio Highschool Uniform pos=(16.70, 0.00, 2.20) scale=(1.00, 1.00, 1.00)
+HEAD Velvet Vows Main/SYSTEMS/Core Gameplay/PHASE 2C BLACK ROSE BALL/Ball guests - ten existing academy prefabs/Ball guest 02/Akio Highschool Uniform/Armature/Hips/Spine/Chest/Upper Chest/Neck/Head (1.00, 1.00, 1.00)
+MESH Body bounds=Center: (16.70, 0.83, 2.20), Extents: (0.54, 0.92, 0.76) blendshapes=54
+MAT 0 Male Student Slate_Body_0 shader=Universal Render Pipeline/Lit tex=Assets/Novacorp Studios/Characters/Hikari Series/Akio/Highschool Uniform/Materials/6569948208 Body.png
+MAT 1 Male Student Slate_Body_1 shader=Universal Render Pipeline/Lit tex=Assets/Novacorp Studios/Characters/Hikari Series/Akio/Highschool Uniform/Materials/6569948208 Face.png
+MAT 2 Male Student Slate_Body_2 shader=Universal Render Pipeline/Lit tex=Assets/Novacorp Studios/Characters/Hikari Series/Akio/Highschool Uniform/Materials/6569948208 Face.png
+MAT 3 Male Student Slate_Body_3 shader=Universal Render Pipeline/Lit tex=Assets/Novacorp Studios/Characters/Hikari Series/Akio/Highschool Uniform/Materials/6569948208 Face.png
+MAT 4 Male Student Slate_Body_4 shader=Universal Render Pipeline/Lit tex=Assets/Novacorp Studios/Characters/Hikari Series/Akio/Highschool Uniform/Materials/6569948208 Face.png
+MAT 5 Male Student Slate_Body_5 shader=Universal Render Pipeline/Lit tex=Assets/Novacorp Studios/Characters/Hikari Series/Akio/Highschool Uniform/Materials/6569948208 Face.png
+MAT 6 Male Student Slate_Body_6 shader=Universal Render Pipeline/Lit tex=Assets/Novacorp Studios/Characters/Hikari Series/Akio/Highschool Uniform/Materials/6569948208 Body.png
+MAT 7 Male Student Slate_Body_7 shader=Universal Render Pipeline/Lit tex=Assets/Novacorp Studios/Characters/Hikari Series/Akio/Highschool Uniform/Materials/6569948208 Body.png
+MAT 8 Male Student Slate_Body_8 shader=Universal Render Pipeline/Lit tex=Assets/Novacorp Studios/Characters/Hikari Series/Akio/Highschool Uniform/Materials/6569948208 Body.png
+ACTOR Velvet Vows Main/CHARACTERS/AmbientNPCs/Prefect - Lucien's classmate/Akio Highschool Uniform pos=(5.00, 0.00, 4.00) scale=(1.00, 1.00, 1.00)
+HEAD Velvet Vows Main/CHARACTERS/AmbientNPCs/Prefect - Lucien's classmate/Akio Highschool Uniform/Armature/Hips/Spine/Chest/Upper Chest/Neck/Head (1.00, 1.00, 1.00)
+MESH Body bounds=Center: (5.00, 0.83, 3.99), Extents: (0.75, 0.92, 0.21) blendshapes=54
+MAT 0 Male Student Burgundy_Body_0 shader=Universal Render Pipeline/Lit tex=Assets/Novacorp Studios/Characters/Hikari Series/Akio/Highschool Uniform/Materials/6569948208 Body.png
+MAT 1 Male Student Burgundy_Body_1 shader=Universal Render Pipeline/Lit tex=Assets/Novacorp Studios/Characters/Hikari Series/Akio/Highschool Uniform/Materials/6569948208 Face.png
+MAT 2 Male Student Burgundy_Body_2 shader=Universal Render Pipeline/Lit tex=Assets/Novacorp Studios/Characters/Hikari Series/Akio/Highschool Uniform/Materials/6569948208 Face.png
+MAT 3 Male Student Burgundy_Body_3 shader=Universal Render Pipeline/Lit tex=Assets/Novacorp Studios/Characters/Hikari Series/Akio/Highschool Uniform/Materials/6569948208 Face.png
+MAT 4 Male Student Burgundy_Body_4 shader=Universal Render Pipeline/Lit tex=Assets/Novacorp Studios/Characters/Hikari Series/Akio/Highschool Uniform/Materials/6569948208 Face.png
+MAT 5 Male Student Burgundy_Body_5 shader=Universal Render Pipeline/Lit tex=Assets/Novacorp Studios/Characters/Hikari Series/Akio/Highschool Uniform/Materials/6569948208 Face.png
+MAT 6 Male Student Burgundy_Body_6 shader=Universal Render Pipeline/Lit tex=Assets/Novacorp Studios/Characters/Hikari Series/Akio/Highschool Uniform/Materials/6569948208 Body.png
+MAT 7 Prefect Ivory Uniform 7 shader=VelvetVows/Prefect Ivory Uniform tex=Assets/Novacorp Studios/Characters/Hikari Series/Akio/Highschool Uniform/Materials/6569948208 Body.png
+MAT 8 Prefect Ivory Uniform 8 shader=VelvetVows/Prefect Ivory Uniform tex=Assets/Novacorp Studios/Characters/Hikari Series/Akio/Highschool Uniform/Materials/6569948208 Body.png
+ACTOR Velvet Vows Main/SYSTEMS/Core Gameplay/PHASE 2C BLACK ROSE BALL/Ball guests - ten existing academy prefabs/Ball guest 04/Akio Highschool Uniform pos=(24.50, 0.00, 2.20) scale=(1.00, 1.00, 1.00)
+HEAD Velvet Vows Main/SYSTEMS/Core Gameplay/PHASE 2C BLACK ROSE BALL/Ball guests - ten existing academy prefabs/Ball guest 04/Akio Highschool Uniform/Armature/Hips/Spine/Chest/Upper Chest/Neck/Head (1.00, 1.00, 1.00)
+MESH Body bounds=Center: (24.50, 0.83, 2.20), Extents: (0.54, 0.92, 0.76) blendshapes=54
+MAT 0 Male Student Burgundy_Body_0 shader=Universal Render Pipeline/Lit tex=Assets/Novacorp Studios/Characters/Hikari Series/Akio/Highschool Uniform/Materials/6569948208 Body.png
+MAT 1 Male Student Burgundy_Body_1 shader=Universal Render Pipeline/Lit tex=Assets/Novacorp Studios/Characters/Hikari Series/Akio/Highschool Uniform/Materials/6569948208 Face.png
+MAT 2 Male Student Burgundy_Body_2 shader=Universal Render Pipeline/Lit tex=Assets/Novacorp Studios/Characters/Hikari Series/Akio/Highschool Uniform/Materials/6569948208 Face.png
+MAT 3 Male Student Burgundy_Body_3 shader=Universal Render Pipeline/Lit tex=Assets/Novacorp Studios/Characters/Hikari Series/Akio/Highschool Uniform/Materials/6569948208 Face.png
+MAT 4 Male Student Burgundy_Body_4 shader=Universal Render Pipeline/Lit tex=Assets/Novacorp Studios/Characters/Hikari Series/Akio/Highschool Uniform/Materials/6569948208 Face.png
+MAT 5 Male Student Burgundy_Body_5 shader=Universal Render Pipeline/Lit tex=Assets/Novacorp Studios/Characters/Hikari Series/Akio/Highschool Uniform/Materials/6569948208 Face.png
+MAT 6 Male Student Burgundy_Body_6 shader=Universal Render Pipeline/Lit tex=Assets/Novacorp Studios/Characters/Hikari Series/Akio/Highschool Uniform/Materials/6569948208 Body.png
+MAT 7 Male Student Burgundy_Body_7 shader=Universal Render Pipeline/Lit tex=Assets/Novacorp Studios/Characters/Hikari Series/Akio/Highschool Uniform/Materials/6569948208 Body.png
+MAT 8 Male Student Burgundy_Body_8 shader=Universal Render Pipeline/Lit tex=Assets/Novacorp Studios/Characters/Hikari Series/Akio/Highschool Uniform/Materials/6569948208 Body.png
+ACTOR Velvet Vows Main/SYSTEMS/Core Gameplay/PHASE 2C BLACK ROSE BALL/Ball guests - ten existing academy prefabs/Ball guest 05 pos=(16.25, 0.00, -2.20) scale=(1.00, 1.00, 1.00)
+HEAD Velvet Vows Main/SYSTEMS/Core Gameplay/PHASE 2C BLACK ROSE BALL/Ball guests - ten existing academy prefabs/Ball guest 05/Armature/Spine/Chest/Neck/Head (1.00, 1.00, 1.00)
+MESH Casual1 bounds=Center: (16.28, 0.64, -2.19), Extents: (0.49, 0.73, 0.60) blendshapes=0
+MAT 0 Margot Casual Student_Casual1_0 shader=Universal Render Pipeline/Lit tex=Assets/AnimeGirls/Casual1/SourceFiles/Texture/Casual1.png
+MESH Casual1_Body bounds=Center: (16.25, 0.81, -2.20), Extents: (0.56, 0.79, 0.74) blendshapes=35
+MAT 0 Margot Casual Student_Casual1_Body_0 shader=Universal Render Pipeline/Lit tex=Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Tex/Tex_Mouth.png
+MAT 1 Margot Casual Student_Casual1_Body_1 shader=Universal Render Pipeline/Lit tex=
+MAT 2 Margot Casual Student_Casual1_Body_2 shader=Universal Render Pipeline/Lit tex=Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Tex/Tex_Eyeliner.png
+MAT 3 Margot Casual Student_Casual1_Body_3 shader=Universal Render Pipeline/Lit tex=Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Tex/Tex_Eyelashes.png
+MAT 4 Margot Casual Student_Casual1_Body_4 shader=Universal Render Pipeline/Lit tex=Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Tex/Tex_Eyebrows.png
+MAT 5 Margot Casual Student_Casual1_Body_5 shader=Universal Render Pipeline/Lit tex=Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Tex/Tex_EyeReflection.png
+MAT 6 Margot Casual Student_Casual1_Body_6 shader=Universal Render Pipeline/Lit tex=Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Tex/Tex_Eyes.png
+MAT 7 Margot Casual Student_Casual1_Body_7 shader=Universal Render Pipeline/Lit tex=Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Tex/Tex_Face.png
+MAT 8 Margot Casual Student_Casual1_Body_8 shader=Universal Render Pipeline/Lit tex=Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Tex/Tex_Body.png
+MAT 9 Margot Casual Student_Casual1_Body_9 shader=Universal Render Pipeline/Lit tex=Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Tex/Tex_Hair1_head.png
+MESH Hair bounds=Center: (16.28, 0.64, -2.19), Extents: (0.49, 0.73, 0.60) blendshapes=0
+MAT 0 Margot Casual Student_Hair_0 shader=Universal Render Pipeline/Lit tex=Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Tex/Tex_Hair1_hair.png
+ACTOR Velvet Vows Main/ENVIRONMENT/Visual Polish 2.1/Ballroom gala composition/Ballroom gala guest 3 pos=(12.50, 0.00, 10.50) scale=(1.00, 1.00, 1.00)
+HEAD Velvet Vows Main/ENVIRONMENT/Visual Polish 2.1/Ballroom gala composition/Ballroom gala guest 3/Armature/Spine/Chest/Neck/Head (1.00, 1.00, 1.00)
+MESH Casual1 bounds=Center: (12.49, 0.64, 10.47), Extents: (0.60, 0.73, 0.44) blendshapes=0
+MAT 0 Clara Casual Student_Casual1_0 shader=Universal Render Pipeline/Lit tex=Assets/AnimeGirls/Casual1/SourceFiles/Texture/Casual1.png
+MESH Casual1_Body bounds=Center: (12.50, 0.81, 10.50), Extents: (0.74, 0.79, 0.48) blendshapes=35
+MAT 0 Clara Casual Student_Casual1_Body_0 shader=Universal Render Pipeline/Lit tex=Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Tex/Tex_Mouth.png
+MAT 1 Clara Casual Student_Casual1_Body_1 shader=Universal Render Pipeline/Lit tex=
+MAT 2 Clara Casual Student_Casual1_Body_2 shader=Universal Render Pipeline/Lit tex=Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Tex/Tex_Eyeliner.png
+MAT 3 Clara Casual Student_Casual1_Body_3 shader=Universal Render Pipeline/Lit tex=Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Tex/Tex_Eyelashes.png
+MAT 4 Clara Casual Student_Casual1_Body_4 shader=Universal Render Pipeline/Lit tex=Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Tex/Tex_Eyebrows.png
+MAT 5 Clara Casual Student_Casual1_Body_5 shader=Universal Render Pipeline/Lit tex=Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Tex/Tex_EyeReflection.png
+MAT 6 Clara Casual Student_Casual1_Body_6 shader=Universal Render Pipeline/Lit tex=Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Tex/Tex_Eyes.png
+MAT 7 Clara Casual Student_Casual1_Body_7 shader=Universal Render Pipeline/Lit tex=Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Tex/Tex_Face.png
+MAT 8 Clara Casual Student_Casual1_Body_8 shader=Universal Render Pipeline/Lit tex=Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Tex/Tex_Body.png
+MAT 9 Clara Casual Student_Casual1_Body_9 shader=Universal Render Pipeline/Lit tex=Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Tex/Tex_Hair1_head.png
+MESH Hair bounds=Center: (12.49, 0.64, 10.47), Extents: (0.60, 0.73, 0.44) blendshapes=0
+MAT 0 Clara Casual Student_Hair_0 shader=Universal Render Pipeline/Lit tex=Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Tex/Tex_Hair1_hair.png
+ACTOR Velvet Vows Main/ENVIRONMENT/Visual Polish 2.1/Ballroom gala composition/Ballroom gala guest 4/Akio Highschool Uniform pos=(31.00, 0.00, 9.00) scale=(1.00, 1.00, 1.00)
+HEAD Velvet Vows Main/ENVIRONMENT/Visual Polish 2.1/Ballroom gala composition/Ballroom gala guest 4/Akio Highschool Uniform/Armature/Hips/Spine/Chest/Upper Chest/Neck/Head (1.00, 1.00, 1.00)
+MESH Body bounds=Center: (31.00, 0.83, 8.99), Extents: (0.78, 0.92, 0.46) blendshapes=54
+MAT 0 Male Student Slate_Body_0 shader=Universal Render Pipeline/Lit tex=Assets/Novacorp Studios/Characters/Hikari Series/Akio/Highschool Uniform/Materials/6569948208 Body.png
+MAT 1 Male Student Slate_Body_1 shader=Universal Render Pipeline/Lit tex=Assets/Novacorp Studios/Characters/Hikari Series/Akio/Highschool Uniform/Materials/6569948208 Face.png
+MAT 2 Male Student Slate_Body_2 shader=Universal Render Pipeline/Lit tex=Assets/Novacorp Studios/Characters/Hikari Series/Akio/Highschool Uniform/Materials/6569948208 Face.png
+MAT 3 Male Student Slate_Body_3 shader=Universal Render Pipeline/Lit tex=Assets/Novacorp Studios/Characters/Hikari Series/Akio/Highschool Uniform/Materials/6569948208 Face.png
+MAT 4 Male Student Slate_Body_4 shader=Universal Render Pipeline/Lit tex=Assets/Novacorp Studios/Characters/Hikari Series/Akio/Highschool Uniform/Materials/6569948208 Face.png
+MAT 5 Male Student Slate_Body_5 shader=Universal Render Pipeline/Lit tex=Assets/Novacorp Studios/Characters/Hikari Series/Akio/Highschool Uniform/Materials/6569948208 Face.png
+MAT 6 Male Student Slate_Body_6 shader=Universal Render Pipeline/Lit tex=Assets/Novacorp Studios/Characters/Hikari Series/Akio/Highschool Uniform/Materials/6569948208 Body.png
+MAT 7 Male Student Slate_Body_7 shader=Universal Render Pipeline/Lit tex=Assets/Novacorp Studios/Characters/Hikari Series/Akio/Highschool Uniform/Materials/6569948208 Body.png
+MAT 8 Male Student Slate_Body_8 shader=Universal Render Pipeline/Lit tex=Assets/Novacorp Studios/Characters/Hikari Series/Akio/Highschool Uniform/Materials/6569948208 Body.png
+ACTOR Velvet Vows Main/SYSTEMS/Core Gameplay/PHASE 2C BLACK ROSE BALL/Ball guests - ten existing academy prefabs/Ball guest 06 pos=(17.45, 0.00, -2.20) scale=(1.00, 1.00, 1.00)
+HEAD Velvet Vows Main/SYSTEMS/Core Gameplay/PHASE 2C BLACK ROSE BALL/Ball guests - ten existing academy prefabs/Ball guest 06/Armature/Spine/Chest/Neck/Head (1.00, 1.00, 1.00)
+MESH Casual1 bounds=Center: (17.42, 0.64, -2.21), Extents: (0.49, 0.73, 0.60) blendshapes=0
+MAT 0 Odette Casual Student_Casual1_0 shader=Universal Render Pipeline/Lit tex=Assets/AnimeGirls/Casual1/SourceFiles/Texture/Casual1.png
+MESH Casual1_Body bounds=Center: (17.45, 0.81, -2.20), Extents: (0.56, 0.79, 0.74) blendshapes=35
+MAT 0 Odette Casual Student_Casual1_Body_0 shader=Universal Render Pipeline/Lit tex=Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Tex/Tex_Mouth.png
+MAT 1 Odette Casual Student_Casual1_Body_1 shader=Universal Render Pipeline/Lit tex=
+MAT 2 Odette Casual Student_Casual1_Body_2 shader=Universal Render Pipeline/Lit tex=Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Tex/Tex_Eyeliner.png
+MAT 3 Odette Casual Student_Casual1_Body_3 shader=Universal Render Pipeline/Lit tex=Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Tex/Tex_Eyelashes.png
+MAT 4 Odette Casual Student_Casual1_Body_4 shader=Universal Render Pipeline/Lit tex=Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Tex/Tex_Eyebrows.png
+MAT 5 Odette Casual Student_Casual1_Body_5 shader=Universal Render Pipeline/Lit tex=Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Tex/Tex_EyeReflection.png
+MAT 6 Odette Casual Student_Casual1_Body_6 shader=Universal Render Pipeline/Lit tex=Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Tex/Tex_Eyes.png
+MAT 7 Odette Casual Student_Casual1_Body_7 shader=Universal Render Pipeline/Lit tex=Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Tex/Tex_Face.png
+MAT 8 Odette Casual Student_Casual1_Body_8 shader=Universal Render Pipeline/Lit tex=Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Tex/Tex_Body.png
+MAT 9 Odette Casual Student_Casual1_Body_9 shader=Universal Render Pipeline/Lit tex=Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Tex/Tex_Hair1_head.png
+MESH Hair bounds=Center: (17.42, 0.64, -2.21), Extents: (0.49, 0.73, 0.60) blendshapes=0
+MAT 0 Odette Casual Student_Hair_0 shader=Universal Render Pipeline/Lit tex=Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Tex/Tex_Hair1_hair.png
+ACTOR Velvet Vows Main/SYSTEMS/Core Gameplay/Gameplay Actors/Academy Caretaker - restricted patrol/Academy Caretaker visual pos=(-2.00, 0.00, 17.00) scale=(1.00, 1.00, 1.00)
+HEAD Velvet Vows Main/SYSTEMS/Core Gameplay/Gameplay Actors/Academy Caretaker - restricted patrol/Academy Caretaker visual/metarig/spine/spine.001/spine.002/spine.003/spine.004/spine.005 (1.00, 1.00, 1.00)
+MESH Hat bounds=Center: (-2.00, 1.64, 17.00), Extents: (0.35, 0.32, 0.41) blendshapes=0
+MAT 0 Academy Caretaker_Hat_0 shader=Universal Render Pipeline/Lit tex=Assets/Stylized NPC - Peasant Nolant/Textures/Peasant Nolant Brown.png
+MESH Peasant Nolant bounds=Center: (-2.00, 0.87, 16.99), Extents: (0.35, 0.96, 0.60) blendshapes=0
+MAT 0 Academy Caretaker_Peasant Nolant_0 shader=Universal Render Pipeline/Lit tex=Assets/Stylized NPC - Peasant Nolant/Textures/Peasant Nolant Brown.png
+ACTOR Velvet Vows Main/ENVIRONMENT/Visual Polish 2.1/Ballroom gala composition/Ballroom gala guest 1 pos=(17.00, 0.00, -9.00) scale=(1.00, 1.00, 1.00)
+HEAD Velvet Vows Main/ENVIRONMENT/Visual Polish 2.1/Ballroom gala composition/Ballroom gala guest 1/Armature/Spine/Chest/Neck/Head (1.00, 1.00, 1.00)
+MESH Casual1 bounds=Center: (17.01, 0.64, -8.97), Extents: (0.60, 0.73, 0.44) blendshapes=0
+MAT 0 Amelie Casual Student_Casual1_0 shader=Universal Render Pipeline/Lit tex=Assets/AnimeGirls/Casual1/SourceFiles/Texture/Casual1.png
+MESH Casual1_Body bounds=Center: (17.00, 0.81, -9.00), Extents: (0.74, 0.79, 0.48) blendshapes=35
+MAT 0 Amelie Casual Student_Casual1_Body_0 shader=Universal Render Pipeline/Lit tex=Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Tex/Tex_Mouth.png
+MAT 1 Amelie Casual Student_Casual1_Body_1 shader=Universal Render Pipeline/Lit tex=
+MAT 2 Amelie Casual Student_Casual1_Body_2 shader=Universal Render Pipeline/Lit tex=Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Tex/Tex_Eyeliner.png
+MAT 3 Amelie Casual Student_Casual1_Body_3 shader=Universal Render Pipeline/Lit tex=Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Tex/Tex_Eyelashes.png
+MAT 4 Amelie Casual Student_Casual1_Body_4 shader=Universal Render Pipeline/Lit tex=Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Tex/Tex_Eyebrows.png
+MAT 5 Amelie Casual Student_Casual1_Body_5 shader=Universal Render Pipeline/Lit tex=Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Tex/Tex_EyeReflection.png
+MAT 6 Amelie Casual Student_Casual1_Body_6 shader=Universal Render Pipeline/Lit tex=Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Tex/Tex_Eyes.png
+MAT 7 Amelie Casual Student_Casual1_Body_7 shader=Universal Render Pipeline/Lit tex=Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Tex/Tex_Face.png
+MAT 8 Amelie Casual Student_Casual1_Body_8 shader=Universal Render Pipeline/Lit tex=Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Tex/Tex_Body.png
+MAT 9 Amelie Casual Student_Casual1_Body_9 shader=Universal Render Pipeline/Lit tex=Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Tex/Tex_Hair1_head.png
+MESH Hair bounds=Center: (17.01, 0.64, -8.97), Extents: (0.60, 0.73, 0.44) blendshapes=0
+MAT 0 Amelie Casual Student_Hair_0 shader=Universal Render Pipeline/Lit tex=Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Tex/Tex_Hair1_hair.png
+ACTOR Velvet Vows Main/SYSTEMS/Core Gameplay/Gameplay Actors/Celeste - story route/Rin - School pos=(-5.00, -0.08, 3.40) scale=(1.00, 1.00, 1.00)
+HEAD Velvet Vows Main/SYSTEMS/Core Gameplay/Gameplay Actors/Celeste - story route/Rin - School/Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_C_Neck/J_Bip_C_Head (1.00, 1.00, 1.00)
+MESH all_mesh bounds=Center: (-5.04, 0.76, 3.40), Extents: (0.19, 0.84, 0.71) blendshapes=57
+MAT 0 N00_000_00_FaceMouth_00_FACE (Instance) shader=Universal Render Pipeline/Lit tex=Assets/Visutronik/Characters/Volleyball - Sky Strikers/Rin Kobayashi/Textures/School/_01.png
+MAT 1 N00_000_00_EyeIris_00_EYE (Instance) shader=Universal Render Pipeline/Lit tex=Assets/Visutronik/Characters/Volleyball - Sky Strikers/Rin Kobayashi/Textures/School/_02.png
+MAT 2 N00_000_00_EyeHighlight_00_EYE (Instance) shader=Universal Render Pipeline/Lit tex=Assets/Visutronik/Characters/Volleyball - Sky Strikers/Rin Kobayashi/Textures/School/_03.png
+MAT 3 N00_000_00_Face_00_SKIN (Instance) shader=Universal Render Pipeline/Lit tex=Assets/Visutronik/Characters/Volleyball - Sky Strikers/Rin Kobayashi/Textures/School/_04.png
+MAT 4 N00_000_00_EyeWhite_00_EYE (Instance) shader=Universal Render Pipeline/Lit tex=Assets/Visutronik/Characters/Volleyball - Sky Strikers/Rin Kobayashi/Textures/School/_06.png
+MAT 5 N00_000_00_FaceBrow_00_FACE (Instance) shader=Universal Render Pipeline/Lit tex=Assets/Visutronik/Characters/Volleyball - Sky Strikers/Rin Kobayashi/Textures/School/_07.png
+MAT 6 N00_000_00_FaceEyeline_00_FACE (Instance) shader=Universal Render Pipeline/Lit tex=Assets/Visutronik/Characters/Volleyball - Sky Strikers/Rin Kobayashi/Textures/School/_09.png
+MAT 7 N00_000_00_Body_00_SKIN (Instance) shader=Universal Render Pipeline/Lit tex=Assets/Visutronik/Characters/Volleyball - Sky Strikers/Rin Kobayashi/Textures/School/_10.png
+MAT 8 N00_007_02_Tops_01_CLOTH (Instance) shader=Universal Render Pipeline/Lit tex=Assets/Visutronik/Characters/Volleyball - Sky Strikers/Rin Kobayashi/Textures/School/_12.png
+MAT 9 N00_001_03_Bottoms_01_CLOTH (Instance) shader=Universal Render Pipeline/Lit tex=Assets/Visutronik/Characters/Volleyball - Sky Strikers/Rin Kobayashi/Textures/School/_13.png
+MAT 10 N00_000_00_HairBack_00_HAIR (Instance) shader=Universal Render Pipeline/Lit tex=Assets/Visutronik/Characters/Volleyball - Sky Strikers/Rin Kobayashi/Textures/School/_14.png
+MAT 11 N00_007_01_Tops_01_CLOTH (Instance) shader=Universal Render Pipeline/Lit tex=Assets/Visutronik/Characters/Volleyball - Sky Strikers/Rin Kobayashi/Textures/School/_15.png
+MAT 12 N00_001_01_Shoes_01_CLOTH (Instance) shader=Universal Render Pipeline/Lit tex=Assets/Visutronik/Characters/Volleyball - Sky Strikers/Rin Kobayashi/Textures/School/_16.png
+MAT 13 N00_001_02_Accessory_Tie_01_CLOTH (Instance) shader=Universal Render Pipeline/Lit tex=Assets/Visutronik/Characters/Volleyball - Sky Strikers/Rin Kobayashi/Textures/School/_17.png
+MAT 14 N00_010_01_Onepiece_00_CLOTH (Instance) shader=Universal Render Pipeline/Lit tex=Assets/Visutronik/Characters/Volleyball - Sky Strikers/Rin Kobayashi/Textures/School/_18.png
+MAT 15 N00_000_Hair_00_HAIR (Instance) shader=Universal Render Pipeline/Lit tex=Assets/Visutronik/Characters/Volleyball - Sky Strikers/Rin Kobayashi/Textures/School/_19.png
+ACTOR Velvet Vows Main/SYSTEMS/Core Gameplay/PHASE 2C BLACK ROSE BALL/Ball guests - ten existing academy prefabs/Ball guest 03 pos=(23.50, 0.00, 2.20) scale=(1.00, 1.00, 1.00)
+HEAD Velvet Vows Main/SYSTEMS/Core Gameplay/PHASE 2C BLACK ROSE BALL/Ball guests - ten existing academy prefabs/Ball guest 03/Armature/Spine/Chest/Neck/Head (1.00, 1.00, 1.00)
+MESH Casual1 bounds=Center: (23.53, 0.64, 2.21), Extents: (0.49, 0.73, 0.60) blendshapes=0
+MAT 0 Clara Casual Student_Casual1_0 shader=Universal Render Pipeline/Lit tex=Assets/AnimeGirls/Casual1/SourceFiles/Texture/Casual1.png
+MESH Casual1_Body bounds=Center: (23.50, 0.81, 2.20), Extents: (0.56, 0.79, 0.74) blendshapes=35
+MAT 0 Clara Casual Student_Casual1_Body_0 shader=Universal Render Pipeline/Lit tex=Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Tex/Tex_Mouth.png
+MAT 1 Clara Casual Student_Casual1_Body_1 shader=Universal Render Pipeline/Lit tex=
+MAT 2 Clara Casual Student_Casual1_Body_2 shader=Universal Render Pipeline/Lit tex=Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Tex/Tex_Eyeliner.png
+MAT 3 Clara Casual Student_Casual1_Body_3 shader=Universal Render Pipeline/Lit tex=Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Tex/Tex_Eyelashes.png
+MAT 4 Clara Casual Student_Casual1_Body_4 shader=Universal Render Pipeline/Lit tex=Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Tex/Tex_Eyebrows.png
+MAT 5 Clara Casual Student_Casual1_Body_5 shader=Universal Render Pipeline/Lit tex=Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Tex/Tex_EyeReflection.png
+MAT 6 Clara Casual Student_Casual1_Body_6 shader=Universal Render Pipeline/Lit tex=Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Tex/Tex_Eyes.png
+MAT 7 Clara Casual Student_Casual1_Body_7 shader=Universal Render Pipeline/Lit tex=Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Tex/Tex_Face.png
+MAT 8 Clara Casual Student_Casual1_Body_8 shader=Universal Render Pipeline/Lit tex=Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Tex/Tex_Body.png
+MAT 9 Clara Casual Student_Casual1_Body_9 shader=Universal Render Pipeline/Lit tex=Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Tex/Tex_Hair1_head.png
+MESH Hair bounds=Center: (23.53, 0.64, 2.21), Extents: (0.49, 0.73, 0.60) blendshapes=0
+MAT 0 Clara Casual Student_Hair_0 shader=Universal Render Pipeline/Lit tex=Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Tex/Tex_Hair1_hair.png
+ACTOR Velvet Vows Main/CHARACTERS/Adrian Valmont - ballroom/Akio Highschool Uniform pos=(-22.00, 0.09, 15.00) scale=(1.00, 1.00, 1.00)
+HEAD Velvet Vows Main/CHARACTERS/Adrian Valmont - ballroom/Akio Highschool Uniform/Armature/Hips/Spine/Chest/Upper Chest/Neck/Head (1.00, 1.00, 1.00)
+MESH Body bounds=Center: (-21.99, 0.92, 15.00), Extents: (0.21, 0.92, 0.75) blendshapes=54
+MAT 0 Hair HAIR shader=Universal Render Pipeline/Lit tex=Assets/Novacorp Studios/Characters/Hikari Series/Akio/Highschool Uniform/Materials/6569948208 Body.png
+MAT 1 FaceMouth FACE shader=Universal Render Pipeline/Lit tex=Assets/Novacorp Studios/Characters/Hikari Series/Akio/Highschool Uniform/Materials/6569948208 Face.png
+MAT 2 EyeIris EYE shader=Universal Render Pipeline/Lit tex=Assets/Novacorp Studios/Characters/Hikari Series/Akio/Highschool Uniform/Materials/6569948208 Face.png
+MAT 3 EyeHighlight EYE shader=Universal Render Pipeline/Lit tex=Assets/Novacorp Studios/Characters/Hikari Series/Akio/Highschool Uniform/Materials/6569948208 Face.png
+MAT 4 Face SKIN shader=Universal Render Pipeline/Lit tex=Assets/Novacorp Studios/Characters/Hikari Series/Akio/Highschool Uniform/Materials/6569948208 Face.png
+MAT 5 FaceBrow FACE shader=Universal Render Pipeline/Lit tex=Assets/Novacorp Studios/Characters/Hikari Series/Akio/Highschool Uniform/Materials/6569948208 Face.png
+MAT 6 Body SKIN shader=Universal Render Pipeline/Lit tex=Assets/Novacorp Studios/Characters/Hikari Series/Akio/Highschool Uniform/Materials/6569948208 Body.png
+MAT 7 HairBack HAIR shader=Universal Render Pipeline/Lit tex=Assets/Novacorp Studios/Characters/Hikari Series/Akio/Highschool Uniform/Materials/6569948208 Body.png
+MAT 8 Bottoms CLOTH shader=Universal Render Pipeline/Lit tex=Assets/Novacorp Studios/Characters/Hikari Series/Akio/Highschool Uniform/Materials/6569948208 Body.png
+ACTOR Velvet Vows Main/CHARACTERS/AmbientNPCs/Margot pos=(-17.00, 0.00, 0.00) scale=(1.00, 1.00, 1.00)
+HEAD Velvet Vows Main/CHARACTERS/AmbientNPCs/Margot/Armature/Spine/Chest/Neck/Head (1.00, 1.00, 1.00)
+MESH Casual1 bounds=Center: (-16.97, 0.64, -0.01), Extents: (0.44, 0.73, 0.60) blendshapes=0
+MAT 0 Margot Casual Student_Casual1_0 shader=Universal Render Pipeline/Lit tex=Assets/AnimeGirls/Casual1/SourceFiles/Texture/Casual1.png
+MESH Casual1_Body bounds=Center: (-17.00, 0.81, 0.00), Extents: (0.48, 0.79, 0.74) blendshapes=35
+MAT 0 Margot Casual Student_Casual1_Body_0 shader=Universal Render Pipeline/Lit tex=Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Tex/Tex_Mouth.png
+MAT 1 Margot Casual Student_Casual1_Body_1 shader=Universal Render Pipeline/Lit tex=
+MAT 2 Margot Casual Student_Casual1_Body_2 shader=Universal Render Pipeline/Lit tex=Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Tex/Tex_Eyeliner.png
+MAT 3 Margot Casual Student_Casual1_Body_3 shader=Universal Render Pipeline/Lit tex=Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Tex/Tex_Eyelashes.png
+MAT 4 Margot Casual Student_Casual1_Body_4 shader=Universal Render Pipeline/Lit tex=Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Tex/Tex_Eyebrows.png
+MAT 5 Margot Casual Student_Casual1_Body_5 shader=Universal Render Pipeline/Lit tex=Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Tex/Tex_EyeReflection.png
+MAT 6 Margot Casual Student_Casual1_Body_6 shader=Universal Render Pipeline/Lit tex=Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Tex/Tex_Eyes.png
+MAT 7 Margot Casual Student_Casual1_Body_7 shader=Universal Render Pipeline/Lit tex=Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Tex/Tex_Face.png
+MAT 8 Margot Casual Student_Casual1_Body_8 shader=Universal Render Pipeline/Lit tex=Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Tex/Tex_Body.png
+MAT 9 Margot Casual Student_Casual1_Body_9 shader=Universal Render Pipeline/Lit tex=Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Tex/Tex_Hair1_head.png
+MESH Hair bounds=Center: (-16.97, 0.64, -0.01), Extents: (0.44, 0.73, 0.60) blendshapes=0
+MAT 0 Margot Casual Student_Hair_0 shader=Universal Render Pipeline/Lit tex=Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Tex/Tex_Hair1_hair.png
+ACTOR Velvet Vows Main/CHARACTERS/AmbientNPCs/Sabine pos=(15.00, 0.00, -8.00) scale=(1.00, 1.00, 1.00)
+HEAD Velvet Vows Main/CHARACTERS/AmbientNPCs/Sabine/Armature/Spine/Chest/Neck/Head (1.00, 1.00, 1.00)
+MESH Casual1 bounds=Center: (14.98, 0.64, -8.02), Extents: (0.59, 0.73, 0.55) blendshapes=0
+MAT 0 Sabine Casual Student_Casual1_0 shader=Universal Render Pipeline/Lit tex=Assets/AnimeGirls/Casual1/SourceFiles/Texture/Casual1.png
+MESH Casual1_Body bounds=Center: (15.00, 0.81, -8.00), Extents: (0.70, 0.79, 0.65) blendshapes=35
+MAT 0 Sabine Casual Student_Casual1_Body_0 shader=Universal Render Pipeline/Lit tex=Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Tex/Tex_Mouth.png
+MAT 1 Sabine Casual Student_Casual1_Body_1 shader=Universal Render Pipeline/Lit tex=
+MAT 2 Sabine Casual Student_Casual1_Body_2 shader=Universal Render Pipeline/Lit tex=Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Tex/Tex_Eyeliner.png
+MAT 3 Sabine Casual Student_Casual1_Body_3 shader=Universal Render Pipeline/Lit tex=Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Tex/Tex_Eyelashes.png
+MAT 4 Sabine Casual Student_Casual1_Body_4 shader=Universal Render Pipeline/Lit tex=Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Tex/Tex_Eyebrows.png
+MAT 5 Sabine Casual Student_Casual1_Body_5 shader=Universal Render Pipeline/Lit tex=Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Tex/Tex_EyeReflection.png
+MAT 6 Sabine Casual Student_Casual1_Body_6 shader=Universal Render Pipeline/Lit tex=Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Tex/Tex_Eyes.png
+MAT 7 Sabine Casual Student_Casual1_Body_7 shader=Universal Render Pipeline/Lit tex=Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Tex/Tex_Face.png
+MAT 8 Sabine Casual Student_Casual1_Body_8 shader=Universal Render Pipeline/Lit tex=Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Tex/Tex_Body.png
+MAT 9 Sabine Casual Student_Casual1_Body_9 shader=Universal Render Pipeline/Lit tex=Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Tex/Tex_Hair1_head.png
+MESH Hair bounds=Center: (14.98, 0.64, -8.02), Extents: (0.59, 0.73, 0.55) blendshapes=0
+MAT 0 Sabine Casual Student_Hair_0 shader=Universal Render Pipeline/Lit tex=Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Tex/Tex_Hair1_hair.png
+ACTOR Velvet Vows Main/SYSTEMS/Core Gameplay/PHASE 2C BLACK ROSE BALL/Ball guests - ten existing academy prefabs/Ball guest 07 pos=(23.20, 0.00, -2.20) scale=(1.00, 1.00, 1.00)
+HEAD Velvet Vows Main/SYSTEMS/Core Gameplay/PHASE 2C BLACK ROSE BALL/Ball guests - ten existing academy prefabs/Ball guest 07/Armature/Spine/Chest/Neck/Head (1.00, 1.00, 1.00)
+MESH Casual1 bounds=Center: (23.23, 0.64, -2.19), Extents: (0.49, 0.73, 0.60) blendshapes=0
+MAT 0 Sabine Casual Student_Casual1_0 shader=Universal Render Pipeline/Lit tex=Assets/AnimeGirls/Casual1/SourceFiles/Texture/Casual1.png
+MESH Casual1_Body bounds=Center: (23.20, 0.81, -2.20), Extents: (0.56, 0.79, 0.74) blendshapes=35
+MAT 0 Sabine Casual Student_Casual1_Body_0 shader=Universal Render Pipeline/Lit tex=Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Tex/Tex_Mouth.png
+MAT 1 Sabine Casual Student_Casual1_Body_1 shader=Universal Render Pipeline/Lit tex=
+MAT 2 Sabine Casual Student_Casual1_Body_2 shader=Universal Render Pipeline/Lit tex=Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Tex/Tex_Eyeliner.png
+MAT 3 Sabine Casual Student_Casual1_Body_3 shader=Universal Render Pipeline/Lit tex=Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Tex/Tex_Eyelashes.png
+MAT 4 Sabine Casual Student_Casual1_Body_4 shader=Universal Render Pipeline/Lit tex=Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Tex/Tex_Eyebrows.png
+MAT 5 Sabine Casual Student_Casual1_Body_5 shader=Universal Render Pipeline/Lit tex=Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Tex/Tex_EyeReflection.png
+MAT 6 Sabine Casual Student_Casual1_Body_6 shader=Universal Render Pipeline/Lit tex=Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Tex/Tex_Eyes.png
+MAT 7 Sabine Casual Student_Casual1_Body_7 shader=Universal Render Pipeline/Lit tex=Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Tex/Tex_Face.png
+MAT 8 Sabine Casual Student_Casual1_Body_8 shader=Universal Render Pipeline/Lit tex=Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Tex/Tex_Body.png
+MAT 9 Sabine Casual Student_Casual1_Body_9 shader=Universal Render Pipeline/Lit tex=Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Tex/Tex_Hair1_head.png
+MESH Hair bounds=Center: (23.23, 0.64, -2.19), Extents: (0.49, 0.73, 0.60) blendshapes=0
+MAT 0 Sabine Casual Student_Hair_0 shader=Universal Render Pipeline/Lit tex=Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Tex/Tex_Hair1_hair.png
+ACTOR Velvet Vows Main/CHARACTERS/AmbientNPCs/Isabelle pos=(-1.10, 0.00, -1.30) scale=(1.00, 1.00, 1.00)
+HEAD Velvet Vows Main/CHARACTERS/AmbientNPCs/Isabelle/Armature/Spine/Chest/Neck/Head (1.00, 1.00, 1.00)
+MESH Casual1 bounds=Center: (-1.07, 0.64, -1.30), Extents: (0.27, 0.73, 0.54) blendshapes=0
+MAT 0 Isabelle Casual Student_Casual1_0 shader=Universal Render Pipeline/Lit tex=Assets/AnimeGirls/Casual1/SourceFiles/Texture/Casual1.png
+MESH Casual1_Body bounds=Center: (-1.10, 0.81, -1.30), Extents: (0.26, 0.79, 0.69) blendshapes=35
+MAT 0 Isabelle Casual Student_Casual1_Body_0 shader=Universal Render Pipeline/Lit tex=Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Tex/Tex_Mouth.png
+MAT 1 Isabelle Casual Student_Casual1_Body_1 shader=Universal Render Pipeline/Lit tex=
+MAT 2 Isabelle Casual Student_Casual1_Body_2 shader=Universal Render Pipeline/Lit tex=Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Tex/Tex_Eyeliner.png
+MAT 3 Isabelle Casual Student_Casual1_Body_3 shader=Universal Render Pipeline/Lit tex=Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Tex/Tex_Eyelashes.png
+MAT 4 Isabelle Casual Student_Casual1_Body_4 shader=Universal Render Pipeline/Lit tex=Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Tex/Tex_Eyebrows.png
+MAT 5 Isabelle Casual Student_Casual1_Body_5 shader=Universal Render Pipeline/Lit tex=Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Tex/Tex_EyeReflection.png
+MAT 6 Isabelle Casual Student_Casual1_Body_6 shader=Universal Render Pipeline/Lit tex=Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Tex/Tex_Eyes.png
+MAT 7 Isabelle Casual Student_Casual1_Body_7 shader=Universal Render Pipeline/Lit tex=Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Tex/Tex_Face.png
+MAT 8 Isabelle Casual Student_Casual1_Body_8 shader=Universal Render Pipeline/Lit tex=Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Tex/Tex_Body.png
+MAT 9 Isabelle Casual Student_Casual1_Body_9 shader=Universal Render Pipeline/Lit tex=Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Tex/Tex_Hair1_head.png
+MESH Hair bounds=Center: (-1.07, 0.64, -1.30), Extents: (0.27, 0.73, 0.54) blendshapes=0
+MAT 0 Isabelle Casual Student_Hair_0 shader=Universal Render Pipeline/Lit tex=Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Tex/Tex_Hair1_hair.png

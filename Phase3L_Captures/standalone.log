@@ -1,0 +1,239 @@
+Mono path[0] = '/Users/sanzar/VelvetVows/Builds/Phase3L/VelvetVows.app/Contents/Resources/Data/Managed'
+Mono config path = '/Users/sanzar/VelvetVows/Builds/Phase3L/VelvetVows.app/Contents/MonoBleedingEdge/etc'
+Found 1 interfaces on host : 0) 192.168.0.9
+Player connection [8638550784]  Target information:
+
+Player connection [8638550784]  * "[IP] 192.168.0.9 [Port] 55000 [Flags] 2 [Guid] 885872077 [EditorId] 2000876924 [Version] 1048832 [Id] OSXPlayer(1,MacBook-Air-Sanzar-2.local) [Debug] 0 [PackageName] OSXPlayer [ProjectName] VelvetVows" 
+
+Player connection [8638550784] Started UDP target info broadcast (1) on [225.0.0.222:54997].
+
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Initialize engine version: 6000.0.84f1 (78ab6fc243d5)
+[Subsystems] Discovering subsystems at path /Users/sanzar/VelvetVows/Builds/Phase3L/VelvetVows.app/Contents/Resources/Data/UnitySubsystems
+GfxDevice: creating device client; kGfxThreadingModeThreaded
+ preferred device: Apple M1 (high power)
+Metal devices available: 1
+0: Apple M1 (high power)
+Using device Apple M1 (high power)
+Initializing Metal device caps: Apple M1
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.170 seconds
+- Finished resetting the current domain, in  0.002 seconds
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+UnloadTime: 1.031000 ms
+[VelvetVows] GameManager Awake
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:66)
+UnityEngine.Debug:Log (object,UnityEngine.Object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:128)
+VelvetVows.GameManager:Awake () (at /Users/sanzar/VelvetVows/Assets/VelvetVows/Scripts/GameManager.cs:64)
+
+(Filename: /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 128)
+
+[VelvetVows] GameHUD initialized
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:66)
+UnityEngine.Debug:Log (object,UnityEngine.Object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:128)
+VelvetVows.GameHUD:Awake () (at /Users/sanzar/VelvetVows/Assets/VelvetVows/Scripts/GameHUD.cs:61)
+
+(Filename: /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 128)
+
+[VelvetVows] Canvas active: True, enabled: True, mode: ScreenSpaceOverlay
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:66)
+UnityEngine.Debug:Log (object,UnityEngine.Object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:128)
+VelvetVows.GameHUD:LogStartScreenState () (at /Users/sanzar/VelvetVows/Assets/VelvetVows/Scripts/GameHUD.cs:104)
+VelvetVows.GameHUD:Awake () (at /Users/sanzar/VelvetVows/Assets/VelvetVows/Scripts/GameHUD.cs:62)
+
+(Filename: /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 128)
+
+[VelvetVows] Canvas scale: (1.00, 1.00, 1.00)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:66)
+UnityEngine.Debug:Log (object,UnityEngine.Object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:128)
+VelvetVows.GameHUD:LogStartScreenState () (at /Users/sanzar/VelvetVows/Assets/VelvetVows/Scripts/GameHUD.cs:107)
+VelvetVows.GameHUD:Awake () (at /Users/sanzar/VelvetVows/Assets/VelvetVows/Scripts/GameHUD.cs:62)
+
+(Filename: /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 128)
+
+[VelvetVows] StartPanel active: True
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:66)
+UnityEngine.Debug:Log (object,UnityEngine.Object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:128)
+VelvetVows.GameHUD:LogStartScreenState () (at /Users/sanzar/VelvetVows/Assets/VelvetVows/Scripts/GameHUD.cs:108)
+VelvetVows.GameHUD:Awake () (at /Users/sanzar/VelvetVows/Assets/VelvetVows/Scripts/GameHUD.cs:62)
+
+(Filename: /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 128)
+
+[VelvetVows] StartPanel scale: (1.00, 1.00, 1.00)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:66)
+UnityEngine.Debug:Log (object,UnityEngine.Object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:128)
+VelvetVows.GameHUD:LogStartScreenState () (at /Users/sanzar/VelvetVows/Assets/VelvetVows/Scripts/GameHUD.cs:109)
+VelvetVows.GameHUD:Awake () (at /Users/sanzar/VelvetVows/Assets/VelvetVows/Scripts/GameHUD.cs:62)
+
+(Filename: /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 128)
+
+[VelvetVows] UI input: EventSystem=True, InputSystemUIInputModule=True, actions=True, cursor=None/visible=True
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:66)
+UnityEngine.Debug:Log (object,UnityEngine.Object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:128)
+VelvetVows.GameHUD:LogStartScreenState () (at /Users/sanzar/VelvetVows/Assets/VelvetVows/Scripts/GameHUD.cs:112)
+VelvetVows.GameHUD:Awake () (at /Users/sanzar/VelvetVows/Assets/VelvetVows/Scripts/GameHUD.cs:62)
+
+(Filename: /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 128)
+
+[VelvetVows] BEGIN listener registered (serialized)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:66)
+UnityEngine.Debug:Log (object,UnityEngine.Object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:128)
+VelvetVows.GameHUD:EnsureBeginListener (VelvetVows.GameManager) (at /Users/sanzar/VelvetVows/Assets/VelvetVows/Scripts/GameHUD.cs:92)
+VelvetVows.GameManager:Start () (at /Users/sanzar/VelvetVows/Assets/VelvetVows/Scripts/GameManager.cs:73)
+
+(Filename: /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 128)
+
+[VelvetVows] State: Introduction
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:66)
+UnityEngine.Debug:Log (object,UnityEngine.Object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:128)
+VelvetVows.GameManager:Start () (at /Users/sanzar/VelvetVows/Assets/VelvetVows/Scripts/GameManager.cs:84)
+
+(Filename: /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 128)
+
+[VelvetVows] Canvas active: True, enabled: True, mode: ScreenSpaceOverlay
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:66)
+UnityEngine.Debug:Log (object,UnityEngine.Object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:128)
+VelvetVows.GameHUD:LogStartScreenState () (at /Users/sanzar/VelvetVows/Assets/VelvetVows/Scripts/GameHUD.cs:104)
+VelvetVows.GameManager:Start () (at /Users/sanzar/VelvetVows/Assets/VelvetVows/Scripts/GameManager.cs:85)
+
+(Filename: /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 128)
+
+[VelvetVows] Canvas scale: (1.00, 1.00, 1.00)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:66)
+UnityEngine.Debug:Log (object,UnityEngine.Object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:128)
+VelvetVows.GameHUD:LogStartScreenState () (at /Users/sanzar/VelvetVows/Assets/VelvetVows/Scripts/GameHUD.cs:107)
+VelvetVows.GameManager:Start () (at /Users/sanzar/VelvetVows/Assets/VelvetVows/Scripts/GameManager.cs:85)
+
+(Filename: /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 128)
+
+[VelvetVows] StartPanel active: True
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:66)
+UnityEngine.Debug:Log (object,UnityEngine.Object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:128)
+VelvetVows.GameHUD:LogStartScreenState () (at /Users/sanzar/VelvetVows/Assets/VelvetVows/Scripts/GameHUD.cs:108)
+VelvetVows.GameManager:Start () (at /Users/sanzar/VelvetVows/Assets/VelvetVows/Scripts/GameManager.cs:85)
+
+(Filename: /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 128)
+
+[VelvetVows] StartPanel scale: (1.00, 1.00, 1.00)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:66)
+UnityEngine.Debug:Log (object,UnityEngine.Object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:128)
+VelvetVows.GameHUD:LogStartScreenState () (at /Users/sanzar/VelvetVows/Assets/VelvetVows/Scripts/GameHUD.cs:109)
+VelvetVows.GameManager:Start () (at /Users/sanzar/VelvetVows/Assets/VelvetVows/Scripts/GameManager.cs:85)
+
+(Filename: /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 128)
+
+[VelvetVows] UI input: EventSystem=True, InputSystemUIInputModule=True, actions=True, cursor=None/visible=True
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:66)
+UnityEngine.Debug:Log (object,UnityEngine.Object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:128)
+VelvetVows.GameHUD:LogStartScreenState () (at /Users/sanzar/VelvetVows/Assets/VelvetVows/Scripts/GameHUD.cs:112)
+VelvetVows.GameManager:Start () (at /Users/sanzar/VelvetVows/Assets/VelvetVows/Scripts/GameManager.cs:85)
+
+(Filename: /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 128)
+
+RenderGraph is now enabled.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+UnityEngine.Rendering.Universal.UniversalRenderPipeline:.ctor (UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset) (at ./Library/PackageCache/com.unity.render-pipelines.universal@ab605b8cbe5e/Runtime/UniversalRenderPipeline.cs:267)
+UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset:CreatePipeline () (at ./Library/PackageCache/com.unity.render-pipelines.universal@ab605b8cbe5e/Runtime/Data/UniversalRenderPipelineAsset.cs:793)
+UnityEngine.Rendering.RenderPipelineAsset:InternalCreatePipeline () (at /Users/bokken/build/output/unity/unity/Runtime/Export/RenderPipeline/RenderPipelineAsset.cs:15)
+UnityEngine.Rendering.RenderPipelineManager:TryPrepareRenderPipeline (UnityEngine.Rendering.RenderPipelineAsset) (at /Users/bokken/build/output/unity/unity/Runtime/Export/RenderPipeline/RenderPipelineManager.cs:165)
+UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal (UnityEngine.Rendering.RenderPipelineAsset,intptr,UnityEngine.Object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/RenderPipeline/RenderPipelineManager.cs:139)
+
+(Filename: /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+[Phase2A] Stage: Opening; reputation=0
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:66)
+UnityEngine.Debug:Log (object,UnityEngine.Object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:128)
+VelvetVows.Phase2AStoryManager:SetStage (VelvetVows.Phase2AStage,string) (at /Users/sanzar/VelvetVows/Assets/VelvetVows/Scripts/Phase2AStoryManager.cs:272)
+VelvetVows.Phase2AStoryManager:BeginOpening () (at /Users/sanzar/VelvetVows/Assets/VelvetVows/Scripts/Phase2AStoryManager.cs:145)
+VelvetVows.GameManager:Begin () (at /Users/sanzar/VelvetVows/Assets/VelvetVows/Scripts/GameManager.cs:109)
+VelvetVows.AcademyStandaloneSmoke/<Start>d__4:MoveNext () (at /Users/sanzar/VelvetVows/Assets/VelvetVows/Scripts/AcademyStandaloneSmoke.cs:27)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 128)
+
+Thread 0x16f8e7000 may have been prematurely finalized
+[Physics::Module] Cleanup current backned.
+[Physics::Module] Id: 0xf2b8ea05
+Input System module state changed to: ShutdownInProgress.
+Input System polling thread exited.
+Input System module state changed to: Shutdown.
+Thread 0x16e9d7000 may have been prematurely finalized
+Thread 0x16e71b000 may have been prematurely finalized
+Thread 0x16e833000 may have been prematurely finalized
+Thread 0x16e8bf000 may have been prematurely finalized
+Thread 0x16e7a7000 may have been prematurely finalized
+Thread 0x16e68f000 may have been prematurely finalized
+Thread 0x16e94b000 may have been prematurely finalized
+PlayerConnection::Cleanup##utp:{"type":"MemoryLeaks","version":2,"phase":"Immediate","time":1794345676720,"processId":40188,"allocatedMemory":4171975,"memoryLabels":[{"Default":14025},{"Permanent":1352},{"NewDelete":1275552},{"Thread":39352},{"Manager":539863},{"VertexData":8},{"Geometry":408},{"VFX":-104},{"Texture":16},{"Shader":77812},{"Material":24},{"GfxDevice":38896},{"GfxThread":480},{"Animation":328},{"Audio":4600},{"FontEngine":272},{"Physics":2112},{"Serialization":688},{"Input":9488},{"JobScheduler":33216},{"TextLib":160},{"Mono":32},{"ScriptingNativeRuntime":128},{"BaseObject":1609216},{"Resource":464},{"Renderer":3456},{"Transform":4654},{"File":816},{"WebCam":32},{"Culling":32},{"Terrain":11250},{"Wind":24},{"String":2980},{"DynamicArray":31468},{"HashMap":10240},{"Utility":298552},{"PoolAlloc":1344},{"TypeTree":4688},{"ScriptManager":64},{"RuntimeInitializeOnLoadManager":64},{"SpriteAtlas":112},{"GI":7240},{"Director":8152},{"WebRequest":520},{"VR":45409},{"SceneManager":360},{"Video":2080},{"LazyScriptCache":32},{"NativeArray":648},{"Camera":9},{"Secure":241},{"SerializationCache":1576},{"APIUpdating":10320},{"Subsystems":336},{"VirtualTexturing":57496},{"Baselib":16},{"Hierarchy":384},{"CoreStats":12616},{"Identifiers":6192},{"Gui":32},{"CoreBusinessMetrics":120},{"AssetReference":32}]}

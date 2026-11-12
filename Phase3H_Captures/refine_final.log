@@ -1,0 +1,501 @@
+Unity Editor version:    6000.0.84f1 (78ab6fc243d5)
+Branch:                  6000.0/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 27.2 (Build 26B123)
+Darwin version:          27.2.0
+Architecture:            arm64
+Running under Rosetta:   NO
+Available memory:        8192 MB
+[Licensing::Module] Trying to connect to existing licensing client channel...
+[Licensing::IpcConnector] Channel LicenseClient-sanzar doesn't exist
+Launching external process: /Applications/Unity/Hub/Editor/6000.0.84f1/Unity.app/Contents/Frameworks/UnityLicensingClient.app/Contents/MacOS/Unity.Licensing.Client
+[Licensing::Module] Successfully launched the LicensingClient (PId: 18012)
+Launching external process: /Applications/Unity/Hub/Editor/6000.0.84f1/Unity.app/Contents/Resources/PackageManager/Server/UnityPackageManager
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/6000.0.84f1/Unity.app/Contents/MacOS/Unity
+-batchmode
+-nographics
+-projectPath
+/Users/sanzar/VelvetVows
+-executeMethod
+VelvetVows.Editor.Phase3HRepairPass.Refine
+-quit
+-logFile
+/Users/sanzar/VelvetVows/Phase3H_Captures/refine_final.log
+Successfully changed project path to: /Users/sanzar/VelvetVows
+/Users/sanzar/VelvetVows
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-remapper-allocator-initial-capacity=32768"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [8638550784]  Target information:
+
+Player connection [8638550784]  * "[IP] 192.168.0.9 [Port] 55504 [Flags] 2 [Guid] 2403411303 [EditorId] 2403411303 [Version] 1048832 [Id] OSXEditor(0,MacBook-Air-Sanzar-2.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
+
+Player connection [8638550784] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [8638550784] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-sanzar" at "2026-11-10T11:19:19.033756Z"
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.3+d7ffd15
+  Session Id:              cccfc22443b34a258b874ac1fba0da6e
+  Correlation Id:          b2ea46ebfe0441fbcbdbe324700eab94
+  External correlation Id: 7875111186591361445
+  Machine Id:              o43xNC1xSw0mqRBJBZTbFgDKjeQ=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-sanzar" (connect: 0.38s, validation: 0.05s, handshake: 0.38s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-sanzar-notifications" at "2026-11-10T11:19:19.467678Z"
+[Licensing::Module] Connected to LicensingClient (PId: 18012, launch time: 0.00, total connection time: 0.82s)
+[Licensing::Module] Error: Access token is unavailable; failed to update
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 18968492690164-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+[Licensing::Client] Successfully updated license, isAsync: True, time: 0.01
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] Licensing Background thread has ended after 0.83s
+[Package Manager] Connected to IPC stream "Upm-18011" after 1.6 seconds.
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 0.03 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.0.84f1 (78ab6fc243d5)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/6000.0.84f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/sanzar/VelvetVows/Assets
+Forcing GfxDevice: Null
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+NullGfxDevice:
+    Version:  NULL 1.0 [1.0]
+    Renderer: Null Device
+    Vendor:   Unity Technologies
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/6000.0.84f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/6000.0.84f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/6000.0.84f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56011
+Using cacheserver namespaces - metadata:defaultmetadata, artifacts:defaultartifacts
+Using cacheserver namespaces - metadata:defaultmetadata, artifacts:defaultartifacts
+ImportWorker Server TCP listen port: 0
+AcceleratorClientConnectionCallback - disconnected - :0
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/6000.0.84f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.001605 seconds.
+- Loaded All Assemblies, in  0.299 seconds
+Native extension for OSXStandalone target not found
+Package Manager log level set to [2]
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.210 seconds
+Domain Reload Profiling: 510ms
+	BeginReloadAssembly (120ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (107ms)
+		LoadAssemblies (120ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (105ms)
+			TypeCache.Refresh (104ms)
+				TypeCache.ScanAssembly (92ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (211ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (187ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (24ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (40ms)
+			ProcessInitializeOnLoadAttributes (88ms)
+			ProcessInitializeOnLoadMethodAttributes (32ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+[Licensing::Client] Successfully resolved entitlement details
+Application.AssetDatabase Initial Refresh Start
+[Package Manager] Restoring resolved packages state from cache
+[Licensing::Client] Successfully resolved entitlement details
+[Package Manager] Registered 59 packages:
+  Packages from [https://packages.unity.com]:
+    com.unity.ai.navigation@2.0.14 (location: /Users/sanzar/VelvetVows/Library/PackageCache/com.unity.ai.navigation@134dd6a3b97b)
+    com.unity.cinemachine@3.1.2 (location: /Users/sanzar/VelvetVows/Library/PackageCache/com.unity.cinemachine@b2e7bffab772)
+    com.unity.collab-proxy@2.13.6 (location: /Users/sanzar/VelvetVows/Library/PackageCache/com.unity.collab-proxy@4628d2ba6ea4)
+    com.unity.collections@2.6.8 (location: /Users/sanzar/VelvetVows/Library/PackageCache/com.unity.collections@84e8eb3fc12e)
+    com.unity.ide.rider@3.0.39 (location: /Users/sanzar/VelvetVows/Library/PackageCache/com.unity.ide.rider@4504839d03f7)
+    com.unity.ide.visualstudio@2.0.27 (location: /Users/sanzar/VelvetVows/Library/PackageCache/com.unity.ide.visualstudio@dc1ddd4f09b6)
+    com.unity.inputsystem@1.20.0 (location: /Users/sanzar/VelvetVows/Library/PackageCache/com.unity.inputsystem@7a4e1a2a8194)
+    com.unity.timeline@1.8.13 (location: /Users/sanzar/VelvetVows/Library/PackageCache/com.unity.timeline@3a22918286f5)
+    com.unity.visualscripting@1.9.12 (location: /Users/sanzar/VelvetVows/Library/PackageCache/com.unity.visualscripting@4edfcc09512f)
+    com.unity.mathematics@1.3.2 (location: /Users/sanzar/VelvetVows/Library/PackageCache/com.unity.mathematics@8017b507cc74)
+    com.unity.burst@1.8.30 (location: /Users/sanzar/VelvetVows/Library/PackageCache/com.unity.burst@2f3d916873ea)
+    com.unity.nuget.mono-cecil@1.11.6 (location: /Users/sanzar/VelvetVows/Library/PackageCache/com.unity.nuget.mono-cecil@ecb9724e46ff)
+    com.unity.test-framework.performance@3.5.0 (location: /Users/sanzar/VelvetVows/Library/PackageCache/com.unity.test-framework.performance@8b56083ec0f0)
+    com.unity.splines@2.8.4 (location: /Users/sanzar/VelvetVows/Library/PackageCache/com.unity.splines@9b00833aca09)
+    com.unity.searcher@4.9.3 (location: /Users/sanzar/VelvetVows/Library/PackageCache/com.unity.searcher@1e17ce91558d)
+    com.unity.settings-manager@2.1.0 (location: /Users/sanzar/VelvetVows/Library/PackageCache/com.unity.settings-manager@41738c275190)
+  Built-in packages:
+    com.unity.multiplayer.center@1.0.0 (location: /Users/sanzar/VelvetVows/Library/PackageCache/com.unity.multiplayer.center@f3fb577b3546)
+    com.unity.render-pipelines.core@17.0.4 (location: /Users/sanzar/VelvetVows/Library/PackageCache/com.unity.render-pipelines.core@36dd213002aa)
+    com.unity.render-pipelines.universal@17.0.4 (location: /Users/sanzar/VelvetVows/Library/PackageCache/com.unity.render-pipelines.universal@ab605b8cbe5e)
+    com.unity.render-pipelines.universal-config@17.0.3 (location: /Users/sanzar/VelvetVows/Library/PackageCache/com.unity.render-pipelines.universal-config@dd206bf35d04)
+    com.unity.rendering.light-transport@1.0.1 (location: /Users/sanzar/VelvetVows/Library/PackageCache/com.unity.rendering.light-transport@9bd588f963c0)
+    com.unity.test-framework@1.6.0 (location: /Users/sanzar/VelvetVows/Library/PackageCache/com.unity.test-framework@082c24152fd4)
+    com.unity.ugui@2.0.0 (location: /Users/sanzar/VelvetVows/Library/PackageCache/com.unity.ugui@5d6a93c81cc4)
+    com.unity.modules.accessibility@1.0.0 (location: /Users/sanzar/VelvetVows/Library/PackageCache/com.unity.modules.accessibility)
+    com.unity.modules.ai@1.0.0 (location: /Users/sanzar/VelvetVows/Library/PackageCache/com.unity.modules.ai)
+    com.unity.modules.androidjni@1.0.0 (location: /Users/sanzar/VelvetVows/Library/PackageCache/com.unity.modules.androidjni)
+    com.unity.modules.animation@1.0.0 (location: /Users/sanzar/VelvetVows/Library/PackageCache/com.unity.modules.animation)
+    com.unity.modules.assetbundle@1.0.0 (location: /Users/sanzar/VelvetVows/Library/PackageCache/com.unity.modules.assetbundle)
+    com.unity.modules.audio@1.0.0 (location: /Users/sanzar/VelvetVows/Library/PackageCache/com.unity.modules.audio)
+    com.unity.modules.cloth@1.0.0 (location: /Users/sanzar/VelvetVows/Library/PackageCache/com.unity.modules.cloth)
+    com.unity.modules.director@1.0.0 (location: /Users/sanzar/VelvetVows/Library/PackageCache/com.unity.modules.director)
+    com.unity.modules.imageconversion@1.0.0 (location: /Users/sanzar/VelvetVows/Library/PackageCache/com.unity.modules.imageconversion)
+    com.unity.modules.imgui@1.0.0 (location: /Users/sanzar/VelvetVows/Library/PackageCache/com.unity.modules.imgui)
+    com.unity.modules.jsonserialize@1.0.0 (location: /Users/sanzar/VelvetVows/Library/PackageCache/com.unity.modules.jsonserialize)
+    com.unity.modules.particlesystem@1.0.0 (location: /Users/sanzar/VelvetVows/Library/PackageCache/com.unity.modules.particlesystem)
+    com.unity.modules.physics@1.0.0 (location: /Users/sanzar/VelvetVows/Library/PackageCache/com.unity.modules.physics)
+    com.unity.modules.physics2d@1.0.0 (location: /Users/sanzar/VelvetVows/Library/PackageCache/com.unity.modules.physics2d)
+    com.unity.modules.screencapture@1.0.0 (location: /Users/sanzar/VelvetVows/Library/PackageCache/com.unity.modules.screencapture)
+    com.unity.modules.terrain@1.0.0 (location: /Users/sanzar/VelvetVows/Library/PackageCache/com.unity.modules.terrain)
+    com.unity.modules.terrainphysics@1.0.0 (location: /Users/sanzar/VelvetVows/Library/PackageCache/com.unity.modules.terrainphysics)
+    com.unity.modules.tilemap@1.0.0 (location: /Users/sanzar/VelvetVows/Library/PackageCache/com.unity.modules.tilemap)
+    com.unity.modules.ui@1.0.0 (location: /Users/sanzar/VelvetVows/Library/PackageCache/com.unity.modules.ui)
+    com.unity.modules.uielements@1.0.0 (location: /Users/sanzar/VelvetVows/Library/PackageCache/com.unity.modules.uielements)
+    com.unity.modules.umbra@1.0.0 (location: /Users/sanzar/VelvetVows/Library/PackageCache/com.unity.modules.umbra)
+    com.unity.modules.unityanalytics@1.0.0 (location: /Users/sanzar/VelvetVows/Library/PackageCache/com.unity.modules.unityanalytics)
+    com.unity.modules.unitywebrequest@1.0.0 (location: /Users/sanzar/VelvetVows/Library/PackageCache/com.unity.modules.unitywebrequest)
+    com.unity.modules.unitywebrequestassetbundle@1.0.0 (location: /Users/sanzar/VelvetVows/Library/PackageCache/com.unity.modules.unitywebrequestassetbundle)
+    com.unity.modules.unitywebrequestaudio@1.0.0 (location: /Users/sanzar/VelvetVows/Library/PackageCache/com.unity.modules.unitywebrequestaudio)
+    com.unity.modules.unitywebrequesttexture@1.0.0 (location: /Users/sanzar/VelvetVows/Library/PackageCache/com.unity.modules.unitywebrequesttexture)
+    com.unity.modules.unitywebrequestwww@1.0.0 (location: /Users/sanzar/VelvetVows/Library/PackageCache/com.unity.modules.unitywebrequestwww)
+    com.unity.modules.vehicles@1.0.0 (location: /Users/sanzar/VelvetVows/Library/PackageCache/com.unity.modules.vehicles)
+    com.unity.modules.video@1.0.0 (location: /Users/sanzar/VelvetVows/Library/PackageCache/com.unity.modules.video)
+    com.unity.modules.vr@1.0.0 (location: /Users/sanzar/VelvetVows/Library/PackageCache/com.unity.modules.vr)
+    com.unity.modules.wind@1.0.0 (location: /Users/sanzar/VelvetVows/Library/PackageCache/com.unity.modules.wind)
+    com.unity.modules.xr@1.0.0 (location: /Users/sanzar/VelvetVows/Library/PackageCache/com.unity.modules.xr)
+    com.unity.modules.subsystems@1.0.0 (location: /Users/sanzar/VelvetVows/Library/PackageCache/com.unity.modules.subsystems)
+    com.unity.modules.hierarchycore@1.0.0 (location: /Users/sanzar/VelvetVows/Library/PackageCache/com.unity.modules.hierarchycore)
+    com.unity.ext.nunit@2.0.5 (location: /Users/sanzar/VelvetVows/Library/PackageCache/com.unity.ext.nunit@031a54704bff)
+    com.unity.shadergraph@17.0.4 (location: /Users/sanzar/VelvetVows/Library/PackageCache/com.unity.shadergraph@867249b1c940)
+[Subsystems] No new subsystems found in resolved package list.
+[Package Manager] Done registering packages in 0.01 seconds
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+[ScriptCompilation] Requested script compilation because: Assetdatabase observed changes in script compilation related files
+[40m[32minfo[39m[22m[49m: Microsoft.Hosting.Lifetime[14]
+      Now listening on: http://unix:/tmp/ilpp.sock-29d6b975abf50cb65704ba458aa25766
+[40m[32minfo[39m[22m[49m: Microsoft.Hosting.Lifetime[0]
+      Application started. Press Ctrl+C to shut down.
+[40m[32minfo[39m[22m[49m: Microsoft.Hosting.Lifetime[0]
+      Hosting environment: Production
+[40m[32minfo[39m[22m[49m: Microsoft.Hosting.Lifetime[0]
+      Content root path: /Users/sanzar/VelvetVows/
+[40m[32minfo[39m[22m[49m: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/Ping application/grpc -
+[40m[32minfo[39m[22m[49m: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'gRPC - /UnityILPP.PostProcessing/Ping'
+[40m[32minfo[39m[22m[49m: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'gRPC - /UnityILPP.PostProcessing/Ping'
+[40m[32minfo[39m[22m[49m: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/Ping application/grpc - - 200 - application/grpc 40.1584ms
+Starting: /Applications/Unity/Hub/Editor/6000.0.84f1/Unity.app/Contents/bee_backend --ipc --defer-dag-verification --dagfile="Library/Bee/200b0aE.dag" --continue-on-failure --profile="Library/Bee/backend1.traceevents" ScriptAssemblies
+WorkingDir: /Users/sanzar/VelvetVows
+DisplayProgressbar: Compiling Scripts
+[40m[32minfo[39m[22m[49m: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/ConfigurePostProcessors application/grpc -
+[40m[32minfo[39m[22m[49m: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'gRPC - /UnityILPP.PostProcessing/ConfigurePostProcessors'
+[40m[1m[33mwarn[39m[22m[49m: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
+      Assembly system.runtime.interopservices.windowsruntime has duplicate hint path. Ignoring "/Applications/Unity/Hub/Editor/6000.0.84f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.InteropServices.WindowsRuntime.dll" in favor of "/Applications/Unity/Hub/Editor/6000.0.84f1/Unity.app/Contents/NetStandard/Extensions/2.0.0/System.Runtime.InteropServices.WindowsRuntime.dll"
+[40m[1m[33mwarn[39m[22m[49m: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
+      Assembly system.componentmodel.composition has duplicate hint path. Ignoring "/Applications/Unity/Hub/Editor/6000.0.84f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/System.ComponentModel.Composition.dll" in favor of "/Applications/Unity/Hub/Editor/6000.0.84f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netfx/System.ComponentModel.Composition.dll"
+[40m[32minfo[39m[22m[49m: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
+      Resolved Unity.Burst.Cecil, Version=0.11.6.0, Culture=neutral, PublicKeyToken=50cebf1cceb9d05e with Library/PackageCache/com.unity.burst@2f3d916873ea/Unity.Burst.CodeGen/Unity.Burst.Cecil.dll
+[40m[32minfo[39m[22m[49m: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
+      Resolved Mono.Cecil, Version=0.11.5.0, Culture=neutral, PublicKeyToken=50cebf1cceb9d05e with Library/PackageCache/com.unity.nuget.mono-cecil@ecb9724e46ff/Mono.Cecil.dll
+[40m[32minfo[39m[22m[49m: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'gRPC - /UnityILPP.PostProcessing/ConfigurePostProcessors'
+[40m[32minfo[39m[22m[49m: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/ConfigurePostProcessors application/grpc - - 200 - application/grpc 19.0431ms
+[40m[32minfo[39m[22m[49m: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/PostProcessAssembly application/grpc -
+[40m[32minfo[39m[22m[49m: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'gRPC - /UnityILPP.PostProcessing/PostProcessAssembly'
+[40m[32minfo[39m[22m[49m: Unity.ILPP.Runner.PostProcessingPipeline[0]
+      Processing assembly Library/Bee/artifacts/200b0aE.dag/Assembly-CSharp.dll, with 126 defines and 308 references
+[40m[32minfo[39m[22m[49m: Unity.ILPP.Runner.PostProcessingPipeline[0]
+      processors: Unity.Jobs.CodeGen.JobsILPostProcessor, zzzUnity.Burst.CodeGen.BurstILPostProcessor
+[40m[32minfo[39m[22m[49m: Unity.ILPP.Runner.PostProcessingPipeline[0]
+      running Unity.Jobs.CodeGen.JobsILPostProcessor
+[40m[32minfo[39m[22m[49m: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
+      Resolved Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null with Library/Bee/artifacts/200b0aE.dag/Unity.Collections.dll
+[40m[32minfo[39m[22m[49m: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
+      Resolved UnityEditor.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null with /Applications/Unity/Hub/Editor/6000.0.84f1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.CoreModule.dll
+[40m[32minfo[39m[22m[49m: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
+      Resolved UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null with /Applications/Unity/Hub/Editor/6000.0.84f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.CoreModule.dll
+[40m[32minfo[39m[22m[49m: Unity.ILPP.Runner.PostProcessingPipeline[0]
+      running zzzUnity.Burst.CodeGen.BurstILPostProcessor
+[40m[32minfo[39m[22m[49m: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
+      Resolved Unity.Burst.Cecil.Rocks, Version=0.11.6.0, Culture=neutral, PublicKeyToken=50cebf1cceb9d05e with Library/PackageCache/com.unity.burst@2f3d916873ea/Unity.Burst.CodeGen/Unity.Burst.Cecil.Rocks.dll
+[40m[32minfo[39m[22m[49m: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'gRPC - /UnityILPP.PostProcessing/PostProcessAssembly'
+[40m[32minfo[39m[22m[49m: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/PostProcessAssembly application/grpc - - 200 - application/grpc 349.5663ms
+[40m[32minfo[39m[22m[49m: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/PostProcessAssembly application/grpc -
+[40m[32minfo[39m[22m[49m: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'gRPC - /UnityILPP.PostProcessing/PostProcessAssembly'
+[40m[32minfo[39m[22m[49m: Unity.ILPP.Runner.PostProcessingPipeline[0]
+      Processing assembly Library/Bee/artifacts/200b0aE.dag/Assembly-CSharp-Editor.dll, with 124 defines and 329 references
+[40m[32minfo[39m[22m[49m: Unity.ILPP.Runner.PostProcessingPipeline[0]
+      processors: Unity.Jobs.CodeGen.JobsILPostProcessor, zzzUnity.Burst.CodeGen.BurstILPostProcessor
+[40m[32minfo[39m[22m[49m: Unity.ILPP.Runner.PostProcessingPipeline[0]
+      running Unity.Jobs.CodeGen.JobsILPostProcessor
+[40m[32minfo[39m[22m[49m: Unity.ILPP.Runner.PostProcessingPipeline[0]
+      running zzzUnity.Burst.CodeGen.BurstILPostProcessor
+[40m[32minfo[39m[22m[49m: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'gRPC - /UnityILPP.PostProcessing/PostProcessAssembly'
+[40m[32minfo[39m[22m[49m: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/PostProcessAssembly application/grpc - - 200 - application/grpc 32.8744ms
+ExitCode: 0 Duration: 2s852ms
+[739/988    0s] ILPP-Configuration Library/ilpp-configuration.nevergeneratedoutput
+[980/988    2s] Csc Library/Bee/artifacts/200b0aE.dag/Assembly-CSharp.dll (+2 others)
+[981/988    0s] Csc Library/Bee/artifacts/200b0aE.dag/Assembly-CSharp-Editor.dll (+2 others)
+[982/988    0s] ILPostProcess Library/Bee/artifacts/200b0aE.dag/post-processed/Assembly-CSharp.dll (+pdb)
+Processing assembly Library/Bee/artifacts/200b0aE.dag/Assembly-CSharp.dll, with 126 defines and 308 references
+processors: Unity.Jobs.CodeGen.JobsILPostProcessor, zzzUnity.Burst.CodeGen.BurstILPostProcessor
+running Unity.Jobs.CodeGen.JobsILPostProcessor
+running zzzUnity.Burst.CodeGen.BurstILPostProcessor
+[983/988    0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp.pdb
+[984/988    0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp.dll
+[985/988    0s] ILPostProcess Library/Bee/artifacts/200b0aE.dag/post-processed/Assembly-CSharp-Editor.dll (+pdb)
+Processing assembly Library/Bee/artifacts/200b0aE.dag/Assembly-CSharp-Editor.dll, with 124 defines and 329 references
+processors: Unity.Jobs.CodeGen.JobsILPostProcessor, zzzUnity.Burst.CodeGen.BurstILPostProcessor
+running Unity.Jobs.CodeGen.JobsILPostProcessor
+running zzzUnity.Burst.CodeGen.BurstILPostProcessor
+[986/988    0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
+[987/988    0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp-Editor.pdb
+*** Tundra build success (2.82 seconds), 9 items updated, 988 evaluated
+AssetDatabase: script compilation time: 3.507612s
+Total cache size 62881964
+Total cache size after purge 62881964, took 00:00:00.0964597
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.561 seconds
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 1.75 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Refreshing native plugins compatible for Editor in 0.60 ms, found 2 plugins.
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.208 seconds
+Domain Reload Profiling: 2769ms
+	BeginReloadAssembly (97ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (19ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (15ms)
+	LoadAllAssembliesAndSetupDomain (414ms)
+		LoadAssemblies (272ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (189ms)
+			TypeCache.Refresh (141ms)
+				TypeCache.ScanAssembly (128ms)
+			BuildScriptInfoCaches (37ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (2209ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2047ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (2ms)
+			BeforeProcessingInitializeOnLoad (113ms)
+			ProcessInitializeOnLoadAttributes (1892ms)
+			ProcessInitializeOnLoadMethodAttributes (31ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Refreshing native plugins compatible for Editor in 1.07 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=e11fe3b4a1d654730a89b2ae9a3391f0): Total: 7.504 seconds - Initiated by InitialRefreshV2(ForceSynchronousImport)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=2921 ms
+		Asset DB Callback time: managed=438 ms, native=33 ms
+		Scripting: domain reloads=1, domain reload time=561 ms, compile time=3509 ms, other=41 ms
+		Project Asset Count: scripts=1822, non-scripts=4737
+		Asset File Changes: new=0, changed=2, moved=0, deleted=0
+		Scan Filter Count: 1
+	InvokeCustomDependenciesCallbacks: 0.000ms
+	InvokePackagesCallback: 9.404ms
+	ApplyChangesToAssetFolders: 0.305ms
+	Scan: 408.283ms
+	OnSourceAssetsModified: 0.596ms
+	CategorizeAssetsWithTransientArtifact: 53.543ms
+	ProcessAssetsWithTransientArtifactChanges: 51.613ms
+	CategorizeAssets: 59.372ms
+	ImportOutOfDateAssets: 2218.997ms (-1293.288ms without children)
+		CompileScripts: 3508.567ms
+		ReloadNativeAssets: 0.027ms
+		UnloadImportedAssets: 1.848ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.860ms
+		InitializingProgressBar: 0.000ms
+		PostProcessAllAssetNotificationsAddChangedAssets: 0.000ms
+		OnDemandSchedulerStart: 0.984ms
+	PostProcessAllAssets: 439.592ms
+	Hotreload: 23.215ms
+	GatherAllCurrentPrimaryArtifactRevisions: 0.001ms
+	UnloadStreamsBegin: 1.133ms
+	PersistCurrentRevisions: 0.170ms
+	UnloadStreamsEnd: 0.001ms
+	GenerateScriptTypeHashes: 2.738ms
+	Untracked: 4238.126ms
+
+Application.AssetDatabase Initial Refresh End
+Scanning for USB devices : 0.041ms
+Initializing Unity extensions:
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-VelvetVows
+Unloading 19 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7145 unused Assets / (1.7 MB). Loaded Objects now: 7868.
+Memory consumption went from 237.6 MB to 235.9 MB.
+Total: 8.622542 ms (FindLiveObjects: 0.722333 ms CreateObjectMapping: 0.207875 ms MarkObjects: 5.692834 ms  DeleteObjects: 1.999125 ms)
+
+Opening scene 'Assets/VelvetVows/Scenes/VelvetVows_Main.unity'
+Unloading 67 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/VelvetVows/Scenes/VelvetVows_Main.unity'
+	Deserialize:            161.678 ms
+	Integration:            1011.159 ms
+	Integration of assets:  13.674 ms
+	Thread Wait Time:       -0.023 ms
+	Total Operation Time:   1186.488 ms
+Unloading 2 unused Assets / (1.0 KB). Loaded Objects now: 26333.
+Memory consumption went from 451.1 MB to 451.1 MB.
+Total: 10.252583 ms (FindLiveObjects: 1.788750 ms CreateObjectMapping: 0.319458 ms MarkObjects: 8.109583 ms  DeleteObjects: 0.034333 ms)
+
+Start importing Assets/VelvetVows/Materials/Phase3H/Held_linen_cloth.mat using Guid(54b51e85b98144b01872dd88d7d8c4d0) (NativeFormatImporter) -> (artifact id: '842fbb5d5314728b174e308104e289a4') in 0.006594458 seconds
+Refreshing native plugins compatible for Editor in 0.58 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=7406cc1bdacb74584b6d3e9ed5798d51): Total: 0.229 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Start importing Assets/VelvetVows/Materials/Phase3H/Held_linen_cloth.mat using Guid(54b51e85b98144b01872dd88d7d8c4d0) (NativeFormatImporter)Main Object Name 'Held linen cloth' does not match filename 'Held_linen_cloth'
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEditor.SceneManagement.EditorSceneManager:SaveSceneInternal (UnityEngine.SceneManagement.Scene,string,bool)
+UnityEditor.SceneManagement.EditorSceneManager:SaveScene (UnityEngine.SceneManagement.Scene,string,bool) (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorSceneManager.cs:95)
+UnityEditor.SceneManagement.EditorSceneManager:SaveScene (UnityEngine.SceneManagement.Scene,string) (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorSceneManager.cs:78)
+VelvetVows.Editor.Phase3HRepairPass:Refine () (at Assets/VelvetVows/Editor/Phase3HRepairPass.cs:337)
+
+[Assets/VelvetVows/Editor/Phase3HRepairPass.cs line 337]
+
+ -> (artifact id: 'dfbca4d5fbcaf8f720a6d6383bc5ca87') in 0.002961584 seconds
+Start importing Assets/VelvetVows/Materials/Phase3H/Linen_cloth_0.mat using Guid(77d49b506918947999e86f3ccc22d356) (NativeFormatImporter)Main Object Name 'Linen cloth 0' does not match filename 'Linen_cloth_0'
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEditor.SceneManagement.EditorSceneManager:SaveSceneInternal (UnityEngine.SceneManagement.Scene,string,bool)
+UnityEditor.SceneManagement.EditorSceneManager:SaveScene (UnityEngine.SceneManagement.Scene,string,bool) (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorSceneManager.cs:95)
+UnityEditor.SceneManagement.EditorSceneManager:SaveScene (UnityEngine.SceneManagement.Scene,string) (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorSceneManager.cs:78)
+VelvetVows.Editor.Phase3HRepairPass:Refine () (at Assets/VelvetVows/Editor/Phase3HRepairPass.cs:337)
+
+[Assets/VelvetVows/Editor/Phase3HRepairPass.cs line 337]
+
+ -> (artifact id: '62236c7f97f0f458397a21514c76468b') in 0.001380125 seconds
+Refreshing native plugins compatible for Editor in 0.63 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=58abc945cb6a24c9d95f9b5225c0aa62): Total: 0.043 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Start importing Assets/VelvetVows/Scenes/VelvetVows_Main.unity using Guid(30b2272297e804006afe4e47eaf926d3) (DefaultImporter) -> (artifact id: 'c27d561c9f3e51a528ddc3cd106d5f14') in 0.002090959 seconds
+Refreshing native plugins compatible for Editor in 0.64 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=29be00d7aa7f0425dbd9ca4adb96acc4): Total: 0.040 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+[Phase3H] Added exact visible-architecture collision, hid duplicate old wall surfaces, cleared duplicate cabinets and refined the Prefect route.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+VelvetVows.Editor.Phase3HRepairPass:Refine () (at Assets/VelvetVows/Editor/Phase3HRepairPass.cs:338)
+
+(Filename: Assets/VelvetVows/Editor/Phase3HRepairPass.cs Line: 338)
+
+Batchmode quit successfully invoked - shutting down!
+Thread 0x16e5d7000 may have been prematurely finalized
+Input System module state changed to: ShutdownInProgress.
+Input System polling thread exited.
+Input System module state changed to: Shutdown.
+[Physics::Module] Cleanup current backned.
+[Physics::Module] Id: 0xf2b8ea05
+[Licensing::IpcConnector] LicenseClient-sanzar-notifications channel disconnected successfully.
+[Licensing::IpcConnector] LicenseClient-sanzar channel disconnected successfully.
+Thread 0x16d713000 may have been prematurely finalized
+Thread 0x16d79f000 may have been prematurely finalized
+Thread 0x16da5b000 may have been prematurely finalized
+Thread 0x16d8b7000 may have been prematurely finalized
+Thread 0x16d943000 may have been prematurely finalized
+Thread 0x16d9cf000 may have been prematurely finalized
+Thread 0x16d82b000 may have been prematurely finalized
+AcceleratorClientConnectionCallback - disconnected - :0
+Cleanup mono
+[40m[32minfo[39m[22m[49m: Microsoft.Hosting.Lifetime[0]
+      Application is shutting down...
+[40m[32minfo[39m[22m[49m: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
+      ALC ILPP context 1 is unloading
+debugger-agent: Unable to listen on 44
+Exiting batchmode successfully now!
+[Package Manager] Server process was shutdown

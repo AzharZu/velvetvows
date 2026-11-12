@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="11" result="Failed(Child)" total="11" passed="10" failed="1" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-11-10 23:20:45Z" end-time="2026-11-10 23:22:45Z" duration="119.8487715">
+  <test-suite type="TestSuite" id="1084" name="VelvetVows" fullname="VelvetVows" runstate="Runnable" testcasecount="55" result="Failed" site="Child" start-time="2026-11-10 23:20:45Z" end-time="2026-11-10 23:22:45Z" duration="119.848772" total="11" passed="10" failed="1" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="PlayMode" />
+    </properties>
+    <failure>
+      <message><![CDATA[One or more child tests had errors]]></message>
+    </failure>
+    <test-suite type="Assembly" id="1081" name="VelvetVows.AnimationCompatibility.PlayModeTests.dll" fullname="/Users/sanzar/VelvetVows/Library/ScriptAssemblies/VelvetVows.AnimationCompatibility.PlayModeTests.dll" runstate="Runnable" testcasecount="55" result="Failed" site="Child" start-time="2026-11-10 23:20:45Z" end-time="2026-11-10 23:22:45Z" duration="119.835785" total="11" passed="10" failed="1" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="53657" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="PlayMode" />
+        <property name="EditorOnly" value="False" />
+      </properties>
+      <failure>
+        <message><![CDATA[One or more child tests had errors]]></message>
+      </failure>
+      <test-suite type="TestSuite" id="1082" name="VelvetVows" fullname="VelvetVows" runstate="Runnable" testcasecount="55" result="Failed" site="Child" start-time="2026-11-10 23:20:45Z" end-time="2026-11-10 23:22:45Z" duration="119.829432" total="11" passed="10" failed="1" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <failure>
+          <message><![CDATA[One or more child tests had errors]]></message>
+        </failure>
+        <test-suite type="TestSuite" id="1083" name="Tests" fullname="VelvetVows.Tests" runstate="Runnable" testcasecount="55" result="Failed" site="Child" start-time="2026-11-10 23:20:45Z" end-time="2026-11-10 23:22:45Z" duration="119.823778" total="11" passed="10" failed="1" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <failure>
+            <message><![CDATA[One or more child tests had errors]]></message>
+          </failure>
+          <test-suite type="TestFixture" id="1013" name="Phase2BPlayModeTests" fullname="VelvetVows.Tests.Phase2BPlayModeTests" classname="VelvetVows.Tests.Phase2BPlayModeTests" runstate="Runnable" testcasecount="6" result="Passed" start-time="2026-11-10 23:20:45Z" end-time="2026-11-10 23:21:29Z" duration="44.104707" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1015" name="PlayerCanCleanAllFourObjectives" fullname="VelvetVows.Tests.Phase2BPlayModeTests.PlayerCanCleanAllFourObjectives" methodname="PlayerCanCleanAllFourObjectives" classname="VelvetVows.Tests.Phase2BPlayModeTests" runstate="Runnable" seed="1129358255" result="Passed" start-time="2026-11-10 23:20:45Z" end-time="2026-11-10 23:21:16Z" duration="30.622597" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[VelvetVows] GameManager Awake
+[VelvetVows] GameHUD initialized
+[VelvetVows] Canvas active: True, enabled: True, mode: ScreenSpaceOverlay
+[VelvetVows] Canvas scale: (1.00, 1.00, 1.00)
+[VelvetVows] StartPanel active: True
+[VelvetVows] StartPanel scale: (1.00, 1.00, 1.00)
+[VelvetVows] UI input: EventSystem=True, InputSystemUIInputModule=True, actions=True, cursor=None/visible=True
+[VelvetVows] BEGIN listener registered (serialized)
+[VelvetVows] State: Introduction
+[VelvetVows] Canvas active: True, enabled: True, mode: ScreenSpaceOverlay
+[VelvetVows] Canvas scale: (1.00, 1.00, 1.00)
+[VelvetVows] StartPanel active: True
+[VelvetVows] StartPanel scale: (1.00, 1.00, 1.00)
+[VelvetVows] UI input: EventSystem=True, InputSystemUIInputModule=True, actions=True, cursor=None/visible=True
+[Phase3L] Murder camera=(-13.40, 1.85, -2.83) target=(-16.50, 1.00, -2.83) clear=True
+[Phase2B] Cleanup challenge began at 120 seconds
+[Phase2B Test] Walk to (-18.00, 0.00, -5.30): reached (-18.58, 0.02, -4.77) in 1.6s
+[Phase2B Test] Walk to (-17.20, 0.00, -3.10): reached (-17.55, 0.03, -3.81) in 0.5s
+[Phase2B Test] Walk to (-17.20, 0.00, -2.00): reached (-17.21, 0.03, -2.79) in 0.2s
+[Phase2B Test] Walk to (-20.90, 0.00, -2.00): reached (-20.13, 0.03, -2.17) in 1.1s
+[Phase2B Test] Walk to (-18.75, 0.00, -5.05): reached (-19.08, 0.02, -4.35) in 1.0s
+[Phase2B Test] Four physical E interactions and success passed
+]]></output>
+            </test-case>
+            <test-case id="1016" name="TimeoutFailureAndRetryRestoreEvidence" fullname="VelvetVows.Tests.Phase2BPlayModeTests.TimeoutFailureAndRetryRestoreEvidence" methodname="TimeoutFailureAndRetryRestoreEvidence" classname="VelvetVows.Tests.Phase2BPlayModeTests" runstate="Runnable" seed="864269128" result="Passed" start-time="2026-11-10 23:21:16Z" end-time="2026-11-10 23:21:29Z" duration="13.445140" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[VelvetVows] GameManager Awake
+[VelvetVows] GameHUD initialized
+[VelvetVows] Canvas active: True, enabled: True, mode: ScreenSpaceOverlay
+[VelvetVows] Canvas scale: (1.00, 1.00, 1.00)
+[VelvetVows] StartPanel active: True
+[VelvetVows] StartPanel scale: (1.00, 1.00, 1.00)
+[VelvetVows] UI input: EventSystem=True, InputSystemUIInputModule=True, actions=True, cursor=None/visible=True
+[VelvetVows] BEGIN listener registered (serialized)
+[VelvetVows] State: Introduction
+[VelvetVows] Canvas active: True, enabled: True, mode: ScreenSpaceOverlay
+[VelvetVows] Canvas scale: (1.00, 1.00, 1.00)
+[VelvetVows] StartPanel active: True
+[VelvetVows] StartPanel scale: (1.00, 1.00, 1.00)
+[VelvetVows] UI input: EventSystem=True, InputSystemUIInputModule=True, actions=True, cursor=None/visible=True
+[Phase3L] Murder camera=(-13.40, 1.85, -2.83) target=(-16.50, 1.00, -2.83) clear=True
+[Phase2B] Cleanup challenge began at 120 seconds
+[Phase2B] Cleanup challenge began at 120 seconds
+[Phase2B Test] Timeout failure and retry passed
+]]></output>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1059" name="Phase3HRepairPlayModeTests" fullname="VelvetVows.Tests.Phase3HRepairPlayModeTests" classname="VelvetVows.Tests.Phase3HRepairPlayModeTests" runstate="Runnable" testcasecount="1" result="Failed" site="Child" start-time="2026-11-10 23:21:29Z" end-time="2026-11-10 23:21:32Z" duration="2.586343" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <failure>
+              <message><![CDATA[One or more child tests had errors]]></message>
+            </failure>
+            <test-case id="1060" name="RepairedCamerasLayoutVoicesAndJumpBoundaries" fullname="VelvetVows.Tests.Phase3HRepairPlayModeTests.RepairedCamerasLayoutVoicesAndJumpBoundaries" methodname="RepairedCamerasLayoutVoicesAndJumpBoundaries" classname="VelvetVows.Tests.Phase3HRepairPlayModeTests" runstate="Runnable" seed="410915171" result="Failed" label="Error" start-time="2026-11-10 23:21:29Z" end-time="2026-11-10 23:21:32Z" duration="2.569398" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="Timeout" value="180000" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <failure>
+                <message><![CDATA[System.Reflection.TargetParameterCountException : Number of parameters specified does not match the expected number.]]></message>
+                <stack-trace><![CDATA[  at System.Reflection.RuntimeMethodInfo.ConvertValues (System.Reflection.Binder binder, System.Object[] args, System.Reflection.ParameterInfo[] pinfo, System.Globalization.CultureInfo culture, System.Reflection.BindingFlags invokeAttr) [0x00016] in <10ab8b7c0c5c4be0a99a39bdb6b9f10c>:0 
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00040] in <10ab8b7c0c5c4be0a99a39bdb6b9f10c>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <10ab8b7c0c5c4be0a99a39bdb6b9f10c>:0 
+  at VelvetVows.Tests.Phase3HRepairPlayModeTests.Call (System.Object target, System.String name, System.Object[] args) [0x00000] in /Users/sanzar/VelvetVows/Assets/VelvetVows/Tests/PlayMode/Phase3HRepairPlayModeTests.cs:23 
+  at VelvetVows.Tests.Phase3HRepairPlayModeTests+<RepairedCamerasLayoutVoicesAndJumpBoundaries>d__4.MoveNext () [0x001ba] in /Users/sanzar/VelvetVows/Assets/VelvetVows/Tests/PlayMode/Phase3HRepairPlayModeTests.cs:42 
+  at UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in ./Library/PackageCache/com.unity.test-framework@082c24152fd4/UnityEngine.TestRunner/NUnitExtensions/Attributes/TestEnumerator.cs:44 ]]></stack-trace>
+              </failure>
+              <output><![CDATA[[VelvetVows] GameManager Awake
+[VelvetVows] GameHUD initialized
+[VelvetVows] Canvas active: True, enabled: True, mode: ScreenSpaceOverlay
+[VelvetVows] Canvas scale: (1.00, 1.00, 1.00)
+[VelvetVows] StartPanel active: True
+[VelvetVows] StartPanel scale: (1.00, 1.00, 1.00)
+[VelvetVows] UI input: EventSystem=True, InputSystemUIInputModule=True, actions=True, cursor=None/visible=True
+[VelvetVows] BEGIN listener registered (serialized)
+[VelvetVows] State: Introduction
+[VelvetVows] Canvas active: True, enabled: True, mode: ScreenSpaceOverlay
+[VelvetVows] Canvas scale: (1.00, 1.00, 1.00)
+[VelvetVows] StartPanel active: True
+[VelvetVows] StartPanel scale: (1.00, 1.00, 1.00)
+[VelvetVows] UI input: EventSystem=True, InputSystemUIInputModule=True, actions=True, cursor=None/visible=True
+]]></output>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1065" name="Phase3KCharacterPlayModeTests" fullname="VelvetVows.Tests.Phase3KCharacterPlayModeTests" classname="VelvetVows.Tests.Phase3KCharacterPlayModeTests" runstate="Runnable" testcasecount="1" result="Passed" start-time="2026-11-10 23:21:32Z" end-time="2026-11-10 23:21:45Z" duration="13.030844" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1066" name="FacesFollowRecordingSilenceAndPhysicalFootsteps" fullname="VelvetVows.Tests.Phase3KCharacterPlayModeTests.FacesFollowRecordingSilenceAndPhysicalFootsteps" methodname="FacesFollowRecordingSilenceAndPhysicalFootsteps" classname="VelvetVows.Tests.Phase3KCharacterPlayModeTests" runstate="Runnable" seed="1813864899" result="Passed" start-time="2026-11-10 23:21:32Z" end-time="2026-11-10 23:21:45Z" duration="12.998749" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="Timeout" value="180000" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[VelvetVows] GameManager Awake
+[VelvetVows] GameHUD initialized
+[VelvetVows] Canvas active: True, enabled: True, mode: ScreenSpaceOverlay
+[VelvetVows] Canvas scale: (1.00, 1.00, 1.00)
+[VelvetVows] StartPanel active: True
+[VelvetVows] StartPanel scale: (1.00, 1.00, 1.00)
+[VelvetVows] UI input: EventSystem=True, InputSystemUIInputModule=True, actions=True, cursor=None/visible=True
+[VelvetVows] BEGIN listener registered (serialized)
+[VelvetVows] State: Introduction
+[VelvetVows] Canvas active: True, enabled: True, mode: ScreenSpaceOverlay
+[VelvetVows] Canvas scale: (1.00, 1.00, 1.00)
+[VelvetVows] StartPanel active: True
+[VelvetVows] StartPanel scale: (1.00, 1.00, 1.00)
+[VelvetVows] UI input: EventSystem=True, InputSystemUIInputModule=True, actions=True, cursor=None/visible=True
+Ignoring depth surface load action as it is memoryless
+Ignoring depth surface store action as it is memoryless
+[Phase2A Test] Navigation probes: start=True, end=True, hall=True, hall west=False, library door=True, music door=True
+[Phase2A Test] Route (-5.00, 0.02, 3.00) → (-5.00, 0.00, -2.00): 4 turns: (-5.50, 0.00, 2.10); (-6.80, 0.00, 0.80); (-6.80, 0.00, 0.15); (-5.50, 0.00, -1.15)
+[Phase2A Test] Walk toward (-5.50, 0.00, 2.10): now (-5.36, 0.02, 2.35), elapsed 0.3s
+[Phase2A Test] Walk toward (-6.80, 0.00, 0.80): now (-6.62, 0.02, 1.00), elapsed 0.7s
+[Phase2A Test] Walk toward (-6.80, 0.00, 0.15): now (-6.75, 0.02, 0.40), elapsed 0.2s
+[Phase2A Test] Walk toward (-5.50, 0.00, -1.15): now (-5.65, 0.03, -0.96), elapsed 0.7s
+[Phase2A Test] Walk toward (-5.00, 0.00, -2.00): now (-5.65, 0.03, -0.96), elapsed 0.0s
+[Phase3K] Audio-driven lips, silent intervals, isolated speaker, music duck/recovery, real footsteps and death release passed.
+]]></output>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1067" name="Phase3LAnimationPlayModeTests" fullname="VelvetVows.Tests.Phase3LAnimationPlayModeTests" classname="VelvetVows.Tests.Phase3LAnimationPlayModeTests" runstate="Runnable" testcasecount="7" result="Passed" start-time="2026-11-10 23:21:45Z" end-time="2026-11-10 23:22:45Z" duration="60.088022" total="7" passed="7" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1073" name="BodyHidingKeepsBothActorsVisibleAndReleasesControl" fullname="VelvetVows.Tests.Phase3LAnimationPlayModeTests.BodyHidingKeepsBothActorsVisibleAndReleasesControl" methodname="BodyHidingKeepsBothActorsVisibleAndReleasesControl" classname="VelvetVows.Tests.Phase3LAnimationPlayModeTests" runstate="Runnable" seed="2143108832" result="Passed" start-time="2026-11-10 23:21:45Z" end-time="2026-11-10 23:21:59Z" duration="13.860557" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="Timeout" value="90000" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[VelvetVows] GameManager Awake
+[VelvetVows] GameHUD initialized
+[VelvetVows] Canvas active: True, enabled: True, mode: ScreenSpaceOverlay
+[VelvetVows] Canvas scale: (1.00, 1.00, 1.00)
+[VelvetVows] StartPanel active: True
+[VelvetVows] StartPanel scale: (1.00, 1.00, 1.00)
+[VelvetVows] UI input: EventSystem=True, InputSystemUIInputModule=True, actions=True, cursor=None/visible=True
+[VelvetVows] BEGIN listener registered (serialized)
+[VelvetVows] State: Introduction
+[VelvetVows] Canvas active: True, enabled: True, mode: ScreenSpaceOverlay
+[VelvetVows] Canvas scale: (1.00, 1.00, 1.00)
+[VelvetVows] StartPanel active: True
+[VelvetVows] StartPanel scale: (1.00, 1.00, 1.00)
+[VelvetVows] UI input: EventSystem=True, InputSystemUIInputModule=True, actions=True, cursor=None/visible=True
+[Phase3L] Murder camera=(-13.40, 1.85, -2.83) target=(-16.50, 1.00, -2.83) clear=True
+[Phase2B] Cleanup challenge began at 120 seconds
+[Phase3M] Body contact: player=(-19.99, 0.03, -2.21), body=(-21.03, 0.18, -2.40), chest=(-20.43, 0.20, -2.28), hands=(-20.11, 0.42, -2.29)/(-20.13, 0.39, -2.22), weight=1, bend=1, right=0.249, left=0.244
+Ignoring depth surface load action as it is memoryless
+Ignoring depth surface store action as it is memoryless
+]]></output>
+            </test-case>
+            <test-case id="1070" name="CoupleUsesSynchronizedStepsAndSharedHandContact" fullname="VelvetVows.Tests.Phase3LAnimationPlayModeTests.CoupleUsesSynchronizedStepsAndSharedHandContact" methodname="CoupleUsesSynchronizedStepsAndSharedHandContact" classname="VelvetVows.Tests.Phase3LAnimationPlayModeTests" runstate="Runnable" seed="2075818076" result="Passed" start-time="2026-11-10 23:21:59Z" end-time="2026-11-10 23:22:09Z" duration="9.764535" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="Timeout" value="60000" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[VelvetVows] GameManager Awake
+[VelvetVows] GameHUD initialized
+[VelvetVows] Canvas active: True, enabled: True, mode: ScreenSpaceOverlay
+[VelvetVows] Canvas scale: (1.00, 1.00, 1.00)
+[VelvetVows] StartPanel active: True
+[VelvetVows] StartPanel scale: (1.00, 1.00, 1.00)
+[VelvetVows] UI input: EventSystem=True, InputSystemUIInputModule=True, actions=True, cursor=None/visible=True
+[VelvetVows] BEGIN listener registered (serialized)
+[VelvetVows] State: Introduction
+[VelvetVows] Canvas active: True, enabled: True, mode: ScreenSpaceOverlay
+[VelvetVows] Canvas scale: (1.00, 1.00, 1.00)
+[VelvetVows] StartPanel active: True
+[VelvetVows] StartPanel scale: (1.00, 1.00, 1.00)
+[VelvetVows] UI input: EventSystem=True, InputSystemUIInputModule=True, actions=True, cursor=None/visible=True
+Ignoring depth surface load action as it is memoryless
+Ignoring depth surface store action as it is memoryless
+[Phase3L] Synchronized dance contact gap=0.03767786; hand IK released after dance.
+]]></output>
+            </test-case>
+            <test-case id="1068" name="EveryActionCommitsOnceAndCancellationRestoresControl" fullname="VelvetVows.Tests.Phase3LAnimationPlayModeTests.EveryActionCommitsOnceAndCancellationRestoresControl" methodname="EveryActionCommitsOnceAndCancellationRestoresControl" classname="VelvetVows.Tests.Phase3LAnimationPlayModeTests" runstate="Runnable" seed="2140748181" result="Passed" start-time="2026-11-10 23:22:09Z" end-time="2026-11-10 23:22:33Z" duration="24.232252" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="Timeout" value="150000" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[VelvetVows] GameManager Awake
+[VelvetVows] GameHUD initialized
+[VelvetVows] Canvas active: True, enabled: True, mode: ScreenSpaceOverlay
+[VelvetVows] Canvas scale: (1.00, 1.00, 1.00)
+[VelvetVows] StartPanel active: True
+[VelvetVows] StartPanel scale: (1.00, 1.00, 1.00)
+[VelvetVows] UI input: EventSystem=True, InputSystemUIInputModule=True, actions=True, cursor=None/visible=True
+[VelvetVows] BEGIN listener registered (serialized)
+[VelvetVows] State: Introduction
+[VelvetVows] Canvas active: True, enabled: True, mode: ScreenSpaceOverlay
+[VelvetVows] Canvas scale: (1.00, 1.00, 1.00)
+[VelvetVows] StartPanel active: True
+[VelvetVows] StartPanel scale: (1.00, 1.00, 1.00)
+[VelvetVows] UI input: EventSystem=True, InputSystemUIInputModule=True, actions=True, cursor=None/visible=True
+Ignoring depth surface load action as it is memoryless
+Ignoring depth surface store action as it is memoryless
+[Phase3L] Eight actions, single impact, cancellation, input recovery, finite humanoid IK and delayed real item pickup passed.
+]]></output>
+            </test-case>
+            <test-case id="1069" name="FootGroundingFollowsASmallStepAndReleasesInAir" fullname="VelvetVows.Tests.Phase3LAnimationPlayModeTests.FootGroundingFollowsASmallStepAndReleasesInAir" methodname="FootGroundingFollowsASmallStepAndReleasesInAir" classname="VelvetVows.Tests.Phase3LAnimationPlayModeTests" runstate="Runnable" seed="1848984503" result="Passed" start-time="2026-11-10 23:22:33Z" end-time="2026-11-10 23:22:35Z" duration="2.314771" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="Timeout" value="60000" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[VelvetVows] GameManager Awake
+[VelvetVows] GameHUD initialized
+[VelvetVows] Canvas active: True, enabled: True, mode: ScreenSpaceOverlay
+[VelvetVows] Canvas scale: (1.00, 1.00, 1.00)
+[VelvetVows] StartPanel active: True
+[VelvetVows] StartPanel scale: (1.00, 1.00, 1.00)
+[VelvetVows] UI input: EventSystem=True, InputSystemUIInputModule=True, actions=True, cursor=None/visible=True
+[VelvetVows] BEGIN listener registered (serialized)
+[VelvetVows] State: Introduction
+[VelvetVows] Canvas active: True, enabled: True, mode: ScreenSpaceOverlay
+[VelvetVows] Canvas scale: (1.00, 1.00, 1.00)
+[VelvetVows] StartPanel active: True
+[VelvetVows] StartPanel scale: (1.00, 1.00, 1.00)
+[VelvetVows] UI input: EventSystem=True, InputSystemUIInputModule=True, actions=True, cursor=None/visible=True
+[Phase3L] Raised step surface and airborne IK release passed.
+]]></output>
+            </test-case>
+            <test-case id="1071" name="MurderCameraStaysInsideStudioNearTheSouthWall" fullname="VelvetVows.Tests.Phase3LAnimationPlayModeTests.MurderCameraStaysInsideStudioNearTheSouthWall" methodname="MurderCameraStaysInsideStudioNearTheSouthWall" classname="VelvetVows.Tests.Phase3LAnimationPlayModeTests" runstate="Runnable" seed="10381588" result="Passed" start-time="2026-11-10 23:22:35Z" end-time="2026-11-10 23:22:39Z" duration="3.579752" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="Timeout" value="60000" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[VelvetVows] GameManager Awake
+[VelvetVows] GameHUD initialized
+[VelvetVows] Canvas active: True, enabled: True, mode: ScreenSpaceOverlay
+[VelvetVows] Canvas scale: (1.00, 1.00, 1.00)
+[VelvetVows] StartPanel active: True
+[VelvetVows] StartPanel scale: (1.00, 1.00, 1.00)
+[VelvetVows] UI input: EventSystem=True, InputSystemUIInputModule=True, actions=True, cursor=None/visible=True
+[VelvetVows] BEGIN listener registered (serialized)
+[VelvetVows] State: Introduction
+[VelvetVows] Canvas active: True, enabled: True, mode: ScreenSpaceOverlay
+[VelvetVows] Canvas scale: (1.00, 1.00, 1.00)
+[VelvetVows] StartPanel active: True
+[VelvetVows] StartPanel scale: (1.00, 1.00, 1.00)
+[VelvetVows] UI input: EventSystem=True, InputSystemUIInputModule=True, actions=True, cursor=None/visible=True
+[Phase3L] Murder camera=(-14.40, 1.87, -5.80) target=(-17.50, 1.02, -5.80) clear=True
+Ignoring depth surface load action as it is memoryless
+Ignoring depth surface store action as it is memoryless
+[Phase3L] Visible murder camera: central image variance=0.0114014918443934
+]]></output>
+            </test-case>
+            <test-case id="1072" name="SprintAndJumpDriveTheVisibleHumanoidAndRecoverGrounding" fullname="VelvetVows.Tests.Phase3LAnimationPlayModeTests.SprintAndJumpDriveTheVisibleHumanoidAndRecoverGrounding" methodname="SprintAndJumpDriveTheVisibleHumanoidAndRecoverGrounding" classname="VelvetVows.Tests.Phase3LAnimationPlayModeTests" runstate="Runnable" seed="1157251850" result="Passed" start-time="2026-11-10 23:22:39Z" end-time="2026-11-10 23:22:44Z" duration="5.548638" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="Timeout" value="90000" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[VelvetVows] GameManager Awake
+[VelvetVows] GameHUD initialized
+[VelvetVows] Canvas active: True, enabled: True, mode: ScreenSpaceOverlay
+[VelvetVows] Canvas scale: (1.00, 1.00, 1.00)
+[VelvetVows] StartPanel active: True
+[VelvetVows] StartPanel scale: (1.00, 1.00, 1.00)
+[VelvetVows] UI input: EventSystem=True, InputSystemUIInputModule=True, actions=True, cursor=None/visible=True
+[VelvetVows] BEGIN listener registered (serialized)
+[VelvetVows] State: Introduction
+[VelvetVows] Canvas active: True, enabled: True, mode: ScreenSpaceOverlay
+[VelvetVows] Canvas scale: (1.00, 1.00, 1.00)
+[VelvetVows] StartPanel active: True
+[VelvetVows] StartPanel scale: (1.00, 1.00, 1.00)
+[VelvetVows] UI input: EventSystem=True, InputSystemUIInputModule=True, actions=True, cursor=None/visible=True
+[Phase2A Test] Navigation probes: start=True, end=True, hall=True, hall west=False, library door=True, music door=True
+[Phase2A Test] Route (-5.00, 0.04, -5.50) → (1.00, 0.00, -5.50): 4 turns: (-4.20, 0.00, -6.35); (-2.25, 0.00, -8.30); (-1.60, 0.00, -8.30); (0.35, 0.00, -6.35)
+[Phase2A Test] Walk toward (-4.20, 0.00, -6.35): now (-4.30, 0.03, -6.24), elapsed 0.2s
+[Phase2A Test] Walk toward (-2.25, 0.00, -8.30): now (-2.43, 0.03, -8.12), elapsed 0.5s
+[Phase2A Test] Walk toward (-1.60, 0.00, -8.30): now (-1.86, 0.03, -8.24), elapsed 0.1s
+[Phase2A Test] Walk toward (0.35, 0.00, -6.35): now (0.20, 0.03, -6.48), elapsed 0.5s
+[Phase2A Test] Walk toward (1.00, 0.00, -5.50): now (0.20, 0.03, -6.48), elapsed 0.0s
+[Phase3L locomotion diagnostic] airborne=True jumpPose=True rise=1.09726 minIK=0 motor=True
+[Phase3L] Physical sprint=5.600008 m/s, jump height=1.09726 m; visible animator and ground IK recovered.
+]]></output>
+            </test-case>
+            <test-case id="1074" name="SuspicionIdentifiesTheActiveDetectionArea" fullname="VelvetVows.Tests.Phase3LAnimationPlayModeTests.SuspicionIdentifiesTheActiveDetectionArea" methodname="SuspicionIdentifiesTheActiveDetectionArea" classname="VelvetVows.Tests.Phase3LAnimationPlayModeTests" runstate="Runnable" seed="210026163" result="Passed" start-time="2026-11-10 23:22:44Z" end-time="2026-11-10 23:22:45Z" duration="0.744361" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="Timeout" value="60000" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[VelvetVows] GameManager Awake
+[VelvetVows] GameHUD initialized
+[VelvetVows] Canvas active: True, enabled: True, mode: ScreenSpaceOverlay
+[VelvetVows] Canvas scale: (1.00, 1.00, 1.00)
+[VelvetVows] StartPanel active: True
+[VelvetVows] StartPanel scale: (1.00, 1.00, 1.00)
+[VelvetVows] UI input: EventSystem=True, InputSystemUIInputModule=True, actions=True, cursor=None/visible=True
+[VelvetVows] BEGIN listener registered (serialized)
+[VelvetVows] State: Introduction
+[VelvetVows] Canvas active: True, enabled: True, mode: ScreenSpaceOverlay
+[VelvetVows] Canvas scale: (1.00, 1.00, 1.00)
+[VelvetVows] StartPanel active: True
+[VelvetVows] StartPanel scale: (1.00, 1.00, 1.00)
+[VelvetVows] UI input: EventSystem=True, InputSystemUIInputModule=True, actions=True, cursor=None/visible=True
+Saving results to: /Users/sanzar/Library/Application Support/DefaultCompany/VelvetVows/TestResults.xml
+]]></output>
+            </test-case>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

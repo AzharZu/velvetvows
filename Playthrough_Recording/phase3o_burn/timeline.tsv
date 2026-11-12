@@ -1,0 +1,245 @@
+﻿seconds	type	event
+0.004	recording	Normal speed; actual controller movement, E and UI clicks; BEGIN to ending
+0.035	state	Introduction/NotStarted/Dormant
+2.653	state	Phase2A/Opening/Dormant
+5.824	dialogue	ISABELLE|Nobody even wants her here.
+9.018	dialogue	AMELIE|Ha…
+10.814	dialogue	ADRIAN|Get away.
+13.272	dialogue	ISABELLE|Whatever. Let’s go.
+20.213	dialogue	ADRIAN|Are you alright?
+22.838	dialogue	EVELYN|Y-yes. Thank you.
+26.653	dialogue	ADRIAN|Be careful, Evelyn.
+29.330	dialogue	ADRIAN|Evelyn, isn’t it?
+43.713	state	Phase3AIntro/Opening/Dormant
+105.397	state	Phase2A/MissingStudent/Dormant
+105.397	dialogue	ISABELLE|Did you hear? Another student disappeared.
+108.878	dialogue	AMELIE|Lucien Morel. Nobody has seen him since Friday.
+112.584	dialogue	EVELYN|Lucien? He was annoying.
+115.316	dialogue	ISABELLE|Didn't he ask you out last week?
+118.214	dialogue	EVELYN|He asked me to study mathematics with him. I said no.
+122.195	dialogue	AMELIE|That's the third disappearance this semester.
+125.854	dialogue	EVELYN|People leave this academy all the time.
+128.963	walk	(-4.40, 0.00, 2.80)
+129.359	state	Phase2A/Overhear/Dormant
+134.544	state	Phase2A/Overhearing/Dormant
+135.054	dialogue	CELESTE|I'm going to ask Adrian to the Black Rose Ball.
+138.762	dialogue	ISABELLE|Seriously? Tomorrow?
+141.571	dialogue	CELESTE|Why not? He's single.
+144.325	dialogue	ISABELLE|What if he refuses?
+147.091	dialogue	CELESTE|Then at least I'll know.
+149.877	dialogue	EVELYN · THOUGHT|She's going to confess?
+152.651	dialogue	EVELYN · THOUGHT|No. He wouldn't accept… would he?
+155.488	dialogue	EVELYN · THOUGHT|Girls like her have always had everything.
+158.822	dialogue	EVELYN · THOUGHT|Friends. Money. A family.
+161.554	dialogue	EVELYN · THOUGHT|And now she wants him, too.
+164.305	dialogue	EVELYN · THOUGHT|<color=#761B32>But not him.</color>
+168.024	state	Phase2A/WatchAdrian/Dormant
+168.024	walk	(-20.00, 0.00, 14.00)
+170.138	camera-recovery	player=(-10.15, 0.05, 8.92); camera=(-9.00, 1.56, 7.40)
+170.250	camera-recovery	player=(-10.44, 0.05, 8.91); camera=(-8.40, 1.56, 7.94)
+170.456	camera-recovery	player=(-10.95, 0.05, 9.11); camera=(-8.48, 1.56, 9.01)
+173.428	state	Phase2A/Watching/Dormant
+176.139	dialogue	CELESTE|Adrian! Are you attending the Ball tomorrow?
+179.554	dialogue	ADRIAN|I suppose so.
+182.375	dialogue	CELESTE|With someone?
+185.099	dialogue	ADRIAN|Not yet.
+187.875	dialogue	CELESTE|Then perhaps we could…
+190.602	dialogue	ODETTE|Adrian? Professor Laurent is waiting.
+193.817	dialogue	ADRIAN|Excuse me, Celeste.
+196.659	dialogue	EVELYN · THOUGHT|He doesn't have a partner.
+199.397	dialogue	EVELYN · THOUGHT|She might actually ask him.
+210.079	state	Phase2A/Errands/Dormant
+210.098	walk	(-15.00, 0.00, 17.00)
+214.249	dialogue	CELESTE|Sorry, Evelyn. We don't really know each other.
+214.331	interaction	Celeste refuses before trust
+217.743	walk	(-22.60, 0.00, 17.40)
+222.005	interaction	library books
+223.196	walk	(-21.00, 0.00, 21.00)
+225.600	dialogue	CLARA|You brought them back. Thank you, Evelyn.
+225.998	interaction	deliver books to Clara
+228.846	dialogue	EVELYN|I was passing by.
+231.560	walk	(-19.70, 0.00, -2.45)
+235.609	camera-probe	player=(-14.94, 0.02, 13.58); view=(0.48, 0.33, 3.03); distance=3.09; hit=none
+236.682	camera-probe	player=(-12.94, 0.03, 11.54); view=(0.49, 0.32, 3.01); distance=3.06; hit=none
+237.763	camera-probe	player=(-10.99, 0.05, 9.55); view=(0.48, 0.15, 1.51); distance=1.61; hit=none
+238.437	camera-recovery	player=(-9.82, 0.05, 9.93); camera=(-8.97, 1.56, 7.62)
+238.798	camera-probe	player=(-9.56, 0.05, 9.35); view=(0.42, -0.27, 0.69); distance=0.88; hit=Library vestibule east return/2.40
+238.992	camera-recovery	player=(-9.15, 0.05, 9.26); camera=(-8.44, 1.54, 7.32)
+239.797	camera-probe	player=(-8.73, 0.05, 7.30); view=(0.47, 0.31, 2.81); distance=2.87; hit=none
+250.957	interaction	art materials
+252.202	walk	(-17.00, 0.00, -1.00)
+254.345	dialogue	MARGOT|My charcoal and paper! I thought I had lost them.
+254.688	interaction	deliver art materials to Margot
+258.011	dialogue	EVELYN|Here you are.
+260.700	walk	(-9.40, 0.00, 8.60)
+268.288	camera-recovery	player=(-7.87, 0.03, 5.81); camera=(-9.50, 1.53, 4.59)
+268.398	camera-probe	player=(-8.08, 0.05, 6.00); view=(0.30, 0.17, 1.55); distance=1.74; hit=none
+269.453	camera-probe	player=(-9.36, 0.05, 8.13); view=(0.13, -0.14, 0.81); distance=1.12; hit=Visible Library corridor portal/1.68
+269.803	camera-recovery	player=(-9.43, 0.05, 8.22); camera=(-9.20, 1.55, 6.42)
+269.897	camera-recovery	player=(-9.43, 0.05, 8.34); camera=(-9.14, 1.56, 6.23)
+269.985	camera-recovery	player=(-9.43, 0.05, 8.43); camera=(-9.20, 1.56, 6.38)
+270.069	camera-recovery	player=(-9.43, 0.05, 8.49); camera=(-9.29, 1.56, 6.46)
+270.160	camera-recovery	player=(-9.43, 0.05, 8.54); camera=(-9.38, 1.56, 6.51)
+270.198	camera-recovery	player=(-9.43, 0.05, 8.55); camera=(-9.48, 1.56, 6.55)
+270.290	camera-recovery	player=(-9.44, 0.05, 8.60); camera=(-9.51, 1.56, 6.56)
+270.399	camera-recovery	player=(-9.46, 0.05, 8.68); camera=(-9.60, 1.56, 6.61)
+270.560	camera-recovery	player=(-9.40, 0.05, 8.51); camera=(-8.26, 1.56, 7.09)
+270.560	camera-probe	player=(-9.40, 0.05, 8.51); view=(0.48, 0.58, 1.82); distance=1.82; hit=Evelyn Moreau - player controller/1.61
+270.600	camera-recovery	player=(-9.45, 0.05, 8.57); camera=(-9.57, 1.57, 6.51)
+270.689	camera-recovery	player=(-9.45, 0.05, 8.61); camera=(-9.55, 1.57, 6.57)
+270.729	camera-recovery	player=(-9.46, 0.05, 8.63); camera=(-9.59, 1.57, 6.61)
+270.831	camera-recovery	player=(-9.48, 0.05, 8.70); camera=(-9.63, 1.57, 6.63)
+271.012	camera-recovery	player=(-9.39, 0.05, 8.51); camera=(-8.23, 1.57, 7.15)
+271.054	camera-recovery	player=(-9.44, 0.05, 8.58); camera=(-9.57, 1.56, 6.50)
+271.149	camera-recovery	player=(-9.45, 0.05, 8.62); camera=(-9.54, 1.56, 6.57)
+271.187	camera-recovery	player=(-9.45, 0.05, 8.63); camera=(-9.59, 1.56, 6.62)
+271.289	camera-recovery	player=(-9.48, 0.05, 8.70); camera=(-9.60, 1.56, 6.63)
+271.457	camera-recovery	player=(-9.39, 0.05, 8.52); camera=(-8.20, 1.56, 7.19)
+271.543	camera-recovery	player=(-9.48, 0.05, 8.69); camera=(-9.50, 1.56, 6.48)
+271.583	camera-recovery	player=(-9.49, 0.05, 8.72); camera=(-9.61, 1.56, 6.72)
+271.583	camera-probe	player=(-9.49, 0.05, 8.72); view=(0.49, 0.59, 2.02); distance=2.03; hit=Evelyn Moreau - player controller/1.60
+271.689	camera-recovery	player=(-9.54, 0.05, 8.80); camera=(-9.60, 1.56, 6.74)
+271.830	camera-recovery	player=(-9.63, 0.05, 8.87); camera=(-9.45, 1.56, 6.80)
+271.923	camera-recovery	player=(-9.70, 0.05, 8.89); camera=(-9.15, 1.56, 6.93)
+272.025	camera-recovery	player=(-9.78, 0.05, 8.92); camera=(-8.86, 1.56, 7.08)
+272.124	camera-recovery	player=(-10.01, 0.05, 9.05); camera=(-8.60, 1.56, 7.30)
+272.256	camera-recovery	player=(-10.27, 0.05, 9.26); camera=(-8.73, 1.56, 7.53)
+272.414	camera-recovery	player=(-10.62, 0.05, 9.50); camera=(-8.83, 1.56, 7.93)
+272.586	camera-probe	player=(-10.91, 0.05, 9.80); view=(0.29, 0.12, 1.38); distance=1.57; hit=none
+273.637	camera-probe	player=(-12.89, 0.03, 11.60); view=(0.39, 0.33, 3.02); distance=3.13; hit=none
+274.266	walk	(-16.30, 0.00, 11.60)
+274.644	camera-probe	player=(-14.67, 0.03, 11.87); view=(0.44, 0.32, 2.94); distance=3.01; hit=none
+276.273	interaction	Odette pendant
+277.466	walk	(-13.50, 0.00, 14.60)
+278.188	camera-probe	player=(-14.95, 0.03, 12.68); view=(0.44, 0.34, 3.22); distance=3.29; hit=none
+279.196	camera-probe	player=(-13.64, 0.02, 14.43); view=(0.44, 0.33, 3.09); distance=3.16; hit=none
+279.921	dialogue	ODETTE|You found my pendant! That's kind of you.
+280.200	camera-probe	player=(-13.62, 0.02, 14.46); view=(0.44, 0.33, 3.07); distance=3.14; hit=none
+280.263	interaction	return pendant to Odette
+281.288	camera-probe	player=(-13.62, 0.02, 14.46); view=(0.44, 0.33, 3.02); distance=3.09; hit=none
+282.327	camera-probe	player=(-13.62, 0.02, 14.46); view=(0.44, 0.34, 3.05); distance=3.11; hit=none
+283.195	dialogue	EVELYN|I'm glad it found its way back.
+283.328	camera-probe	player=(-13.62, 0.02, 14.46); view=(0.44, 0.33, 3.06); distance=3.13; hit=none
+284.330	camera-probe	player=(-13.62, 0.02, 14.46); view=(0.44, 0.33, 3.02); distance=3.08; hit=none
+285.389	camera-probe	player=(-13.62, 0.02, 14.46); view=(0.44, 0.34, 3.07); distance=3.13; hit=none
+285.907	walk	(-15.00, 0.00, 17.00)
+286.399	camera-probe	player=(-14.44, 0.02, 15.59); view=(0.39, 0.33, 3.02); distance=3.12; hit=none
+286.797	dialogue	CELESTE|Oh, Evelyn! I've heard you've been helping everyone today.
+286.902	interaction	Celeste ribbon request
+287.452	camera-probe	player=(-14.58, 0.02, 16.31); view=(0.44, 0.34, 3.02); distance=3.09; hit=none
+288.454	camera-probe	player=(-14.58, 0.02, 16.31); view=(0.43, 0.33, 3.05); distance=3.12; hit=none
+289.460	camera-probe	player=(-14.58, 0.02, 16.31); view=(0.44, 0.33, 3.02); distance=3.08; hit=none
+290.464	camera-probe	player=(-14.58, 0.02, 16.31); view=(0.43, 0.33, 3.04); distance=3.11; hit=none
+290.927	dialogue	EVELYN|I suppose.
+291.528	camera-probe	player=(-14.58, 0.02, 16.31); view=(0.43, 0.33, 3.04); distance=3.11; hit=none
+292.534	camera-probe	player=(-14.58, 0.02, 16.31); view=(0.44, 0.33, 3.02); distance=3.08; hit=none
+293.535	camera-probe	player=(-14.58, 0.02, 16.31); view=(0.43, 0.33, 3.05); distance=3.12; hit=none
+293.607	dialogue	CELESTE|Actually… could you help me too?
+294.538	camera-probe	player=(-14.58, 0.02, 16.31); view=(0.44, 0.33, 3.03); distance=3.09; hit=none
+295.595	camera-probe	player=(-14.58, 0.02, 16.31); view=(0.44, 0.34, 3.03); distance=3.09; hit=none
+296.407	dialogue	CELESTE|I lost my black ribbon. I wanted to wear it to the Black Rose Ball.
+296.598	camera-probe	player=(-14.58, 0.02, 16.31); view=(0.43, 0.33, 3.05); distance=3.12; hit=none
+297.599	camera-probe	player=(-14.58, 0.02, 16.31); view=(0.44, 0.33, 3.02); distance=3.08; hit=none
+298.656	camera-probe	player=(-14.58, 0.02, 16.31); view=(0.43, 0.33, 3.04); distance=3.11; hit=none
+299.666	camera-probe	player=(-14.58, 0.02, 16.31); view=(0.44, 0.33, 3.04); distance=3.11; hit=none
+300.728	camera-probe	player=(-14.58, 0.02, 16.31); view=(0.44, 0.33, 3.02); distance=3.08; hit=none
+301.017	walk	(-18.40, 0.00, 20.50)
+301.205	state	Phase2A/RibbonSearch/Dormant
+306.082	sketchbook	Page 1
+311.148	sketchbook	Page 2
+316.139	sketchbook	Page 3
+321.261	sketchbook	Page 4
+326.343	sketchbook	Page 5
+333.797	dialogue	EVELYN · THOUGHT|Who drew these?
+336.465	dialogue	EVELYN · THOUGHT|This is ridiculous.
+339.129	dialogue	EVELYN · THOUGHT|Adrian would never…
+341.789	dialogue	EVELYN · THOUGHT|I only love Adrian.
+344.397	walk	(-22.00, 0.00, 19.30)
+347.313	state	Phase2A/RibbonReturn/Dormant
+347.677	interaction	black ribbon
+353.063	walk	(-15.00, 0.00, 17.00)
+357.308	dialogue	CELESTE|You found it! Thank you, Evelyn.
+357.513	interaction	return ribbon and invite Celeste
+360.026	dialogue	EVELYN|You're welcome.
+362.803	dialogue	CELESTE|I don't know what I would've done without you.
+366.339	dialogue	EVELYN|Actually… I think I saw something else of yours in the Art Studio.
+370.868	dialogue	CELESTE|Really?
+373.530	dialogue	EVELYN|Would you like to come with me?
+376.195	dialogue	CELESTE|Of course.
+378.950	walk	(-20.50, 0.00, -2.50)
+379.236	state	Phase2A/FollowCeleste/Dormant
+383.308	camera-recovery	player=(-9.17, 0.05, 9.29); camera=(-8.34, 1.54, 7.35)
+394.298	state	Phase2A/Witness/Dormant
+395.248	dialogue	EVELYN|Professor Laurent needs you in the Gallery.
+395.323	interaction	ask Margot to leave
+398.531	dialogue	MARGOT|Right now?
+401.153	dialogue	EVELYN|She said it was urgent.
+403.831	dialogue	MARGOT|Alright. I'll go.
+406.592	state	Phase2A/WitnessLeaving/Dormant
+413.719	state	Phase2A/CloseDoor/Dormant
+413.722	walk	(-14.10, 0.00, -2.70)
+416.985	state	Phase2A/WitnessLeaving/Dormant
+418.083	state	Phase2A/Confront/Dormant
+420.062	dialogue	CELESTE|Where is the other thing you wanted to show me?
+423.715	dialogue	EVELYN|Celeste… do you love Adrian?
+426.447	dialogue	CELESTE|What?
+429.217	dialogue	EVELYN|Answer me.
+431.917	dialogue	CELESTE|I barely know him. I just wanted to ask him to the Ball.
+436.790	dialogue	EVELYN|You don't deserve him.
+442.053	dialogue	CELESTE|Evelyn, you're scaring me.
+444.962	state	Phase2BCinematic/Complete/Dormant
+452.165	state	Phase2BCleanup/Complete/Dormant
+476.654	state	Phase2BOutcome/Complete/Dormant
+476.654	dialogue	EVELYN · THOUGHT|It's over.
+479.338	dialogue	EVELYN · THOUGHT|Someone loves me.
+482.212	dialogue	EVELYN · THOUGHT|Tomorrow… Adrian will be mine.
+511.699	choice	BURN THE EVIDENCE
+519.326	state	Phase2CBall/Complete/Transition
+520.121	state	Phase2CBall/Complete/Establishing
+524.933	state	Phase2CBall/Complete/Isabelle
+526.128	dialogue	ISABELLE|Evelyn! Have you seen Celeste?
+528.524	dialogue	EVELYN|No. Why?
+530.879	dialogue	ISABELLE|She hasn’t answered anyone since yesterday.
+533.704	dialogue	EVELYN|Perhaps she went home.
+536.142	dialogue	ISABELLE|Without telling anyone?
+538.478	dialogue	EVELYN|You know how unpredictable she can be.
+541.130	dialogue	ISABELLE|I suppose… perhaps you’re right.
+544.652	state	Phase2CBall/Complete/Adrian
+546.331	dialogue	ADRIAN|I’ve been looking for you.
+548.670	dialogue	EVELYN|M-me?
+551.006	dialogue	ADRIAN|Who else?
+553.252	dialogue	ADRIAN|May I have this dance?
+555.601	dialogue	EVELYN|Yes.
+558.160	state	Phase2CBall/Complete/Dance
+569.180	state	Phase2CBall/Complete/Revelation
+569.180	dialogue	ADRIAN|Do you remember Lucien?
+571.468	dialogue	EVELYN|Lucien?
+573.730	dialogue	ADRIAN|He wouldn’t leave you alone.
+576.063	dialogue	EVELYN|What are you saying?
+578.369	dialogue	ADRIAN|Neither would the others.
+580.722	dialogue	EVELYN|You… knew?
+583.063	dialogue	ADRIAN|About Celeste? Of course.
+585.458	dialogue	ADRIAN|I knew you were watching me.
+594.630	dialogue	ADRIAN|But you weren’t the only one watching.
+603.854	dialogue	ADRIAN|I kept the things you left behind.
+612.939	dialogue	EVELYN|You… kept my things?
+615.265	dialogue	ADRIAN|Every single one.
+617.555	dialogue	EVELYN|If you knew… why didn’t you tell me?
+620.134	dialogue	ADRIAN|Because I was afraid.
+622.594	dialogue	EVELYN|You? Afraid?
+624.799	dialogue	ADRIAN|Everyone wanted my name. My fortune. My future.
+627.985	dialogue	ADRIAN|But you wanted me.
+630.259	dialogue	ADRIAN|I wanted you too, long before the Ball.
+633.001	dialogue	ADRIAN|I wanted you to come to me willingly.
+635.653	dialogue	EVELYN|You could have just asked.
+637.931	dialogue	ADRIAN|And risk hearing you say no?
+640.267	dialogue	EVELYN|You never had to be afraid.
+643.859	dialogue	ADRIAN|You did it for me.
+646.125	dialogue	ADRIAN|And I did it for you.
+648.458	dialogue	ADRIAN|I made sure those other boys could never pull you away.
+652.850	dialogue	EVELYN|Then we’re the same.
+655.188	dialogue	ADRIAN|Perhaps we always were.
+657.577	state	Phase2CBall/Complete/FinalDance
+662.684	state	Phase2CEnding/Complete/Ending
+662.735	complete	A PERFECT DUET, normal speed, physical errands and cleanup
+669.791	recording	Stop

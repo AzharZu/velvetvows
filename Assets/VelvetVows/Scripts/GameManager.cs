@@ -257,7 +257,7 @@ namespace VelvetVows
         }
 
         public void RefreshEvidence(int count) => hud.SetEvidence(count, evidence.Total);
-        public void RefreshSuspicion(float value) => hud.SetSuspicion(value);
+        public void RefreshSuspicion(float value) => hud.SetSuspicionWithSource(value, suspicion != null ? suspicion.DetectionSource : null);
         public void RefreshTimer(float remaining) => hud.SetTimer(remaining);
         public void SetMusic(MusicManager value) => music = value;
         public void SetPhase2AObjective(string objective)
@@ -366,6 +366,8 @@ namespace VelvetVows
 
         private void SetControl(bool enabled)
         {
+            var action = playerMovement != null ? playerMovement.GetComponent<AcademyActionPerformance>() : null;
+            if (enabled && action != null && action.IsBusy) enabled = false;
             // StarterAssetsInputs.OnApplicationFocus reapplies this flag. Keep it aligned
             // with the menu state so refocusing the Game View cannot lock the UI cursor.
             var starterInputs = playerMovement != null ? playerMovement.GetComponent<StarterAssetsInputs>() : null;

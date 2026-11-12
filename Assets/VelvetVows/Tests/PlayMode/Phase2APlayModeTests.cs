@@ -168,6 +168,8 @@ namespace VelvetVows.Tests
             InputSystem.QueueStateEvent(keyboard, new KeyboardState());
             InputSystem.Update();
             yield return null;
+            foreach (var action in UnityEngine.Object.FindObjectsByType<MonoBehaviour>(FindObjectsSortMode.None).Where(b => b.GetType().Name == "AcademyActionPerformance"))
+                for (float t = 0; t < 8 && (bool)action.GetType().GetProperty("IsBusy").GetValue(action); t += Time.unscaledDeltaTime) yield return null;
         }
 
         [UnityTest]

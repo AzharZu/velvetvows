@@ -13,6 +13,8 @@ namespace VelvetVows
         [SerializeField, Min(0)] private float fadeSeconds = 1f;
         private AudioSource source;
         private Coroutine transition;
+        private float mixVolume, duck = 1;
+        private CharacterVoiceManager voice;
 
         public void Configure(AudioClip normal, AudioClip tense, AudioClip ending)
         { exploration = normal; investigation = tense; finale = ending; }
@@ -24,6 +26,16 @@ namespace VelvetVows
             source.loop = true;
             source.spatialBlend = 0;
             source.volume = volume;
+            mixVolume = volume;
+            voice = FindFirstObjectByType<CharacterVoiceManager>();
+        }
+
+        private void LateUpdate()
+        {
+            bool speaking = voice != null && voice.VoicePlaying || JapaneseSegmentPlayer.AnyPlaying;
+            float target = speaking ? .48f : 1;
+            duck = Mathf.MoveTowards(duck, target, Time.unscaledDeltaTime * (speaking ? 3 : .8f));
+            source.volume = mixVolume * duck;
         }
 
         public void PlayExploration() => Change(exploration);
@@ -36,11 +48,11 @@ namespace VelvetVows
         }
         private IEnumerator FadeOutForBall()
         {
-            float start = source.volume;
+            float start = mixVolume;
             for (float elapsed = 0; elapsed < 2f; elapsed += Time.unscaledDeltaTime)
-            { source.volume = Mathf.Lerp(start, 0, elapsed / 2f); yield return null; }
+            { mixVolume = Mathf.Lerp(start, 0, elapsed / 2f); yield return null; }
             source.Stop();
-            source.volume = volume;
+            mixVolume = volume;
             transition = null;
         }
 
@@ -53,10 +65,10 @@ namespace VelvetVows
 
         private IEnumerator FadeTo(AudioClip clip)
         {
-            float start = source.volume;
+            float start = mixVolume;
             for (float elapsed = 0; elapsed < fadeSeconds; elapsed += Time.unscaledDeltaTime)
             {
-                source.volume = Mathf.Lerp(start, 0, elapsed / Mathf.Max(.01f, fadeSeconds));
+                mixVolume = Mathf.Lerp(start, 0, elapsed / Mathf.Max(.01f, fadeSeconds));
                 yield return null;
             }
             source.Stop();
@@ -64,10 +76,10 @@ namespace VelvetVows
             source.Play();
             for (float elapsed = 0; elapsed < fadeSeconds; elapsed += Time.unscaledDeltaTime)
             {
-                source.volume = Mathf.Lerp(0, volume, elapsed / Mathf.Max(.01f, fadeSeconds));
+                mixVolume = Mathf.Lerp(0, volume, elapsed / Mathf.Max(.01f, fadeSeconds));
                 yield return null;
             }
-            source.volume = volume;
+            mixVolume = volume;
             transition = null;
         }
     }

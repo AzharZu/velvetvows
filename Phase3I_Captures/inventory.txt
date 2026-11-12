@@ -1,0 +1,1430 @@
+ACTOR Velvet Vows Main/CHARACTERS/AmbientNPCs/Odette
+MESH Casual1
+MESH Casual1_Body
+0 target_34
+1 blink
+2 raise_eyebrows
+3 open_mouth
+4 open_mouth2
+5 squint
+6 raise_eyebrows2
+7 blink_right
+8 sad
+9 squint2
+10 raise_eyebrows3
+11 sad_mouth
+12 open_mouth2.001
+13 blink_right.001
+14 smile
+15 open_mouth.001
+16 open_mouth.002
+17 blink_left.001
+18 angry_face
+19 slight_smile
+20 tired_face
+21 smile2
+22 o_mouth
+23 grin
+24 smile_eyes
+25 v_eyes
+26 smile3
+27 spike_teeth
+28 spike_teet2
+29 blink_left
+30 spike_teeth3
+31 spike_teeth4
+32 scream
+33 angry
+34 surprise
+MESH Hair
+ACTOR Velvet Vows Main/ENVIRONMENT/Visual Polish 2.1/Ballroom gala composition/Ballroom gala guest 3
+MESH Casual1
+MESH Casual1_Body
+0 target_34
+1 blink
+2 raise_eyebrows
+3 open_mouth
+4 open_mouth2
+5 squint
+6 raise_eyebrows2
+7 blink_right
+8 sad
+9 squint2
+10 raise_eyebrows3
+11 sad_mouth
+12 open_mouth2.001
+13 blink_right.001
+14 smile
+15 open_mouth.001
+16 open_mouth.002
+17 blink_left.001
+18 angry_face
+19 slight_smile
+20 tired_face
+21 smile2
+22 o_mouth
+23 grin
+24 smile_eyes
+25 v_eyes
+26 smile3
+27 spike_teeth
+28 spike_teet2
+29 blink_left
+30 spike_teeth3
+31 spike_teeth4
+32 scream
+33 angry
+34 surprise
+MESH Hair
+ACTOR Velvet Vows Main/SYSTEMS/Core Gameplay/PHASE 2C BLACK ROSE BALL/Ball guests - ten existing academy prefabs/Ball guest 05
+MESH Casual1
+MESH Casual1_Body
+0 target_34
+1 blink
+2 raise_eyebrows
+3 open_mouth
+4 open_mouth2
+5 squint
+6 raise_eyebrows2
+7 blink_right
+8 sad
+9 squint2
+10 raise_eyebrows3
+11 sad_mouth
+12 open_mouth2.001
+13 blink_right.001
+14 smile
+15 open_mouth.001
+16 open_mouth.002
+17 blink_left.001
+18 angry_face
+19 slight_smile
+20 tired_face
+21 smile2
+22 o_mouth
+23 grin
+24 smile_eyes
+25 v_eyes
+26 smile3
+27 spike_teeth
+28 spike_teet2
+29 blink_left
+30 spike_teeth3
+31 spike_teeth4
+32 scream
+33 angry
+34 surprise
+MESH Hair
+ACTOR Velvet Vows Main/CHARACTERS/AmbientNPCs/Prefect - Lucien's classmate/Akio Highschool Uniform
+MESH Body
+0 Fcl_ALL_Angry
+1 Fcl_ALL_Fun
+2 Fcl_ALL_Joy
+3 Fcl_ALL_Sorrow
+4 Fcl_ALL_Surprised
+5 Fcl_BRW_Angry
+6 Fcl_BRW_Fun
+7 Fcl_BRW_Joy
+8 Fcl_BRW_Sorrow
+9 Fcl_BRW_Surprised
+10 Fcl_EYE_Angry
+11 Fcl_EYE_Close
+12 Fcl_EYE_Close_R
+13 Fcl_EYE_Close_L
+14 Fcl_EYE_Fun
+15 Fcl_EYE_Joy
+16 Fcl_EYE_Joy_R
+17 Fcl_EYE_Joy_L
+18 Fcl_EYE_Sorrow
+19 Fcl_EYE_Surprised
+20 Fcl_EYE_Spread
+21 Fcl_EYE_Iris_Hide
+22 Fcl_EYE_Highlight_Hide
+23 Fcl_MTH_Close
+24 Fcl_MTH_Up
+25 Fcl_MTH_Down
+26 Fcl_MTH_Angry
+27 Fcl_MTH_Small
+28 Fcl_MTH_Large
+29 Fcl_MTH_Fun
+30 Fcl_MTH_Joy
+31 Fcl_MTH_Sorrow
+32 Fcl_MTH_Surprised
+33 Fcl_MTH_SkinFung
+34 Fcl_MTH_SkinFung_R
+35 Fcl_MTH_SkinFung_L
+36 Fcl_MTH_A
+37 Fcl_MTH_I
+38 Fcl_MTH_U
+39 Fcl_MTH_E
+40 Fcl_MTH_O
+41 Fcl_HA_Hide
+42 Fcl_HA_Fung1
+43 Fcl_HA_Fung1_Low
+44 Fcl_HA_Fung1_Up
+45 Fcl_HA_Fung2
+46 Fcl_HA_Fung2_Low
+47 Fcl_HA_Fung2_Up
+48 Fcl_HA_Fung3
+49 Fcl_HA_Fung3_Up
+50 Fcl_HA_Fung3_Low
+51 Fcl_HA_Short
+52 Fcl_HA_Short_Up
+53 Fcl_HA_Short_Low
+ACTOR Velvet Vows Main/SYSTEMS/Core Gameplay/Gameplay Actors/Celeste - story route/Rin - School
+MESH all_mesh
+0 Fcl_ALL_Neutral
+1 Fcl_ALL_Angry
+2 Fcl_ALL_Fun
+3 Fcl_ALL_Joy
+4 Fcl_ALL_Sorrow
+5 Fcl_ALL_Surprised
+6 Fcl_BRW_Angry
+7 Fcl_BRW_Fun
+8 Fcl_BRW_Joy
+9 Fcl_BRW_Sorrow
+10 Fcl_BRW_Surprised
+11 Fcl_EYE_Natural
+12 Fcl_EYE_Angry
+13 Fcl_EYE_Close
+14 Fcl_EYE_Close_R
+15 Fcl_EYE_Close_L
+16 Fcl_EYE_Fun
+17 Fcl_EYE_Joy
+18 Fcl_EYE_Joy_R
+19 Fcl_EYE_Joy_L
+20 Fcl_EYE_Sorrow
+21 Fcl_EYE_Surprised
+22 Fcl_EYE_Spread
+23 Fcl_EYE_Iris_Hide
+24 Fcl_EYE_Highlight_Hide
+25 Fcl_MTH_Close
+26 Fcl_MTH_Up
+27 Fcl_MTH_Down
+28 Fcl_MTH_Angry
+29 Fcl_MTH_Small
+30 Fcl_MTH_Large
+31 Fcl_MTH_Neutral
+32 Fcl_MTH_Fun
+33 Fcl_MTH_Joy
+34 Fcl_MTH_Sorrow
+35 Fcl_MTH_Surprised
+36 Fcl_MTH_SkinFung
+37 Fcl_MTH_SkinFung_R
+38 Fcl_MTH_SkinFung_L
+39 Fcl_MTH_A
+40 Fcl_MTH_I
+41 Fcl_MTH_U
+42 Fcl_MTH_E
+43 Fcl_MTH_O
+44 Fcl_HA_Hide
+45 Fcl_HA_Fung1
+46 Fcl_HA_Fung1_Low
+47 Fcl_HA_Fung1_Up
+48 Fcl_HA_Fung2
+49 Fcl_HA_Fung2_Low
+50 Fcl_HA_Fung2_Up
+51 Fcl_HA_Fung3
+52 Fcl_HA_Fung3_Up
+53 Fcl_HA_Fung3_Low
+54 Fcl_HA_Short
+55 Fcl_HA_Short_Up
+56 Fcl_HA_Short_Low
+ACTOR Velvet Vows Main/SYSTEMS/Core Gameplay/Gameplay Actors/Academy Caretaker - restricted patrol/Academy Caretaker visual
+MESH Hat
+MESH Peasant Nolant
+ACTOR Velvet Vows Main/ENVIRONMENT/Visual Polish 2.1/Ballroom gala composition/Ballroom gala guest 1
+MESH Casual1
+MESH Casual1_Body
+0 target_34
+1 blink
+2 raise_eyebrows
+3 open_mouth
+4 open_mouth2
+5 squint
+6 raise_eyebrows2
+7 blink_right
+8 sad
+9 squint2
+10 raise_eyebrows3
+11 sad_mouth
+12 open_mouth2.001
+13 blink_right.001
+14 smile
+15 open_mouth.001
+16 open_mouth.002
+17 blink_left.001
+18 angry_face
+19 slight_smile
+20 tired_face
+21 smile2
+22 o_mouth
+23 grin
+24 smile_eyes
+25 v_eyes
+26 smile3
+27 spike_teeth
+28 spike_teet2
+29 blink_left
+30 spike_teeth3
+31 spike_teeth4
+32 scream
+33 angry
+34 surprise
+MESH Hair
+ACTOR Velvet Vows Main/SYSTEMS/Core Gameplay/PHASE 2C BLACK ROSE BALL/Ball guests - ten existing academy prefabs/Ball guest 01
+MESH Casual1
+MESH Casual1_Body
+0 target_34
+1 blink
+2 raise_eyebrows
+3 open_mouth
+4 open_mouth2
+5 squint
+6 raise_eyebrows2
+7 blink_right
+8 sad
+9 squint2
+10 raise_eyebrows3
+11 sad_mouth
+12 open_mouth2.001
+13 blink_right.001
+14 smile
+15 open_mouth.001
+16 open_mouth.002
+17 blink_left.001
+18 angry_face
+19 slight_smile
+20 tired_face
+21 smile2
+22 o_mouth
+23 grin
+24 smile_eyes
+25 v_eyes
+26 smile3
+27 spike_teeth
+28 spike_teet2
+29 blink_left
+30 spike_teeth3
+31 spike_teeth4
+32 scream
+33 angry
+34 surprise
+MESH Hair
+ACTOR Velvet Vows Main/ENVIRONMENT/Visual Polish 2.1/Ballroom gala composition/Ballroom gala guest 2/Akio Highschool Uniform
+MESH Body
+0 Fcl_ALL_Angry
+1 Fcl_ALL_Fun
+2 Fcl_ALL_Joy
+3 Fcl_ALL_Sorrow
+4 Fcl_ALL_Surprised
+5 Fcl_BRW_Angry
+6 Fcl_BRW_Fun
+7 Fcl_BRW_Joy
+8 Fcl_BRW_Sorrow
+9 Fcl_BRW_Surprised
+10 Fcl_EYE_Angry
+11 Fcl_EYE_Close
+12 Fcl_EYE_Close_R
+13 Fcl_EYE_Close_L
+14 Fcl_EYE_Fun
+15 Fcl_EYE_Joy
+16 Fcl_EYE_Joy_R
+17 Fcl_EYE_Joy_L
+18 Fcl_EYE_Sorrow
+19 Fcl_EYE_Surprised
+20 Fcl_EYE_Spread
+21 Fcl_EYE_Iris_Hide
+22 Fcl_EYE_Highlight_Hide
+23 Fcl_MTH_Close
+24 Fcl_MTH_Up
+25 Fcl_MTH_Down
+26 Fcl_MTH_Angry
+27 Fcl_MTH_Small
+28 Fcl_MTH_Large
+29 Fcl_MTH_Fun
+30 Fcl_MTH_Joy
+31 Fcl_MTH_Sorrow
+32 Fcl_MTH_Surprised
+33 Fcl_MTH_SkinFung
+34 Fcl_MTH_SkinFung_R
+35 Fcl_MTH_SkinFung_L
+36 Fcl_MTH_A
+37 Fcl_MTH_I
+38 Fcl_MTH_U
+39 Fcl_MTH_E
+40 Fcl_MTH_O
+41 Fcl_HA_Hide
+42 Fcl_HA_Fung1
+43 Fcl_HA_Fung1_Low
+44 Fcl_HA_Fung1_Up
+45 Fcl_HA_Fung2
+46 Fcl_HA_Fung2_Low
+47 Fcl_HA_Fung2_Up
+48 Fcl_HA_Fung3
+49 Fcl_HA_Fung3_Up
+50 Fcl_HA_Fung3_Low
+51 Fcl_HA_Short
+52 Fcl_HA_Short_Up
+53 Fcl_HA_Short_Low
+ACTOR Velvet Vows Main/CHARACTERS/AmbientNPCs/Amelie
+MESH Casual1
+MESH Casual1_Body
+0 target_34
+1 blink
+2 raise_eyebrows
+3 open_mouth
+4 open_mouth2
+5 squint
+6 raise_eyebrows2
+7 blink_right
+8 sad
+9 squint2
+10 raise_eyebrows3
+11 sad_mouth
+12 open_mouth2.001
+13 blink_right.001
+14 smile
+15 open_mouth.001
+16 open_mouth.002
+17 blink_left.001
+18 angry_face
+19 slight_smile
+20 tired_face
+21 smile2
+22 o_mouth
+23 grin
+24 smile_eyes
+25 v_eyes
+26 smile3
+27 spike_teeth
+28 spike_teet2
+29 blink_left
+30 spike_teeth3
+31 spike_teeth4
+32 scream
+33 angry
+34 surprise
+MESH Hair
+ACTOR Velvet Vows Main/ENVIRONMENT/Visual Polish 2.1/Ballroom gala composition/Ballroom gala guest 4/Akio Highschool Uniform
+MESH Body
+0 Fcl_ALL_Angry
+1 Fcl_ALL_Fun
+2 Fcl_ALL_Joy
+3 Fcl_ALL_Sorrow
+4 Fcl_ALL_Surprised
+5 Fcl_BRW_Angry
+6 Fcl_BRW_Fun
+7 Fcl_BRW_Joy
+8 Fcl_BRW_Sorrow
+9 Fcl_BRW_Surprised
+10 Fcl_EYE_Angry
+11 Fcl_EYE_Close
+12 Fcl_EYE_Close_R
+13 Fcl_EYE_Close_L
+14 Fcl_EYE_Fun
+15 Fcl_EYE_Joy
+16 Fcl_EYE_Joy_R
+17 Fcl_EYE_Joy_L
+18 Fcl_EYE_Sorrow
+19 Fcl_EYE_Surprised
+20 Fcl_EYE_Spread
+21 Fcl_EYE_Iris_Hide
+22 Fcl_EYE_Highlight_Hide
+23 Fcl_MTH_Close
+24 Fcl_MTH_Up
+25 Fcl_MTH_Down
+26 Fcl_MTH_Angry
+27 Fcl_MTH_Small
+28 Fcl_MTH_Large
+29 Fcl_MTH_Fun
+30 Fcl_MTH_Joy
+31 Fcl_MTH_Sorrow
+32 Fcl_MTH_Surprised
+33 Fcl_MTH_SkinFung
+34 Fcl_MTH_SkinFung_R
+35 Fcl_MTH_SkinFung_L
+36 Fcl_MTH_A
+37 Fcl_MTH_I
+38 Fcl_MTH_U
+39 Fcl_MTH_E
+40 Fcl_MTH_O
+41 Fcl_HA_Hide
+42 Fcl_HA_Fung1
+43 Fcl_HA_Fung1_Low
+44 Fcl_HA_Fung1_Up
+45 Fcl_HA_Fung2
+46 Fcl_HA_Fung2_Low
+47 Fcl_HA_Fung2_Up
+48 Fcl_HA_Fung3
+49 Fcl_HA_Fung3_Up
+50 Fcl_HA_Fung3_Low
+51 Fcl_HA_Short
+52 Fcl_HA_Short_Up
+53 Fcl_HA_Short_Low
+ACTOR Velvet Vows Main/PLAYER/Evelyn Moreau - player controller/Evelyn Moreau/Kasumi - School
+MESH all_mesh
+0 Fcl_ALL_Neutral
+1 Fcl_ALL_Angry
+2 Fcl_ALL_Fun
+3 Fcl_ALL_Joy
+4 Fcl_ALL_Sorrow
+5 Fcl_ALL_Surprised
+6 Fcl_BRW_Angry
+7 Fcl_BRW_Fun
+8 Fcl_BRW_Joy
+9 Fcl_BRW_Sorrow
+10 Fcl_BRW_Surprised
+11 Fcl_EYE_Natural
+12 Fcl_EYE_Angry
+13 Fcl_EYE_Close
+14 Fcl_EYE_Close_R
+15 Fcl_EYE_Close_L
+16 Fcl_EYE_Fun
+17 Fcl_EYE_Joy
+18 Fcl_EYE_Joy_R
+19 Fcl_EYE_Joy_L
+20 Fcl_EYE_Sorrow
+21 Fcl_EYE_Surprised
+22 Fcl_EYE_Spread
+23 Fcl_EYE_Iris_Hide
+24 Fcl_EYE_Highlight_Hide
+25 Fcl_MTH_Close
+26 Fcl_MTH_Up
+27 Fcl_MTH_Down
+28 Fcl_MTH_Angry
+29 Fcl_MTH_Small
+30 Fcl_MTH_Large
+31 Fcl_MTH_Neutral
+32 Fcl_MTH_Fun
+33 Fcl_MTH_Joy
+34 Fcl_MTH_Sorrow
+35 Fcl_MTH_Surprised
+36 Fcl_MTH_SkinFung
+37 Fcl_MTH_SkinFung_R
+38 Fcl_MTH_SkinFung_L
+39 Fcl_MTH_A
+40 Fcl_MTH_I
+41 Fcl_MTH_U
+42 Fcl_MTH_E
+43 Fcl_MTH_O
+44 Fcl_HA_Hide
+45 Fcl_HA_Fung1
+46 Fcl_HA_Fung1_Low
+47 Fcl_HA_Fung1_Up
+48 Fcl_HA_Fung2
+49 Fcl_HA_Fung2_Low
+50 Fcl_HA_Fung2_Up
+51 Fcl_HA_Fung3
+52 Fcl_HA_Fung3_Up
+53 Fcl_HA_Fung3_Low
+54 Fcl_HA_Short
+55 Fcl_HA_Short_Up
+56 Fcl_HA_Short_Low
+ACTOR Velvet Vows Main/SYSTEMS/Core Gameplay/PHASE 2C BLACK ROSE BALL/Ball guests - ten existing academy prefabs/Ball guest 08
+MESH Casual1
+MESH Casual1_Body
+0 target_34
+1 blink
+2 raise_eyebrows
+3 open_mouth
+4 open_mouth2
+5 squint
+6 raise_eyebrows2
+7 blink_right
+8 sad
+9 squint2
+10 raise_eyebrows3
+11 sad_mouth
+12 open_mouth2.001
+13 blink_right.001
+14 smile
+15 open_mouth.001
+16 open_mouth.002
+17 blink_left.001
+18 angry_face
+19 slight_smile
+20 tired_face
+21 smile2
+22 o_mouth
+23 grin
+24 smile_eyes
+25 v_eyes
+26 smile3
+27 spike_teeth
+28 spike_teet2
+29 blink_left
+30 spike_teeth3
+31 spike_teeth4
+32 scream
+33 angry
+34 surprise
+MESH Hair
+ACTOR Velvet Vows Main/SYSTEMS/Core Gameplay/PHASE 2C BLACK ROSE BALL/Ball guests - ten existing academy prefabs/Ball guest 07
+MESH Casual1
+MESH Casual1_Body
+0 target_34
+1 blink
+2 raise_eyebrows
+3 open_mouth
+4 open_mouth2
+5 squint
+6 raise_eyebrows2
+7 blink_right
+8 sad
+9 squint2
+10 raise_eyebrows3
+11 sad_mouth
+12 open_mouth2.001
+13 blink_right.001
+14 smile
+15 open_mouth.001
+16 open_mouth.002
+17 blink_left.001
+18 angry_face
+19 slight_smile
+20 tired_face
+21 smile2
+22 o_mouth
+23 grin
+24 smile_eyes
+25 v_eyes
+26 smile3
+27 spike_teeth
+28 spike_teet2
+29 blink_left
+30 spike_teeth3
+31 spike_teeth4
+32 scream
+33 angry
+34 surprise
+MESH Hair
+ACTOR Velvet Vows Main/SYSTEMS/Core Gameplay/PHASE 2C BLACK ROSE BALL/Ball guests - ten existing academy prefabs/Ball guest 04/Akio Highschool Uniform
+MESH Body
+0 Fcl_ALL_Angry
+1 Fcl_ALL_Fun
+2 Fcl_ALL_Joy
+3 Fcl_ALL_Sorrow
+4 Fcl_ALL_Surprised
+5 Fcl_BRW_Angry
+6 Fcl_BRW_Fun
+7 Fcl_BRW_Joy
+8 Fcl_BRW_Sorrow
+9 Fcl_BRW_Surprised
+10 Fcl_EYE_Angry
+11 Fcl_EYE_Close
+12 Fcl_EYE_Close_R
+13 Fcl_EYE_Close_L
+14 Fcl_EYE_Fun
+15 Fcl_EYE_Joy
+16 Fcl_EYE_Joy_R
+17 Fcl_EYE_Joy_L
+18 Fcl_EYE_Sorrow
+19 Fcl_EYE_Surprised
+20 Fcl_EYE_Spread
+21 Fcl_EYE_Iris_Hide
+22 Fcl_EYE_Highlight_Hide
+23 Fcl_MTH_Close
+24 Fcl_MTH_Up
+25 Fcl_MTH_Down
+26 Fcl_MTH_Angry
+27 Fcl_MTH_Small
+28 Fcl_MTH_Large
+29 Fcl_MTH_Fun
+30 Fcl_MTH_Joy
+31 Fcl_MTH_Sorrow
+32 Fcl_MTH_Surprised
+33 Fcl_MTH_SkinFung
+34 Fcl_MTH_SkinFung_R
+35 Fcl_MTH_SkinFung_L
+36 Fcl_MTH_A
+37 Fcl_MTH_I
+38 Fcl_MTH_U
+39 Fcl_MTH_E
+40 Fcl_MTH_O
+41 Fcl_HA_Hide
+42 Fcl_HA_Fung1
+43 Fcl_HA_Fung1_Low
+44 Fcl_HA_Fung1_Up
+45 Fcl_HA_Fung2
+46 Fcl_HA_Fung2_Low
+47 Fcl_HA_Fung2_Up
+48 Fcl_HA_Fung3
+49 Fcl_HA_Fung3_Up
+50 Fcl_HA_Fung3_Low
+51 Fcl_HA_Short
+52 Fcl_HA_Short_Up
+53 Fcl_HA_Short_Low
+ACTOR Velvet Vows Main/SYSTEMS/Core Gameplay/PHASE 2C BLACK ROSE BALL/Ball guests - ten existing academy prefabs/Ball guest 03
+MESH Casual1
+MESH Casual1_Body
+0 target_34
+1 blink
+2 raise_eyebrows
+3 open_mouth
+4 open_mouth2
+5 squint
+6 raise_eyebrows2
+7 blink_right
+8 sad
+9 squint2
+10 raise_eyebrows3
+11 sad_mouth
+12 open_mouth2.001
+13 blink_right.001
+14 smile
+15 open_mouth.001
+16 open_mouth.002
+17 blink_left.001
+18 angry_face
+19 slight_smile
+20 tired_face
+21 smile2
+22 o_mouth
+23 grin
+24 smile_eyes
+25 v_eyes
+26 smile3
+27 spike_teeth
+28 spike_teet2
+29 blink_left
+30 spike_teeth3
+31 spike_teeth4
+32 scream
+33 angry
+34 surprise
+MESH Hair
+ACTOR Velvet Vows Main/CHARACTERS/AmbientNPCs/Clara
+MESH Casual1
+MESH Casual1_Body
+0 target_34
+1 blink
+2 raise_eyebrows
+3 open_mouth
+4 open_mouth2
+5 squint
+6 raise_eyebrows2
+7 blink_right
+8 sad
+9 squint2
+10 raise_eyebrows3
+11 sad_mouth
+12 open_mouth2.001
+13 blink_right.001
+14 smile
+15 open_mouth.001
+16 open_mouth.002
+17 blink_left.001
+18 angry_face
+19 slight_smile
+20 tired_face
+21 smile2
+22 o_mouth
+23 grin
+24 smile_eyes
+25 v_eyes
+26 smile3
+27 spike_teeth
+28 spike_teet2
+29 blink_left
+30 spike_teeth3
+31 spike_teeth4
+32 scream
+33 angry
+34 surprise
+MESH Hair
+ACTOR Velvet Vows Main/CHARACTERS/AmbientNPCs/Margot
+MESH Casual1
+MESH Casual1_Body
+0 target_34
+1 blink
+2 raise_eyebrows
+3 open_mouth
+4 open_mouth2
+5 squint
+6 raise_eyebrows2
+7 blink_right
+8 sad
+9 squint2
+10 raise_eyebrows3
+11 sad_mouth
+12 open_mouth2.001
+13 blink_right.001
+14 smile
+15 open_mouth.001
+16 open_mouth.002
+17 blink_left.001
+18 angry_face
+19 slight_smile
+20 tired_face
+21 smile2
+22 o_mouth
+23 grin
+24 smile_eyes
+25 v_eyes
+26 smile3
+27 spike_teeth
+28 spike_teet2
+29 blink_left
+30 spike_teeth3
+31 spike_teeth4
+32 scream
+33 angry
+34 surprise
+MESH Hair
+ACTOR Velvet Vows Main/SYSTEMS/Core Gameplay/Gameplay Actors/Academy Caretaker - restricted patrol/Adrian Valmont/Akio Highschool Uniform
+MESH Body
+0 Fcl_ALL_Angry
+1 Fcl_ALL_Fun
+2 Fcl_ALL_Joy
+3 Fcl_ALL_Sorrow
+4 Fcl_ALL_Surprised
+5 Fcl_BRW_Angry
+6 Fcl_BRW_Fun
+7 Fcl_BRW_Joy
+8 Fcl_BRW_Sorrow
+9 Fcl_BRW_Surprised
+10 Fcl_EYE_Angry
+11 Fcl_EYE_Close
+12 Fcl_EYE_Close_R
+13 Fcl_EYE_Close_L
+14 Fcl_EYE_Fun
+15 Fcl_EYE_Joy
+16 Fcl_EYE_Joy_R
+17 Fcl_EYE_Joy_L
+18 Fcl_EYE_Sorrow
+19 Fcl_EYE_Surprised
+20 Fcl_EYE_Spread
+21 Fcl_EYE_Iris_Hide
+22 Fcl_EYE_Highlight_Hide
+23 Fcl_MTH_Close
+24 Fcl_MTH_Up
+25 Fcl_MTH_Down
+26 Fcl_MTH_Angry
+27 Fcl_MTH_Small
+28 Fcl_MTH_Large
+29 Fcl_MTH_Fun
+30 Fcl_MTH_Joy
+31 Fcl_MTH_Sorrow
+32 Fcl_MTH_Surprised
+33 Fcl_MTH_SkinFung
+34 Fcl_MTH_SkinFung_R
+35 Fcl_MTH_SkinFung_L
+36 Fcl_MTH_A
+37 Fcl_MTH_I
+38 Fcl_MTH_U
+39 Fcl_MTH_E
+40 Fcl_MTH_O
+41 Fcl_HA_Hide
+42 Fcl_HA_Fung1
+43 Fcl_HA_Fung1_Low
+44 Fcl_HA_Fung1_Up
+45 Fcl_HA_Fung2
+46 Fcl_HA_Fung2_Low
+47 Fcl_HA_Fung2_Up
+48 Fcl_HA_Fung3
+49 Fcl_HA_Fung3_Up
+50 Fcl_HA_Fung3_Low
+51 Fcl_HA_Short
+52 Fcl_HA_Short_Up
+53 Fcl_HA_Short_Low
+ACTOR Velvet Vows Main/SYSTEMS/Core Gameplay/PHASE 2C BLACK ROSE BALL/Ball guests - ten existing academy prefabs/Ball guest 02/Akio Highschool Uniform
+MESH Body
+0 Fcl_ALL_Angry
+1 Fcl_ALL_Fun
+2 Fcl_ALL_Joy
+3 Fcl_ALL_Sorrow
+4 Fcl_ALL_Surprised
+5 Fcl_BRW_Angry
+6 Fcl_BRW_Fun
+7 Fcl_BRW_Joy
+8 Fcl_BRW_Sorrow
+9 Fcl_BRW_Surprised
+10 Fcl_EYE_Angry
+11 Fcl_EYE_Close
+12 Fcl_EYE_Close_R
+13 Fcl_EYE_Close_L
+14 Fcl_EYE_Fun
+15 Fcl_EYE_Joy
+16 Fcl_EYE_Joy_R
+17 Fcl_EYE_Joy_L
+18 Fcl_EYE_Sorrow
+19 Fcl_EYE_Surprised
+20 Fcl_EYE_Spread
+21 Fcl_EYE_Iris_Hide
+22 Fcl_EYE_Highlight_Hide
+23 Fcl_MTH_Close
+24 Fcl_MTH_Up
+25 Fcl_MTH_Down
+26 Fcl_MTH_Angry
+27 Fcl_MTH_Small
+28 Fcl_MTH_Large
+29 Fcl_MTH_Fun
+30 Fcl_MTH_Joy
+31 Fcl_MTH_Sorrow
+32 Fcl_MTH_Surprised
+33 Fcl_MTH_SkinFung
+34 Fcl_MTH_SkinFung_R
+35 Fcl_MTH_SkinFung_L
+36 Fcl_MTH_A
+37 Fcl_MTH_I
+38 Fcl_MTH_U
+39 Fcl_MTH_E
+40 Fcl_MTH_O
+41 Fcl_HA_Hide
+42 Fcl_HA_Fung1
+43 Fcl_HA_Fung1_Low
+44 Fcl_HA_Fung1_Up
+45 Fcl_HA_Fung2
+46 Fcl_HA_Fung2_Low
+47 Fcl_HA_Fung2_Up
+48 Fcl_HA_Fung3
+49 Fcl_HA_Fung3_Up
+50 Fcl_HA_Fung3_Low
+51 Fcl_HA_Short
+52 Fcl_HA_Short_Up
+53 Fcl_HA_Short_Low
+ACTOR Velvet Vows Main/CHARACTERS/AmbientNPCs/Ballroom guest/Akio Highschool Uniform
+MESH Body
+0 Fcl_ALL_Angry
+1 Fcl_ALL_Fun
+2 Fcl_ALL_Joy
+3 Fcl_ALL_Sorrow
+4 Fcl_ALL_Surprised
+5 Fcl_BRW_Angry
+6 Fcl_BRW_Fun
+7 Fcl_BRW_Joy
+8 Fcl_BRW_Sorrow
+9 Fcl_BRW_Surprised
+10 Fcl_EYE_Angry
+11 Fcl_EYE_Close
+12 Fcl_EYE_Close_R
+13 Fcl_EYE_Close_L
+14 Fcl_EYE_Fun
+15 Fcl_EYE_Joy
+16 Fcl_EYE_Joy_R
+17 Fcl_EYE_Joy_L
+18 Fcl_EYE_Sorrow
+19 Fcl_EYE_Surprised
+20 Fcl_EYE_Spread
+21 Fcl_EYE_Iris_Hide
+22 Fcl_EYE_Highlight_Hide
+23 Fcl_MTH_Close
+24 Fcl_MTH_Up
+25 Fcl_MTH_Down
+26 Fcl_MTH_Angry
+27 Fcl_MTH_Small
+28 Fcl_MTH_Large
+29 Fcl_MTH_Fun
+30 Fcl_MTH_Joy
+31 Fcl_MTH_Sorrow
+32 Fcl_MTH_Surprised
+33 Fcl_MTH_SkinFung
+34 Fcl_MTH_SkinFung_R
+35 Fcl_MTH_SkinFung_L
+36 Fcl_MTH_A
+37 Fcl_MTH_I
+38 Fcl_MTH_U
+39 Fcl_MTH_E
+40 Fcl_MTH_O
+41 Fcl_HA_Hide
+42 Fcl_HA_Fung1
+43 Fcl_HA_Fung1_Low
+44 Fcl_HA_Fung1_Up
+45 Fcl_HA_Fung2
+46 Fcl_HA_Fung2_Low
+47 Fcl_HA_Fung2_Up
+48 Fcl_HA_Fung3
+49 Fcl_HA_Fung3_Up
+50 Fcl_HA_Fung3_Low
+51 Fcl_HA_Short
+52 Fcl_HA_Short_Up
+53 Fcl_HA_Short_Low
+ACTOR Velvet Vows Main/SYSTEMS/Core Gameplay/PHASE 2C BLACK ROSE BALL/Ball guests - ten existing academy prefabs/Ball guest 10/Akio Highschool Uniform
+MESH Body
+0 Fcl_ALL_Angry
+1 Fcl_ALL_Fun
+2 Fcl_ALL_Joy
+3 Fcl_ALL_Sorrow
+4 Fcl_ALL_Surprised
+5 Fcl_BRW_Angry
+6 Fcl_BRW_Fun
+7 Fcl_BRW_Joy
+8 Fcl_BRW_Sorrow
+9 Fcl_BRW_Surprised
+10 Fcl_EYE_Angry
+11 Fcl_EYE_Close
+12 Fcl_EYE_Close_R
+13 Fcl_EYE_Close_L
+14 Fcl_EYE_Fun
+15 Fcl_EYE_Joy
+16 Fcl_EYE_Joy_R
+17 Fcl_EYE_Joy_L
+18 Fcl_EYE_Sorrow
+19 Fcl_EYE_Surprised
+20 Fcl_EYE_Spread
+21 Fcl_EYE_Iris_Hide
+22 Fcl_EYE_Highlight_Hide
+23 Fcl_MTH_Close
+24 Fcl_MTH_Up
+25 Fcl_MTH_Down
+26 Fcl_MTH_Angry
+27 Fcl_MTH_Small
+28 Fcl_MTH_Large
+29 Fcl_MTH_Fun
+30 Fcl_MTH_Joy
+31 Fcl_MTH_Sorrow
+32 Fcl_MTH_Surprised
+33 Fcl_MTH_SkinFung
+34 Fcl_MTH_SkinFung_R
+35 Fcl_MTH_SkinFung_L
+36 Fcl_MTH_A
+37 Fcl_MTH_I
+38 Fcl_MTH_U
+39 Fcl_MTH_E
+40 Fcl_MTH_O
+41 Fcl_HA_Hide
+42 Fcl_HA_Fung1
+43 Fcl_HA_Fung1_Low
+44 Fcl_HA_Fung1_Up
+45 Fcl_HA_Fung2
+46 Fcl_HA_Fung2_Low
+47 Fcl_HA_Fung2_Up
+48 Fcl_HA_Fung3
+49 Fcl_HA_Fung3_Up
+50 Fcl_HA_Fung3_Low
+51 Fcl_HA_Short
+52 Fcl_HA_Short_Up
+53 Fcl_HA_Short_Low
+ACTOR Velvet Vows Main/SYSTEMS/Core Gameplay/PHASE 2C BLACK ROSE BALL/Ball guests - ten existing academy prefabs/Ball guest 06
+MESH Casual1
+MESH Casual1_Body
+0 target_34
+1 blink
+2 raise_eyebrows
+3 open_mouth
+4 open_mouth2
+5 squint
+6 raise_eyebrows2
+7 blink_right
+8 sad
+9 squint2
+10 raise_eyebrows3
+11 sad_mouth
+12 open_mouth2.001
+13 blink_right.001
+14 smile
+15 open_mouth.001
+16 open_mouth.002
+17 blink_left.001
+18 angry_face
+19 slight_smile
+20 tired_face
+21 smile2
+22 o_mouth
+23 grin
+24 smile_eyes
+25 v_eyes
+26 smile3
+27 spike_teeth
+28 spike_teet2
+29 blink_left
+30 spike_teeth3
+31 spike_teeth4
+32 scream
+33 angry
+34 surprise
+MESH Hair
+ACTOR Velvet Vows Main/SYSTEMS/Core Gameplay/PHASE 2C BLACK ROSE BALL/Ball guests - ten existing academy prefabs/Ball guest 09
+MESH Casual1
+MESH Casual1_Body
+0 target_34
+1 blink
+2 raise_eyebrows
+3 open_mouth
+4 open_mouth2
+5 squint
+6 raise_eyebrows2
+7 blink_right
+8 sad
+9 squint2
+10 raise_eyebrows3
+11 sad_mouth
+12 open_mouth2.001
+13 blink_right.001
+14 smile
+15 open_mouth.001
+16 open_mouth.002
+17 blink_left.001
+18 angry_face
+19 slight_smile
+20 tired_face
+21 smile2
+22 o_mouth
+23 grin
+24 smile_eyes
+25 v_eyes
+26 smile3
+27 spike_teeth
+28 spike_teet2
+29 blink_left
+30 spike_teeth3
+31 spike_teeth4
+32 scream
+33 angry
+34 surprise
+MESH Hair
+ACTOR Velvet Vows Main/CHARACTERS/Adrian Valmont - ballroom/Akio Highschool Uniform
+MESH Body
+0 Fcl_ALL_Angry
+1 Fcl_ALL_Fun
+2 Fcl_ALL_Joy
+3 Fcl_ALL_Sorrow
+4 Fcl_ALL_Surprised
+5 Fcl_BRW_Angry
+6 Fcl_BRW_Fun
+7 Fcl_BRW_Joy
+8 Fcl_BRW_Sorrow
+9 Fcl_BRW_Surprised
+10 Fcl_EYE_Angry
+11 Fcl_EYE_Close
+12 Fcl_EYE_Close_R
+13 Fcl_EYE_Close_L
+14 Fcl_EYE_Fun
+15 Fcl_EYE_Joy
+16 Fcl_EYE_Joy_R
+17 Fcl_EYE_Joy_L
+18 Fcl_EYE_Sorrow
+19 Fcl_EYE_Surprised
+20 Fcl_EYE_Spread
+21 Fcl_EYE_Iris_Hide
+22 Fcl_EYE_Highlight_Hide
+23 Fcl_MTH_Close
+24 Fcl_MTH_Up
+25 Fcl_MTH_Down
+26 Fcl_MTH_Angry
+27 Fcl_MTH_Small
+28 Fcl_MTH_Large
+29 Fcl_MTH_Fun
+30 Fcl_MTH_Joy
+31 Fcl_MTH_Sorrow
+32 Fcl_MTH_Surprised
+33 Fcl_MTH_SkinFung
+34 Fcl_MTH_SkinFung_R
+35 Fcl_MTH_SkinFung_L
+36 Fcl_MTH_A
+37 Fcl_MTH_I
+38 Fcl_MTH_U
+39 Fcl_MTH_E
+40 Fcl_MTH_O
+41 Fcl_HA_Hide
+42 Fcl_HA_Fung1
+43 Fcl_HA_Fung1_Low
+44 Fcl_HA_Fung1_Up
+45 Fcl_HA_Fung2
+46 Fcl_HA_Fung2_Low
+47 Fcl_HA_Fung2_Up
+48 Fcl_HA_Fung3
+49 Fcl_HA_Fung3_Up
+50 Fcl_HA_Fung3_Low
+51 Fcl_HA_Short
+52 Fcl_HA_Short_Up
+53 Fcl_HA_Short_Low
+ACTOR Velvet Vows Main/CHARACTERS/AmbientNPCs/Sabine
+MESH Casual1
+MESH Casual1_Body
+0 target_34
+1 blink
+2 raise_eyebrows
+3 open_mouth
+4 open_mouth2
+5 squint
+6 raise_eyebrows2
+7 blink_right
+8 sad
+9 squint2
+10 raise_eyebrows3
+11 sad_mouth
+12 open_mouth2.001
+13 blink_right.001
+14 smile
+15 open_mouth.001
+16 open_mouth.002
+17 blink_left.001
+18 angry_face
+19 slight_smile
+20 tired_face
+21 smile2
+22 o_mouth
+23 grin
+24 smile_eyes
+25 v_eyes
+26 smile3
+27 spike_teeth
+28 spike_teet2
+29 blink_left
+30 spike_teeth3
+31 spike_teeth4
+32 scream
+33 angry
+34 surprise
+MESH Hair
+ACTOR Velvet Vows Main/CHARACTERS/AmbientNPCs/Isabelle
+MESH Casual1
+MESH Casual1_Body
+0 target_34
+1 blink
+2 raise_eyebrows
+3 open_mouth
+4 open_mouth2
+5 squint
+6 raise_eyebrows2
+7 blink_right
+8 sad
+9 squint2
+10 raise_eyebrows3
+11 sad_mouth
+12 open_mouth2.001
+13 blink_right.001
+14 smile
+15 open_mouth.001
+16 open_mouth.002
+17 blink_left.001
+18 angry_face
+19 slight_smile
+20 tired_face
+21 smile2
+22 o_mouth
+23 grin
+24 smile_eyes
+25 v_eyes
+26 smile3
+27 spike_teeth
+28 spike_teet2
+29 blink_left
+30 spike_teeth3
+31 spike_teeth4
+32 scream
+33 angry
+34 surprise
+MESH Hair
+PROP Velvet Vows Main/ENVIRONMENT/World 2.0 Additions/Gothic finish/Library paneling/West dado Center: (-25.84, 0.85, 10.00), Extents: (0.07, 0.75, 1.90) Dark Walnut
+PROP Velvet Vows Main/ENVIRONMENT/World 2.0 Additions/Gothic finish/Library paneling/Dark wood dado Center: (-12.00, 0.85, 8.16), Extents: (1.90, 0.75, 0.07) Dark Walnut
+PROP Velvet Vows Main/ENVIRONMENT/Phase 3H repaired academy/Enclosed Library vestibule/Library vestibule west wall Center: (-12.00, 3.15, 6.00), Extents: (0.14, 3.15, 2.00) Vestibule stone
+PROP Velvet Vows Main/WORLD/GOTHIC_ACADEMY/Gothic transitions/Library approach/Library west approach shoulder Center: (-12.00, 3.00, 5.50), Extents: (0.13, 3.00, 1.50) Gothic_Wall
+PROP Velvet Vows Main/WORLD/GOTHIC_ACADEMY/Connected wings/Library/High interior ceiling/Library ceiling 1,1 Center: (-18.00, 6.53, 16.00), Extents: (2.67, 0.80, 2.67) Gothic_Wall
+PROP Velvet Vows Main/WORLD/GOTHIC_ACADEMY/Connected wings/Art Studio/Stone vertical rhythm/Art Studio post -15,1 Center: (-15.00, 3.00, 1.00), Extents: (0.27, 3.00, 0.57) Gothic_Trim
+PROP Velvet Vows Main/ENVIRONMENT/Visual Polish 2.1/Studio upper plaster/West upper wall Center: (-24.00, 3.94, -2.00), Extents: (0.12, 0.86, 6.00) Ivory Plaster
+PROP Velvet Vows Main/SYSTEMS/Core Gameplay/PHASE 2B CLEANUP/Studio wash basin/Tap/Top (Animatable) Center: (-18.55, 1.02, -6.82), Extents: (0.02, 0.01, 0.05) Palette 1 URP
+PROP Velvet Vows Main/ENVIRONMENT/World 2.0 Additions/Library/Ceiling Center: (-24.00, 4.90, 18.00), Extents: (2.00, 0.09, 2.00) Dark Walnut
+PROP Velvet Vows Main/ENVIRONMENT/Visual Polish 2.1/Library reading composition/Sketchbook side table Center: (-18.80, 0.27, 20.20), Extents: (0.73, 0.27, 0.30) Assets_VNB___Home_Set_Materials_Palette_1_mat
+PROP Velvet Vows Main/ENVIRONMENT/ArtStudio/Modular floors/Stone and wood floor -14,-2/Floor_4x4 Center: (-14.00, -0.08, -2.00), Extents: (2.00, 0.08, 2.00) M_Floor
+PROP Velvet Vows Main/WORLD/GOTHIC_ACADEMY/Connected wings/Art Studio/High interior ceiling/Art Studio ceiling 1,0 Center: (-15.00, 6.82, -5.00), Extents: (3.00, 0.00, 3.00) Gothic_DarkWood
+PROP Velvet Vows Main/WORLD/GOTHIC_ACADEMY/Connected wings/Art Studio/Stone vertical rhythm/Art Studio cap -21,-5 Center: (-21.00, 5.93, -5.00), Extents: (0.39, 0.26, 0.70) Gothic_Trim
+PROP Velvet Vows Main/ENVIRONMENT/World 2.0 Additions/Gothic finish/Library paneling/Founder study/Frame Center: (-18.00, 2.70, 23.70), Extents: (0.54, 0.04, 0.05) Dark Walnut
+PROP Velvet Vows Main/ENVIRONMENT/Phase 3H repaired academy/Library fitted bookcases/Fitted walnut bookcase/Upright Center: (-25.35, 1.30, 22.58), Extents: (0.26, 1.30, 0.04) Smoked walnut
+PROP Velvet Vows Main/ENVIRONMENT/World 2.0 Additions/Gothic finish/Library paneling/Dark wood dado Center: (-16.00, 0.85, 8.16), Extents: (1.90, 0.75, 0.07) Dark Walnut
+PROP Velvet Vows Main/WORLD/GOTHIC_ACADEMY/Gothic transitions/Library approach/Stone passage floor Center: (-10.00, -0.13, 8.00), Extents: (2.00, 0.17, 4.00) Gothic_Floor,Gothic_DarkWood
+PROP Velvet Vows Main/WORLD/GOTHIC_ACADEMY/Connected wings/Library/High interior ceiling/Library ceiling 2,1 Center: (-12.67, 6.53, 16.00), Extents: (2.67, 0.80, 2.67) Gothic_Wall
+PROP Velvet Vows Main/ENVIRONMENT/World 2.0 Additions/Gothic finish/Library paneling/Dark wood dado Center: (-24.00, 0.85, 23.84), Extents: (1.90, 0.75, 0.07) Dark Walnut
+PROP Velvet Vows Main/PLAYER/Evelyn Moreau - player controller/Evelyn Moreau/Kasumi - School/Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_R_Shoulder/J_Bip_R_UpperArm/J_Bip_R_LowerArm/J_Bip_R_Hand/Art Studio palette knife/Short steel blade Center: (0.57, 1.32, -1.78), Extents: (0.02, 0.01, 0.10) Palette knife steel
+PROP Velvet Vows Main/ENVIRONMENT/Phase 3H repaired academy/Library fitted bookcases/Fitted walnut bookcase/Shelf Center: (-25.35, 0.68, 16.20), Extents: (0.26, 0.04, 1.00) Smoked walnut
+PROP Velvet Vows Main/ENVIRONMENT/Visual Polish 2.1/Studio upper plaster/North upper wall Center: (-18.00, 3.94, 4.00), Extents: (6.00, 0.86, 0.12) Ivory Plaster
+PROP Velvet Vows Main/ENVIRONMENT/Phase 3H repaired academy/Enclosed Library vestibule/Library vestibule north return Center: (-9.00, 3.15, 12.00), Extents: (1.13, 3.15, 0.14) Vestibule stone
+PROP Velvet Vows Main/ENVIRONMENT/ArtStudio/Modular floors/Stone and wood floor -14,-6/Floor_4x4 Center: (-14.00, -0.08, -6.00), Extents: (2.00, 0.08, 2.00) M_Floor
+PROP Velvet Vows Main/ENVIRONMENT/Visual Polish 2.1/Art Studio work in progress/Paint-stained stool Center: (-18.70, 0.38, 0.05), Extents: (0.30, 0.38, 0.30) Assets_VNB___Home_Set_Materials_Palette_1_mat
+PROP Velvet Vows Main/WORLD/GOTHIC_ACADEMY/Gothic transitions/Art Studio arch/Art Studio arch side stone -1 Center: (-10.00, 3.00, -4.00), Extents: (2.00, 3.00, 0.13) Gothic_Wall
+PROP Velvet Vows Main/PLAYER/Evelyn Moreau - player controller/Evelyn Moreau/Kasumi - School/Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_R_Shoulder/J_Bip_R_UpperArm/J_Bip_R_LowerArm/J_Bip_R_Hand/Art Studio palette knife/Wooden handle Center: (0.57, 1.32, -1.96), Extents: (0.02, 0.02, 0.09) Dark Walnut
+PROP Velvet Vows Main/ENVIRONMENT/Phase 3H repaired academy/Library fitted bookcases/Fitted walnut bookcase/Shelf Center: (-25.35, 2.48, 16.20), Extents: (0.26, 0.04, 1.00) Smoked walnut
+PROP Velvet Vows Main/SYSTEMS/Core Gameplay/PHASE 2B CLEANUP/Studio disposal bin/Trash Bin Ac Center: (-20.90, 0.52, -0.95), Extents: (0.15, 0.01, 0.15) Dark iron bin 0
+PROP Velvet Vows Main/ENVIRONMENT/World 2.0 Additions/Library/Ceiling Center: (-12.00, 4.90, 14.00), Extents: (2.00, 0.09, 2.00) Dark Walnut
+PROP Velvet Vows Main/SYSTEMS/Core Gameplay/PHASE 2B CLEANUP/Studio wash basin Center: (-18.75, 0.47, -6.61), Extents: (0.45, 0.47, 0.33) Palette 1 URP
+PROP Velvet Vows Main/SYSTEMS/Core Gameplay/PHASE 2A STORY/Art Studio closing door/Hinge/Dark walnut door leaf/Brass handle Center: (-10.54, 1.35, -3.23), Extents: (0.09, 0.12, 0.03) Aged Brass
+PROP Velvet Vows Main/ENVIRONMENT/Visual Polish 2.1/Studio upper plaster/South upper wall Center: (-18.00, 3.94, -8.00), Extents: (6.00, 0.86, 0.12) Ivory Plaster
+PROP Velvet Vows Main/ENVIRONMENT/World 2.0 Additions/Gothic finish/Library paneling/Founder study/Frame Center: (-17.50, 2.05, 23.70), Extents: (0.04, 0.68, 0.05) Dark Walnut
+PROP Velvet Vows Main/ENVIRONMENT/World 2.0 Additions/Library/Ceiling Center: (-20.00, 4.90, 22.00), Extents: (2.00, 0.09, 2.00) Dark Walnut
+PROP Velvet Vows Main/WORLD/GOTHIC_ACADEMY/Phase 3E1 Library threshold/LIBRARY entrance plaque/Dark wood plaque Center: (-7.86, 2.72, 6.00), Extents: (0.05, 0.19, 0.90) Dark Walnut
+PROP Velvet Vows Main/ENVIRONMENT/Visual Polish 2.1/Library reading composition/Quiet reading corner/Pillow (Sofa) (2) Center: (-23.03, 0.64, 21.53), Extents: (0.30, 0.24, 0.32) Assets_VNB___Home_Set_Materials_Palette_1_mat
+PROP Velvet Vows Main/ENVIRONMENT/World 2.0 Additions/Library/Open manuscript Center: (-19.00, 0.03, 16.00), Extents: (0.28, 0.03, 0.17) Assets_VNB___Home_Set_Materials_Palette_1_mat
+PROP Velvet Vows Main/ENVIRONMENT/World 2.0 Additions/Library/Ceiling Center: (-20.00, 4.90, 14.00), Extents: (2.00, 0.09, 2.00) Dark Walnut
+PROP Velvet Vows Main/ENVIRONMENT/Visual Polish 2.1/Studio upper plaster/East upper wall Center: (-12.00, 3.94, -2.00), Extents: (0.12, 0.86, 6.00) Ivory Plaster
+PROP Velvet Vows Main/ENVIRONMENT/Visual Polish 2.1/Library reading composition/Reading chair Center: (-22.11, 0.57, 13.50), Extents: (0.26, 0.57, 0.29) Assets_VNB___Home_Set_Materials_Palette_1_mat
+PROP Velvet Vows Main/ENVIRONMENT/Phase 3H repaired academy/Library fitted bookcases/Fitted walnut bookcase/Shelf Center: (-10.65, 2.48, 22.00), Extents: (0.26, 0.04, 1.00) Smoked walnut
+PROP Velvet Vows Main/WORLD/GOTHIC_ACADEMY/Phase 3E1 Library threshold/LIBRARY entrance plaque/Brass plaque edge Center: (-7.86, 2.53, 6.00), Extents: (0.05, 0.01, 0.94) Aged Brass
+PROP Velvet Vows Main/SYSTEMS/Core Gameplay/PHASE 2A STORY/Art Studio closing door/Hinge/Dark walnut door leaf/Upper brass inset Center: (-11.06, 1.89, -3.17), Extents: (0.85, 0.08, 0.08) Aged Brass
+PROP Velvet Vows Main/SYSTEMS/Core Gameplay/PHASE 2B CLEANUP/Studio storage wardrobe/Door (1) visible hinge/Door (1) Center: (-22.31, 1.13, -1.91), Extents: (0.04, 1.12, 0.29) Palette 1 URP
+PROP Velvet Vows Main/WORLD/GOTHIC_ACADEMY/Gothic transitions/Art Studio arch/Art Studio arch continuous stone paving Center: (-10.00, 0.03, -2.00), Extents: (2.00, 0.04, 2.00) Gothic_Floor
+PROP Velvet Vows Main/ENVIRONMENT/World 2.0 Additions/Gothic finish/Library paneling/East dado Center: (-10.16, 0.85, 18.00), Extents: (0.07, 0.75, 1.90) Dark Walnut
+PROP Velvet Vows Main/ENVIRONMENT/World 2.0 Additions/Library/Floor Center: (-16.00, -0.12, 18.00), Extents: (2.00, 0.11, 2.00) Limestone
+PROP Velvet Vows Main/ENVIRONMENT/World 2.0 Additions/Gothic finish/Library paneling/West dado Center: (-25.84, 0.85, 22.00), Extents: (0.07, 0.75, 1.90) Dark Walnut
+PROP Velvet Vows Main/ENVIRONMENT/Visual Polish 2.1/Library reading composition/Open academy book Center: (-22.00, 0.57, 18.65), Extents: (0.28, 0.03, 0.17) Assets_VNB___Home_Set_Materials_Palette_1_mat
+PROP Velvet Vows Main/ENVIRONMENT/Visual Polish 2.1/Library reading composition/Quiet reading corner/Pillow (Sofa) (3) Center: (-23.05, 0.62, 21.25), Extents: (0.21, 0.18, 0.23) Assets_VNB___Home_Set_Materials_Palette_1_mat
+PROP Velvet Vows Main/ENVIRONMENT/World 2.0 Additions/Gothic finish/Library paneling/Founder study/Canvas Center: (-18.00, 2.05, 23.68), Extents: (0.45, 0.60, 0.03) Painting Ochre
+PROP Velvet Vows Main/SYSTEMS/Core Gameplay/PHASE 2B CLEANUP/Studio wash basin/Tap Center: (-18.55, 0.98, -6.85), Extents: (0.03, 0.04, 0.03) Palette 1 URP
+PROP Velvet Vows Main/SYSTEMS/Core Gameplay/PHASE 2B CLEANUP/Studio storage wardrobe Center: (-22.60, 1.14, -2.20), Extents: (0.26, 1.14, 0.60) Palette 1 URP
+PROP Velvet Vows Main/ENVIRONMENT/World 2.0 Additions/Library/Floor Center: (-24.00, -0.12, 22.00), Extents: (2.00, 0.11, 2.00) Limestone
+PROP Velvet Vows Main/ENVIRONMENT/Phase 3H repaired academy/Library fitted bookcases/Fitted walnut bookcase/Back Center: (-10.42, 1.30, 22.00), Extents: (0.04, 1.30, 1.00) Smoked walnut
+PROP Velvet Vows Main/ENVIRONMENT/Visual Polish 2.1/Art Studio work in progress/Studio window plant Center: (-14.00, 0.42, -6.00), Extents: (0.20, 0.42, 0.20) Assets_VNB___Home_Set_Materials_Palette_1_mat
+PROP Velvet Vows Main/ENVIRONMENT/World 2.0 Additions/Library/Floor Center: (-20.00, -0.12, 18.00), Extents: (2.00, 0.11, 2.00) Limestone
+PROP Velvet Vows Main/SYSTEMS/Core Gameplay/PHASE 2B CLEANUP/Studio wash basin/Tap Center: (-18.95, 0.98, -6.85), Extents: (0.03, 0.04, 0.03) Palette 1 URP
+PROP Velvet Vows Main/ENVIRONMENT/ArtStudio/Modular floors/Stone and wood floor -22,2/Floor_4x4 Center: (-22.00, -0.08, 2.00), Extents: (2.00, 0.08, 2.00) M_Floor
+PROP Velvet Vows Main/ENVIRONMENT/World 2.0 Additions/Gothic finish/Library paneling/Founder study/Frame Center: (-18.00, 1.40, 23.70), Extents: (0.54, 0.04, 0.05) Dark Walnut
+PROP Velvet Vows Main/ENVIRONMENT/World 2.0 Additions/Library/Ceiling Center: (-16.00, 4.90, 22.00), Extents: (2.00, 0.09, 2.00) Dark Walnut
+PROP Velvet Vows Main/WORLD/GOTHIC_ACADEMY/Connected wings/Library/High interior ceiling/Library ceiling 0,0 Center: (-23.33, 6.53, 10.67), Extents: (2.67, 0.80, 2.67) Gothic_Wall
+PROP Velvet Vows Main/ENVIRONMENT/Phase 3H repaired academy/Library fitted bookcases/Fitted walnut bookcase/Shelf Center: (-25.35, 0.08, 21.60), Extents: (0.26, 0.04, 1.00) Smoked walnut
+PROP Velvet Vows Main/ENVIRONMENT/World 2.0 Additions/Library/Ceiling Center: (-20.00, 4.90, 10.00), Extents: (2.00, 0.09, 2.00) Dark Walnut
+PROP Velvet Vows Main/WORLD/GOTHIC_ACADEMY/Connected wings/Library/Stone vertical rhythm/Library cap -23,11 Center: (-23.00, 5.93, 11.00), Extents: (0.39, 0.26, 0.70) Gothic_Trim
+PROP Velvet Vows Main/ENVIRONMENT/World 2.0 Additions/Library/Floor Center: (-12.00, -0.12, 14.00), Extents: (2.00, 0.11, 2.00) Limestone
+PROP Velvet Vows Main/ENVIRONMENT/World 2.0 Additions/Library/Ceiling Center: (-24.00, 4.90, 10.00), Extents: (2.00, 0.09, 2.00) Dark Walnut
+PROP Velvet Vows Main/ENVIRONMENT/Visual Polish 2.1/Library reading composition/Deep green reading rug Center: (-19.00, 0.08, 16.00), Extents: (2.60, 0.01, 2.75) Library Green
+PROP Velvet Vows Main/ENVIRONMENT/Phase 3H repaired academy/Enclosed Library vestibule/Library vestibule continuous ceiling Center: (-10.00, 6.35, 8.00), Extents: (2.13, 0.11, 4.13) Vestibule stone
+PROP Velvet Vows Main/ENVIRONMENT/ArtStudio/Modular floors/Stone and wood floor -18,-6/Floor_4x4 Center: (-18.00, -0.08, -6.00), Extents: (2.00, 0.08, 2.00) M_Floor
+PROP Velvet Vows Main/ENVIRONMENT/World 2.0 Additions/Library/Ceiling Center: (-16.00, 4.90, 18.00), Extents: (2.00, 0.09, 2.00) Dark Walnut
+PROP Velvet Vows Main/ENVIRONMENT/World 2.0 Additions/Gothic finish/Library paneling/Founder study/Frame Center: (-18.50, 2.05, 23.70), Extents: (0.04, 0.68, 0.05) Dark Walnut
+PROP Velvet Vows Main/ENVIRONMENT/World 2.0 Additions/Gothic finish/Library paneling/East dado Center: (-10.16, 0.85, 22.00), Extents: (0.07, 0.75, 1.90) Dark Walnut
+PROP Velvet Vows Main/WORLD/GOTHIC_ACADEMY/Connected wings/Library/Stone vertical rhythm/Library cap -23,17 Center: (-23.00, 5.93, 17.00), Extents: (0.39, 0.26, 0.70) Gothic_Trim
+PROP Velvet Vows Main/ENVIRONMENT/Phase 3H repaired academy/Library fitted bookcases/Fitted walnut bookcase/Back Center: (-10.42, 1.30, 16.80), Extents: (0.04, 1.30, 1.00) Smoked walnut
+PROP Velvet Vows Main/ENVIRONMENT/ArtStudio/Studio tables, books and supplies/Painting worktable two/Table Center: (-19.30, 0.48, 1.25), Extents: (1.12, 0.48, 1.12) Gothic_DarkWood
+PROP Velvet Vows Main/ENVIRONMENT/Visual Polish 2.1/Library reading composition/Reading chair Center: (-16.31, 0.57, 19.50), Extents: (0.26, 0.57, 0.29) Assets_VNB___Home_Set_Materials_Palette_1_mat
+PROP Velvet Vows Main/ENVIRONMENT/World 2.0 Additions/Gothic finish/Library paneling/Dark wood dado Center: (-24.00, 0.85, 8.16), Extents: (1.90, 0.75, 0.07) Dark Walnut
+PROP Velvet Vows Main/ENVIRONMENT/Phase 3H repaired academy/Library fitted bookcases/Fitted walnut bookcase/Back Center: (-25.58, 1.30, 21.60), Extents: (0.04, 1.30, 1.00) Smoked walnut
+PROP Velvet Vows Main/ENVIRONMENT/World 2.0 Additions/Library/Floor Center: (-12.00, -0.12, 18.00), Extents: (2.00, 0.11, 2.00) Limestone
+PROP Velvet Vows Main/ENVIRONMENT/Phase 3H repaired academy/Library fitted bookcases/Fitted walnut bookcase/Shelf Center: (-10.65, 1.88, 16.80), Extents: (0.26, 0.04, 1.00) Smoked walnut
+PROP Velvet Vows Main/ENVIRONMENT/ArtStudio/Modular floors/Stone and wood floor -22,-2/Floor_4x4 Center: (-22.00, -0.08, -2.00), Extents: (2.00, 0.08, 2.00) M_Floor
+PROP Velvet Vows Main/ENVIRONMENT/World 2.0 Additions/Gothic finish/Library paneling/Dark wood dado Center: (-20.00, 0.85, 23.84), Extents: (1.90, 0.75, 0.07) Dark Walnut
+PROP Velvet Vows Main/ENVIRONMENT/World 2.0 Additions/Library/Ceiling Center: (-12.00, 4.90, 22.00), Extents: (2.00, 0.09, 2.00) Dark Walnut
+PROP Velvet Vows Main/WORLD/GOTHIC_ACADEMY/Connected wings/Art Studio/Stone vertical rhythm/Art Studio post -15,-5 Center: (-15.00, 3.00, -5.00), Extents: (0.27, 3.00, 0.57) Gothic_Trim
+PROP Velvet Vows Main/ENVIRONMENT/World 2.0 Additions/Library/Ceiling Center: (-24.00, 4.90, 14.00), Extents: (2.00, 0.09, 2.00) Dark Walnut
+PROP Velvet Vows Main/ENVIRONMENT/ArtStudio/Studio tables, books and supplies/Studio torch/Wall-mounted_torch Center: (-23.60, 0.40, 0.00), Extents: (0.16, 0.40, 0.16) M_Wall-mounted_torch
+PROP Velvet Vows Main/WORLD/GOTHIC_ACADEMY/Connected wings/Art Studio/High interior ceiling/Art Studio ceiling 0,1 Center: (-21.00, 6.82, 1.00), Extents: (3.00, 0.00, 3.00) Gothic_DarkWood
+PROP Velvet Vows Main/ENVIRONMENT/World 2.0 Additions/Gothic finish/Library paneling/East dado Center: (-10.16, 0.85, 14.00), Extents: (0.07, 0.75, 1.90) Dark Walnut
+PROP Velvet Vows Main/WORLD/GOTHIC_ACADEMY/Connected wings/Art Studio/High interior ceiling/Art Studio ceiling 0,0 Center: (-21.00, 6.82, -5.00), Extents: (3.00, 0.00, 3.00) Gothic_DarkWood
+PROP Velvet Vows Main/WORLD/GOTHIC_ACADEMY/Connected wings/Art Studio/Stone vertical rhythm/Art Studio post -21,-5 Center: (-21.00, 3.00, -5.00), Extents: (0.27, 3.00, 0.57) Gothic_Trim
+PROP Velvet Vows Main/ENVIRONMENT/Phase 3H repaired academy/Library fitted bookcases/Fitted walnut bookcase/Shelf Center: (-25.35, 2.48, 21.60), Extents: (0.26, 0.04, 1.00) Smoked walnut
+PROP Velvet Vows Main/WORLD/GOTHIC_ACADEMY/Connected wings/Library/High interior ceiling/Library ceiling 0,1 Center: (-23.33, 6.53, 16.00), Extents: (2.67, 0.80, 2.67) Gothic_Wall
+PROP Velvet Vows Main/ENVIRONMENT/World 2.0 Additions/Gothic finish/Library paneling/West dado Center: (-25.84, 0.85, 18.00), Extents: (0.07, 0.75, 1.90) Dark Walnut
+PROP Velvet Vows Main/ENVIRONMENT/World 2.0 Additions/Connecting corridors/Library corridor floor Center: (-10.00, -0.12, 8.00), Extents: (2.00, 0.11, 4.00) Limestone
+PROP Velvet Vows Main/ENVIRONMENT/World 2.0 Additions/Library/Floor Center: (-16.00, -0.12, 14.00), Extents: (2.00, 0.11, 2.00) Limestone
+PROP Velvet Vows Main/ENVIRONMENT/Phase 3H repaired academy/Library fitted bookcases/Fitted walnut bookcase/Upright Center: (-10.65, 1.30, 17.78), Extents: (0.26, 1.30, 0.04) Smoked walnut
+PROP Velvet Vows Main/ENVIRONMENT/World 2.0 Additions/Library/Floor Center: (-16.00, -0.12, 10.00), Extents: (2.00, 0.11, 2.00) Limestone
+PROP Velvet Vows Main/ENVIRONMENT/ArtStudio/Modular floors/Stone and wood floor -18,-2/Floor_4x4 Center: (-18.00, -0.08, -2.00), Extents: (2.00, 0.08, 2.00) M_Floor
+PROP Velvet Vows Main/WORLD/GOTHIC_ACADEMY/Connected wings/Library/Stone vertical rhythm/Library post -23,11 Center: (-23.00, 3.00, 11.00), Extents: (0.27, 3.00, 0.57) Gothic_Trim
+PROP Velvet Vows Main/WORLD/GOTHIC_ACADEMY/Connected wings/Library/High interior ceiling/Library ceiling 2,2 Center: (-12.67, 6.53, 21.33), Extents: (2.67, 0.80, 2.67) Gothic_Wall
+PROP Velvet Vows Main/ENVIRONMENT/World 2.0 Additions/Library/Floor Center: (-20.00, -0.12, 14.00), Extents: (2.00, 0.11, 2.00) Limestone
+PROP Velvet Vows Main/ENVIRONMENT/Phase 3H repaired academy/Library fitted bookcases/Fitted walnut bookcase/Upright Center: (-25.35, 1.30, 20.62), Extents: (0.26, 1.30, 0.04) Smoked walnut
+PROP Velvet Vows Main/SYSTEMS/Core Gameplay/PHASE 2B CLEANUP/Studio wash basin/Door (1) Center: (-18.98, 0.46, -6.28), Extents: (0.23, 0.41, 0.06) Palette 1 URP
+PROP Velvet Vows Main/ENVIRONMENT/Phase 3H repaired academy/Library fitted bookcases/Fitted walnut bookcase/Shelf Center: (-10.65, 1.28, 16.80), Extents: (0.26, 0.04, 1.00) Smoked walnut
+PROP Velvet Vows Main/ENVIRONMENT/Phase 3H repaired academy/Library fitted bookcases/Fitted walnut bookcase/Shelf Center: (-25.35, 0.08, 16.20), Extents: (0.26, 0.04, 1.00) Smoked walnut
+PROP Velvet Vows Main/ENVIRONMENT/Phase 3H repaired academy/Library fitted bookcases/Fitted walnut bookcase/Upright Center: (-25.35, 1.30, 17.18), Extents: (0.26, 1.30, 0.04) Smoked walnut
+PROP Velvet Vows Main/ENVIRONMENT/Visual Polish 2.1/Library reading composition/Reading corner side table Center: (-22.65, 0.27, 18.45), Extents: (0.73, 0.27, 0.30) Assets_VNB___Home_Set_Materials_Palette_1_mat
+PROP Velvet Vows Main/ENVIRONMENT/World 2.0 Additions/Library/Floor Center: (-12.00, -0.12, 22.00), Extents: (2.00, 0.11, 2.00) Limestone
+PROP Velvet Vows Main/WORLD/GOTHIC_ACADEMY/Connected wings/Art Studio/Stone vertical rhythm/Art Studio cap -15,1 Center: (-15.00, 5.93, 1.00), Extents: (0.39, 0.26, 0.70) Gothic_Trim
+PROP Velvet Vows Main/ENVIRONMENT/Phase 3H repaired academy/Library fitted bookcases/Fitted walnut bookcase/Shelf Center: (-10.65, 0.08, 22.00), Extents: (0.26, 0.04, 1.00) Smoked walnut
+PROP Velvet Vows Main/ENVIRONMENT/ArtStudio/Modular floors/Stone and wood floor -22,-6/Floor_4x4 Center: (-22.00, -0.08, -6.00), Extents: (2.00, 0.08, 2.00) M_Floor
+PROP Velvet Vows Main/ENVIRONMENT/World 2.0 Additions/Library/Reading table Center: (-19.00, 0.32, 16.00), Extents: (0.64, 0.32, 0.64) Assets_VNB___Home_Set_Materials_Palette_1_mat
+PROP Velvet Vows Main/ENVIRONMENT/World 2.0 Additions/Connecting corridors/Library corridor north wall Center: (-10.00, 1.55, 12.00), Extents: (2.00, 1.55, 0.13) Charcoal Stone
+PROP Velvet Vows Main/ENVIRONMENT/Visual Polish 2.1/Library reading composition/Reading table Center: (-15.20, 0.32, 19.50), Extents: (0.64, 0.32, 0.64) Assets_VNB___Home_Set_Materials_Palette_1_mat
+PROP Velvet Vows Main/ENVIRONMENT/Visual Polish 2.1/Library reading composition/Open academy book Center: (-21.00, 0.68, 13.50), Extents: (0.28, 0.03, 0.17) Assets_VNB___Home_Set_Materials_Palette_1_mat
+PROP Velvet Vows Main/WORLD/GOTHIC_ACADEMY/Gothic transitions/Library approach/Short ribbed passage Center: (-10.00, 5.58, 8.00), Extents: (2.00, 0.80, 4.00) Gothic_Wall
+PROP Velvet Vows Main/WORLD/GOTHIC_ACADEMY/Gothic transitions/Art Studio arch/Art Studio arch side stone 1 Center: (-10.00, 3.00, 0.00), Extents: (2.00, 3.00, 0.13) Gothic_Wall
+PROP Velvet Vows Main/ENVIRONMENT/Visual Polish 2.1/Library reading composition/Open academy book Center: (-19.00, 0.68, 16.00), Extents: (0.28, 0.03, 0.17) Assets_VNB___Home_Set_Materials_Palette_1_mat
+PROP Velvet Vows Main/SYSTEMS/Core Gameplay/PHASE 2B CLEANUP/Studio disposal bin Center: (-20.90, 0.26, -0.93), Extents: (0.15, 0.27, 0.18) Dark iron bin 0
+PROP Velvet Vows Main/ENVIRONMENT/Phase 3H repaired academy/Library fitted bookcases/Fitted walnut bookcase/Shelf Center: (-10.65, 2.48, 16.80), Extents: (0.26, 0.04, 1.00) Smoked walnut
+PROP Velvet Vows Main/WORLD/GOTHIC_ACADEMY/Gothic transitions/Art Studio arch/Stone passage floor Center: (-10.00, -0.13, -2.00), Extents: (2.00, 0.17, 2.00) Gothic_Floor,Gothic_DarkWood
+PROP Velvet Vows Main/ENVIRONMENT/Phase 3H repaired academy/Library fitted bookcases/Fitted walnut bookcase/Shelf Center: (-25.35, 1.88, 16.20), Extents: (0.26, 0.04, 1.00) Smoked walnut
+PROP Velvet Vows Main/ENVIRONMENT/Visual Polish 2.1/High doorway lintels/Library east lintel Center: (-10.00, 4.00, 10.00), Extents: (0.13, 0.90, 2.00) Charcoal Stone
+PROP Velvet Vows Main/ENVIRONMENT/Visual Polish 2.1/High doorway lintels/Library west lintel Center: (-26.00, 4.00, 14.00), Extents: (0.13, 0.90, 2.00) Charcoal Stone
+PROP Velvet Vows Main/ENVIRONMENT/Visual Polish 2.1/Library reading composition/Reading chair Center: (-14.09, 0.57, 19.50), Extents: (0.26, 0.57, 0.29) Assets_VNB___Home_Set_Materials_Palette_1_mat
+PROP Velvet Vows Main/ENVIRONMENT/World 2.0 Additions/Library/Floor Center: (-20.00, -0.12, 10.00), Extents: (2.00, 0.11, 2.00) Limestone
+PROP Velvet Vows Main/ENVIRONMENT/World 2.0 Additions/Connecting corridors/Library corridor outer wall Center: (-12.00, 1.55, 6.00), Extents: (0.13, 1.55, 2.00) Charcoal Stone
+PROP Velvet Vows Main/ENVIRONMENT/Phase 3H repaired academy/Library fitted bookcases/Fitted walnut bookcase/Shelf Center: (-10.65, 0.68, 22.00), Extents: (0.26, 0.04, 1.00) Smoked walnut
+PROP Velvet Vows Main/ENVIRONMENT/Phase 3H repaired academy/Library fitted bookcases/Fitted walnut bookcase/Upright Center: (-10.65, 1.30, 22.98), Extents: (0.26, 1.30, 0.04) Smoked walnut
+PROP Velvet Vows Main/ENVIRONMENT/Visual Polish 2.1/Art Studio work in progress/Paint-stained stool Center: (-20.10, 0.38, 0.05), Extents: (0.30, 0.38, 0.30) Assets_VNB___Home_Set_Materials_Palette_1_mat
+PROP Velvet Vows Main/SYSTEMS/Core Gameplay/PHASE 2B CLEANUP/Studio wash basin/Door (2) Center: (-18.53, 0.46, -6.28), Extents: (0.23, 0.41, 0.06) Palette 1 URP
+PROP Velvet Vows Main/ENVIRONMENT/Phase 3H repaired academy/Library fitted bookcases/Fitted walnut bookcase/Shelf Center: (-25.35, 1.28, 21.60), Extents: (0.26, 0.04, 1.00) Smoked walnut
+PROP Velvet Vows Main/WORLD/GOTHIC_ACADEMY/Gothic transitions/Library approach/Library approach continuous stone paving Center: (-10.00, 0.03, 8.00), Extents: (2.00, 0.04, 4.00) Gothic_Floor
+PROP Velvet Vows Main/ENVIRONMENT/World 2.0 Additions/Library/Reading lamp Center: (-19.50, 0.81, 16.00), Extents: (0.18, 0.81, 0.18) Assets_VNB___Home_Set_Materials_Palette_1_mat
+PROP Velvet Vows Main/ENVIRONMENT/Phase 3H repaired academy/Enclosed Library vestibule/Library vestibule south wall Center: (-10.00, 3.15, 4.00), Extents: (2.13, 3.15, 0.14) Vestibule stone
+PROP Velvet Vows Main/SYSTEMS/Core Gameplay/PHASE 2B CLEANUP/Studio storage wardrobe/Door (2) visible hinge/Door (2) Center: (-22.31, 1.13, -2.50), Extents: (0.04, 1.12, 0.29) Palette 1 URP
+PROP Velvet Vows Main/ENVIRONMENT/Visual Polish 2.1/Library reading composition/Open academy book Center: (-15.20, 0.68, 19.50), Extents: (0.28, 0.03, 0.17) Assets_VNB___Home_Set_Materials_Palette_1_mat
+PROP Velvet Vows Main/WORLD/GOTHIC_ACADEMY/Connected wings/Library/High interior ceiling/Library ceiling 2,0 Center: (-12.67, 6.53, 10.67), Extents: (2.67, 0.80, 2.67) Gothic_Wall
+PROP Velvet Vows Main/ENVIRONMENT/Phase 3H repaired academy/Library fitted bookcases/Fitted walnut bookcase/Upright Center: (-10.65, 1.30, 21.02), Extents: (0.26, 1.30, 0.04) Smoked walnut
+PROP Velvet Vows Main/ENVIRONMENT/World 2.0 Additions/Library/Floor Center: (-24.00, -0.12, 14.00), Extents: (2.00, 0.11, 2.00) Limestone
+PROP Velvet Vows Main/ENVIRONMENT/Phase 3H repaired academy/Library fitted bookcases/Fitted walnut bookcase/Upright Center: (-10.65, 1.30, 15.82), Extents: (0.26, 1.30, 0.04) Smoked walnut
+PROP Velvet Vows Main/ENVIRONMENT/Phase 3H repaired academy/Library fitted bookcases/Fitted walnut bookcase/Shelf Center: (-10.65, 0.08, 16.80), Extents: (0.26, 0.04, 1.00) Smoked walnut
+PROP Velvet Vows Main/WORLD/GOTHIC_ACADEMY/Connected wings/Library/High interior ceiling/Library ceiling 1,0 Center: (-18.00, 6.53, 10.67), Extents: (2.67, 0.80, 2.67) Gothic_Wall
+PROP Velvet Vows Main/ENVIRONMENT/World 2.0 Additions/Library/Library portrait Center: (-24.00, 0.25, 20.99), Extents: (0.46, 0.25, 0.03) Assets_VNB___Home_Set_Materials_Palette_1_mat,Assets_VNB___Home_Set_Materials_Paintings_2_mat
+PROP Velvet Vows Main/ENVIRONMENT/Phase 3H repaired academy/Library fitted bookcases/Fitted walnut bookcase/Shelf Center: (-10.65, 1.28, 22.00), Extents: (0.26, 0.04, 1.00) Smoked walnut
+PROP Velvet Vows Main/ENVIRONMENT/Visual Polish 2.1/Library reading composition/Quiet reading corner/Pillow (Sofa) (4) Center: (-23.06, 0.62, 20.75), Extents: (0.21, 0.18, 0.23) Assets_VNB___Home_Set_Materials_Palette_1_mat
+PROP Velvet Vows Main/ENVIRONMENT/Visual Polish 2.1/Library reading composition/Quiet reading corner/Pillow (Sofa) (1) Center: (-23.03, 0.64, 20.47), Extents: (0.31, 0.24, 0.32) Assets_VNB___Home_Set_Materials_Palette_1_mat
+PROP Velvet Vows Main/SYSTEMS/Core Gameplay/PHASE 2A STORY/Art Studio closing door/Hinge/Dark walnut door leaf/Lower brass inset Center: (-11.06, 0.81, -3.17), Extents: (0.85, 0.08, 0.08) Aged Brass
+PROP Velvet Vows Main/ENVIRONMENT/ArtStudio/Modular floors/Stone and wood floor -14,2/Floor_4x4 Center: (-14.00, -0.08, 2.00), Extents: (2.00, 0.08, 2.00) M_Floor
+PROP Velvet Vows Main/ENVIRONMENT/ArtStudio/Artist workstations/Window plant Center: (-14.00, 0.42, 2.00), Extents: (0.20, 0.42, 0.20) Assets_VNB___Home_Set_Materials_Palette_1_mat
+PROP Velvet Vows Main/ENVIRONMENT/Visual Polish 2.1/Library reading composition/Reading table Center: (-21.00, 0.32, 13.50), Extents: (0.64, 0.32, 0.64) Assets_VNB___Home_Set_Materials_Palette_1_mat
+PROP Velvet Vows Main/ENVIRONMENT/Visual Polish 2.1/Library reading composition/Quiet reading corner Center: (-23.01, 0.46, 21.00), Extents: (0.45, 0.46, 0.92) Assets_VNB___Home_Set_Materials_Palette_1_mat
+PROP Velvet Vows Main/ENVIRONMENT/World 2.0 Additions/Library/Ceiling Center: (-20.00, 4.90, 18.00), Extents: (2.00, 0.09, 2.00) Dark Walnut
+PROP Velvet Vows Main/ENVIRONMENT/World 2.0 Additions/Library/Floor Center: (-20.00, -0.12, 22.00), Extents: (2.00, 0.11, 2.00) Limestone
+PROP Velvet Vows Main/ENVIRONMENT/Visual Polish 2.1/Library reading composition/Reading chair Center: (-19.89, 0.57, 13.50), Extents: (0.26, 0.57, 0.29) Assets_VNB___Home_Set_Materials_Palette_1_mat
+PROP Velvet Vows Main/WORLD/GOTHIC_ACADEMY/Connected wings/Art Studio/Stone vertical rhythm/Art Studio cap -21,1 Center: (-21.00, 5.93, 1.00), Extents: (0.39, 0.26, 0.70) Gothic_Trim
+PROP Velvet Vows Main/ENVIRONMENT/World 2.0 Additions/Library/Ceiling Center: (-24.00, 4.90, 22.00), Extents: (2.00, 0.09, 2.00) Dark Walnut
+PROP Velvet Vows Main/ENVIRONMENT/World 2.0 Additions/Gothic finish/Library paneling/Dark wood dado Center: (-12.00, 0.85, 23.84), Extents: (1.90, 0.75, 0.07) Dark Walnut
+PROP Velvet Vows Main/WORLD/GOTHIC_ACADEMY/Connected wings/Art Studio/Stone vertical rhythm/Art Studio cap -15,-5 Center: (-15.00, 5.93, -5.00), Extents: (0.39, 0.26, 0.70) Gothic_Trim
+PROP Velvet Vows Main/ENVIRONMENT/World 2.0 Additions/Library/Floor Center: (-24.00, -0.12, 18.00), Extents: (2.00, 0.11, 2.00) Limestone
+PROP Velvet Vows Main/ENVIRONMENT/World 2.0 Additions/Library/Ceiling Center: (-12.00, 4.90, 18.00), Extents: (2.00, 0.09, 2.00) Dark Walnut
+PROP Velvet Vows Main/WORLD/GOTHIC_ACADEMY/Connected wings/Library/Stone vertical rhythm/Library post -23,17 Center: (-23.00, 3.00, 17.00), Extents: (0.27, 3.00, 0.57) Gothic_Trim
+PROP Velvet Vows Main/ENVIRONMENT/Visual Polish 2.1/Library reading composition/Second reading lamp Center: (-15.20, 1.63, 19.50), Extents: (0.18, 0.81, 0.18) Assets_VNB___Home_Set_Materials_Palette_1_mat
+PROP Velvet Vows Main/WORLD/GOTHIC_ACADEMY/Connected wings/Art Studio/Stone vertical rhythm/Art Studio post -21,1 Center: (-21.00, 3.00, 1.00), Extents: (0.27, 3.00, 0.57) Gothic_Trim
+PROP Velvet Vows Main/WORLD/GOTHIC_ACADEMY/Phase 3E1 Library threshold/Visible Library corridor portal Center: (-8.00, 3.00, 6.00), Extents: (0.30, 3.00, 3.00) Gothic_Wall,Gothic_Trim
+PROP Velvet Vows Main/WORLD/GOTHIC_ACADEMY/Connected wings/Library/High interior ceiling/Library ceiling 0,2 Center: (-23.33, 6.53, 21.33), Extents: (2.67, 0.80, 2.67) Gothic_Wall
+PROP Velvet Vows Main/WORLD/GOTHIC_ACADEMY/Connected wings/Library/High interior ceiling/Library ceiling 1,2 Center: (-18.00, 6.53, 21.33), Extents: (2.67, 0.80, 2.67) Gothic_Wall
+PROP Velvet Vows Main/ENVIRONMENT/Phase 3H repaired academy/Library fitted bookcases/Fitted walnut bookcase/Shelf Center: (-25.35, 0.68, 21.60), Extents: (0.26, 0.04, 1.00) Smoked walnut
+PROP Velvet Vows Main/ENVIRONMENT/Phase 3H repaired academy/Library fitted bookcases/Fitted walnut bookcase/Shelf Center: (-10.65, 1.88, 22.00), Extents: (0.26, 0.04, 1.00) Smoked walnut
+PROP Velvet Vows Main/WORLD/GOTHIC_ACADEMY/Phase 3E1 Library threshold/LIBRARY entrance plaque/Inscription Center: (-7.80, 2.72, 6.00), Extents: (0.00, 0.15, 0.58) Font Material
+PROP Velvet Vows Main/ENVIRONMENT/World 2.0 Additions/Library/Floor Center: (-12.00, -0.12, 10.00), Extents: (2.00, 0.11, 2.00) Limestone
+PROP Velvet Vows Main/SYSTEMS/Core Gameplay/PHASE 2A STORY/Art Studio closing door/Hinge/Dark walnut door leaf Center: (-11.05, 1.35, -3.09), Extents: (1.00, 1.35, 0.17) Studio Walnut Door
+PROP Velvet Vows Main/ENVIRONMENT/ArtStudio/Modular floors/Stone and wood floor -18,2/Floor_4x4 Center: (-18.00, -0.08, 2.00), Extents: (2.00, 0.08, 2.00) M_Floor
+PROP Velvet Vows Main/SYSTEMS/Core Gameplay/PHASE 2B CLEANUP/Studio wash basin/Tap/Top (Animatable) Center: (-18.95, 1.02, -6.82), Extents: (0.02, 0.01, 0.05) Palette 1 URP
+PROP Velvet Vows Main/WORLD/GOTHIC_ACADEMY/Phase 3E1 Library threshold/Library entrance south stone infill Center: (-8.00, 3.00, 1.50), Extents: (0.13, 3.00, 1.38) Gothic_Wall
+PROP Velvet Vows Main/ENVIRONMENT/World 2.0 Additions/Library/Ceiling Center: (-12.00, 4.90, 10.00), Extents: (2.00, 0.09, 2.00) Dark Walnut
+PROP Velvet Vows Main/ENVIRONMENT/Phase 3H repaired academy/Library fitted bookcases/Fitted walnut bookcase/Shelf Center: (-10.65, 0.68, 16.80), Extents: (0.26, 0.04, 1.00) Smoked walnut
+PROP Velvet Vows Main/WORLD/GOTHIC_ACADEMY/Gothic transitions/Art Studio arch/Short ribbed passage Center: (-10.00, 5.58, -2.00), Extents: (2.00, 0.80, 2.00) Gothic_Wall
+PROP Velvet Vows Main/ENVIRONMENT/World 2.0 Additions/Gothic finish/Library paneling/Dark wood dado Center: (-20.00, 0.85, 8.16), Extents: (1.90, 0.75, 0.07) Dark Walnut
+PROP Velvet Vows Main/ENVIRONMENT/Phase 3H repaired academy/Enclosed Library vestibule/Library vestibule east return Center: (-8.00, 3.15, 9.80), Extents: (0.14, 3.15, 2.20) Vestibule stone
+PROP Velvet Vows Main/ENVIRONMENT/World 2.0 Additions/Library/Library tall shelves Center: (-24.00, 0.78, 22.00), Extents: (0.62, 0.78, 0.14) Assets_VNB___Home_Set_Materials_Palette_1_mat
+PROP Velvet Vows Main/SYSTEMS/Core Gameplay/PHASE 2B CLEANUP/Studio wash basin/Faucet 1 Center: (-18.75, 1.00, -6.79), Extents: (0.05, 0.06, 0.11) Palette 1 URP
+PROP Velvet Vows Main/ENVIRONMENT/Phase 3H repaired academy/Library fitted bookcases/Fitted walnut bookcase/Shelf Center: (-25.35, 1.28, 16.20), Extents: (0.26, 0.04, 1.00) Smoked walnut
+PROP Velvet Vows Main/ENVIRONMENT/World 2.0 Additions/Library/Floor Center: (-24.00, -0.12, 10.00), Extents: (2.00, 0.11, 2.00) Limestone
+PROP Velvet Vows Main/ENVIRONMENT/World 2.0 Additions/Library/Ceiling Center: (-16.00, 4.90, 14.00), Extents: (2.00, 0.09, 2.00) Dark Walnut
+PROP Velvet Vows Main/ENVIRONMENT/World 2.0 Additions/Library/Ceiling Center: (-16.00, 4.90, 10.00), Extents: (2.00, 0.09, 2.00) Dark Walnut
+PROP Velvet Vows Main/ENVIRONMENT/Phase 3H repaired academy/Library fitted bookcases/Fitted walnut bookcase/Upright Center: (-25.35, 1.30, 15.22), Extents: (0.26, 1.30, 0.04) Smoked walnut
+PROP Velvet Vows Main/ENVIRONMENT/World 2.0 Additions/Library/Floor Center: (-16.00, -0.12, 22.00), Extents: (2.00, 0.11, 2.00) Limestone
+PROP Velvet Vows Main/ENVIRONMENT/World 2.0 Additions/Gothic finish/Library paneling/Dark wood dado Center: (-16.00, 0.85, 23.84), Extents: (1.90, 0.75, 0.07) Dark Walnut
+PROP Velvet Vows Main/ENVIRONMENT/Phase 3H repaired academy/Library fitted bookcases/Fitted walnut bookcase/Back Center: (-25.58, 1.30, 16.20), Extents: (0.04, 1.30, 1.00) Smoked walnut
+PROP Velvet Vows Main/WORLD/GOTHIC_ACADEMY/Connected wings/Art Studio/High interior ceiling/Art Studio ceiling 1,1 Center: (-15.00, 6.82, 1.00), Extents: (3.00, 0.00, 3.00) Gothic_DarkWood
+PROP Velvet Vows Main/ENVIRONMENT/Phase 3H repaired academy/Library fitted bookcases/Fitted walnut bookcase/Shelf Center: (-25.35, 1.88, 21.60), Extents: (0.26, 0.04, 1.00) Smoked walnut
+ASSET Assets/Medieval Room Kit/Prefab/Books/Books_1.prefab Center: (0.00, 0.00, 0.00), Extents: (0.22, 0.07, 0.25)
+ASSET Assets/Medieval Room Kit/Prefab/Books/Books_2.prefab Center: (0.00, 0.00, 0.00), Extents: (0.24, 0.07, 0.32)
+ASSET Assets/Medieval Room Kit/Prefab/Books/Books_3.prefab Center: (0.00, 0.00, 0.00), Extents: (0.19, 0.06, 0.25)
+ASSET Assets/Medieval Room Kit/Prefab/Books/Books_4.prefab Center: (0.00, 0.00, 0.00), Extents: (0.19, 0.09, 0.25)
+ASSET Assets/Medieval Room Kit/Prefab/Books/Books_5.prefab Center: (0.00, 0.00, 0.00), Extents: (0.19, 0.05, 0.25)
+ASSET Assets/Medieval Room Kit/Prefab/Shelf/Large_Shelf.prefab Center: (-0.01, 0.83, 0.09), Extents: (1.00, 0.83, 0.20)
+ASSET Assets/Medieval Room Kit/Prefab/Shelf/Shelf_1m.prefab Center: (0.00, 0.20, 0.12), Extents: (0.50, 0.20, 0.20)
+ASSET Assets/Medieval Room Kit/Prefab/Shelf/Shelf_2m.prefab Center: (0.00, 0.28, 0.12), Extents: (1.00, 0.28, 0.20)
+ASSET Assets/Medieval Room Kit/Prefab/Table_Chairs/Chair.prefab Center: (0.00, 0.31, 0.00), Extents: (0.35, 0.30, 0.35)
+ASSET Assets/Medieval Room Kit/Prefab/Table_Chairs/Chair_1.prefab Center: (0.00, 0.31, 0.00), Extents: (0.35, 0.30, 0.35)
+ASSET Assets/Medieval Room Kit/Prefab/Table_Chairs/Table.prefab Center: (0.00, 0.49, 0.00), Extents: (1.12, 0.48, 1.12)
+ASSET Assets/VNB - Home Set/Prefabs/Decoration/Book (Open).prefab Center: (0.00, -0.01, 0.00), Extents: (0.28, 0.03, 0.17)
+ASSET Assets/VNB - Home Set/Prefabs/Decoration/Book.prefab Center: (0.00, 0.16, 0.00), Extents: (0.03, 0.17, 0.14)
+ASSET Assets/VNB - Home Set/Prefabs/Decoration/Books I.prefab Center: (-0.01, 0.14, 0.00), Extents: (0.14, 0.15, 0.12)
+ASSET Assets/VNB - Home Set/Prefabs/Decoration/Books II.prefab Center: (0.00, 0.14, -0.01), Extents: (0.16, 0.14, 0.13)
+ASSET Assets/VNB - Home Set/Prefabs/Decoration/Ceiling Lamp 1.prefab Center: (-0.01, -0.09, 0.03), Extents: (0.16, 0.12, 0.10)
+ASSET Assets/VNB - Home Set/Prefabs/Decoration/Ceiling Lamp 2.prefab Center: (0.00, -0.03, 0.00), Extents: (0.17, 0.08, 0.17)
+ASSET Assets/VNB - Home Set/Prefabs/Decoration/Ceiling Lamp 3.prefab Center: (0.00, 0.02, 0.00), Extents: (0.17, 0.13, 0.17)
+ASSET Assets/VNB - Home Set/Prefabs/Decoration/Ceiling Lamp 4.prefab Center: (0.00, -0.02, 0.00), Extents: (0.11, 0.05, 0.11)
+ASSET Assets/VNB - Home Set/Prefabs/Decoration/Lamp 1.prefab Center: (0.00, 0.81, 0.00), Extents: (0.18, 0.81, 0.18)
+ASSET Assets/VNB - Home Set/Prefabs/Decoration/Lamp 2.prefab Center: (0.00, 0.81, 0.00), Extents: (0.18, 0.81, 0.18)
+ASSET Assets/VNB - Home Set/Prefabs/Decoration/Lamp 3.prefab Center: (0.00, 0.47, 0.00), Extents: (0.08, 0.47, 0.08)
+ASSET Assets/VNB - Home Set/Prefabs/Decoration/Simple Book.prefab Center: (0.00, 0.13, 0.00), Extents: (0.02, 0.13, 0.10)
+ASSET Assets/VNB - Home Set/Prefabs/Decoration/Small Lamp 1.prefab Center: (0.00, 0.17, 0.00), Extents: (0.11, 0.17, 0.11)
+ASSET Assets/VNB - Home Set/Prefabs/Decoration/Small Lamp 2.prefab Center: (0.00, 0.19, 0.00), Extents: (0.11, 0.19, 0.11)
+ASSET Assets/VNB - Home Set/Prefabs/Decoration/Small Lamp 3.prefab Center: (0.00, 0.22, 0.00), Extents: (0.08, 0.23, 0.08)

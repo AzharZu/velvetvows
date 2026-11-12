@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="1" result="Passed" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-11-10 05:20:21Z" end-time="2026-11-10 05:20:40Z" duration="18.8929275">
+  <test-suite type="TestSuite" id="1062" name="VelvetVows" fullname="VelvetVows" runstate="Runnable" testcasecount="40" result="Passed" start-time="2026-11-10 05:20:21Z" end-time="2026-11-10 05:20:40Z" duration="18.892928" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="PlayMode" />
+    </properties>
+    <test-suite type="Assembly" id="1059" name="VelvetVows.AnimationCompatibility.PlayModeTests.dll" fullname="/Users/sanzar/VelvetVows/Library/ScriptAssemblies/VelvetVows.AnimationCompatibility.PlayModeTests.dll" runstate="Runnable" testcasecount="40" result="Passed" start-time="2026-11-10 05:20:21Z" end-time="2026-11-10 05:20:40Z" duration="18.885617" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="40056" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="PlayMode" />
+        <property name="EditorOnly" value="False" />
+      </properties>
+      <test-suite type="TestSuite" id="1060" name="VelvetVows" fullname="VelvetVows" runstate="Runnable" testcasecount="40" result="Passed" start-time="2026-11-10 05:20:21Z" end-time="2026-11-10 05:20:40Z" duration="18.884612" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-suite type="TestSuite" id="1061" name="Tests" fullname="VelvetVows.Tests" runstate="Runnable" testcasecount="40" result="Passed" start-time="2026-11-10 05:20:21Z" end-time="2026-11-10 05:20:40Z" duration="18.883783" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <test-suite type="TestFixture" id="1013" name="Phase2BPlayModeTests" fullname="VelvetVows.Tests.Phase2BPlayModeTests" classname="VelvetVows.Tests.Phase2BPlayModeTests" runstate="Runnable" testcasecount="6" result="Passed" start-time="2026-11-10 05:20:21Z" end-time="2026-11-10 05:20:40Z" duration="18.881240" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1018" name="VisibleBloodIsDetectedAfterBodyHidden" fullname="VelvetVows.Tests.Phase2BPlayModeTests.VisibleBloodIsDetectedAfterBodyHidden" methodname="VisibleBloodIsDetectedAfterBodyHidden" classname="VelvetVows.Tests.Phase2BPlayModeTests" runstate="Runnable" seed="1474429304" result="Passed" start-time="2026-11-10 05:20:21Z" end-time="2026-11-10 05:20:40Z" duration="18.864389" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[VelvetVows] GameManager Awake
+[VelvetVows] GameHUD initialized
+[VelvetVows] Canvas active: True, enabled: True, mode: ScreenSpaceOverlay
+[VelvetVows] Canvas scale: (1.00, 1.00, 1.00)
+[VelvetVows] StartPanel active: True
+[VelvetVows] StartPanel scale: (1.00, 1.00, 1.00)
+[VelvetVows] UI input: EventSystem=True, InputSystemUIInputModule=True, actions=True, cursor=None/visible=True
+[VelvetVows] BEGIN listener registered (serialized)
+[VelvetVows] State: Introduction
+[VelvetVows] Canvas active: True, enabled: True, mode: ScreenSpaceOverlay
+[VelvetVows] Canvas scale: (1.00, 1.00, 1.00)
+[VelvetVows] StartPanel active: True
+[VelvetVows] StartPanel scale: (1.00, 1.00, 1.00)
+[VelvetVows] UI input: EventSystem=True, InputSystemUIInputModule=True, actions=True, cursor=None/visible=True
+[Phase2B] Cleanup challenge began at 120 seconds
+Saving results to: /Users/sanzar/Library/Application Support/DefaultCompany/VelvetVows/TestResults.xml
+]]></output>
+            </test-case>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

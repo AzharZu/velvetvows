@@ -28,6 +28,7 @@ namespace VelvetVows
         public bool FirstWarningShown => firstWarningShown;
         public bool WarningActive => warningActive;
         private int waypointIndex;
+        private float scanUntil;
         private static readonly Vector3[] Approach =
         {
             new Vector3(5f, 0, 4f), new Vector3(5f, 0, -2f), new Vector3(0f, 0, -2f),
@@ -56,7 +57,8 @@ namespace VelvetVows
             if (elapsed >= 48f && !footstepsWarning)
             { footstepsWarning = true; hud?.ShowClue("Footsteps in the corridor. Someone is coming toward the Studio."); }
             if (elapsed >= 62f && !doorKnock)
-            { doorKnock = true; hud?.ShowClue("A knock at the Studio door. Hide the evidence before anyone enters."); }
+            { doorKnock = true; hud?.ShowClue("A knock at the Studio door. Hide the evidence before anyone enters.");
+              animator?.GetComponent<AcademyBodyPerformance>()?.LookAtNoise(studioDoor.transform.position, 4); }
             if (elapsed >= 78f && !approaching)
             {
                 approaching = true;
@@ -68,16 +70,20 @@ namespace VelvetVows
         {
             CheckEarlyEncounter();
             if (!investigating || !approaching || cleanup == null || !cleanup.Active) return;
+            if (Time.time < scanUntil) { if (animator != null) animator.SetFloat("Speed", 0, .15f, Time.deltaTime); return; }
             if (waypointIndex >= Approach.Length && (studioDoor == null || studioDoor.Closed))
             { if (animator != null) animator.SetFloat("Speed", 0); return; }
             var destination = waypointIndex < Approach.Length ? Approach[waypointIndex] : new Vector3(-14.1f, 0, -3f);
             destination.y = transform.position.y;
             var delta = destination - transform.position;
             if (delta.sqrMagnitude < .1f)
-            { if (waypointIndex < Approach.Length) waypointIndex++; else if (animator != null) animator.SetFloat("Speed", 0); return; }
-            transform.position = Vector3.MoveTowards(transform.position, destination, approachSpeed * Time.deltaTime);
+            { if (waypointIndex < Approach.Length) { waypointIndex++; scanUntil = Time.time + .65f;
+                animator?.GetComponent<AcademyBodyPerformance>()?.LookAtNoise(studioDoor.transform.position, 1.4f); }
+              else if (animator != null) animator.SetFloat("Speed", 0); return; }
+            float speed = approachSpeed * (Vector3.Angle(transform.forward, delta) > 45 ? .35f : 1);
+            transform.position = Vector3.MoveTowards(transform.position, destination, speed * Time.deltaTime);
             transform.rotation = Quaternion.Slerp(transform.rotation, Quaternion.LookRotation(delta.normalized), Time.deltaTime * 6f);
-            if (animator != null) animator.SetFloat("Speed", approachSpeed);
+            if (animator != null) animator.SetFloat("Speed", speed, .15f, Time.deltaTime);
         }
         private void CheckEarlyEncounter()
         {
@@ -150,7 +156,7 @@ namespace VelvetVows
                 if (seesPlayer && cleanup.IsCleaningBlood)
                 { cleanup.Fail("Evelyn was seen cleaning blood."); return; }
                 if (!cleanup.BloodCleaned && bloodPool != null &&
-                    CanSee(observer, bloodPool.position + Vector3.up * .12f, bloodPool, 5f))
+                    CanSee(observer, bloodPool.position + Vector3.up * .55f, bloodPool, 6f))
                 { cleanup.Fail("The blood was discovered."); return; }
             }
         }

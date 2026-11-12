@@ -35,6 +35,7 @@ namespace VelvetVows
         public bool ChoiceMade { get; private set; }
         public bool BodyLeftBehind { get; private set; }
         private bool busy;
+        public bool InteractionBusy => busy;
         private GameObject choicePanel;
         private JapaneseSegmentPlayer evelynSegments;
         private bool emotionalNarrationActive;
@@ -88,6 +89,8 @@ namespace VelvetVows
         }
         public bool CanInteract(Phase2BAction action)
         {
+            var performance = player != null ? player.GetComponent<AcademyActionPerformance>() : null;
+            if (performance != null && performance.IsBusy) return false;
             if (!Active || busy || game == null || game.State != GameState.Phase2BCleanup || DialogueManager.IsOpen) return false;
             switch (action)
             {
@@ -120,31 +123,122 @@ namespace VelvetVows
             {
                 case Phase2BAction.Body: StartCoroutine(HideBody()); break;
                 case Phase2BAction.Cloth:
-                    HasCloth = true; worldCloth.SetActive(false); heldCloth.SetActive(true);
-                    hud.ShowClue("A cloth from the Studio storage. The blood is still visible."); break;
+                    Animate(ActionKind.Pickup, worldCloth.transform, () =>
+                    { HasCloth = true; worldCloth.SetActive(false); heldCloth.SetActive(true);
+                      hud.ShowClue("A cloth from the Studio storage. The blood is still visible."); }); break;
                 case Phase2BAction.Blood: StartCoroutine(CleanBlood()); break;
                 case Phase2BAction.Disposal:
-                    attackProp.SetActive(false); heldCloth.SetActive(false);
-                    EvidenceDisposed = true; RefreshUI(); CheckSuccess(); break;
+                    Animate(ActionKind.DisposeEvidence, FindActionTarget(Phase2BAction.Disposal), () =>
+                    { attackProp.SetActive(false); heldCloth.SetActive(false);
+                      EvidenceDisposed = true; RefreshUI(); CheckSuccess(); }); break;
                 case Phase2BAction.Clothing: StartCoroutine(CleanClothing()); break;
-                case Phase2BAction.Door: StartCoroutine(studioDoor.OpenVisible()); break;
+                case Phase2BAction.Door: Animate(ActionKind.Door, studioDoor.transform, () => StartCoroutine(studioDoor.OpenVisible())); break;
             }
+        }
+        private Transform FindActionTarget(Phase2BAction action)
+        {
+            foreach (var item in FindObjectsByType<Phase2BInteractable>(FindObjectsSortMode.None)) if (item.Action == action) return item.transform;
+            return player;
+        }
+        private void Animate(ActionKind kind, Transform target, System.Action impact = null)
+        {
+            var performance = player.GetComponent<AcademyActionPerformance>();
+            if (performance == null) impact?.Invoke();
+            else performance.PlayAction(kind, target, impact, null);
         }
         private IEnumerator HideBody()
         {
             busy = true; game.SetPhase2BControl(false); hud.SetInteraction(""); hud.HideClue();
             voice?.PlayCleaning();
-            yield return FadeScreen(1, .45f);
+            Animate(ActionKind.HideBody, celeste);
+            bool restoreBrain = brain != null && brain.enabled;
+            if (TryFrameBodyAction() && brain != null) brain.enabled = false;
+            yield return RotateWardrobe(true);
             if (!Active) { voice?.StopSfx(); yield break; }
+            var from = celeste.position; var to = wardrobe.position;
+            to.y = from.y;
+            var controller = player.GetComponent<CharacterController>();
+            var corpseAnimator = celeste.GetComponentInChildren<Animator>(true);
+            var chest = corpseAnimator != null && corpseAnimator.isHuman ? corpseAnimator.GetBoneTransform(HumanBodyBones.Chest) : null;
+            float nextCameraCheck = 0;
+            Vector3 dragDirection = to - from; dragDirection.y = 0;
+            if (dragDirection.sqrMagnitude < .001f) dragDirection = player.forward;
+            dragDirection.Normalize();
+            Vector3 side = Vector3.Cross(Vector3.up, dragDirection);
+            if (Vector3.Dot(player.position - (chest != null ? chest.position : from), side) < 0) side = -side;
+            // Reach the body before it starts moving; otherwise it appears to slide away by itself.
+            for (float t = 0; t < 1.3f && controller != null && controller.enabled; t += Time.deltaTime)
+            {
+                if (!Active) yield break;
+                Vector3 gripPosition = (chest != null ? chest.position : celeste.position) - dragDirection * .22f + side * .32f;
+                Vector3 follow = gripPosition - player.position; follow.y = 0;
+                if (follow.magnitude <= .08f) break;
+                controller.Move(follow.normalized * Mathf.Min(follow.magnitude - .08f, Time.deltaTime * 2f));
+                if (Time.time >= nextCameraCheck) { TryFrameBodyAction(); nextCameraCheck = Time.time + .25f; }
+                yield return null;
+            }
+            // The body can only travel as far as the player's capsule actually moved.
+            for (float t = 0; t < 4.2f; t += Time.deltaTime)
+            {
+                if (!Active) yield break;
+                var remaining = to - celeste.position; remaining.y = 0;
+                if (remaining.magnitude <= .06f) break;
+                if (controller == null || !controller.enabled) break;
+                var before = player.position;
+                controller.Move(remaining.normalized * Mathf.Min(remaining.magnitude, 2f * Time.deltaTime));
+                var travelled = player.position - before; travelled.y = 0;
+                celeste.position += travelled;
+                if (Time.time >= nextCameraCheck) { TryFrameBodyAction(); nextCameraCheck = Time.time + .25f; }
+                yield return null;
+            }
+            if (Vector3.Distance(celeste.position, to) > .12f)
+            {
+                player.GetComponent<AcademyActionPerformance>()?.Cancel();
+                yield return RotateWardrobe(false);
+                voice?.StopSfx();
+                if (brain != null && restoreBrain) brain.enabled = true;
+                busy = false; game.SetPhase2BControl(true);
+                hud.ShowClue("The way to the wardrobe is blocked. Move closer and try again.");
+                yield break;
+            }
+            celeste.position = to;
             murder.SetCorpseVisible(false);
-            if (wardrobeLeftDoor != null) wardrobeLeftDoor.localRotation = leftClosed;
-            if (wardrobeRightDoor != null) wardrobeRightDoor.localRotation = rightClosed;
-            yield return new WaitForSeconds(.45f);
+            yield return RotateWardrobe(false);
+            var performance = player.GetComponent<AcademyActionPerformance>();
+            while (Active && performance != null && performance.IsBusy) yield return null;
             voice?.StopSfx();
-            yield return FadeScreen(0, .45f);
             if (!Active) yield break;
+            if (brain != null && restoreBrain) brain.enabled = true;
             game.SetPhase2BControl(true); busy = false; BodyHidden = true;
             RefreshUI(); CheckSuccess();
+        }
+        private bool TryFrameBodyAction()
+        {
+            if (gameCamera == null || player == null || celeste == null) return false;
+            Vector3 actor = player.position + Vector3.up * .85f;
+            Vector3 body = celeste.position + Vector3.up * .4f;
+            Vector3 focus = Vector3.Lerp(actor, body, .55f);
+            bool Inside(Vector3 p) => p.x > -23.3f && p.x < -12.7f && p.z > -7.2f && p.z < 3.2f;
+            bool Clear(Vector3 p) => Inside(p) && Phase2AStoryManager.CameraPathClear(p, actor) &&
+                Phase2AStoryManager.CameraPathClear(p, body);
+            var position = gameCamera.transform.position;
+            if (Vector3.Distance(position, focus) > 4f || !Clear(position))
+            {
+                bool found = false;
+                foreach (float distance in new[] { 3f, 2.4f, 3.6f })
+                {
+                    for (int angle = 0; angle < 360; angle += 30)
+                    {
+                        var candidate = focus + Quaternion.Euler(0, angle, 0) * Vector3.right * distance + Vector3.up * 1.15f;
+                        if (!Clear(candidate)) continue;
+                        position = candidate; found = true; break;
+                    }
+                    if (found) break;
+                }
+                if (!found) return false;
+            }
+            Frame(position, focus, 52);
+            return true;
         }
         private IEnumerator FadeScreen(float target, float duration)
         {
@@ -169,6 +263,10 @@ namespace VelvetVows
         {
             busy = true; game.SetPhase2BControl(false); hud.SetInteraction(""); hud.HideClue();
             IsCleaningBlood = true;
+            Animate(ActionKind.CleanFloor, blood.transform);
+            var action = player.GetComponent<AcademyActionPerformance>();
+            while (Active && action != null && action.IsBusy && !action.Prepared) yield return null;
+            if (!Active) yield break;
             voice?.PlayCleaning();
             if (brain != null) brain.enabled = false;
             Frame(blood.transform.position + new Vector3(-1.4f, 1.35f, -1.7f), blood.transform.position + Vector3.up * .05f, 48);
@@ -185,11 +283,8 @@ namespace VelvetVows
         {
             busy = true; game.SetPhase2BControl(false); hud.SetInteraction(""); hud.HideClue();
             voice?.PlayCleaning();
-            yield return FadeScreen(1, .45f);
-            if (!Active) yield break;
-            yield return new WaitForSeconds(4.1f);
-            if (!Active) yield break;
-            yield return FadeScreen(0, .45f);
+            Animate(ActionKind.WashClothes, FindActionTarget(Phase2BAction.Clothing));
+            yield return new WaitForSeconds(4.9f);
             if (!Active) yield break;
             voice?.StopSfx();
             clothingMarks.SetActive(false);
@@ -216,6 +311,7 @@ namespace VelvetVows
         {
             if (!Active) return;
             Active = false; busy = true; IsCleaningBlood = false;
+            player.GetComponent<AcademyActionPerformance>()?.Cancel();
             StopAllCoroutines();
             emotionalNarrationActive = false; evelynSegments?.Stop();
             voice?.StopAll();
@@ -227,8 +323,15 @@ namespace VelvetVows
             hud.SetFade(0);
             hud.ShowGameplay(false); hud.HideClue();
             if (brain != null) brain.enabled = false;
-            Frame(prefect.transform.position + new Vector3(-.55f, 1.65f, -1.2f), prefect.transform.position + Vector3.up * 1.25f, 55);
             prefect.FacePlayer();
+            var prefectFocus = prefect.transform.position + Vector3.up * 1.35f;
+            foreach (var offset in new[] { prefect.transform.forward * 1.8f, -prefect.transform.forward * 1.8f,
+                prefect.transform.right * 1.8f, -prefect.transform.right * 1.8f })
+            {
+                var position = prefect.transform.position + offset + Vector3.up * 1.65f;
+                if (!Phase2AStoryManager.CameraPathClear(position, prefectFocus)) continue;
+                Frame(position, prefectFocus, 48); break;
+            }
             if (reason == "Celeste was found." || reason == "The blood was discovered.")
                 voice?.QueuePrefectIncident(true);
             else if (reason == "The Prefect saw evidence on Evelyn.")
@@ -295,6 +398,7 @@ namespace VelvetVows
         public void Retry()
         {
             if (Active) return;
+            player.GetComponent<AcademyActionPerformance>()?.Cancel();
             StopAllCoroutines();
             emotionalNarrationActive = false; evelynSegments?.Stop();
             voice?.StopAll();
@@ -354,9 +458,9 @@ namespace VelvetVows
             background.GetComponent<Image>().color = new Color(.035f, .014f, .026f, .97f);
             var font = Font.CreateDynamicFontFromOSFont(new[] { "Georgia", "Times New Roman" }, 32);
             TextLabel(root.transform, "WHAT SHOULD I DO WITH HER BODY?", font, 52, new Vector2(.12f, .70f), new Vector2(.88f, .86f));
-            ChoiceButton(root.transform, "BURN THE EVIDENCE\nErase every trace.", font,
+            ChoiceButton(root.transform, "BURN THE EVIDENCE\nReturn tonight and destroy the body.", font,
                 new Vector2(.16f, .38f), new Vector2(.48f, .60f), () => ChooseBodyFate(false));
-            ChoiceButton(root.transform, "LEAVE THE BODY\nI’ve done enough. No one will look inside.", font,
+            ChoiceButton(root.transform, "LEAVE THE BODY\nLeave her hidden. She could be found.", font,
                 new Vector2(.52f, .38f), new Vector2(.84f, .60f), () => ChooseBodyFate(true));
             choicePanel = root; root.SetActive(false);
         }

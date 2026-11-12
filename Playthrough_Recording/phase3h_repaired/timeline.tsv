@@ -1,0 +1,38 @@
+﻿seconds	type	event
+0.002	recording	Normal speed; actual controller movement, E and UI clicks; BEGIN to ending
+0.004	state	Introduction/NotStarted/Dormant
+2.026	state	Phase2A/Opening/Dormant
+5.192	dialogue	ISABELLE|Nobody even wants her here.
+7.862	dialogue	AMELIE|Ha…
+9.867	dialogue	ADRIAN|Get away.
+12.123	dialogue	ISABELLE|Whatever. Let’s go.
+18.664	dialogue	ADRIAN|Are you alright?
+21.324	dialogue	EVELYN|Y-yes. Thank you.
+25.026	dialogue	ADRIAN|Be careful, Evelyn.
+27.712	dialogue	ADRIAN|Evelyn, isn’t it?
+41.728	state	Phase3AIntro/Opening/Dormant
+103.666	state	Phase2A/MissingStudent/Dormant
+103.666	dialogue	ISABELLE|Did you hear? Another student disappeared.
+106.988	dialogue	AMELIE|Lucien Morel. Nobody has seen him since Friday.
+110.690	dialogue	EVELYN|Lucien? He was annoying.
+113.373	dialogue	ISABELLE|Didn't he ask you out last week?
+116.170	dialogue	EVELYN|He asked me to study mathematics with him. I said no.
+120.051	dialogue	AMELIE|That's the third disappearance this semester.
+123.523	dialogue	EVELYN|People leave this academy all the time.
+126.610	walk	(-4.40, 0.00, 2.80)
+126.726	state	Phase2A/Overhear/Dormant
+130.702	state	Phase2A/Overhearing/Dormant
+131.127	dialogue	CELESTE|I'm going to ask Adrian to the Black Rose Ball.
+134.816	dialogue	ISABELLE|Seriously? Tomorrow?
+137.514	dialogue	CELESTE|Why not? He's single.
+140.188	dialogue	ISABELLE|What if he refuses?
+142.847	dialogue	CELESTE|Then at least I'll know.
+145.625	dialogue	EVELYN · THOUGHT|She's going to confess?
+148.432	dialogue	EVELYN · THOUGHT|No. He wouldn't accept… would he?
+151.245	dialogue	EVELYN · THOUGHT|Girls like her have always had everything.
+154.574	dialogue	EVELYN · THOUGHT|Friends. Money. A family.
+157.369	dialogue	EVELYN · THOUGHT|And now she wants him, too.
+160.163	dialogue	EVELYN · THOUGHT|<color=#761B32>But not him.</color>
+163.768	state	Phase2A/WatchAdrian/Dormant
+163.768	walk	(-20.00, 0.00, 14.00)
+163.951	recording	Stop

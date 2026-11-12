@@ -1,0 +1,321 @@
+STUDENT | Akio Highschool Uniform
+Body slot 0 | Student male Body 0 | source Male Student Slate_Body_0
+Body slot 1 | Student male Body 1 | source Male Student Slate_Body_1
+Body slot 2 | Student male Body 2 | source Male Student Slate_Body_2
+Body slot 3 | Student male Body 3 | source Male Student Slate_Body_3
+Body slot 4 | Student male Body 4 | source Male Student Slate_Body_4
+Body slot 5 | Student male Body 5 | source Male Student Slate_Body_5
+Body slot 6 | Student male Body 6 | source Male Student Slate_Body_6
+Body slot 7 | Student male Body 7 | source Male Student Slate_Body_7
+Body slot 8 | Student male Body 8 | source Male Student Slate_Body_8
+STUDENT | Akio Highschool Uniform
+Body slot 0 | Student male Body 0 | source Male Student Slate_Body_0
+Body slot 1 | Student male Body 1 | source Male Student Slate_Body_1
+Body slot 2 | Student male Body 2 | source Male Student Slate_Body_2
+Body slot 3 | Student male Body 3 | source Male Student Slate_Body_3
+Body slot 4 | Student male Body 4 | source Male Student Slate_Body_4
+Body slot 5 | Student male Body 5 | source Male Student Slate_Body_5
+Body slot 6 | Student male Body 6 | source Male Student Slate_Body_6
+Body slot 7 | Student male Body 7 | source Male Student Slate_Body_7
+Body slot 8 | Student male Body 8 | source Male Student Slate_Body_8
+STUDENT | Ball guest 01
+Casual1 slot 0 | Student female Casual1 0 | source Amelie Casual Student_Casual1_0
+Casual1_Body slot 0 | Student female Casual1_Body 0 | source Amelie Casual Student_Casual1_Body_0
+Casual1_Body slot 1 | Student female Casual1_Body 1 | source Amelie Casual Student_Casual1_Body_1
+Casual1_Body slot 2 | Student female Casual1_Body 2 | source Amelie Casual Student_Casual1_Body_2
+Casual1_Body slot 3 | Student female Casual1_Body 3 | source Amelie Casual Student_Casual1_Body_3
+Casual1_Body slot 4 | Student female Casual1_Body 4 | source Amelie Casual Student_Casual1_Body_4
+Casual1_Body slot 5 | Student female Casual1_Body 5 | source Amelie Casual Student_Casual1_Body_5
+Casual1_Body slot 6 | Student female Casual1_Body 6 | source Amelie Casual Student_Casual1_Body_6
+Casual1_Body slot 7 | Student female Casual1_Body 7 | source Amelie Casual Student_Casual1_Body_7
+Casual1_Body slot 8 | Student female Casual1_Body 8 | source Amelie Casual Student_Casual1_Body_8
+Casual1_Body slot 9 | Student female Casual1_Body 9 | source Amelie Casual Student_Casual1_Body_9
+Hair slot 0 | Student female Hair 0 | source Amelie Casual Student_Hair_0
+CLARA | Clara
+Casual1 slot 0 | CLARA_Casual1_0 | source Clara Casual Student_Casual1_0
+Casual1_Body slot 0 | CLARA_Casual1_Body_0 | source Clara Casual Student_Casual1_Body_0
+Casual1_Body slot 1 | CLARA_Casual1_Body_1 | source Clara Casual Student_Casual1_Body_1
+Casual1_Body slot 2 | CLARA_Casual1_Body_2 | source Clara Casual Student_Casual1_Body_2
+Casual1_Body slot 3 | CLARA_Casual1_Body_3 | source Clara Casual Student_Casual1_Body_3
+Casual1_Body slot 4 | CLARA_Casual1_Body_4 | source Clara Casual Student_Casual1_Body_4
+Casual1_Body slot 5 | CLARA_Casual1_Body_5 | source Clara Casual Student_Casual1_Body_5
+Casual1_Body slot 6 | CLARA_Casual1_Body_6 | source Clara Casual Student_Casual1_Body_6
+Casual1_Body slot 7 | CLARA_Casual1_Body_7 | source Clara Casual Student_Casual1_Body_7
+Casual1_Body slot 8 | CLARA_Casual1_Body_8 | source Clara Casual Student_Casual1_Body_8
+Casual1_Body slot 9 | CLARA_Casual1_Body_9 | source Clara Casual Student_Casual1_Body_9
+Hair slot 0 | CLARA_Hair_0 | source Clara Casual Student_Hair_0
+ISABELLE | Isabelle
+Casual1 slot 0 | ISABELLE_Casual1_0 | source Isabelle Casual Student_Casual1_0
+Casual1_Body slot 0 | ISABELLE_Casual1_Body_0 | source Isabelle Casual Student_Casual1_Body_0
+Casual1_Body slot 1 | ISABELLE_Casual1_Body_1 | source Isabelle Casual Student_Casual1_Body_1
+Casual1_Body slot 2 | ISABELLE_Casual1_Body_2 | source Isabelle Casual Student_Casual1_Body_2
+Casual1_Body slot 3 | ISABELLE_Casual1_Body_3 | source Isabelle Casual Student_Casual1_Body_3
+Casual1_Body slot 4 | ISABELLE_Casual1_Body_4 | source Isabelle Casual Student_Casual1_Body_4
+Casual1_Body slot 5 | ISABELLE_Casual1_Body_5 | source Isabelle Casual Student_Casual1_Body_5
+Casual1_Body slot 6 | ISABELLE_Casual1_Body_6 | source Isabelle Casual Student_Casual1_Body_6
+Casual1_Body slot 7 | ISABELLE_Casual1_Body_7 | source Isabelle Casual Student_Casual1_Body_7
+Casual1_Body slot 8 | ISABELLE_Casual1_Body_8 | source Isabelle Casual Student_Casual1_Body_8
+Casual1_Body slot 9 | ISABELLE_Casual1_Body_9 | source Isabelle Casual Student_Casual1_Body_9
+Hair slot 0 | ISABELLE_Hair_0 | source Isabelle Casual Student_Hair_0
+CELESTE | Rin - School
+all_mesh slot 0 | CELESTE_all_mesh_0 | source N00_000_00_FaceMouth_00_FACE (Instance)
+all_mesh slot 1 | CELESTE_all_mesh_1 | source N00_000_00_EyeIris_00_EYE (Instance)
+all_mesh slot 2 | CELESTE_all_mesh_2 | source N00_000_00_EyeHighlight_00_EYE (Instance)
+all_mesh slot 3 | CELESTE_all_mesh_3 | source N00_000_00_Face_00_SKIN (Instance)
+all_mesh slot 4 | CELESTE_all_mesh_4 | source N00_000_00_EyeWhite_00_EYE (Instance)
+all_mesh slot 5 | CELESTE_all_mesh_5 | source N00_000_00_FaceBrow_00_FACE (Instance)
+all_mesh slot 6 | CELESTE_all_mesh_6 | source N00_000_00_FaceEyeline_00_FACE (Instance)
+all_mesh slot 7 | CELESTE_all_mesh_7 | source N00_000_00_Body_00_SKIN (Instance)
+all_mesh slot 8 | CELESTE_all_mesh_8 | source N00_007_02_Tops_01_CLOTH (Instance)
+all_mesh slot 9 | CELESTE_all_mesh_9 | source N00_001_03_Bottoms_01_CLOTH (Instance)
+all_mesh slot 10 | CELESTE_all_mesh_10 | source N00_000_00_HairBack_00_HAIR (Instance)
+all_mesh slot 11 | CELESTE_all_mesh_11 | source N00_007_01_Tops_01_CLOTH (Instance)
+all_mesh slot 12 | CELESTE_all_mesh_12 | source N00_001_01_Shoes_01_CLOTH (Instance)
+all_mesh slot 13 | CELESTE_all_mesh_13 | source N00_001_02_Accessory_Tie_01_CLOTH (Instance)
+all_mesh slot 14 | CELESTE_all_mesh_14 | source N00_010_01_Onepiece_00_CLOTH (Instance)
+all_mesh slot 15 | CELESTE_all_mesh_15 | source N00_000_Hair_00_HAIR (Instance)
+STUDENT | Ballroom gala guest 1
+Casual1 slot 0 | Student female Casual1 0 | source Amelie Casual Student_Casual1_0
+Casual1_Body slot 0 | Student female Casual1_Body 0 | source Amelie Casual Student_Casual1_Body_0
+Casual1_Body slot 1 | Student female Casual1_Body 1 | source Amelie Casual Student_Casual1_Body_1
+Casual1_Body slot 2 | Student female Casual1_Body 2 | source Amelie Casual Student_Casual1_Body_2
+Casual1_Body slot 3 | Student female Casual1_Body 3 | source Amelie Casual Student_Casual1_Body_3
+Casual1_Body slot 4 | Student female Casual1_Body 4 | source Amelie Casual Student_Casual1_Body_4
+Casual1_Body slot 5 | Student female Casual1_Body 5 | source Amelie Casual Student_Casual1_Body_5
+Casual1_Body slot 6 | Student female Casual1_Body 6 | source Amelie Casual Student_Casual1_Body_6
+Casual1_Body slot 7 | Student female Casual1_Body 7 | source Amelie Casual Student_Casual1_Body_7
+Casual1_Body slot 8 | Student female Casual1_Body 8 | source Amelie Casual Student_Casual1_Body_8
+Casual1_Body slot 9 | Student female Casual1_Body 9 | source Amelie Casual Student_Casual1_Body_9
+Hair slot 0 | Student female Hair 0 | source Amelie Casual Student_Hair_0
+PREFECT | Akio Highschool Uniform
+Body slot 0 | PREFECT_Body_0 | source Male Student Burgundy_Body_0
+Body slot 1 | PREFECT_Body_1 | source Male Student Burgundy_Body_1
+Body slot 2 | PREFECT_Body_2 | source Male Student Burgundy_Body_2
+Body slot 3 | PREFECT_Body_3 | source Male Student Burgundy_Body_3
+Body slot 4 | PREFECT_Body_4 | source Male Student Burgundy_Body_4
+Body slot 5 | PREFECT_Body_5 | source Male Student Burgundy_Body_5
+Body slot 6 | PREFECT_Body_6 | source Male Student Burgundy_Body_6
+Body slot 7 | PREFECT_Body_7 | source Male Student Burgundy_Body_7
+Body slot 8 | PREFECT_Body_8 | source Male Student Burgundy_Body_8
+MARGOT | Margot
+Casual1 slot 0 | MARGOT_Casual1_0 | source Margot Casual Student_Casual1_0
+Casual1_Body slot 0 | MARGOT_Casual1_Body_0 | source Margot Casual Student_Casual1_Body_0
+Casual1_Body slot 1 | MARGOT_Casual1_Body_1 | source Margot Casual Student_Casual1_Body_1
+Casual1_Body slot 2 | MARGOT_Casual1_Body_2 | source Margot Casual Student_Casual1_Body_2
+Casual1_Body slot 3 | MARGOT_Casual1_Body_3 | source Margot Casual Student_Casual1_Body_3
+Casual1_Body slot 4 | MARGOT_Casual1_Body_4 | source Margot Casual Student_Casual1_Body_4
+Casual1_Body slot 5 | MARGOT_Casual1_Body_5 | source Margot Casual Student_Casual1_Body_5
+Casual1_Body slot 6 | MARGOT_Casual1_Body_6 | source Margot Casual Student_Casual1_Body_6
+Casual1_Body slot 7 | MARGOT_Casual1_Body_7 | source Margot Casual Student_Casual1_Body_7
+Casual1_Body slot 8 | MARGOT_Casual1_Body_8 | source Margot Casual Student_Casual1_Body_8
+Casual1_Body slot 9 | MARGOT_Casual1_Body_9 | source Margot Casual Student_Casual1_Body_9
+Hair slot 0 | MARGOT_Hair_0 | source Margot Casual Student_Hair_0
+ADRIAN | Akio Highschool Uniform
+Body slot 0 | ADRIAN_Body_0 | source Hair HAIR
+Body slot 1 | ADRIAN_Body_1 | source FaceMouth FACE
+Body slot 2 | ADRIAN_Body_2 | source EyeIris EYE
+Body slot 3 | ADRIAN_Body_3 | source EyeHighlight EYE
+Body slot 4 | ADRIAN_Body_4 | source Face SKIN
+Body slot 5 | ADRIAN_Body_5 | source FaceBrow FACE
+Body slot 6 | ADRIAN_Body_6 | source Body SKIN
+Body slot 7 | ADRIAN_Body_7 | source HairBack HAIR
+Body slot 8 | ADRIAN_Body_8 | source Bottoms CLOTH
+STUDENT | Akio Highschool Uniform
+Body slot 0 | Student male Body 0 | source Male Student Burgundy_Body_0
+Body slot 1 | Student male Body 1 | source Male Student Burgundy_Body_1
+Body slot 2 | Student male Body 2 | source Male Student Burgundy_Body_2
+Body slot 3 | Student male Body 3 | source Male Student Burgundy_Body_3
+Body slot 4 | Student male Body 4 | source Male Student Burgundy_Body_4
+Body slot 5 | Student male Body 5 | source Male Student Burgundy_Body_5
+Body slot 6 | Student male Body 6 | source Male Student Burgundy_Body_6
+Body slot 7 | Student male Body 7 | source Male Student Burgundy_Body_7
+Body slot 8 | Student male Body 8 | source Male Student Burgundy_Body_8
+STUDENT | Ball guest 06
+Casual1 slot 0 | Student female Casual1 0 | source Odette Casual Student_Casual1_0
+Casual1_Body slot 0 | Student female Casual1_Body 0 | source Odette Casual Student_Casual1_Body_0
+Casual1_Body slot 1 | Student female Casual1_Body 1 | source Odette Casual Student_Casual1_Body_1
+Casual1_Body slot 2 | Student female Casual1_Body 2 | source Odette Casual Student_Casual1_Body_2
+Casual1_Body slot 3 | Student female Casual1_Body 3 | source Odette Casual Student_Casual1_Body_3
+Casual1_Body slot 4 | Student female Casual1_Body 4 | source Odette Casual Student_Casual1_Body_4
+Casual1_Body slot 5 | Student female Casual1_Body 5 | source Odette Casual Student_Casual1_Body_5
+Casual1_Body slot 6 | Student female Casual1_Body 6 | source Odette Casual Student_Casual1_Body_6
+Casual1_Body slot 7 | Student female Casual1_Body 7 | source Odette Casual Student_Casual1_Body_7
+Casual1_Body slot 8 | Student female Casual1_Body 8 | source Odette Casual Student_Casual1_Body_8
+Casual1_Body slot 9 | Student female Casual1_Body 9 | source Odette Casual Student_Casual1_Body_9
+Hair slot 0 | Student female Hair 0 | source Odette Casual Student_Hair_0
+EVELYN | Kasumi - School
+all_mesh slot 0 | EVELYN_all_mesh_0 | source N00_000_00_FaceMouth_00_FACE (Instance)
+all_mesh slot 1 | EVELYN_all_mesh_1 | source N00_000_00_EyeIris_00_EYE (Instance)
+all_mesh slot 2 | EVELYN_all_mesh_2 | source N00_000_00_EyeHighlight_00_EYE (Instance)
+all_mesh slot 3 | EVELYN_all_mesh_3 | source N00_000_00_Face_00_SKIN (Instance)
+all_mesh slot 4 | EVELYN_all_mesh_4 | source N00_000_00_EyeWhite_00_EYE (Instance)
+all_mesh slot 5 | EVELYN_all_mesh_5 | source N00_000_00_FaceBrow_00_FACE (Instance)
+all_mesh slot 6 | EVELYN_all_mesh_6 | source N00_000_00_FaceEyeline_00_FACE (Instance)
+all_mesh slot 7 | EVELYN_all_mesh_7 | source N00_000_00_Body_00_SKIN (Instance)
+all_mesh slot 8 | EVELYN_all_mesh_8 | source N00_007_02_Tops_01_CLOTH (Instance)
+all_mesh slot 9 | EVELYN_all_mesh_9 | source N00_001_03_Bottoms_01_CLOTH (Instance)
+all_mesh slot 10 | EVELYN_all_mesh_10 | source N00_000_00_HairBack_00_HAIR (Instance)
+all_mesh slot 11 | EVELYN_all_mesh_11 | source N00_001_01_Shoes_01_CLOTH (Instance)
+all_mesh slot 12 | EVELYN_all_mesh_12 | source N00_001_02_Accessory_Tie_01_CLOTH (Instance)
+all_mesh slot 13 | EVELYN_all_mesh_13 | source N00_007_01_Tops_01_CLOTH (Instance)
+all_mesh slot 14 | EVELYN_all_mesh_14 | source N00_000_Hair_00_HAIR (Instance)
+STUDENT | Ballroom gala guest 3
+Casual1 slot 0 | Student female Casual1 0 | source Clara Casual Student_Casual1_0
+Casual1_Body slot 0 | Student female Casual1_Body 0 | source Clara Casual Student_Casual1_Body_0
+Casual1_Body slot 1 | Student female Casual1_Body 1 | source Clara Casual Student_Casual1_Body_1
+Casual1_Body slot 2 | Student female Casual1_Body 2 | source Clara Casual Student_Casual1_Body_2
+Casual1_Body slot 3 | Student female Casual1_Body 3 | source Clara Casual Student_Casual1_Body_3
+Casual1_Body slot 4 | Student female Casual1_Body 4 | source Clara Casual Student_Casual1_Body_4
+Casual1_Body slot 5 | Student female Casual1_Body 5 | source Clara Casual Student_Casual1_Body_5
+Casual1_Body slot 6 | Student female Casual1_Body 6 | source Clara Casual Student_Casual1_Body_6
+Casual1_Body slot 7 | Student female Casual1_Body 7 | source Clara Casual Student_Casual1_Body_7
+Casual1_Body slot 8 | Student female Casual1_Body 8 | source Clara Casual Student_Casual1_Body_8
+Casual1_Body slot 9 | Student female Casual1_Body 9 | source Clara Casual Student_Casual1_Body_9
+Hair slot 0 | Student female Hair 0 | source Clara Casual Student_Hair_0
+STUDENT | Ball guest 07
+Casual1 slot 0 | Student female Casual1 0 | source Sabine Casual Student_Casual1_0
+Casual1_Body slot 0 | Student female Casual1_Body 0 | source Sabine Casual Student_Casual1_Body_0
+Casual1_Body slot 1 | Student female Casual1_Body 1 | source Sabine Casual Student_Casual1_Body_1
+Casual1_Body slot 2 | Student female Casual1_Body 2 | source Sabine Casual Student_Casual1_Body_2
+Casual1_Body slot 3 | Student female Casual1_Body 3 | source Sabine Casual Student_Casual1_Body_3
+Casual1_Body slot 4 | Student female Casual1_Body 4 | source Sabine Casual Student_Casual1_Body_4
+Casual1_Body slot 5 | Student female Casual1_Body 5 | source Sabine Casual Student_Casual1_Body_5
+Casual1_Body slot 6 | Student female Casual1_Body 6 | source Sabine Casual Student_Casual1_Body_6
+Casual1_Body slot 7 | Student female Casual1_Body 7 | source Sabine Casual Student_Casual1_Body_7
+Casual1_Body slot 8 | Student female Casual1_Body 8 | source Sabine Casual Student_Casual1_Body_8
+Casual1_Body slot 9 | Student female Casual1_Body 9 | source Sabine Casual Student_Casual1_Body_9
+Hair slot 0 | Student female Hair 0 | source Sabine Casual Student_Hair_0
+STUDENT | Akio Highschool Uniform
+Body slot 0 | Student male Body 0 | source Male Student Burgundy_Body_0
+Body slot 1 | Student male Body 1 | source Male Student Burgundy_Body_1
+Body slot 2 | Student male Body 2 | source Male Student Burgundy_Body_2
+Body slot 3 | Student male Body 3 | source Male Student Burgundy_Body_3
+Body slot 4 | Student male Body 4 | source Male Student Burgundy_Body_4
+Body slot 5 | Student male Body 5 | source Male Student Burgundy_Body_5
+Body slot 6 | Student male Body 6 | source Male Student Burgundy_Body_6
+Body slot 7 | Student male Body 7 | source Male Student Burgundy_Body_7
+Body slot 8 | Student male Body 8 | source Male Student Burgundy_Body_8
+STUDENT | Ball guest 05
+Casual1 slot 0 | Student female Casual1 0 | source Margot Casual Student_Casual1_0
+Casual1_Body slot 0 | Student female Casual1_Body 0 | source Margot Casual Student_Casual1_Body_0
+Casual1_Body slot 1 | Student female Casual1_Body 1 | source Margot Casual Student_Casual1_Body_1
+Casual1_Body slot 2 | Student female Casual1_Body 2 | source Margot Casual Student_Casual1_Body_2
+Casual1_Body slot 3 | Student female Casual1_Body 3 | source Margot Casual Student_Casual1_Body_3
+Casual1_Body slot 4 | Student female Casual1_Body 4 | source Margot Casual Student_Casual1_Body_4
+Casual1_Body slot 5 | Student female Casual1_Body 5 | source Margot Casual Student_Casual1_Body_5
+Casual1_Body slot 6 | Student female Casual1_Body 6 | source Margot Casual Student_Casual1_Body_6
+Casual1_Body slot 7 | Student female Casual1_Body 7 | source Margot Casual Student_Casual1_Body_7
+Casual1_Body slot 8 | Student female Casual1_Body 8 | source Margot Casual Student_Casual1_Body_8
+Casual1_Body slot 9 | Student female Casual1_Body 9 | source Margot Casual Student_Casual1_Body_9
+Hair slot 0 | Student female Hair 0 | source Margot Casual Student_Hair_0
+STUDENT | Akio Highschool Uniform
+Body slot 0 | Student male Body 0 | source Male Student Slate_Body_0
+Body slot 1 | Student male Body 1 | source Male Student Slate_Body_1
+Body slot 2 | Student male Body 2 | source Male Student Slate_Body_2
+Body slot 3 | Student male Body 3 | source Male Student Slate_Body_3
+Body slot 4 | Student male Body 4 | source Male Student Slate_Body_4
+Body slot 5 | Student male Body 5 | source Male Student Slate_Body_5
+Body slot 6 | Student male Body 6 | source Male Student Slate_Body_6
+Body slot 7 | Student male Body 7 | source Male Student Slate_Body_7
+Body slot 8 | Student male Body 8 | source Male Student Slate_Body_8
+STUDENT | Ball guest 03
+Casual1 slot 0 | Student female Casual1 0 | source Clara Casual Student_Casual1_0
+Casual1_Body slot 0 | Student female Casual1_Body 0 | source Clara Casual Student_Casual1_Body_0
+Casual1_Body slot 1 | Student female Casual1_Body 1 | source Clara Casual Student_Casual1_Body_1
+Casual1_Body slot 2 | Student female Casual1_Body 2 | source Clara Casual Student_Casual1_Body_2
+Casual1_Body slot 3 | Student female Casual1_Body 3 | source Clara Casual Student_Casual1_Body_3
+Casual1_Body slot 4 | Student female Casual1_Body 4 | source Clara Casual Student_Casual1_Body_4
+Casual1_Body slot 5 | Student female Casual1_Body 5 | source Clara Casual Student_Casual1_Body_5
+Casual1_Body slot 6 | Student female Casual1_Body 6 | source Clara Casual Student_Casual1_Body_6
+Casual1_Body slot 7 | Student female Casual1_Body 7 | source Clara Casual Student_Casual1_Body_7
+Casual1_Body slot 8 | Student female Casual1_Body 8 | source Clara Casual Student_Casual1_Body_8
+Casual1_Body slot 9 | Student female Casual1_Body 9 | source Clara Casual Student_Casual1_Body_9
+Hair slot 0 | Student female Hair 0 | source Clara Casual Student_Hair_0
+STUDENT | Ball guest 09
+Casual1 slot 0 | Student female Casual1 0 | source Clara Casual Student_Casual1_0
+Casual1_Body slot 0 | Student female Casual1_Body 0 | source Clara Casual Student_Casual1_Body_0
+Casual1_Body slot 1 | Student female Casual1_Body 1 | source Clara Casual Student_Casual1_Body_1
+Casual1_Body slot 2 | Student female Casual1_Body 2 | source Clara Casual Student_Casual1_Body_2
+Casual1_Body slot 3 | Student female Casual1_Body 3 | source Clara Casual Student_Casual1_Body_3
+Casual1_Body slot 4 | Student female Casual1_Body 4 | source Clara Casual Student_Casual1_Body_4
+Casual1_Body slot 5 | Student female Casual1_Body 5 | source Clara Casual Student_Casual1_Body_5
+Casual1_Body slot 6 | Student female Casual1_Body 6 | source Clara Casual Student_Casual1_Body_6
+Casual1_Body slot 7 | Student female Casual1_Body 7 | source Clara Casual Student_Casual1_Body_7
+Casual1_Body slot 8 | Student female Casual1_Body 8 | source Clara Casual Student_Casual1_Body_8
+Casual1_Body slot 9 | Student female Casual1_Body 9 | source Clara Casual Student_Casual1_Body_9
+Hair slot 0 | Student female Hair 0 | source Clara Casual Student_Hair_0
+STUDENT | Sabine
+Casual1 slot 0 | Student female Casual1 0 | source Sabine Casual Student_Casual1_0
+Casual1_Body slot 0 | Student female Casual1_Body 0 | source Sabine Casual Student_Casual1_Body_0
+Casual1_Body slot 1 | Student female Casual1_Body 1 | source Sabine Casual Student_Casual1_Body_1
+Casual1_Body slot 2 | Student female Casual1_Body 2 | source Sabine Casual Student_Casual1_Body_2
+Casual1_Body slot 3 | Student female Casual1_Body 3 | source Sabine Casual Student_Casual1_Body_3
+Casual1_Body slot 4 | Student female Casual1_Body 4 | source Sabine Casual Student_Casual1_Body_4
+Casual1_Body slot 5 | Student female Casual1_Body 5 | source Sabine Casual Student_Casual1_Body_5
+Casual1_Body slot 6 | Student female Casual1_Body 6 | source Sabine Casual Student_Casual1_Body_6
+Casual1_Body slot 7 | Student female Casual1_Body 7 | source Sabine Casual Student_Casual1_Body_7
+Casual1_Body slot 8 | Student female Casual1_Body 8 | source Sabine Casual Student_Casual1_Body_8
+Casual1_Body slot 9 | Student female Casual1_Body 9 | source Sabine Casual Student_Casual1_Body_9
+Hair slot 0 | Student female Hair 0 | source Sabine Casual Student_Hair_0
+AMELIE | Amelie
+Casual1 slot 0 | AMELIE_Casual1_0 | source Amelie Casual Student_Casual1_0
+Casual1_Body slot 0 | AMELIE_Casual1_Body_0 | source Amelie Casual Student_Casual1_Body_0
+Casual1_Body slot 1 | AMELIE_Casual1_Body_1 | source Amelie Casual Student_Casual1_Body_1
+Casual1_Body slot 2 | AMELIE_Casual1_Body_2 | source Amelie Casual Student_Casual1_Body_2
+Casual1_Body slot 3 | AMELIE_Casual1_Body_3 | source Amelie Casual Student_Casual1_Body_3
+Casual1_Body slot 4 | AMELIE_Casual1_Body_4 | source Amelie Casual Student_Casual1_Body_4
+Casual1_Body slot 5 | AMELIE_Casual1_Body_5 | source Amelie Casual Student_Casual1_Body_5
+Casual1_Body slot 6 | AMELIE_Casual1_Body_6 | source Amelie Casual Student_Casual1_Body_6
+Casual1_Body slot 7 | AMELIE_Casual1_Body_7 | source Amelie Casual Student_Casual1_Body_7
+Casual1_Body slot 8 | AMELIE_Casual1_Body_8 | source Amelie Casual Student_Casual1_Body_8
+Casual1_Body slot 9 | AMELIE_Casual1_Body_9 | source Amelie Casual Student_Casual1_Body_9
+Hair slot 0 | AMELIE_Hair_0 | source Amelie Casual Student_Hair_0
+ODETTE | Odette
+Casual1 slot 0 | ODETTE_Casual1_0 | source Odette Casual Student_Casual1_0
+Casual1_Body slot 0 | ODETTE_Casual1_Body_0 | source Odette Casual Student_Casual1_Body_0
+Casual1_Body slot 1 | ODETTE_Casual1_Body_1 | source Odette Casual Student_Casual1_Body_1
+Casual1_Body slot 2 | ODETTE_Casual1_Body_2 | source Odette Casual Student_Casual1_Body_2
+Casual1_Body slot 3 | ODETTE_Casual1_Body_3 | source Odette Casual Student_Casual1_Body_3
+Casual1_Body slot 4 | ODETTE_Casual1_Body_4 | source Odette Casual Student_Casual1_Body_4
+Casual1_Body slot 5 | ODETTE_Casual1_Body_5 | source Odette Casual Student_Casual1_Body_5
+Casual1_Body slot 6 | ODETTE_Casual1_Body_6 | source Odette Casual Student_Casual1_Body_6
+Casual1_Body slot 7 | ODETTE_Casual1_Body_7 | source Odette Casual Student_Casual1_Body_7
+Casual1_Body slot 8 | ODETTE_Casual1_Body_8 | source Odette Casual Student_Casual1_Body_8
+Casual1_Body slot 9 | ODETTE_Casual1_Body_9 | source Odette Casual Student_Casual1_Body_9
+Hair slot 0 | ODETTE_Hair_0 | source Odette Casual Student_Hair_0
+STUDENT | Ball guest 08
+Casual1 slot 0 | Student female Casual1 0 | source Isabelle Casual Student_Casual1_0
+Casual1_Body slot 0 | Student female Casual1_Body 0 | source Isabelle Casual Student_Casual1_Body_0
+Casual1_Body slot 1 | Student female Casual1_Body 1 | source Isabelle Casual Student_Casual1_Body_1
+Casual1_Body slot 2 | Student female Casual1_Body 2 | source Isabelle Casual Student_Casual1_Body_2
+Casual1_Body slot 3 | Student female Casual1_Body 3 | source Isabelle Casual Student_Casual1_Body_3
+Casual1_Body slot 4 | Student female Casual1_Body 4 | source Isabelle Casual Student_Casual1_Body_4
+Casual1_Body slot 5 | Student female Casual1_Body 5 | source Isabelle Casual Student_Casual1_Body_5
+Casual1_Body slot 6 | Student female Casual1_Body 6 | source Isabelle Casual Student_Casual1_Body_6
+Casual1_Body slot 7 | Student female Casual1_Body 7 | source Isabelle Casual Student_Casual1_Body_7
+Casual1_Body slot 8 | Student female Casual1_Body 8 | source Isabelle Casual Student_Casual1_Body_8
+Casual1_Body slot 9 | Student female Casual1_Body 9 | source Isabelle Casual Student_Casual1_Body_9
+Hair slot 0 | Student female Hair 0 | source Isabelle Casual Student_Hair_0
+CARETAKER | Legacy Caretaker peasant visual
+Hat slot 0 | Student female Hat 0 | source Academy Caretaker_Hat_0
+Peasant Nolant slot 0 | Student female Peasant Nolant 0 | source Academy Caretaker_Peasant Nolant_0
+STUDENT | Akio Highschool Uniform
+Body slot 0 | Student male Body 0 | source Male Student Slate_Body_0
+Body slot 1 | Student male Body 1 | source Male Student Slate_Body_1
+Body slot 2 | Student male Body 2 | source Male Student Slate_Body_2
+Body slot 3 | Student male Body 3 | source Male Student Slate_Body_3
+Body slot 4 | Student male Body 4 | source Male Student Slate_Body_4
+Body slot 5 | Student male Body 5 | source Male Student Slate_Body_5
+Body slot 6 | Student male Body 6 | source Male Student Slate_Body_6
+Body slot 7 | Student male Body 7 | source Male Student Slate_Body_7
+Body slot 8 | Student male Body 8 | source Male Student Slate_Body_8
+CARETAKER | Akio Highschool Uniform
+Body slot 0 | CARETAKER_Body_0 | source Hair HAIR
+Body slot 1 | CARETAKER_Body_1 | source FaceMouth FACE
+Body slot 2 | CARETAKER_Body_2 | source EyeIris EYE
+Body slot 3 | CARETAKER_Body_3 | source EyeHighlight EYE
+Body slot 4 | CARETAKER_Body_4 | source Face SKIN
+Body slot 5 | CARETAKER_Body_5 | source FaceBrow FACE
+Body slot 6 | CARETAKER_Body_6 | source Body SKIN
+Body slot 7 | CARETAKER_Body_7 | source HairBack HAIR
+Body slot 8 | CARETAKER_Body_8 | source Bottoms CLOTH

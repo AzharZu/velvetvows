@@ -24,7 +24,7 @@ namespace VelvetVows
         private void FramePiece(string name, Vector3 position, Vector3 size, Material stone)
         {
             var piece = GameObject.CreatePrimitive(PrimitiveType.Cube);
-            piece.name = name; piece.transform.SetParent(transform, true);
+            piece.name = name; piece.layer = gameObject.layer; piece.transform.SetParent(transform, true);
             piece.transform.SetPositionAndRotation(position, Quaternion.identity);
             piece.transform.localScale = size;
             if (stone != null) piece.GetComponent<Renderer>().sharedMaterial = stone;

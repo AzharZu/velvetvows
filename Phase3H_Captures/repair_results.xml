@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="1" result="Passed" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-11-10 11:28:56Z" end-time="2026-11-10 11:29:18Z" duration="22.0787929">
+  <test-suite type="TestSuite" id="1069" name="VelvetVows" fullname="VelvetVows" runstate="Runnable" testcasecount="44" result="Passed" start-time="2026-11-10 11:28:56Z" end-time="2026-11-10 11:29:18Z" duration="22.078793" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="PlayMode" />
+    </properties>
+    <test-suite type="Assembly" id="1066" name="VelvetVows.AnimationCompatibility.PlayModeTests.dll" fullname="/Users/sanzar/VelvetVows/Library/ScriptAssemblies/VelvetVows.AnimationCompatibility.PlayModeTests.dll" runstate="Runnable" testcasecount="44" result="Passed" start-time="2026-11-10 11:28:56Z" end-time="2026-11-10 11:29:18Z" duration="22.068929" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="20411" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="PlayMode" />
+        <property name="EditorOnly" value="False" />
+      </properties>
+      <test-suite type="TestSuite" id="1067" name="VelvetVows" fullname="VelvetVows" runstate="Runnable" testcasecount="44" result="Passed" start-time="2026-11-10 11:28:56Z" end-time="2026-11-10 11:29:18Z" duration="22.064541" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-suite type="TestSuite" id="1068" name="Tests" fullname="VelvetVows.Tests" runstate="Runnable" testcasecount="44" result="Passed" start-time="2026-11-10 11:28:56Z" end-time="2026-11-10 11:29:18Z" duration="22.060338" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <test-suite type="TestFixture" id="1059" name="Phase3HRepairPlayModeTests" fullname="VelvetVows.Tests.Phase3HRepairPlayModeTests" classname="VelvetVows.Tests.Phase3HRepairPlayModeTests" runstate="Runnable" testcasecount="1" result="Passed" start-time="2026-11-10 11:28:56Z" end-time="2026-11-10 11:29:18Z" duration="22.055020" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1060" name="RepairedCamerasLayoutVoicesAndJumpBoundaries" fullname="VelvetVows.Tests.Phase3HRepairPlayModeTests.RepairedCamerasLayoutVoicesAndJumpBoundaries" methodname="RepairedCamerasLayoutVoicesAndJumpBoundaries" classname="VelvetVows.Tests.Phase3HRepairPlayModeTests" runstate="Runnable" seed="435375327" result="Passed" start-time="2026-11-10 11:28:56Z" end-time="2026-11-10 11:29:18Z" duration="22.035405" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="Timeout" value="180000" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[VelvetVows] GameManager Awake
+[VelvetVows] GameHUD initialized
+[VelvetVows] Canvas active: True, enabled: True, mode: ScreenSpaceOverlay
+[VelvetVows] Canvas scale: (1.00, 1.00, 1.00)
+[VelvetVows] StartPanel active: True
+[VelvetVows] StartPanel scale: (1.00, 1.00, 1.00)
+[VelvetVows] UI input: EventSystem=True, InputSystemUIInputModule=True, actions=True, cursor=None/visible=True
+[VelvetVows] BEGIN listener registered (serialized)
+[VelvetVows] State: Introduction
+[VelvetVows] Canvas active: True, enabled: True, mode: ScreenSpaceOverlay
+[VelvetVows] Canvas scale: (1.00, 1.00, 1.00)
+[VelvetVows] StartPanel active: True
+[VelvetVows] StartPanel scale: (1.00, 1.00, 1.00)
+[VelvetVows] UI input: EventSystem=True, InputSystemUIInputModule=True, actions=True, cursor=None/visible=True
+[Phase3H] Reaction camera=(-6.91, 1.67, 4.92); Evelyn=(-7.40, 0.02, 6.40)
+Ignoring depth surface load action as it is memoryless
+Ignoring depth surface store action as it is memoryless
+[Phase2A Test] Navigation probes: start=True, end=True, hall=True, hall west=False, library door=True, music door=True
+[Phase2A Test] Route (-7.00, 0.04, 6.40) → (-20.00, 0.00, 14.00): 9 turns: (-7.45, 0.00, 6.65); (-8.10, 0.00, 6.00); (-8.75, 0.00, 6.65); (-8.75, 0.00, 8.60); (-9.40, 0.00, 9.25); (-10.70, 0.00, 9.25); (-11.35, 0.00, 8.60); (-14.60, 0.00, 8.60); (-19.15, 0.00, 13.15)
+[Phase2A Test] Navigation probes: start=True, end=True, hall=True, hall west=False, library door=True, music door=True
+[Phase2A Test] Route (-20.00, 0.00, 14.00) → (-20.00, 0.00, -3.00): 19 turns: (-19.15, 0.00, 13.15); (-14.60, 0.00, 8.60); (-11.35, 0.00, 8.60); (-10.70, 0.00, 9.25); (-9.40, 0.00, 9.25); (-8.75, 0.00, 8.60); (-8.75, 0.00, 6.65); (-6.80, 0.00, 4.70); (-6.80, 0.00, 2.75); (-7.45, 0.00, 2.10); (-6.80, 0.00, 1.45); (-6.80, 0.00, -0.50); (-9.40, 0.00, -3.10); (-12.65, 0.00, -3.10); (-13.30, 0.00, -3.75); (-15.90, 0.00, -3.75); (-16.55, 0.00, -4.40); (-18.50, 0.00, -4.40); (-19.15, 0.00, -3.75)
+[Phase2A Test] Navigation probes: start=True, end=True, hall=True, hall west=False, library door=True, music door=True
+[Phase2A Test] Route (-20.00, 0.00, 14.00) → (-34.00, 0.00, 14.00): 9 turns: (-19.80, 0.00, 14.45); (-20.45, 0.00, 15.10); (-21.75, 0.00, 15.10); (-24.35, 0.00, 12.50); (-25.00, 0.00, 13.15); (-30.20, 0.00, 13.15); (-31.50, 0.00, 11.85); (-32.15, 0.00, 11.85); (-33.45, 0.00, 13.15)
+[Phase2A Test] Navigation probes: start=True, end=True, hall=True, hall west=False, library door=True, music door=True
+[Phase2A Test] Route (-7.00, 0.04, 6.40) → (-14.60, 0.00, 13.15): 7 turns: (-7.45, 0.00, 6.65); (-8.10, 0.00, 6.00); (-8.75, 0.00, 6.65); (-8.75, 0.00, 8.60); (-9.40, 0.00, 9.25); (-10.70, 0.00, 9.25); (-13.95, 0.00, 12.50)
+[Phase2A Test] Walk toward (-7.45, 0.00, 6.65): now (-7.52, 0.03, 6.69), elapsed 0.2s
+[Phase2A Test] Walk toward (-8.10, 0.00, 6.00): now (-7.94, 0.05, 6.19), elapsed 0.3s
+[Phase2A Test] Walk toward (-8.75, 0.00, 6.65): now (-8.50, 0.05, 6.51), elapsed 0.2s
+[Phase2A Test] Walk toward (-8.75, 0.00, 8.60): now (-8.72, 0.05, 8.35), elapsed 0.7s
+[Phase2A Test] Walk toward (-9.40, 0.00, 9.25): now (-9.24, 0.05, 9.04), elapsed 0.3s
+[Phase2A Test] Walk toward (-10.70, 0.00, 9.25): now (-10.45, 0.05, 9.21), elapsed 0.5s
+[Phase2A Test] Walk toward (-13.95, 0.00, 12.50): now (-13.73, 0.03, 12.30), elapsed 1.7s
+[Phase2A Test] Walk toward (-14.60, 0.00, 13.15): now (-13.73, 0.03, 12.30), elapsed 0.0s
+[Phase2A Test] Navigation probes: start=True, end=True, hall=True, hall west=False, library door=True, music door=True
+[Phase2A Test] Route (-13.77, 0.03, 12.33) → (-7.00, 0.00, 6.40): 7 turns: (-13.30, 0.00, 11.85); (-10.70, 0.00, 9.25); (-9.40, 0.00, 9.25); (-8.75, 0.00, 8.60); (-8.75, 0.00, 6.65); (-8.10, 0.00, 6.00); (-7.45, 0.00, 6.00)
+[Phase2A Test] Walk toward (-13.30, 0.00, 11.85): now (-13.47, 0.03, 12.03), elapsed 0.2s
+[Phase2A Test] Walk toward (-10.70, 0.00, 9.25): now (-10.92, 0.05, 9.47), elapsed 1.4s
+[Phase2A Test] Walk toward (-9.40, 0.00, 9.25): now (-9.65, 0.05, 9.29), elapsed 0.5s
+[Phase2A Test] Walk toward (-8.75, 0.00, 8.60): now (-8.97, 0.05, 8.77), elapsed 0.3s
+[Phase2A Test] Walk toward (-8.75, 0.00, 6.65): now (-8.78, 0.05, 6.94), elapsed 0.7s
+[Phase2A Test] Walk toward (-8.10, 0.00, 6.00): now (-8.27, 0.05, 6.24), elapsed 0.3s
+[Phase2A Test] Walk toward (-7.45, 0.00, 6.00): now (-7.72, 0.02, 6.08), elapsed 0.2s
+[Phase2A Test] Walk toward (-7.00, 0.00, 6.40): now (-7.72, 0.02, 6.08), elapsed 0.0s
+[Phase3H] Actual jump blocked: Library south perimeter, height=1.305317, final=(-15.90, 0.02, 8.56)
+[Phase3H] Actual jump blocked: Library window, height=1.294423, final=(-25.27, 0.02, 10.20)
+[Phase3H] Actual jump blocked: Library vestibule, height=1.466121, final=(-10.50, 0.05, 4.56)
+[Phase3H] Camera, actual HUD mesh, no paintings, layout, appearance, three physical jumps and voice cues passed.
+Saving results to: /Users/sanzar/Library/Application Support/DefaultCompany/VelvetVows/TestResults.xml
+]]></output>
+            </test-case>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

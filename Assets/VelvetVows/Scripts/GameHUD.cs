@@ -13,8 +13,10 @@ namespace VelvetVows
         [SerializeField] private Text interactionText, clueText, dialogueText, defeatReasonText;
         [SerializeField] private Image suspicionFill, fadeImage;
         [SerializeField] private Button beginButton, victoryRestartButton, defeatRestartButton;
+        [SerializeField] private GameObject interactionBackdrop;
         private Coroutine clueRoutine;
         private bool runtimeBeginListenerRegistered;
+        private static Sprite solidFillSprite;
 
         private void OnEnable() => EnsureCanvasScale();
         private void LateUpdate() => EnsureCanvasScale();
@@ -41,6 +43,18 @@ namespace VelvetVows
         private void Awake()
         {
             EnsureCanvasScale();
+            // Filled Images draw a full quad when they have no sprite.
+            if (suspicionFill != null)
+            {
+                if (solidFillSprite == null)
+                    solidFillSprite = Sprite.Create(Texture2D.whiteTexture,
+                        new Rect(0, 0, Texture2D.whiteTexture.width, Texture2D.whiteTexture.height), Vector2.zero);
+                suspicionFill.sprite = solidFillSprite;
+                suspicionFill.type = Image.Type.Filled;
+                suspicionFill.fillMethod = Image.FillMethod.Horizontal;
+                suspicionFill.fillOrigin = 0;
+                suspicionFill.raycastTarget = false;
+            }
             victoryRestartButton.onClick.AddListener(() => GameManager.Instance.Restart());
             defeatRestartButton.onClick.AddListener(() => GameManager.Instance.Restart());
             EnforceIntroductionUI();
@@ -104,14 +118,25 @@ namespace VelvetVows
         public void ShowStart(bool show) => startPanel.SetActive(show);
         public void ShowGameplay(bool show) => gameplayPanel.SetActive(show);
         public void SetObjective(string value) => objectiveText.text = value;
-        public void SetInteraction(string value) => interactionText.text = value;
+        public void ConfigureInteractionBackdrop(GameObject backdrop) => interactionBackdrop = backdrop;
+        public void SetInteraction(string value)
+        {
+            // Scene teardown can disable the interactor after its UI has been destroyed.
+            if (interactionText != null) interactionText.text = value;
+            if (interactionBackdrop != null) interactionBackdrop.SetActive(!string.IsNullOrEmpty(value));
+        }
         public void SetEvidence(int found, int total) => evidenceText.text = "EVIDENCE: " + found + "/" + total;
         public void SetReputation(int value, int threshold) => evidenceText.text = "REPUTATION  " + value + " / " + threshold;
         public void SetTimerVisible(bool visible) { if (timerText != null) timerText.gameObject.SetActive(visible); }
         public void SetRoses(int found, int total) => roseText.text = "ROSES: " + found + "/" + total;
-        public void SetSuspicion(float value)
+        public void SetSuspicion(float value) => SetSuspicionWithSource(value, null);
+        public void SetSuspicionWithSource(float value, string source)
         {
-            suspicionText.text = "SUSPICION " + Mathf.CeilToInt(value) + "%";
+            suspicionText.text = "SUSPICION " + Mathf.CeilToInt(value) + "%" +
+                (string.IsNullOrEmpty(source) ? "" : " · " + source);
+            suspicionText.resizeTextForBestFit = !string.IsNullOrEmpty(source);
+            suspicionText.resizeTextMinSize = 14;
+            suspicionText.resizeTextMaxSize = suspicionText.fontSize;
             suspicionFill.fillAmount = Mathf.Clamp01(value / 100f);
         }
         public void SetTimer(float remaining)

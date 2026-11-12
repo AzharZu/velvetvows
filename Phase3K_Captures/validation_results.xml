@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="7" result="Failed(Child)" total="7" passed="5" failed="2" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-11-10 16:03:57Z" end-time="2026-11-10 16:05:07Z" duration="70.349841">
+  <test-suite type="TestSuite" id="1075" name="VelvetVows" fullname="VelvetVows" runstate="Runnable" testcasecount="47" result="Failed" site="Child" start-time="2026-11-10 16:03:57Z" end-time="2026-11-10 16:05:07Z" duration="70.349841" total="7" passed="5" failed="2" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="PlayMode" />
+    </properties>
+    <failure>
+      <message><![CDATA[One or more child tests had errors]]></message>
+    </failure>
+    <test-suite type="Assembly" id="1072" name="VelvetVows.AnimationCompatibility.PlayModeTests.dll" fullname="/Users/sanzar/VelvetVows/Library/ScriptAssemblies/VelvetVows.AnimationCompatibility.PlayModeTests.dll" runstate="Runnable" testcasecount="47" result="Failed" site="Child" start-time="2026-11-10 16:03:57Z" end-time="2026-11-10 16:05:07Z" duration="70.335068" total="7" passed="5" failed="2" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="51221" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="PlayMode" />
+        <property name="EditorOnly" value="False" />
+      </properties>
+      <failure>
+        <message><![CDATA[One or more child tests had errors]]></message>
+      </failure>
+      <test-suite type="TestSuite" id="1073" name="VelvetVows" fullname="VelvetVows" runstate="Runnable" testcasecount="47" result="Failed" site="Child" start-time="2026-11-10 16:03:57Z" end-time="2026-11-10 16:05:07Z" duration="70.328239" total="7" passed="5" failed="2" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <failure>
+          <message><![CDATA[One or more child tests had errors]]></message>
+        </failure>
+        <test-suite type="TestSuite" id="1074" name="Tests" fullname="VelvetVows.Tests" runstate="Runnable" testcasecount="47" result="Failed" site="Child" start-time="2026-11-10 16:03:57Z" end-time="2026-11-10 16:05:07Z" duration="70.321148" total="7" passed="5" failed="2" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <failure>
+            <message><![CDATA[One or more child tests had errors]]></message>
+          </failure>
+          <test-suite type="TestFixture" id="1034" name="Phase3CPlayModeTests" fullname="VelvetVows.Tests.Phase3CPlayModeTests" classname="VelvetVows.Tests.Phase3CPlayModeTests" runstate="Runnable" testcasecount="3" result="Failed" site="Child" start-time="2026-11-10 16:03:57Z" end-time="2026-11-10 16:04:22Z" duration="25.528126" total="3" passed="2" failed="1" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <failure>
+              <message><![CDATA[One or more child tests had errors]]></message>
+            </failure>
+            <test-case id="1037" name="BloodCleaningPlaysEffectAndFailureRetryClearsAudio" fullname="VelvetVows.Tests.Phase3CPlayModeTests.BloodCleaningPlaysEffectAndFailureRetryClearsAudio" methodname="BloodCleaningPlaysEffectAndFailureRetryClearsAudio" classname="VelvetVows.Tests.Phase3CPlayModeTests" runstate="Runnable" seed="384998233" result="Passed" start-time="2026-11-10 16:03:57Z" end-time="2026-11-10 16:04:15Z" duration="18.282619" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[VelvetVows] GameManager Awake
+[VelvetVows] GameHUD initialized
+[VelvetVows] Canvas active: True, enabled: True, mode: ScreenSpaceOverlay
+[VelvetVows] Canvas scale: (1.00, 1.00, 1.00)
+[VelvetVows] StartPanel active: True
+[VelvetVows] StartPanel scale: (1.00, 1.00, 1.00)
+[VelvetVows] UI input: EventSystem=True, InputSystemUIInputModule=True, actions=True, cursor=None/visible=True
+[VelvetVows] BEGIN listener registered (serialized)
+[VelvetVows] State: Introduction
+[VelvetVows] Canvas active: True, enabled: True, mode: ScreenSpaceOverlay
+[VelvetVows] Canvas scale: (1.00, 1.00, 1.00)
+[VelvetVows] StartPanel active: True
+[VelvetVows] StartPanel scale: (1.00, 1.00, 1.00)
+[VelvetVows] UI input: EventSystem=True, InputSystemUIInputModule=True, actions=True, cursor=None/visible=True
+[Phase2B] Cleanup challenge began at 120 seconds
+[Phase2B Test] Walk to (-18.00, 0.00, -5.30): reached (-17.50, 0.03, -4.70) in 1.1s
+[Phase2B Test] Walk to (-17.20, 0.00, -3.10): reached (-17.37, 0.03, -3.88) in 0.4s
+[Phase2B] Cleanup challenge began at 120 seconds
+]]></output>
+            </test-case>
+            <test-case id="1035" name="ImportedClipsMapToTheCorrectSpeakersAndMusicContinues" fullname="VelvetVows.Tests.Phase3CPlayModeTests.ImportedClipsMapToTheCorrectSpeakersAndMusicContinues" methodname="ImportedClipsMapToTheCorrectSpeakersAndMusicContinues" classname="VelvetVows.Tests.Phase3CPlayModeTests" runstate="Runnable" seed="1267284097" result="Failed" start-time="2026-11-10 16:04:15Z" end-time="2026-11-10 16:04:16Z" duration="1.088370" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <failure>
+                <message><![CDATA[Unhandled log message: '[Exception] MissingReferenceException: The object of type 'UnityEngine.UI.Text' has been destroyed but you are still trying to access it.
+Your script should either check if it is null or you should not destroy the object.'. Use UnityEngine.TestTools.LogAssert.Expect]]></message>
+                <stack-trace><![CDATA[UnityEngine.Object+MarshalledUnityObject.TryThrowEditorNullExceptionObject (UnityEngine.Object unityObj, System.String parameterName) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/UnityEngineObject.bindings.cs:870)
+UnityEngine.Bindings.ThrowHelper.ThrowNullReferenceException (System.Object obj) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/BindingsHelpers.cs:61)
+UnityEngine.Behaviour.get_isActiveAndEnabled () (at <7f00c18fd88b4664802b51edf0da6a3c>:0)
+UnityEngine.EventSystems.UIBehaviour.IsActive () (at ./Library/PackageCache/com.unity.ugui@5d6a93c81cc4/Runtime/UGUI/EventSystem/UIBehaviour.cs:28)
+UnityEngine.UI.Graphic.SetVerticesDirty () (at ./Library/PackageCache/com.unity.ugui@5d6a93c81cc4/Runtime/UGUI/UI/Core/Graphic.cs:295)
+UnityEngine.UI.Text.set_text (System.String value) (at ./Library/PackageCache/com.unity.ugui@5d6a93c81cc4/Runtime/UGUI/UI/Core/Text.cs:213)
+VelvetVows.GameHUD.SetInteraction (System.String value) (at Assets/VelvetVows/Scripts/GameHUD.cs:124)
+VelvetVows.GameManager.SetInteraction (System.String prompt) (at Assets/VelvetVows/Scripts/GameManager.cs:352)
+VelvetVows.PlayerInteractor.ClearFocus (VelvetVows.GameManager game) (at Assets/VelvetVows/Scripts/PlayerInteractor.cs:95)
+VelvetVows.PlayerInteractor.OnDisable () (at Assets/VelvetVows/Scripts/PlayerInteractor.cs:96)
+
+]]></stack-trace>
+              </failure>
+              <output><![CDATA[MissingReferenceException: The object of type 'UnityEngine.UI.Text' has been destroyed but you are still trying to access it.
+Your script should either check if it is null or you should not destroy the object.
+UnityEngine.Object+MarshalledUnityObject.TryThrowEditorNullExceptionObject (UnityEngine.Object unityObj, System.String parameterName) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/UnityEngineObject.bindings.cs:870)
+UnityEngine.Bindings.ThrowHelper.ThrowNullReferenceException (System.Object obj) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/BindingsHelpers.cs:61)
+UnityEngine.Behaviour.get_isActiveAndEnabled () (at <7f00c18fd88b4664802b51edf0da6a3c>:0)
+UnityEngine.EventSystems.UIBehaviour.IsActive () (at ./Library/PackageCache/com.unity.ugui@5d6a93c81cc4/Runtime/UGUI/EventSystem/UIBehaviour.cs:28)
+UnityEngine.UI.Graphic.SetVerticesDirty () (at ./Library/PackageCache/com.unity.ugui@5d6a93c81cc4/Runtime/UGUI/UI/Core/Graphic.cs:295)
+UnityEngine.UI.Text.set_text (System.String value) (at ./Library/PackageCache/com.unity.ugui@5d6a93c81cc4/Runtime/UGUI/UI/Core/Text.cs:213)
+VelvetVows.GameHUD.SetInteraction (System.String value) (at Assets/VelvetVows/Scripts/GameHUD.cs:124)
+VelvetVows.GameManager.SetInteraction (System.String prompt) (at Assets/VelvetVows/Scripts/GameManager.cs:352)
+VelvetVows.PlayerInteractor.ClearFocus (VelvetVows.GameManager game) (at Assets/VelvetVows/Scripts/PlayerInteractor.cs:95)
+VelvetVows.PlayerInteractor.OnDisable () (at Assets/VelvetVows/Scripts/PlayerInteractor.cs:96)
+
+[VelvetVows] GameManager Awake
+[VelvetVows] GameHUD initialized
+[VelvetVows] Canvas active: True, enabled: True, mode: ScreenSpaceOverlay
+[VelvetVows] Canvas scale: (1.00, 1.00, 1.00)
+[VelvetVows] StartPanel active: True
+[VelvetVows] StartPanel scale: (1.00, 1.00, 1.00)
+[VelvetVows] UI input: EventSystem=True, InputSystemUIInputModule=True, actions=True, cursor=None/visible=True
+[VelvetVows] BEGIN listener registered (serialized)
+[VelvetVows] State: Introduction
+[VelvetVows] Canvas active: True, enabled: True, mode: ScreenSpaceOverlay
+[VelvetVows] Canvas scale: (1.00, 1.00, 1.00)
+[VelvetVows] StartPanel active: True
+[VelvetVows] StartPanel scale: (1.00, 1.00, 1.00)
+[VelvetVows] UI input: EventSystem=True, InputSystemUIInputModule=True, actions=True, cursor=None/visible=True
+]]></output>
+            </test-case>
+            <test-case id="1036" name="MurderImpactAndBriefPostKillLaughTriggerOnce" fullname="VelvetVows.Tests.Phase3CPlayModeTests.MurderImpactAndBriefPostKillLaughTriggerOnce" methodname="MurderImpactAndBriefPostKillLaughTriggerOnce" classname="VelvetVows.Tests.Phase3CPlayModeTests" runstate="Runnable" seed="530212191" result="Passed" start-time="2026-11-10 16:04:16Z" end-time="2026-11-10 16:04:22Z" duration="6.110946" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[VelvetVows] GameManager Awake
+[VelvetVows] GameHUD initialized
+[VelvetVows] Canvas active: True, enabled: True, mode: ScreenSpaceOverlay
+[VelvetVows] Canvas scale: (1.00, 1.00, 1.00)
+[VelvetVows] StartPanel active: True
+[VelvetVows] StartPanel scale: (1.00, 1.00, 1.00)
+[VelvetVows] UI input: EventSystem=True, InputSystemUIInputModule=True, actions=True, cursor=None/visible=True
+[VelvetVows] BEGIN listener registered (serialized)
+[VelvetVows] State: Introduction
+[VelvetVows] Canvas active: True, enabled: True, mode: ScreenSpaceOverlay
+[VelvetVows] Canvas scale: (1.00, 1.00, 1.00)
+[VelvetVows] StartPanel active: True
+[VelvetVows] StartPanel scale: (1.00, 1.00, 1.00)
+[VelvetVows] UI input: EventSystem=True, InputSystemUIInputModule=True, actions=True, cursor=None/visible=True
+[Phase2B] Cleanup challenge began at 120 seconds
+]]></output>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1055" name="Phase3GPlayModeTests" fullname="VelvetVows.Tests.Phase3GPlayModeTests" classname="VelvetVows.Tests.Phase3GPlayModeTests" runstate="Runnable" testcasecount="3" result="Failed" site="Child" start-time="2026-11-10 16:04:22Z" end-time="2026-11-10 16:04:54Z" duration="31.953822" total="3" passed="2" failed="1" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <failure>
+              <message><![CDATA[One or more child tests had errors]]></message>
+            </failure>
+            <test-case id="1057" name="BurnChoiceShowsThreeDiaryPagesAndReachesPerfectDuet" fullname="VelvetVows.Tests.Phase3GPlayModeTests.BurnChoiceShowsThreeDiaryPagesAndReachesPerfectDuet" methodname="BurnChoiceShowsThreeDiaryPagesAndReachesPerfectDuet" classname="VelvetVows.Tests.Phase3GPlayModeTests" runstate="Runnable" seed="68110593" result="Failed" start-time="2026-11-10 16:04:22Z" end-time="2026-11-10 16:04:23Z" duration="0.763865" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <failure>
+                <message><![CDATA[Unhandled log message: '[Exception] MissingReferenceException: The object of type 'UnityEngine.UI.Text' has been destroyed but you are still trying to access it.
+Your script should either check if it is null or you should not destroy the object.'. Use UnityEngine.TestTools.LogAssert.Expect]]></message>
+                <stack-trace><![CDATA[UnityEngine.Object+MarshalledUnityObject.TryThrowEditorNullExceptionObject (UnityEngine.Object unityObj, System.String parameterName) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/UnityEngineObject.bindings.cs:870)
+UnityEngine.Bindings.ThrowHelper.ThrowNullReferenceException (System.Object obj) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/BindingsHelpers.cs:61)
+UnityEngine.Behaviour.get_isActiveAndEnabled () (at <7f00c18fd88b4664802b51edf0da6a3c>:0)
+UnityEngine.EventSystems.UIBehaviour.IsActive () (at ./Library/PackageCache/com.unity.ugui@5d6a93c81cc4/Runtime/UGUI/EventSystem/UIBehaviour.cs:28)
+UnityEngine.UI.Graphic.SetVerticesDirty () (at ./Library/PackageCache/com.unity.ugui@5d6a93c81cc4/Runtime/UGUI/UI/Core/Graphic.cs:295)
+UnityEngine.UI.Text.set_text (System.String value) (at ./Library/PackageCache/com.unity.ugui@5d6a93c81cc4/Runtime/UGUI/UI/Core/Text.cs:213)
+VelvetVows.GameHUD.SetInteraction (System.String value) (at Assets/VelvetVows/Scripts/GameHUD.cs:124)
+VelvetVows.GameManager.SetInteraction (System.String prompt) (at Assets/VelvetVows/Scripts/GameManager.cs:352)
+VelvetVows.PlayerInteractor.ClearFocus (VelvetVows.GameManager game) (at Assets/VelvetVows/Scripts/PlayerInteractor.cs:95)
+VelvetVows.PlayerInteractor.OnDisable () (at Assets/VelvetVows/Scripts/PlayerInteractor.cs:96)
+
+]]></stack-trace>
+              </failure>
+              <output><![CDATA[MissingReferenceException: The object of type 'UnityEngine.UI.Text' has been destroyed but you are still trying to access it.
+Your script should either check if it is null or you should not destroy the object.
+UnityEngine.Object+MarshalledUnityObject.TryThrowEditorNullExceptionObject (UnityEngine.Object unityObj, System.String parameterName) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/UnityEngineObject.bindings.cs:870)
+UnityEngine.Bindings.ThrowHelper.ThrowNullReferenceException (System.Object obj) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/BindingsHelpers.cs:61)
+UnityEngine.Behaviour.get_isActiveAndEnabled () (at <7f00c18fd88b4664802b51edf0da6a3c>:0)
+UnityEngine.EventSystems.UIBehaviour.IsActive () (at ./Library/PackageCache/com.unity.ugui@5d6a93c81cc4/Runtime/UGUI/EventSystem/UIBehaviour.cs:28)
+UnityEngine.UI.Graphic.SetVerticesDirty () (at ./Library/PackageCache/com.unity.ugui@5d6a93c81cc4/Runtime/UGUI/UI/Core/Graphic.cs:295)
+UnityEngine.UI.Text.set_text (System.String value) (at ./Library/PackageCache/com.unity.ugui@5d6a93c81cc4/Runtime/UGUI/UI/Core/Text.cs:213)
+VelvetVows.GameHUD.SetInteraction (System.String value) (at Assets/VelvetVows/Scripts/GameHUD.cs:124)
+VelvetVows.GameManager.SetInteraction (System.String prompt) (at Assets/VelvetVows/Scripts/GameManager.cs:352)
+VelvetVows.PlayerInteractor.ClearFocus (VelvetVows.GameManager game) (at Assets/VelvetVows/Scripts/PlayerInteractor.cs:95)
+VelvetVows.PlayerInteractor.OnDisable () (at Assets/VelvetVows/Scripts/PlayerInteractor.cs:96)
+
+[VelvetVows] GameManager Awake
+[VelvetVows] GameHUD initialized
+[VelvetVows] Canvas active: True, enabled: True, mode: ScreenSpaceOverlay
+[VelvetVows] Canvas scale: (1.00, 1.00, 1.00)
+[VelvetVows] StartPanel active: True
+[VelvetVows] StartPanel scale: (1.00, 1.00, 1.00)
+[VelvetVows] UI input: EventSystem=True, InputSystemUIInputModule=True, actions=True, cursor=None/visible=True
+[VelvetVows] BEGIN listener registered (serialized)
+[VelvetVows] State: Introduction
+[VelvetVows] Canvas active: True, enabled: True, mode: ScreenSpaceOverlay
+[VelvetVows] Canvas scale: (1.00, 1.00, 1.00)
+[VelvetVows] StartPanel active: True
+[VelvetVows] StartPanel scale: (1.00, 1.00, 1.00)
+[VelvetVows] UI input: EventSystem=True, InputSystemUIInputModule=True, actions=True, cursor=None/visible=True
+]]></output>
+            </test-case>
+            <test-case id="1056" name="HiddenEvidenceIsSafeButVisibleStainsCauseOneFailureSound" fullname="VelvetVows.Tests.Phase3GPlayModeTests.HiddenEvidenceIsSafeButVisibleStainsCauseOneFailureSound" methodname="HiddenEvidenceIsSafeButVisibleStainsCauseOneFailureSound" classname="VelvetVows.Tests.Phase3GPlayModeTests" runstate="Runnable" seed="1053663653" result="Passed" start-time="2026-11-10 16:04:23Z" end-time="2026-11-10 16:04:25Z" duration="1.423633" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[VelvetVows] GameManager Awake
+[VelvetVows] GameHUD initialized
+[VelvetVows] Canvas active: True, enabled: True, mode: ScreenSpaceOverlay
+[VelvetVows] Canvas scale: (1.00, 1.00, 1.00)
+[VelvetVows] StartPanel active: True
+[VelvetVows] StartPanel scale: (1.00, 1.00, 1.00)
+[VelvetVows] UI input: EventSystem=True, InputSystemUIInputModule=True, actions=True, cursor=None/visible=True
+[VelvetVows] BEGIN listener registered (serialized)
+[VelvetVows] State: Introduction
+[VelvetVows] Canvas active: True, enabled: True, mode: ScreenSpaceOverlay
+[VelvetVows] Canvas scale: (1.00, 1.00, 1.00)
+[VelvetVows] StartPanel active: True
+[VelvetVows] StartPanel scale: (1.00, 1.00, 1.00)
+[VelvetVows] UI input: EventSystem=True, InputSystemUIInputModule=True, actions=True, cursor=None/visible=True
+[Phase2B] Cleanup challenge began at 120 seconds
+[Phase2B] Cleanup challenge began at 120 seconds
+]]></output>
+            </test-case>
+            <test-case id="1058" name="LeaveChoiceInterruptsBallAndShowsHeartbroken" fullname="VelvetVows.Tests.Phase3GPlayModeTests.LeaveChoiceInterruptsBallAndShowsHeartbroken" methodname="LeaveChoiceInterruptsBallAndShowsHeartbroken" classname="VelvetVows.Tests.Phase3GPlayModeTests" runstate="Runnable" seed="835566402" result="Passed" start-time="2026-11-10 16:04:25Z" end-time="2026-11-10 16:04:54Z" duration="29.736250" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[VelvetVows] GameManager Awake
+[VelvetVows] GameHUD initialized
+[VelvetVows] Canvas active: True, enabled: True, mode: ScreenSpaceOverlay
+[VelvetVows] Canvas scale: (1.00, 1.00, 1.00)
+[VelvetVows] StartPanel active: True
+[VelvetVows] StartPanel scale: (1.00, 1.00, 1.00)
+[VelvetVows] UI input: EventSystem=True, InputSystemUIInputModule=True, actions=True, cursor=None/visible=True
+[VelvetVows] BEGIN listener registered (serialized)
+[VelvetVows] State: Introduction
+[VelvetVows] Canvas active: True, enabled: True, mode: ScreenSpaceOverlay
+[VelvetVows] Canvas scale: (1.00, 1.00, 1.00)
+[VelvetVows] StartPanel active: True
+[VelvetVows] StartPanel scale: (1.00, 1.00, 1.00)
+[VelvetVows] UI input: EventSystem=True, InputSystemUIInputModule=True, actions=True, cursor=None/visible=True
+[Phase2B] Cleanup challenge began at 120 seconds
+[Phase3B] Adrian monologue completed
+[Phase2C] Formal palette applied to Evelyn
+[Phase2C] Formal palette applied to Adrian
+]]></output>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1065" name="Phase3KCharacterPlayModeTests" fullname="VelvetVows.Tests.Phase3KCharacterPlayModeTests" classname="VelvetVows.Tests.Phase3KCharacterPlayModeTests" runstate="Runnable" testcasecount="1" result="Passed" start-time="2026-11-10 16:04:54Z" end-time="2026-11-10 16:05:07Z" duration="12.824348" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1066" name="FacesFollowRecordingSilenceAndPhysicalFootsteps" fullname="VelvetVows.Tests.Phase3KCharacterPlayModeTests.FacesFollowRecordingSilenceAndPhysicalFootsteps" methodname="FacesFollowRecordingSilenceAndPhysicalFootsteps" classname="VelvetVows.Tests.Phase3KCharacterPlayModeTests" runstate="Runnable" seed="499426652" result="Passed" start-time="2026-11-10 16:04:54Z" end-time="2026-11-10 16:05:07Z" duration="12.789976" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="Timeout" value="180000" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[VelvetVows] GameManager Awake
+[VelvetVows] GameHUD initialized
+[VelvetVows] Canvas active: True, enabled: True, mode: ScreenSpaceOverlay
+[VelvetVows] Canvas scale: (1.00, 1.00, 1.00)
+[VelvetVows] StartPanel active: True
+[VelvetVows] StartPanel scale: (1.00, 1.00, 1.00)
+[VelvetVows] UI input: EventSystem=True, InputSystemUIInputModule=True, actions=True, cursor=None/visible=True
+[VelvetVows] BEGIN listener registered (serialized)
+[VelvetVows] State: Introduction
+[VelvetVows] Canvas active: True, enabled: True, mode: ScreenSpaceOverlay
+[VelvetVows] Canvas scale: (1.00, 1.00, 1.00)
+[VelvetVows] StartPanel active: True
+[VelvetVows] StartPanel scale: (1.00, 1.00, 1.00)
+[VelvetVows] UI input: EventSystem=True, InputSystemUIInputModule=True, actions=True, cursor=None/visible=True
+Ignoring depth surface load action as it is memoryless
+Ignoring depth surface store action as it is memoryless
+[Phase2A Test] Navigation probes: start=True, end=True, hall=True, hall west=False, library door=True, music door=True
+[Phase2A Test] Route (-5.00, 0.02, 3.00) → (-5.00, 0.00, 0.50): 2 turns: (-5.50, 0.00, 2.10); (-5.50, 0.00, 1.45)
+[Phase2A Test] Walk toward (-5.50, 0.00, 2.10): now (-5.40, 0.02, 2.28), elapsed 0.4s
+[Phase2A Test] Walk toward (-5.50, 0.00, 1.45): now (-5.47, 0.02, 1.71), elapsed 0.2s
+[Phase2A Test] Walk toward (-5.00, 0.00, 0.50): now (-5.47, 0.02, 1.71), elapsed 0.0s
+[Phase3K] Audio-driven lips, silent intervals, isolated speaker, music duck/recovery, real footsteps and death release passed.
+Saving results to: /Users/sanzar/Library/Application Support/DefaultCompany/VelvetVows/TestResults.xml
+]]></output>
+            </test-case>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

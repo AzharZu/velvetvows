@@ -1,0 +1,163 @@
+﻿seconds	type	event
+0.002	recording	Normal speed; actual controller movement, E and UI clicks; BEGIN to ending
+0.006	state	Introduction/NotStarted/Dormant
+2.138	state	Phase2A/Opening/Dormant
+5.520	dialogue	ISABELLE|Nobody even wants her here.
+8.282	dialogue	AMELIE|Ha…
+10.281	dialogue	ADRIAN|Get away.
+12.792	dialogue	ISABELLE|Whatever. Let’s go.
+19.675	dialogue	ADRIAN|Are you alright?
+22.451	dialogue	EVELYN|Y-yes. Thank you.
+26.266	dialogue	ADRIAN|Be careful, Evelyn.
+29.051	dialogue	ADRIAN|Evelyn, isn’t it?
+43.757	state	Phase3AIntro/Opening/Dormant
+107.224	state	Phase2A/MissingStudent/Dormant
+107.224	dialogue	ISABELLE|Did you hear? Another student disappeared.
+110.757	dialogue	AMELIE|Lucien Morel. Nobody has seen him since Friday.
+114.512	dialogue	EVELYN|Lucien? He was annoying.
+119.287	dialogue	ISABELLE|Didn't he ask you out last week?
+123.115	dialogue	EVELYN|He asked me to study mathematics with him. I said no.
+128.139	dialogue	AMELIE|That's the third disappearance this semester.
+132.960	dialogue	EVELYN|People leave this academy all the time.
+136.228	walk	(-4.40, 0.00, 2.80)
+136.891	state	Phase2A/Overhear/Dormant
+142.092	state	Phase2A/Overhearing/Dormant
+143.381	dialogue	CELESTE|I'm going to ask Adrian to the Black Rose Ball.
+147.402	dialogue	ISABELLE|Seriously? Tomorrow?
+150.455	dialogue	CELESTE|Why not? He's single.
+153.492	dialogue	ISABELLE|What if he refuses?
+156.410	dialogue	CELESTE|Then at least I'll know.
+159.569	dialogue	EVELYN · THOUGHT|She's going to confess?
+162.626	dialogue	EVELYN · THOUGHT|No. He wouldn't accept… would he?
+165.791	dialogue	EVELYN · THOUGHT|Girls like her have always had everything.
+169.458	dialogue	EVELYN · THOUGHT|Friends. Money. A family.
+172.644	dialogue	EVELYN · THOUGHT|And now she wants him, too.
+175.643	dialogue	EVELYN · THOUGHT|<color=#761B32>But not him.</color>
+179.380	state	Phase2A/WatchAdrian/Dormant
+179.381	walk	(-20.00, 0.00, 14.00)
+185.049	state	Phase2A/Watching/Dormant
+187.819	dialogue	CELESTE|Adrian! Are you attending the Ball tomorrow?
+191.427	dialogue	ADRIAN|I suppose so.
+194.345	dialogue	CELESTE|With someone?
+197.795	dialogue	ADRIAN|Not yet.
+201.205	dialogue	CELESTE|Then perhaps we could…
+204.436	dialogue	ODETTE|Adrian? Professor Laurent is waiting.
+207.780	dialogue	ADRIAN|Excuse me, Celeste.
+210.770	dialogue	EVELYN · THOUGHT|He doesn't have a partner.
+213.713	dialogue	EVELYN · THOUGHT|She might actually ask him.
+224.865	state	Phase2A/Errands/Dormant
+224.878	walk	(-15.00, 0.00, 17.00)
+232.626	dialogue	CELESTE|Sorry, Evelyn. We don't really know each other.
+232.836	interaction	Celeste refuses before trust
+236.266	walk	(-22.60, 0.00, 17.40)
+240.965	interaction	library books
+242.293	walk	(-21.00, 0.00, 21.00)
+244.998	dialogue	CLARA|You brought them back. Thank you, Evelyn.
+245.363	interaction	deliver books to Clara
+248.762	dialogue	EVELYN|I was passing by.
+251.764	walk	(-19.70, 0.00, -2.45)
+276.056	interaction	art materials
+277.409	walk	(-17.00, 0.00, -1.00)
+279.863	dialogue	MARGOT|My charcoal and paper! I thought I had lost them.
+280.046	interaction	deliver art materials to Margot
+283.612	dialogue	EVELYN|Here you are.
+286.314	walk	(-9.40, 0.00, 8.60)
+298.950	walk	(-16.30, 0.00, 11.60)
+301.256	interaction	Odette pendant
+302.531	walk	(-13.50, 0.00, 14.60)
+305.100	dialogue	ODETTE|You found my pendant! That's kind of you.
+305.326	interaction	return pendant to Odette
+308.313	dialogue	EVELYN|I'm glad it found its way back.
+311.071	walk	(-15.00, 0.00, 17.00)
+312.398	dialogue	CELESTE|Oh, Evelyn! I've heard you've been helping everyone today.
+312.747	interaction	Celeste ribbon request
+316.512	dialogue	EVELYN|I suppose.
+319.444	dialogue	CELESTE|Actually… could you help me too?
+322.342	dialogue	CELESTE|I lost my black ribbon. I wanted to wear it to the Black Rose Ball.
+326.991	walk	(-18.40, 0.00, 20.50)
+327.190	state	Phase2A/RibbonSearch/Dormant
+331.256	sketchbook	Page 1
+336.264	sketchbook	Page 2
+341.332	sketchbook	Page 3
+346.384	sketchbook	Page 4
+351.932	sketchbook	Page 5
+357.040	dialogue	EVELYN · THOUGHT|Who drew these?
+359.838	dialogue	EVELYN · THOUGHT|This is ridiculous.
+362.693	dialogue	EVELYN · THOUGHT|Adrian would never…
+365.742	dialogue	EVELYN · THOUGHT|I only love Adrian.
+368.490	walk	(-22.00, 0.00, 19.30)
+371.681	state	Phase2A/RibbonReturn/Dormant
+371.905	interaction	black ribbon
+377.478	walk	(-15.00, 0.00, 17.00)
+382.472	dialogue	CELESTE|You found it! Thank you, Evelyn.
+382.568	interaction	return ribbon and invite Celeste
+385.340	dialogue	EVELYN|You're welcome.
+388.405	dialogue	CELESTE|I don't know what I would've done without you.
+391.922	dialogue	EVELYN|Actually… I think I saw something else of yours in the Art Studio.
+396.549	dialogue	CELESTE|Really?
+399.254	dialogue	EVELYN|Would you like to come with me?
+402.050	dialogue	CELESTE|Of course.
+404.760	walk	(-20.50, 0.00, -2.50)
+405.081	state	Phase2A/FollowCeleste/Dormant
+420.595	state	Phase2A/Witness/Dormant
+422.170	dialogue	EVELYN|Professor Laurent needs you in the Gallery.
+422.516	interaction	ask Margot to leave
+425.668	dialogue	MARGOT|Right now?
+428.527	dialogue	EVELYN|She said it was urgent.
+431.412	dialogue	MARGOT|Alright. I'll go.
+434.199	state	Phase2A/WitnessLeaving/Dormant
+441.531	state	Phase2A/CloseDoor/Dormant
+441.532	walk	(-14.10, 0.00, -2.70)
+444.723	state	Phase2A/WitnessLeaving/Dormant
+446.063	state	Phase2A/Confront/Dormant
+448.660	dialogue	CELESTE|Where is the other thing you wanted to show me?
+452.204	dialogue	EVELYN|Celeste… do you love Adrian?
+455.003	dialogue	CELESTE|What?
+457.952	dialogue	EVELYN|Answer me.
+460.771	dialogue	CELESTE|I barely know him. I just wanted to ask him to the Ball.
+465.005	dialogue	EVELYN|You don't deserve him.
+467.709	dialogue	CELESTE|Evelyn, you're scaring me.
+470.718	state	Phase2BCinematic/Complete/Dormant
+475.914	state	Phase2BCleanup/Complete/Dormant
+494.689	state	Phase2BOutcome/Complete/Dormant
+494.690	dialogue	EVELYN · THOUGHT|It's over.
+497.570	dialogue	EVELYN · THOUGHT|Someone loves me.
+500.412	dialogue	EVELYN · THOUGHT|Tomorrow… Adrian will be mine.
+530.451	choice	LEAVE THE BODY
+533.629	state	Phase2CBall/Complete/Transition
+534.648	state	Phase2CBall/Complete/Establishing
+539.524	state	Phase2CBall/Complete/Isabelle
+541.070	dialogue	ISABELLE|Evelyn! Have you seen Celeste?
+543.418	dialogue	EVELYN|No. Why?
+545.596	dialogue	ISABELLE|She hasn’t answered anyone since yesterday.
+548.736	dialogue	EVELYN|Perhaps she went home.
+551.155	dialogue	ISABELLE|Without telling anyone?
+553.501	dialogue	EVELYN|You know how unpredictable she can be.
+556.062	dialogue	ISABELLE|I suppose… perhaps you’re right.
+559.856	state	Phase2CBall/Complete/Adrian
+561.602	dialogue	ADRIAN|I’ve been looking for you.
+564.043	dialogue	EVELYN|M-me?
+566.233	dialogue	ADRIAN|Who else?
+568.641	dialogue	ADRIAN|May I have this dance?
+571.055	dialogue	EVELYN|Yes.
+573.355	state	Phase2CBall/Complete/Dance
+584.415	state	Phase2CBall/Complete/Revelation
+584.415	dialogue	ADRIAN|Do you remember Lucien?
+586.641	dialogue	EVELYN|Lucien?
+589.053	dialogue	ADRIAN|He wouldn’t leave you alone.
+591.400	dialogue	EVELYN|What are you saying?
+593.785	dialogue	ADRIAN|Neither would the others.
+596.343	dialogue	EVELYN|You… knew?
+598.707	dialogue	ADRIAN|About Celeste? Of course.
+601.037	state	Phase2CBall/Complete/Heartbroken
+602.644	dialogue	PREFECT|Stop!
+604.838	dialogue	PREFECT|Evelyn Moreau, you’re coming with me.
+607.640	dialogue	PREFECT|We found Celeste’s body in the Art Studio.
+610.497	dialogue	PREFECT|And the blood traces led us to you.
+613.154	dialogue	EVELYN · THOUGHT|He knows.
+615.598	dialogue	EVELYN · THOUGHT|He knows what I’ve done.
+617.951	dialogue	EVELYN · THOUGHT|He’ll never look at me the same way again.
+620.790	dialogue	EVELYN · THOUGHT|He knows I’m a monster.
+623.264	state	Phase2CEnding/Complete/Heartbroken
+623.273	complete	HEARTBROKEN, normal speed, physical errands and cleanup
+630.314	recording	Stop

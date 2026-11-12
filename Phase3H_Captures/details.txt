@@ -1,0 +1,32 @@
+CLOTH Velvet Vows Main/SYSTEMS/Core Gameplay/PHASE 2B CLEANUP/Clean studio cloth
+CLOTH RENDERER Velvet Vows Main/SYSTEMS/Core Gameplay/PHASE 2B CLEANUP/Clean studio cloth Center: (-17.99, 0.21, -5.47), Extents: (0.22, 0.11, 0.22)
+Velvet Vows Main/ENVIRONMENT/Phase 3H repaired academy/Enclosed Library vestibule/Library vestibule east return bounds=Center: (-8.00, 3.15, 9.80), Extents: (0.14, 3.15, 2.20) collider=Library vestibule east return (UnityEngine.BoxCollider) mats=Vestibule stone
+Velvet Vows Main/WORLD/GOTHIC_ACADEMY/Grand Hall/Columns and caps/Academy column -6,6 bounds=Center: (-6.00, 3.00, 6.00), Extents: (0.57, 3.00, 0.57) collider=null mats=Gothic_Trim
+Velvet Vows Main/WORLD/GOTHIC_ACADEMY/Gothic transitions/Library approach/Stone passage floor bounds=Center: (-10.00, -0.13, 8.00), Extents: (2.00, 0.17, 4.00) collider=null mats=Gothic_Floor,Gothic_DarkWood
+Velvet Vows Main/WORLD/GOTHIC_ACADEMY/Connected wings/Library/Pointed walls and windows/Library East portal bounds=Center: (-10.00, 3.00, 10.00), Extents: (0.30, 3.00, 3.00) collider=null mats=Gothic_Wall,Gothic_Trim
+Velvet Vows Main/WORLD/GOTHIC_ACADEMY/Grand Hall/Visual floor/Stone floor -6,3 bounds=Center: (-6.00, -0.13, 3.00), Extents: (3.00, 0.17, 3.00) collider=null mats=Gothic_Floor,Gothic_Wall
+Velvet Vows Main/WORLD/GOTHIC_ACADEMY/Phase 3E1 Library threshold/Visible Library corridor portal bounds=Center: (-8.00, 3.00, 6.00), Extents: (0.30, 3.00, 3.00) collider=null mats=Gothic_Wall,Gothic_Trim
+Velvet Vows Main/ENVIRONMENT/Visual Polish 2.1/Grand Hall upper stonework/West upper wall bounds=Center: (-8.00, 4.29, -2.00), Extents: (0.12, 1.21, 10.00) collider=null mats=Limestone
+Velvet Vows Main/ENVIRONMENT/Visual Polish 2.1/Grand Hall composition/Window drapery/Curtains (Closed) bounds=Center: (-7.16, 0.84, 4.00), Extents: (0.11, 0.84, 0.89) collider=null mats=Assets_VNB___Home_Set_Materials_Palette_1_mat
+Velvet Vows Main/ENVIRONMENT/Visual Polish 2.1/Grand Hall composition/Window drapery bounds=Center: (-7.20, 1.63, 4.00), Extents: (0.04, 0.04, 0.90) collider=null mats=Assets_VNB___Home_Set_Materials_Palette_1_mat
+Velvet Vows Main/ENVIRONMENT/GrandHall/Academy furnishings/Burgundy drapery/Curtains (Closed) bounds=Center: (-5.00, 0.84, 6.04), Extents: (0.89, 0.84, 0.11) collider=null mats=Assets_VNB___Home_Set_Materials_Palette_1_mat
+Velvet Vows Main/WORLD/GOTHIC_ACADEMY/Gothic transitions/Library approach/Library approach continuous stone paving bounds=Center: (-10.00, 0.03, 8.00), Extents: (2.00, 0.04, 4.00) collider=null mats=Gothic_Floor
+Velvet Vows Main/SYSTEMS/Core Gameplay/PHASE 2B CLEANUP/Clean studio cloth bounds=Center: (-17.99, 0.21, -5.47), Extents: (0.22, 0.11, 0.22) collider=Clean studio cloth (UnityEngine.MeshCollider) mats=Linen cloth 0
+Velvet Vows Main/ENVIRONMENT/Corridors/Corridor west stone wall -4,10/Wall_4m bounds=Center: (-4.00, 1.50, 10.00), Extents: (0.17, 1.50, 2.00) collider=null mats=M_Wall
+Velvet Vows Main/WORLD/GOTHIC_ACADEMY/Connected wings/Art Studio/Stone floor/Art Studio floor 1,0 bounds=Center: (-15.00, -0.13, -5.00), Extents: (3.00, 0.17, 3.00) collider=null mats=Gothic_Floor,Gothic_DarkWood
+Velvet Vows Main/WORLD/GOTHIC_ACADEMY/Gothic transitions/Gallery threshold/Gallery threshold side stone -1 bounds=Center: (-4.00, 3.00, 10.00), Extents: (0.13, 3.00, 2.00) collider=null mats=Gothic_Wall
+Velvet Vows Main/WORLD/GOTHIC_ACADEMY/Phase 3E1 Library threshold/LIBRARY entrance plaque/Inscription bounds=Center: (-7.80, 2.72, 6.00), Extents: (0.00, 0.15, 0.58) collider=null mats=Font Material
+Velvet Vows Main/WORLD/GOTHIC_ACADEMY/Connected wings/Art Studio/Stone floor/Art Studio floor 0,0 bounds=Center: (-21.00, -0.13, -5.00), Extents: (3.00, 0.17, 3.00) collider=null mats=Gothic_Floor,Gothic_DarkWood
+Velvet Vows Main/WORLD/GOTHIC_ACADEMY/Phase 3E1 Library threshold/LIBRARY entrance plaque/Brass plaque edge bounds=Center: (-7.86, 2.53, 6.00), Extents: (0.05, 0.01, 0.94) collider=null mats=Aged Brass
+Velvet Vows Main/ENVIRONMENT/Visual Polish 2.1/Grand Hall upper stonework/North upper wall bounds=Center: (0.00, 4.29, 8.00), Extents: (8.00, 1.21, 0.12) collider=null mats=Limestone
+Velvet Vows Main/ENVIRONMENT/ArtStudio/Modular floors/Stone and wood floor -18,-6/Floor_4x4 bounds=Center: (-18.00, -0.08, -6.00), Extents: (2.00, 0.08, 2.00) collider=null mats=M_Floor
+Velvet Vows Main/WORLD/GOTHIC_ACADEMY/Phase 3E1 Library threshold/LIBRARY entrance plaque/Dark wood plaque bounds=Center: (-7.86, 2.72, 6.00), Extents: (0.05, 0.19, 0.90) collider=null mats=Dark Walnut
+Velvet Vows Main/ENVIRONMENT/GrandHall/Modular floors/Stone and wood floor -6,6/Floor_4x4 bounds=Center: (-6.00, -0.08, 6.00), Extents: (2.00, 0.08, 2.00) collider=null mats=M_Floor
+Velvet Vows Main/ENVIRONMENT/GrandHall/Formal furniture and decoration/Hall stone column -6,6/Column_1 bounds=Center: (-6.00, 1.73, 6.00), Extents: (0.41, 1.73, 0.35) collider=null mats=M_Column
+Velvet Vows Main/ENVIRONMENT/Phase 3H repaired academy/Enclosed Library vestibule/Library vestibule south wall bounds=Center: (-10.00, 3.15, 4.00), Extents: (2.13, 3.15, 0.14) collider=Library vestibule south wall (UnityEngine.BoxCollider) mats=Vestibule stone
+Velvet Vows Main/WORLD/GOTHIC_ACADEMY/Grand Hall/Walls and windows/North left stonework bounds=Center: (-6.00, 3.00, 7.96), Extents: (3.00, 3.00, 0.13) collider=null mats=Gothic_Wall
+Velvet Vows Main/ENVIRONMENT/GrandHall/Modular perimeter/North stone wall -6,8/Wall_4m bounds=Center: (-6.00, 1.50, 8.00), Extents: (2.00, 1.50, 0.17) collider=null mats=M_Wall
+Velvet Vows Main/ENVIRONMENT/GrandHall/Modular perimeter/West tall window wall -8,2/Wall_4m_Window bounds=Center: (-8.00, 1.50, 2.00), Extents: (0.17, 1.50, 2.00) collider=null mats=M_Wall
+Velvet Vows Main/ENVIRONMENT/GrandHall/Academy furnishings/Burgundy drapery bounds=Center: (-5.00, 1.63, 6.00), Extents: (0.90, 0.04, 0.04) collider=Burgundy drapery (UnityEngine.MeshCollider) mats=Assets_VNB___Home_Set_Materials_Palette_1_mat
+Velvet Vows Main/WORLD/GOTHIC_ACADEMY/Grand Hall/Visual floor/North floor -6 bounds=Center: (-6.00, -0.13, 6.50), Extents: (3.00, 0.17, 1.50) collider=null mats=Gothic_Wall,Gothic_Floor
+Velvet Vows Main/ENVIRONMENT/World 2.0 Additions/Connecting corridors/Library corridor floor bounds=Center: (-10.00, -0.12, 8.00), Extents: (2.00, 0.11, 4.00) collider=Library corridor floor (UnityEngine.BoxCollider) mats=Limestone

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="1" result="Passed" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-11-11 00:34:52Z" end-time="2026-11-11 00:35:11Z" duration="19.2436316">
+  <test-suite type="TestSuite" id="1085" name="VelvetVows" fullname="VelvetVows" runstate="Runnable" testcasecount="56" result="Passed" start-time="2026-11-11 00:34:52Z" end-time="2026-11-11 00:35:11Z" duration="19.243632" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="PlayMode" />
+    </properties>
+    <test-suite type="Assembly" id="1082" name="VelvetVows.AnimationCompatibility.PlayModeTests.dll" fullname="/Users/sanzar/VelvetVows/Library/ScriptAssemblies/VelvetVows.AnimationCompatibility.PlayModeTests.dll" runstate="Runnable" testcasecount="56" result="Passed" start-time="2026-11-11 00:34:52Z" end-time="2026-11-11 00:35:11Z" duration="19.228576" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="71201" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="PlayMode" />
+        <property name="EditorOnly" value="False" />
+      </properties>
+      <test-suite type="TestSuite" id="1083" name="VelvetVows" fullname="VelvetVows" runstate="Runnable" testcasecount="56" result="Passed" start-time="2026-11-11 00:34:52Z" end-time="2026-11-11 00:35:11Z" duration="19.221588" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-suite type="TestSuite" id="1084" name="Tests" fullname="VelvetVows.Tests" runstate="Runnable" testcasecount="56" result="Passed" start-time="2026-11-11 00:34:52Z" end-time="2026-11-11 00:35:11Z" duration="19.214767" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <test-suite type="TestFixture" id="1067" name="Phase3LAnimationPlayModeTests" fullname="VelvetVows.Tests.Phase3LAnimationPlayModeTests" classname="VelvetVows.Tests.Phase3LAnimationPlayModeTests" runstate="Runnable" testcasecount="8" result="Passed" start-time="2026-11-11 00:34:52Z" end-time="2026-11-11 00:35:11Z" duration="19.203519" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1075" name="CameraDoorwayRouteDiagnostic" fullname="VelvetVows.Tests.Phase3LAnimationPlayModeTests.CameraDoorwayRouteDiagnostic" methodname="CameraDoorwayRouteDiagnostic" classname="VelvetVows.Tests.Phase3LAnimationPlayModeTests" runstate="Runnable" seed="2064711458" result="Passed" start-time="2026-11-11 00:34:52Z" end-time="2026-11-11 00:35:11Z" duration="19.146287" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="Timeout" value="150000" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[VelvetVows] GameManager Awake
+[VelvetVows] GameHUD initialized
+[VelvetVows] Canvas active: True, enabled: True, mode: ScreenSpaceOverlay
+[VelvetVows] Canvas scale: (1.00, 1.00, 1.00)
+[VelvetVows] StartPanel active: True
+[VelvetVows] StartPanel scale: (1.00, 1.00, 1.00)
+[VelvetVows] UI input: EventSystem=True, InputSystemUIInputModule=True, actions=True, cursor=None/visible=True
+[VelvetVows] BEGIN listener registered (serialized)
+[VelvetVows] State: Introduction
+[VelvetVows] Canvas active: True, enabled: True, mode: ScreenSpaceOverlay
+[VelvetVows] Canvas scale: (1.00, 1.00, 1.00)
+[VelvetVows] StartPanel active: True
+[VelvetVows] StartPanel scale: (1.00, 1.00, 1.00)
+[VelvetVows] UI input: EventSystem=True, InputSystemUIInputModule=True, actions=True, cursor=None/visible=True
+[Phase2A Test] Navigation probes: start=True, end=True, hall=True, hall west=False, library door=True, music door=True
+[Phase2A Test] Route (-17.00, 0.02, -1.00) → (-9.40, 0.00, 8.60): 12 turns: (-16.55, 0.00, -1.80); (-14.60, 0.00, -3.75); (-13.30, 0.00, -3.75); (-12.65, 0.00, -3.10); (-9.40, 0.00, -3.10); (-6.80, 0.00, -0.50); (-6.80, 0.00, 1.45); (-7.45, 0.00, 2.10); (-6.80, 0.00, 2.75); (-6.80, 0.00, 4.70); (-8.75, 0.00, 6.65); (-8.75, 0.00, 7.95)
+[Phase2A Test] Walk toward (-16.55, 0.00, -1.80): now (-16.50, 0.02, -1.89), elapsed 0.4s
+[Phase2A Test] Walk toward (-14.60, 0.00, -3.75): now (-14.61, 0.03, -3.74), elapsed 1.0s
+[Phase2A Test] Walk toward (-13.30, 0.00, -3.75): now (-13.48, 0.03, -3.75), elapsed 0.4s
+[Phase2A Test] Walk toward (-12.65, 0.00, -3.10): now (-12.67, 0.03, -3.12), elapsed 0.4s
+[Phase2A Test] Walk toward (-9.40, 0.00, -3.10): now (-9.60, 0.05, -3.10), elapsed 1.2s
+[Phase2A Test] Walk toward (-6.80, 0.00, -0.50): now (-7.03, 0.03, -0.72), elapsed 1.3s
+[Phase2A Test] Walk toward (-6.80, 0.00, 1.45): now (-6.82, 0.02, 1.26), elapsed 0.8s
+[Phase2A Test] Walk toward (-7.45, 0.00, 2.10): now (-7.29, 0.02, 1.88), elapsed 0.3s
+[Phase2A Test] Walk toward (-6.80, 0.00, 2.75): now (-6.81, 0.02, 2.73), elapsed 0.4s
+[Phase2A Test] Walk toward (-6.80, 0.00, 4.70): now (-6.80, 0.03, 4.56), elapsed 0.7s
+[Phase2A Test] Walk toward (-8.75, 0.00, 6.65): now (-8.63, 0.05, 6.52), elapsed 1.0s
+[Phase2A Test] Walk toward (-8.75, 0.00, 7.95): now (-8.73, 0.05, 7.72), elapsed 0.5s
+[Phase2A Test] Walk toward (-9.40, 0.00, 8.60): now (-8.73, 0.05, 7.72), elapsed 0.0s
+[Phase2A Test] Walk toward (-10.05, 0.00, 8.60): now (-9.81, 0.05, 8.93), elapsed 1.4s
+[Phase2A Test] Walk toward (-14.60, 0.00, 13.15): now (-14.31, 0.03, 12.89), elapsed 2.3s
+[Phase3N] Doorway route: complete=True longest near-wall view=0 obstacle=
+Saving results to: /Users/sanzar/Library/Application Support/DefaultCompany/VelvetVows/TestResults.xml
+]]></output>
+            </test-case>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

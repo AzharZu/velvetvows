@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 using UnityEngine;
 
 namespace VelvetVows
@@ -15,11 +16,18 @@ namespace VelvetVows
     // Plays a verified excerpt without editing or duplicating the source MP3.
     public sealed class JapaneseSegmentPlayer : MonoBehaviour
     {
+        private static readonly HashSet<JapaneseSegmentPlayer> channels = new();
+        public static bool AnyPlaying
+        {
+            get { foreach (var channel in channels) if (channel != null && channel.IsPlaying) return true; return false; }
+        }
         public bool IsPlaying => source != null && source.isPlaying;
         public int StartedSegments { get; private set; }
         private AudioSource source;
         private float endSeconds;
         private float stopAt;
+        private void OnEnable() => channels.Add(this);
+        private void OnDisable() { Stop(); channels.Remove(this); }
 
         private void Awake()
         {

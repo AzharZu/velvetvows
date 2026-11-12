@@ -1,0 +1,13 @@
+{
+    "duration": 637.0084564,
+    "audioDuration": 634.5173333333333,
+    "firstAudioDelay": 0.016582899999999999,
+    "frames": 9554,
+    "fps": 15,
+    "audioSampleRate": 48000,
+    "audioChannels": 2,
+    "unityErrors": 0,
+    "encoderExitCode": 0,
+    "audioSamples": 60913664,
+    "audioPeak": 0.8067307472229004
+}

@@ -148,6 +148,8 @@ namespace VelvetVows
 
         public bool CanInteract(Phase2AAction action)
         {
+            var performance = player != null ? player.GetComponent<AcademyActionPerformance>() : null;
+            if (performance != null && performance.IsBusy) return false;
             if (game == null || game.State != GameState.Phase2A || DialogueManager.IsOpen ||
                 pagePanel != null && pagePanel.activeSelf) return false;
             switch (action)
@@ -193,6 +195,35 @@ namespace VelvetVows
         public void Interact(Phase2AAction action)
         {
             if (!CanInteract(action)) return;
+            var performance = player.GetComponent<AcademyActionPerformance>();
+            Transform target = null; ActionKind kind = ActionKind.Pickup;
+            switch (action)
+            {
+                case Phase2AAction.BooksPickup: target = libraryBooks.transform; break;
+                case Phase2AAction.ArtPickup: target = artMaterials.transform; break;
+                case Phase2AAction.LostPickup: target = lostPendant.transform; break;
+                case Phase2AAction.RibbonPickup: target = blackRibbon.transform; break;
+                case Phase2AAction.BooksDelivery: target = clara; kind = ActionKind.Give; break;
+                case Phase2AAction.ArtDelivery: target = margot; kind = ActionKind.Give; break;
+                case Phase2AAction.LostDelivery: target = odette; kind = ActionKind.Give; break;
+                case Phase2AAction.RibbonReturn: target = celeste; kind = ActionKind.Give; break;
+                case Phase2AAction.Sketchbook: target = sketchbook.transform; kind = ActionKind.Inspect; break;
+                case Phase2AAction.StudioDoor: target = studioDoor.transform; kind = ActionKind.Door; break;
+            }
+            if (target != null && performance != null)
+            {
+                if(kind == ActionKind.Give)
+                {
+                    var visual = action == Phase2AAction.BooksDelivery ? libraryBooks : action == Phase2AAction.ArtDelivery ? artMaterials :
+                        action == Phase2AAction.LostDelivery ? lostPendant : blackRibbon;
+                    performance.ShowCarried(visual.transform);
+                }
+                performance.PlayAction(kind, target, () => CommitAction(action), null); return;
+            }
+            CommitAction(action);
+        }
+        private void CommitAction(Phase2AAction action)
+        {
             switch (action)
             {
                 case Phase2AAction.CelesteTalk: TalkToCeleste(); break;
@@ -323,8 +354,8 @@ namespace VelvetVows
             // the waiting sofa at x=-5.6, z=-4.1.
             yield return adrianMotion.WalkRoute(
                 new Vector3(-2.8f, adrian.position.y, -6.2f),
-                new Vector3(-4.7f, adrian.position.y, -6.2f),
-                new Vector3(-7.3f, adrian.position.y, -6.2f));
+                new Vector3(-4.4f, adrian.position.y, -7.3f),
+                new Vector3(-7.3f, adrian.position.y, -7.3f));
             adrian.gameObject.SetActive(false);
             evelynMotion.Face(adrian);
             thoughtText.text = "";
@@ -664,9 +695,29 @@ namespace VelvetVows
 
         private void PlacePlayerBehindCover(Vector3 position, Quaternion rotation)
         {
+            var offsets = new[] { Vector3.zero, new Vector3(-.6f,0,-.4f), new Vector3(.6f,0,.5f),
+                new Vector3(-1f,0,-1f), new Vector3(0,0,1.2f), new Vector3(1.2f,0,0) };
+            foreach (var offset in offsets)
+            {
+                var at = position + offset;
+                bool blocked = false;
+                foreach (var obstacle in Physics.OverlapCapsule(at + Vector3.up * .4f,
+                    at + Vector3.up * 1.4f, .3f, ~0, QueryTriggerInteraction.Ignore))
+                    if (IsCameraObstacle(obstacle.transform)) { blocked = true; break; }
+                if (!blocked)
+                    foreach (var renderer in FindObjectsByType<MeshRenderer>(FindObjectsSortMode.None))
+                    {
+                        if (!IsSolidColumn(renderer)) continue;
+                        var bounds = renderer.bounds; bounds.Expand(.5f);
+                        if (bounds.Contains(at + Vector3.up)) { blocked = true; break; }
+                    }
+                if (blocked) continue;
+                position = at; break;
+            }
             if (playerCollider != null) playerCollider.enabled = false;
             player.SetPositionAndRotation(position, rotation);
             if (playerCollider != null) playerCollider.enabled = true;
+            Physics.SyncTransforms();
         }
 
         private void FrameEavesdrop(Transform first, Transform second, int subject)
@@ -675,19 +726,17 @@ namespace VelvetVows
             if (Stage == Phase2AStage.MissingStudent)
             {
                 if (subject == 2)
-                    Frame(new Vector3(-5.1f, 1.7f, -7.25f), player.position + Vector3.up * 1.3f, 42f);
+                    FrameReaction();
                 else if (subject < 0)
-                    Frame(new Vector3(-2.3f, 1.85f, -4.2f), new Vector3(0, 1.2f, -1.35f), 47f);
+                    FrameConversation(new Vector3(-2.3f, 1.85f, -4.2f), new Vector3(0, 1.2f, -1.35f), 47f);
                 else
-                    Frame(new Vector3(first.position.x + (subject == 0 ? -.35f : 1.2f), 1.7f, -3.75f),
+                    FrameConversation(new Vector3(first.position.x + (subject == 0 ? -.35f : 1.2f), 1.7f, -3.75f),
                         (subject == 0 ? first : second).position + Vector3.up * 1.32f, 40f);
                 return;
             }
             if (subject == 2)
             {
-                var offset = Stage == Phase2AStage.Watching ? new Vector3(1.7f, 1.7f, -1.4f) :
-                    new Vector3(1.65f, 1.7f, -1.9f);
-                Frame(player.position + offset, player.position + Vector3.up * 1.35f, 40f);
+                FrameReaction();
                 return;
             }
             if (subject < 0)
@@ -695,14 +744,90 @@ namespace VelvetVows
                 var center = (first.position + second.position) * .5f;
                 var fromCover = player.position - center;
                 fromCover.y = 0;
-                Frame(center + fromCover.normalized * 3.4f + Vector3.up * 2.05f,
+                FrameConversation(center + fromCover.normalized * 3.4f + Vector3.up * 2.05f,
                     center + Vector3.up * 1.25f, 48f);
                 return;
             }
             var actor = subject == 0 ? first : second;
             var lateral = Vector3.Cross(Vector3.up, actor.forward);
-            Frame(actor.position + actor.forward * 1.7f + lateral * .55f + Vector3.up * 1.65f,
+            FrameConversation(actor.position + actor.forward * 1.7f + lateral * .55f + Vector3.up * 1.65f,
                 actor.position + Vector3.up * 1.38f, 38f);
+        }
+
+        private void FrameConversation(Vector3 preferred, Vector3 target, float fov)
+        {
+            if (CameraPathClear(preferred, target)) { Frame(preferred, target, fov); return; }
+            var offset = preferred - target;
+            foreach (float angle in new[] { -25f, 25f, -50f, 50f, -90f, 90f, 180f })
+            {
+                var candidate = target + Quaternion.Euler(0, angle, 0) * offset;
+                if (CameraPathClear(candidate, target)) { Frame(candidate, target, fov); return; }
+            }
+            foreach (float scale in new[] { .75f, .5f })
+            {
+                var candidate = target + offset * scale;
+                if (CameraPathClear(candidate, target)) { Frame(candidate, target, fov + 6); return; }
+            }
+            Frame(preferred, target, fov);
+        }
+
+        private void FrameReaction()
+        {
+            var target = player.position + Vector3.up * 1.35f;
+            var forward = player.forward; forward.y = 0; forward.Normalize();
+            var right = player.right; right.y = 0; right.Normalize();
+            var offsets = new[] {
+                forward * 1.4f + right * .7f, forward * 1.4f - right * .7f,
+                right * 1.65f, -right * 1.65f, -forward * 1.6f
+            };
+            foreach (var offset in offsets)
+            {
+                var candidate = player.position + offset + Vector3.up * 1.65f;
+                if (!CameraPathClear(candidate, target)) continue;
+                Frame(candidate, target, 42f);
+                return;
+            }
+            for (int angle = 0; angle < 360; angle += 30)
+            {
+                var candidate = player.position + Quaternion.Euler(0, angle, 0) * forward * 1.5f + Vector3.up * 1.7f;
+                if (!CameraPathClear(candidate, target)) continue;
+                Frame(candidate, target, 44f); return;
+            }
+            Frame(player.position + Vector3.up * 1.8f + forward * .7f, target, 48f);
+        }
+
+        public static bool CameraPathClear(Vector3 position, Vector3 target)
+        {
+            foreach (var collider in Physics.OverlapSphere(position, .16f, ~0, QueryTriggerInteraction.Ignore))
+                if (IsCameraObstacle(collider.transform)) return false;
+            var delta = target - position;
+            var ray = new Ray(position, delta.normalized);
+            foreach (var renderer in FindObjectsByType<MeshRenderer>(FindObjectsSortMode.None))
+            {
+                if (!IsSolidColumn(renderer)) continue;
+                var bounds = renderer.bounds; bounds.Expand(.28f);
+                if (bounds.Contains(position) || bounds.IntersectRay(ray, out float distance) && distance < delta.magnitude)
+                    return false;
+            }
+            foreach (var hit in Physics.SphereCastAll(position, .12f, delta.normalized, delta.magnitude,
+                ~0, QueryTriggerInteraction.Ignore))
+                if (IsCameraObstacle(hit.transform)) return false;
+            return true;
+        }
+        private static bool IsSolidColumn(Renderer renderer)
+        {
+            if (!renderer.enabled || !renderer.gameObject.activeInHierarchy || !IsCameraObstacle(renderer.transform)) return false;
+            for (var t = renderer.transform; t != null; t = t.parent)
+                if (t.name.IndexOf("column", StringComparison.OrdinalIgnoreCase) >= 0 ||
+                    t.name.IndexOf(" post ", StringComparison.OrdinalIgnoreCase) >= 0) return true;
+            return false;
+        }
+        private static bool IsCameraObstacle(Transform item)
+        {
+            for (var current = item; current != null; current = current.parent)
+                if (current.name == "ENVIRONMENT" || current.name == "GOTHIC_ACADEMY" ||
+                    current.GetComponent<Phase2AStudioDoor>() != null || current.name == "PHASE 2B CLEANUP") return true;
+            return false;
         }
 
         private void Frame(Vector3 position, Vector3 target, float fov)

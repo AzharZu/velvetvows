@@ -12,6 +12,8 @@ namespace VelvetVows
         [SerializeField] private ThirdPersonController movement;
         [SerializeField] private CharacterController character;
         private bool cinematicIdle;
+        private float actionSpeed;
+        public void SetActionSpeed(float speed) => actionSpeed = speed;
 
         public void Configure(Animator visualAnimator, ThirdPersonController controller, CharacterController capsule)
         {
@@ -35,7 +37,7 @@ namespace VelvetVows
         {
             if (cinematicIdle)
             {
-                modelAnimator.SetFloat("Speed", 0);
+                modelAnimator.SetFloat("Speed", actionSpeed, .12f, Time.deltaTime);
                 modelAnimator.SetBool("Grounded", true);
                 modelAnimator.SetBool("Jump", false);
                 modelAnimator.SetBool("FreeFall", false);
@@ -63,6 +65,7 @@ namespace VelvetVows
         public void ExitCinematicIdle()
         {
             cinematicIdle = false;
+            actionSpeed = 0;
             modelAnimator.SetFloat("Speed", 0);
         }
     }

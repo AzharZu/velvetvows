@@ -22,6 +22,7 @@ namespace VelvetVows
         public GameObject ballDecor;
         public AnimationClip[] femalePoseBegin, femalePoseLoop, femalePoseStop;
         public AnimationClip[] malePoseBegin, malePoseLoop, malePoseStop;
+        public AnimationClip femaleDanceStep, maleDanceStep;
         public AudioClip piano;
         public CharacterVoiceManager voice;
         public GameObject finalPanel;
@@ -40,6 +41,7 @@ namespace VelvetVows
         private Camera cameraView;
         private CinemachineBrain brain;
         private AudioSource music;
+        private float musicLevel, speechDuck = 1;
         private PlayableGraph[] graphs = new PlayableGraph[2];
         private static bool restartIntoStory;
         private bool started;
@@ -72,6 +74,13 @@ namespace VelvetVows
             }
         }
         private IEnumerator BeginAfterReload() { yield return null; game.Begin(); }
+        private void LateUpdate()
+        {
+            if (music == null) return;
+            bool speaking = voice != null && voice.VoicePlaying || JapaneseSegmentPlayer.AnyPlaying;
+            speechDuck = Mathf.MoveTowards(speechDuck, speaking ? .48f : 1, Time.unscaledDeltaTime * (speaking ? 3 : .8f));
+            music.volume = musicLevel * speechDuck;
+        }
         private void OnDestroy()
         {
             for (int i = 0; i < graphs.Length; i++) if (graphs[i].IsValid()) graphs[i].Destroy();
@@ -243,9 +252,9 @@ namespace VelvetVows
             for (float time = 0; time < duration; time += Time.deltaTime)
             {
                 float blend = Mathf.SmoothStep(0, 1, time / duration);
-                player.SetPositionAndRotation(Vector3.Lerp(startEvelyn, CoupleCenter + Vector3.left * .38f, blend),
+                player.SetPositionAndRotation(Vector3.Lerp(startEvelyn, CoupleCenter + Vector3.left * .33f, blend),
                     Quaternion.Slerp(startEvelynRotation, Quaternion.Euler(0, 110, 0), blend));
-                adrian.SetPositionAndRotation(Vector3.Lerp(startAdrian, CoupleCenter + Vector3.right * .38f, blend),
+                adrian.SetPositionAndRotation(Vector3.Lerp(startAdrian, CoupleCenter + Vector3.right * .33f, blend),
                     Quaternion.Slerp(startAdrianRotation, Quaternion.Euler(0, 250, 0), blend));
                 yield return null;
             }
@@ -253,12 +262,32 @@ namespace VelvetVows
         }
         private IEnumerator DanceTogether(float duration)
         {
+            story?.evelynMotion?.StopMotion(); adrianMotion?.StopMotion();
+            PlayStep(0, femaleDanceStep); PlayStep(1, maleDanceStep);
+            var herBody = player.GetComponentInChildren<AcademyBodyPerformance>();
+            var hisBody = adrian.GetComponentInChildren<AcademyBodyPerformance>();
             if (cameraMove != null) { StopCoroutine(cameraMove); cameraMove = null; }
+            Vector3 smoothClasp = Vector3.zero;
+            bool hasClasp = false;
             for (float time = 0; time < duration; time += Time.deltaTime)
             {
                 float progress = Mathf.Clamp01(time / duration);
                 float sway = Mathf.Sin(time * 1.45f) * 7f;
                 PlaceCouple(sway);
+                var herAnimator=herBody!=null?herBody.GetComponent<Animator>():null;
+                var hisAnimator=hisBody!=null?hisBody.GetComponent<Animator>():null;
+                Vector3 clasp = herAnimator!=null&&hisAnimator!=null ?
+                    (herAnimator.GetBoneTransform(HumanBodyBones.RightUpperArm).position+hisAnimator.GetBoneTransform(HumanBodyBones.LeftUpperArm).position)*.5f+Vector3.back*.13f :
+                    CoupleCenter+Vector3.up*1.2f;
+                if (!hasClasp) { smoothClasp = clasp; hasClasp = true; }
+                else smoothClasp = Vector3.Lerp(smoothClasp, clasp, 1 - Mathf.Exp(-9 * Time.deltaTime));
+                clasp = smoothClasp;
+                var across=(adrian.position-player.position).normalized;
+                float contact = Mathf.SmoothStep(0, 1, Mathf.Clamp01(time / .45f)) *
+                    Mathf.SmoothStep(0, 1, Mathf.Clamp01((duration - time) / .45f));
+                herBody?.SetHands(clasp-across*.015f, adrian.position + Vector3.up * 1.32f, contact);
+                hisBody?.SetHands(player.position + Vector3.up * 1.13f + Vector3.forward * .12f, clasp+across*.015f, contact);
+                herBody?.SetPalmContact(true,across);hisBody?.SetPalmContact(false,-across);
                 float angle = Mathf.Lerp(-19f, 19f, progress);
                 var offset = Quaternion.Euler(0, angle, 0) * new Vector3(0, .22f, -1.38f);
                 Frame(CoupleCenter + Vector3.up * 1.46f + offset,
@@ -266,6 +295,18 @@ namespace VelvetVows
                 yield return null;
             }
             PlaceCouple(0);
+            herBody?.ClearHands(); hisBody?.ClearHands(); StopPose(0); StopPose(1);
+            story?.evelynMotion?.Idle(); adrianMotion?.Idle();
+        }
+        private void PlayStep(int slot, AnimationClip clip)
+        {
+            if (clip == null) return;
+            if (graphs[slot].IsValid()) graphs[slot].Destroy();
+            var animator = (slot == 0 ? player : adrian).GetComponentInChildren<Animator>();
+            graphs[slot] = PlayableGraph.Create("Synchronized couple step " + slot);
+            var step = AnimationClipPlayable.Create(graphs[slot], clip); step.SetApplyFootIK(true); step.SetTime(0);
+            step.SetSpeed(clip.length / 4f);
+            AnimationPlayableOutput.Create(graphs[slot], "Couple", animator).SetSourcePlayable(step); graphs[slot].Play();
         }
         private IEnumerator FinalImage()
         {
@@ -285,9 +326,9 @@ namespace VelvetVows
         private void PlaceCouple(float turn)
         {
             var rotation = Quaternion.Euler(0, turn, 0);
-            player.SetPositionAndRotation(CoupleCenter + rotation * Vector3.left * .38f,
+            player.SetPositionAndRotation(CoupleCenter + rotation * Vector3.left * .33f,
                 Quaternion.Euler(0, 110 + turn, 0));
-            adrian.SetPositionAndRotation(CoupleCenter + rotation * Vector3.right * .38f,
+            adrian.SetPositionAndRotation(CoupleCenter + rotation * Vector3.right * .33f,
                 Quaternion.Euler(0, 250 + turn, 0));
         }
         private void SetBallLighting(bool revelation)
@@ -508,15 +549,15 @@ namespace VelvetVows
             music.clip = piano;
             music.loop = true;
             music.spatialBlend = 0;
-            music.volume = 0;
+            musicLevel = 0; music.volume = 0;
             music.Play();
             StartCoroutine(FadeMusic());
         }
         private IEnumerator FadeMusic()
         {
             for (float t = 0; t < 2.5f; t += Time.deltaTime)
-            { if (music != null) music.volume = Mathf.Lerp(0, .19f, t / 2.5f); yield return null; }
-            if (music != null) music.volume = .19f;
+            { if (music != null) musicLevel = Mathf.Lerp(0, .19f, t / 2.5f); yield return null; }
+            if (music != null) musicLevel = .19f;
         }
         private static void Dress(Transform actor, Color tint, string character)
         {

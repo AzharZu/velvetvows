@@ -1,0 +1,60 @@
+Velvet Vows Main/ENVIRONMENT/ArtStudio/Studio tables, books and supplies/Studio torch/Wall-mounted_torch | center=(-23.60, 0.40, 0.00) size=(0.33, 0.79, 0.32) material=M_Wall-mounted_torch
+Velvet Vows Main/ENVIRONMENT/Phase 3I art direction/Art Studio workroom/Studio wall storage | center=(-23.30, 1.05, 1.70) size=(0.44, 2.10, 1.70) material=Oiled_walnut
+Velvet Vows Main/SYSTEMS/Core Gameplay/PHASE 2B CLEANUP/Studio storage wardrobe | center=(-22.60, 1.14, -2.20) size=(0.51, 2.27, 1.19) material=Oiled_walnut
+Velvet Vows Main/SYSTEMS/Core Gameplay/PHASE 2B CLEANUP/Studio storage wardrobe/Door (2) visible hinge/Door (2) | center=(-22.31, 1.13, -2.50) size=(0.08, 2.24, 0.58) material=Oiled_walnut
+Velvet Vows Main/SYSTEMS/Core Gameplay/PHASE 2B CLEANUP/Studio storage wardrobe/Door (1) visible hinge/Door (1) | center=(-22.31, 1.13, -1.91) size=(0.08, 2.24, 0.58) material=Oiled_walnut
+Velvet Vows Main/SYSTEMS/Core Gameplay/Interactables/Pushable academy chest/Art supply case visual | center=(-22.20, 0.53, -5.46) size=(1.09, 0.99, 1.39) material=Gothic_DarkWood
+Velvet Vows Main/SYSTEMS/Core Gameplay/Interactables/Pushable academy chest/Chests | center=(-22.20, 0.53, -5.46) size=(1.16, 1.05, 1.48) material=M_Chests
+Velvet Vows Main/ENVIRONMENT/ArtStudio/Modular floors/Stone and wood floor -22,-2/Floor_4x4 | center=(-22.00, -0.08, -2.00) size=(4.00, 0.15, 4.00) material=M_Floor
+Velvet Vows Main/ENVIRONMENT/ArtStudio/Modular floors/Stone and wood floor -22,-6/Floor_4x4 | center=(-22.00, -0.08, -6.00) size=(4.00, 0.15, 4.00) material=M_Floor
+Velvet Vows Main/ENVIRONMENT/ArtStudio/Modular floors/Stone and wood floor -22,2/Floor_4x4 | center=(-22.00, -0.08, 2.00) size=(4.00, 0.15, 4.00) material=M_Floor
+Velvet Vows Main/WORLD/GOTHIC_ACADEMY/Connected wings/Art Studio/Stone floor/Art Studio floor 0,0 | center=(-21.00, -0.13, -5.00) size=(6.00, 0.33, 6.00) material=Gothic_Floor
+Velvet Vows Main/WORLD/GOTHIC_ACADEMY/Connected wings/Art Studio/Stone floor/Art Studio floor 0,1 | center=(-21.00, -0.13, 1.00) size=(6.00, 0.33, 6.00) material=Gothic_Floor
+Velvet Vows Main/SYSTEMS/Core Gameplay/PHASE 2B CLEANUP/Studio disposal bin | center=(-20.90, 0.26, -0.93) size=(0.29, 0.53, 0.35) material=Dark iron bin 0
+Velvet Vows Main/SYSTEMS/Core Gameplay/PHASE 2B CLEANUP/Studio disposal bin/Trash Bin Ac | center=(-20.90, 0.52, -0.95) size=(0.29, 0.02, 0.30) material=Dark iron bin 0
+Velvet Vows Main/SYSTEMS/Core Gameplay/PHASE 2A STORY/Margot's art materials/Charcoal stick | center=(-20.17, 0.11, -2.45) size=(0.01, 0.01, 0.28) material=Charcoal Stone
+Velvet Vows Main/ENVIRONMENT/Visual Polish 2.1/Art Studio work in progress/Paint-stained stool | center=(-20.10, 0.25, 0.05) size=(0.43, 0.50, 0.43) material=Oiled_walnut
+Velvet Vows Main/SYSTEMS/Core Gameplay/PHASE 2A STORY/Margot's art materials/Drawing paper | center=(-20.10, 0.08, -2.45) size=(0.40, 0.02, 0.44) material=Ivory Plaster
+Velvet Vows Main/SYSTEMS/Core Gameplay/PHASE 2A STORY/Margot's art materials/Charcoal stick | center=(-20.09, 0.11, -2.45) size=(0.07, 0.01, 0.27) material=Charcoal Stone
+Velvet Vows Main/ENVIRONMENT/Phase 3I art direction/Art Studio workroom/Warm lamp diffuser | center=(-20.03, 1.15, 1.78) size=(0.27, 0.01, 0.13) material=Warm_lamp_diffuser
+Velvet Vows Main/ENVIRONMENT/Phase 3I art direction/Art Studio workroom/Reading lamp brass base | center=(-20.03, 0.94, 1.78) size=(0.18, 0.03, 0.18) material=Antique_brass
+Velvet Vows Main/ENVIRONMENT/Phase 3I art direction/Art Studio workroom/Reading lamp stem | center=(-20.03, 1.08, 1.78) size=(0.02, 0.27, 0.02) material=Antique_brass
+Velvet Vows Main/ENVIRONMENT/Phase 3I art direction/Art Studio workroom/Green enamel desk shade | center=(-20.03, 1.22, 1.78) size=(0.32, 0.12, 0.17) material=Library_wool
+Velvet Vows Main/ENVIRONMENT/Phase 3I art direction/Art Studio workroom/Drawing brush | center=(-19.72, 0.93, 0.85) size=(0.06, 0.01, 0.25) material=Oiled_walnut
+Velvet Vows Main/ENVIRONMENT/Phase 3I art direction/Art Studio workroom/Drawing brush | center=(-19.65, 0.93, 0.85) size=(0.08, 0.01, 0.24) material=Oiled_walnut
+Velvet Vows Main/ENVIRONMENT/ArtStudio/Studio tables, books and supplies/Painting worktable two/Table | center=(-19.30, 0.45, 1.25) size=(2.25, 0.90, 1.80) material=Oiled_walnut
+Velvet Vows Main/ENVIRONMENT/Phase 3I art direction/Art Studio workroom/Studio linen runner | center=(-19.30, 0.91, 1.25) size=(0.95, 0.02, 1.40) material=Unbleached_linen
+Velvet Vows Main/ENVIRONMENT/Phase 3I art direction/Art Studio workroom/Drawing studies - unframed paper/Study paper | center=(-19.23, 0.93, 0.98) size=(0.31, 0.00, 0.42) material=Warm_paper
+Velvet Vows Main/ENVIRONMENT/Phase 3I art direction/Art Studio workroom/Drawing studies - unframed paper/Study paper | center=(-19.22, 0.93, 0.98) size=(0.36, 0.00, 0.45) material=Warm_paper
+Velvet Vows Main/ENVIRONMENT/Phase 3I art direction/Art Studio workroom/Drawing studies - unframed paper/Study paper | center=(-19.20, 0.94, 0.98) size=(0.40, 0.00, 0.48) material=Warm_paper
+Velvet Vows Main/SYSTEMS/Core Gameplay/PHASE 2B CLEANUP/Studio wash basin/Door (1) | center=(-18.98, 0.46, -6.28) size=(0.46, 0.82, 0.11) material=Oiled_walnut
+Velvet Vows Main/SYSTEMS/Core Gameplay/PHASE 2B CLEANUP/Studio wash basin/Tap/Top (Animatable) | center=(-18.95, 1.02, -6.82) size=(0.03, 0.02, 0.10) material=Oiled_walnut
+Velvet Vows Main/SYSTEMS/Core Gameplay/PHASE 2B CLEANUP/Studio wash basin/Tap | center=(-18.95, 0.98, -6.85) size=(0.06, 0.07, 0.06) material=Oiled_walnut
+Velvet Vows Main/SYSTEMS/Core Gameplay/PHASE 2B CLEANUP/Studio wash basin/Faucet 1 | center=(-18.75, 1.00, -6.79) size=(0.11, 0.11, 0.21) material=Oiled_walnut
+Velvet Vows Main/SYSTEMS/Core Gameplay/PHASE 2B CLEANUP/Studio wash basin | center=(-18.75, 0.47, -6.61) size=(0.91, 0.95, 0.65) material=Oiled_walnut
+Velvet Vows Main/ENVIRONMENT/Visual Polish 2.1/Art Studio work in progress/Paint-stained stool | center=(-18.70, 0.25, 0.05) size=(0.43, 0.50, 0.43) material=Oiled_walnut
+Velvet Vows Main/SYSTEMS/Core Gameplay/PHASE 2B CLEANUP/Studio wash basin/Tap | center=(-18.55, 0.98, -6.85) size=(0.06, 0.07, 0.06) material=Oiled_walnut
+Velvet Vows Main/ENVIRONMENT/Phase 3I art direction/Art Studio workroom/Pigment pot lid | center=(-18.55, 1.04, 1.82) size=(0.12, 0.01, 0.12) material=Blackened_iron
+Velvet Vows Main/SYSTEMS/Core Gameplay/PHASE 2B CLEANUP/Studio wash basin/Tap/Top (Animatable) | center=(-18.55, 1.02, -6.82) size=(0.03, 0.02, 0.10) material=Oiled_walnut
+Velvet Vows Main/ENVIRONMENT/Phase 3I art direction/Art Studio workroom/Stoneware pigment pot | center=(-18.55, 0.98, 1.82) size=(0.11, 0.11, 0.11) material=Muted_pigment_0
+Velvet Vows Main/SYSTEMS/Core Gameplay/PHASE 2B CLEANUP/Studio wash basin/Door (2) | center=(-18.53, 0.46, -6.28) size=(0.46, 0.82, 0.11) material=Oiled_walnut
+Velvet Vows Main/ENVIRONMENT/Phase 3I art direction/Art Studio workroom/Stoneware pigment pot | center=(-18.38, 0.98, 1.82) size=(0.11, 0.11, 0.11) material=Muted_pigment_1
+Velvet Vows Main/ENVIRONMENT/Phase 3I art direction/Art Studio workroom/Pigment pot lid | center=(-18.38, 1.04, 1.82) size=(0.12, 0.01, 0.12) material=Blackened_iron
+Velvet Vows Main/ENVIRONMENT/Phase 3I art direction/Art Studio workroom/Stoneware pigment pot | center=(-18.21, 0.98, 1.82) size=(0.11, 0.11, 0.11) material=Muted_pigment_2
+Velvet Vows Main/ENVIRONMENT/Phase 3I art direction/Art Studio workroom/Pigment pot lid | center=(-18.21, 1.04, 1.82) size=(0.12, 0.01, 0.12) material=Blackened_iron
+Velvet Vows Main/ENVIRONMENT/ArtStudio/Modular floors/Stone and wood floor -18,2/Floor_4x4 | center=(-18.00, -0.08, 2.00) size=(4.00, 0.15, 4.00) material=M_Floor
+Velvet Vows Main/ENVIRONMENT/Phase 3I art direction/Art Studio workroom/Walnut wall lining | center=(-18.00, 0.50, -7.72) size=(11.30, 0.95, 0.07) material=Oiled_walnut
+Velvet Vows Main/ENVIRONMENT/ArtStudio/Modular floors/Stone and wood floor -18,-2/Floor_4x4 | center=(-18.00, -0.08, -2.00) size=(4.00, 0.15, 4.00) material=M_Floor
+Velvet Vows Main/ENVIRONMENT/Phase 3I art direction/Art Studio workroom/Dado cap | center=(-18.00, 0.98, -7.72) size=(11.33, 0.06, 0.07) material=Oiled_walnut
+Velvet Vows Main/ENVIRONMENT/ArtStudio/Modular floors/Stone and wood floor -18,-6/Floor_4x4 | center=(-18.00, -0.08, -6.00) size=(4.00, 0.15, 4.00) material=M_Floor
+Velvet Vows Main/ENVIRONMENT/Phase 3H repaired academy/Linen supply bench | center=(-18.00, 0.25, -5.50) size=(0.80, 0.50, 0.55) material=Smoked walnut
+Velvet Vows Main/SYSTEMS/Core Gameplay/PHASE 2B CLEANUP/Clean studio cloth | center=(-17.99, 0.63, -5.47) size=(0.44, 0.21, 0.43) material=Linen cloth 0
+Velvet Vows Main/SYSTEMS/Core Gameplay/PHASE 2B CLEANUP/Celeste's blood pool | center=(-17.25, 0.05, -3.00) size=(2.09, 0.00, 1.54) material=Dark crimson pool
+Velvet Vows Main/ENVIRONMENT/World 2.0 Additions/DecorativeExterior/Locked Conservatory door | center=(-15.80, 1.21, -7.58) size=(1.45, 2.22, 0.37) material=Assets_Medieval_Room_Kit_Materials_M_Door_mat
+Velvet Vows Main/WORLD/GOTHIC_ACADEMY/Connected wings/Art Studio/Stone floor/Art Studio floor 1,1 | center=(-15.00, -0.13, 1.00) size=(6.00, 0.33, 6.00) material=Gothic_Floor
+Velvet Vows Main/WORLD/GOTHIC_ACADEMY/Connected wings/Art Studio/Stone floor/Art Studio floor 1,0 | center=(-15.00, -0.13, -5.00) size=(6.00, 0.33, 6.00) material=Gothic_Floor
+Velvet Vows Main/ENVIRONMENT/Visual Polish 2.1/Art Studio work in progress/Studio window plant | center=(-14.00, 0.42, -6.00) size=(0.41, 0.84, 0.41) material=Assets_VNB___Home_Set_Materials_Palette_1_mat
+Velvet Vows Main/ENVIRONMENT/ArtStudio/Artist workstations/Window plant | center=(-14.00, 0.42, 2.00) size=(0.41, 0.84, 0.41) material=Assets_VNB___Home_Set_Materials_Palette_1_mat
+Velvet Vows Main/ENVIRONMENT/ArtStudio/Modular floors/Stone and wood floor -14,-6/Floor_4x4 | center=(-14.00, -0.08, -6.00) size=(4.00, 0.15, 4.00) material=M_Floor
+Velvet Vows Main/ENVIRONMENT/ArtStudio/Modular floors/Stone and wood floor -14,-2/Floor_4x4 | center=(-14.00, -0.08, -2.00) size=(4.00, 0.15, 4.00) material=M_Floor
+Velvet Vows Main/ENVIRONMENT/ArtStudio/Modular floors/Stone and wood floor -14,2/Floor_4x4 | center=(-14.00, -0.08, 2.00) size=(4.00, 0.15, 4.00) material=M_Floor

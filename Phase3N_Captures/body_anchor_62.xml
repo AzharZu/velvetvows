@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="1" result="Passed" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-11-11 00:32:30Z" end-time="2026-11-11 00:32:48Z" duration="18.7106392">
+  <test-suite type="TestSuite" id="1084" name="VelvetVows" fullname="VelvetVows" runstate="Runnable" testcasecount="55" result="Passed" start-time="2026-11-11 00:32:30Z" end-time="2026-11-11 00:32:48Z" duration="18.710639" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="PlayMode" />
+    </properties>
+    <test-suite type="Assembly" id="1081" name="VelvetVows.AnimationCompatibility.PlayModeTests.dll" fullname="/Users/sanzar/VelvetVows/Library/ScriptAssemblies/VelvetVows.AnimationCompatibility.PlayModeTests.dll" runstate="Runnable" testcasecount="55" result="Passed" start-time="2026-11-11 00:32:30Z" end-time="2026-11-11 00:32:48Z" duration="18.694242" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="70574" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="PlayMode" />
+        <property name="EditorOnly" value="False" />
+      </properties>
+      <test-suite type="TestSuite" id="1082" name="VelvetVows" fullname="VelvetVows" runstate="Runnable" testcasecount="55" result="Passed" start-time="2026-11-11 00:32:30Z" end-time="2026-11-11 00:32:48Z" duration="18.683412" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-suite type="TestSuite" id="1083" name="Tests" fullname="VelvetVows.Tests" runstate="Runnable" testcasecount="55" result="Passed" start-time="2026-11-11 00:32:30Z" end-time="2026-11-11 00:32:48Z" duration="18.677256" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <test-suite type="TestFixture" id="1067" name="Phase3LAnimationPlayModeTests" fullname="VelvetVows.Tests.Phase3LAnimationPlayModeTests" classname="VelvetVows.Tests.Phase3LAnimationPlayModeTests" runstate="Runnable" testcasecount="7" result="Passed" start-time="2026-11-11 00:32:30Z" end-time="2026-11-11 00:32:48Z" duration="18.666309" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1073" name="BodyHidingKeepsBothActorsVisibleAndReleasesControl" fullname="VelvetVows.Tests.Phase3LAnimationPlayModeTests.BodyHidingKeepsBothActorsVisibleAndReleasesControl" methodname="BodyHidingKeepsBothActorsVisibleAndReleasesControl" classname="VelvetVows.Tests.Phase3LAnimationPlayModeTests" runstate="Runnable" seed="868669674" result="Passed" start-time="2026-11-11 00:32:30Z" end-time="2026-11-11 00:32:48Z" duration="18.636071" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="Timeout" value="90000" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[VelvetVows] GameManager Awake
+[VelvetVows] GameHUD initialized
+[VelvetVows] Canvas active: True, enabled: True, mode: ScreenSpaceOverlay
+[VelvetVows] Canvas scale: (1.00, 1.00, 1.00)
+[VelvetVows] StartPanel active: True
+[VelvetVows] StartPanel scale: (1.00, 1.00, 1.00)
+[VelvetVows] UI input: EventSystem=True, InputSystemUIInputModule=True, actions=True, cursor=None/visible=True
+[VelvetVows] BEGIN listener registered (serialized)
+[VelvetVows] State: Introduction
+[VelvetVows] Canvas active: True, enabled: True, mode: ScreenSpaceOverlay
+[VelvetVows] Canvas scale: (1.00, 1.00, 1.00)
+[VelvetVows] StartPanel active: True
+[VelvetVows] StartPanel scale: (1.00, 1.00, 1.00)
+[VelvetVows] UI input: EventSystem=True, InputSystemUIInputModule=True, actions=True, cursor=None/visible=True
+[Phase3L] Murder camera=(-13.40, 1.85, -2.83) target=(-16.50, 1.00, -2.83) clear=True
+[Phase2B] Cleanup challenge began at 120 seconds
+[Phase3M] Body contact: player=(-20.23, 0.03, -2.02), body=(-21.15, 0.18, -2.38), chest=(-20.55, 0.20, -2.27), deadarms=(-20.33, 0.21, -2.34)/(-20.37, 0.19, -2.13), elbows=(-20.54, 0.18, -2.44)/(-20.59, 0.21, -2.06), upperarms=(-20.42, 0.64, -1.98)/(-20.36, 0.62, -2.19), hands=(-20.40, 0.21, -2.12)/(-20.45, 0.20, -2.11), targets=(-20.40, 0.20, -2.12)/(-20.45, 0.20, -2.11), weight=1, bend=1, right=0.011, left=0.000
+Ignoring depth surface load action as it is memoryless
+Ignoring depth surface store action as it is memoryless
+Saving results to: /Users/sanzar/Library/Application Support/DefaultCompany/VelvetVows/TestResults.xml
+]]></output>
+            </test-case>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

@@ -13,6 +13,18 @@ namespace VelvetVows
         private readonly HashSet<DetectionZone> activeZones = new HashSet<DetectionZone>();
         private bool monitoring;
         public float Current => current;
+        public string DetectionSource
+        {
+            get
+            {
+                if (!monitoring) return null;
+                foreach (var zone in activeZones)
+                    if (zone != null && zone.GetComponentInParent<PatrolNPC>() != null) return "PREFECT NEARBY";
+                foreach (var zone in activeZones)
+                    if (zone != null) return zone.name.Contains("Restricted") ? "RESTRICTED AREA" : "WATCHED AREA";
+                return null;
+            }
+        }
 
         public void Begin() { current = 0; timeOutsideDetection = 0; monitoring = true; }
         public void Stop() { monitoring = false; activeZones.Clear(); timeOutsideDetection = 0; }

@@ -1,0 +1,5 @@
+Result=PASSED
+Branch=BURN
+Errors=0
+Scene=VelvetVows_Main
+Platform=OSXPlayer

@@ -41,23 +41,25 @@ namespace VelvetVows.Tests
             var musicSource = (AudioSource)Field(music, "source");
             Assert.IsTrue(musicSource.isPlaying);
 
-            void Expect(string speaker, string line, string clip)
+            IEnumerator Expect(string speaker, string line, string clip)
             {
                 Call(dialogue, "ShowCinematicLine", speaker, line);
+                yield return new WaitForSecondsRealtime(.15f);
                 Assert.AreEqual(clip, ((AudioClip)Value(voice, "LastVoiceClip")).name);
                 Assert.IsTrue((bool)Value(voice, "VoicePlaying"), speaker + " did not play");
             }
-            Expect("EVELYN", "Y-yes. Thank you.", "evelyn_shy");
-            Expect("ADRIAN", "Are you alright?", "adrian_question");
-            Expect("ADRIAN", "Be careful, Evelyn.", "adryan_soft");
-            Expect("CELESTE", "You found it! Thank you, Evelyn.", "selesty_friendly");
+            yield return Expect("EVELYN", "Y-yes. Thank you.", "evelyn_shy");
+            yield return Expect("ADRIAN", "Are you alright?", "adrian_question");
+            yield return Expect("ADRIAN", "Be careful, Evelyn.", "adryan_soft");
+            yield return Expect("CELESTE", "You found it! Thank you, Evelyn.", "selesty_friendly");
             var story = Component("Phase2AStoryManager");
             story.GetType().GetField("<Stage>k__BackingField", Flags).SetValue(story,
                 Enum.Parse(story.GetType().Assembly.GetType("VelvetVows.Phase2AStage"), "Confront"));
-            Expect("CELESTE", "Evelyn, you're scaring me.", "selesty_scared");
-            Expect("ISABELLE", "Did you hear? Another student disappeared.", "isabelle_worried");
-            Expect("PREFECT", "Evelyn… what have you done?", "prefect_point");
+            yield return Expect("CELESTE", "Evelyn, you're scaring me.", "selesty_scared");
+            yield return Expect("ISABELLE", "Did you hear? Another student disappeared.", "isabelle_worried");
+            yield return Expect("PREFECT", "Evelyn… what have you done?", "prefect_point");
             Call(dialogue, "ShowCinematicLine", "AMELIE", "I heard something.");
+            yield return new WaitForSecondsRealtime(.15f);
             Assert.AreEqual("npc1", ((AudioClip)Value(voice, "LastVoiceClip")).name);
             Assert.IsTrue((bool)Value(voice, "VoicePlaying"), "Amelie must use her assigned voice");
             Assert.IsTrue(musicSource.isPlaying, "Dialogue interrupted background music");
@@ -78,6 +80,10 @@ namespace VelvetVows.Tests
         {
             yield return CleanupHelper("StartCleanup");
             var voice = Component("CharacterVoiceManager");
+            var murder = Component("Phase2BMurderSequence");
+            var bodyAnimator = (Animator)Field(murder, "celesteAnimator");
+            var presence = bodyAnimator.GetComponents<MonoBehaviour>().First(b => b.GetType().Name == "AcademyCharacterPresence");
+            Assert.IsFalse(presence.enabled, "Celeste must stop blinking and looking around after death");
             Assert.AreEqual(1, (int)Value(voice, "ImpactCount"));
             Assert.AreEqual(1, (int)Value(voice, "PostKillLaughCount"));
             Assert.AreEqual("sound_of_killing", ((AudioClip)Value(voice, "LastSfxClip")).name);

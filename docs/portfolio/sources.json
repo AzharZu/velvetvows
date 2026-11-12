@@ -1,0 +1,32 @@
+[
+  {
+    "file": "01-diary.png",
+    "source": "Phase3A_Captures/03_evelyn_diary.png",
+    "description": "Original gameplay capture; no retouching."
+  },
+  {
+    "file": "02-academy.jpg",
+    "source": "Playthrough_Recording/phase3o_burn/frame_0129.jpg",
+    "description": "Original gameplay capture; no retouching."
+  },
+  {
+    "file": "03-library.jpg",
+    "source": "Playthrough_Recording/phase3o_burn/frame_0301.jpg",
+    "description": "Original gameplay capture; no retouching."
+  },
+  {
+    "file": "04-evidence.jpg",
+    "source": "Playthrough_Recording/phase3o_burn/frame_0347.jpg",
+    "description": "Original gameplay capture; no retouching."
+  },
+  {
+    "file": "05-ballroom.jpg",
+    "source": "Playthrough_Recording/phase3o_burn/frame_0544.jpg",
+    "description": "Original gameplay capture; no retouching."
+  },
+  {
+    "file": "06-dance.jpg",
+    "source": "Phase3O_Captures/proof_burn/dance.jpg",
+    "description": "Original gameplay capture; no retouching."
+  }
+]

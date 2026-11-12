@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="1" result="Passed" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-11-10 15:48:09Z" end-time="2026-11-10 15:48:39Z" duration="30.1574572">
+  <test-suite type="TestSuite" id="1073" name="VelvetVows" fullname="VelvetVows" runstate="Runnable" testcasecount="46" result="Passed" start-time="2026-11-10 15:48:09Z" end-time="2026-11-10 15:48:39Z" duration="30.157457" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="PlayMode" />
+    </properties>
+    <test-suite type="Assembly" id="1070" name="VelvetVows.AnimationCompatibility.PlayModeTests.dll" fullname="/Users/sanzar/VelvetVows/Library/ScriptAssemblies/VelvetVows.AnimationCompatibility.PlayModeTests.dll" runstate="Runnable" testcasecount="46" result="Passed" start-time="2026-11-10 15:48:09Z" end-time="2026-11-10 15:48:39Z" duration="30.143938" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="46975" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="PlayMode" />
+        <property name="EditorOnly" value="False" />
+      </properties>
+      <test-suite type="TestSuite" id="1071" name="VelvetVows" fullname="VelvetVows" runstate="Runnable" testcasecount="46" result="Passed" start-time="2026-11-10 15:48:09Z" end-time="2026-11-10 15:48:39Z" duration="30.137722" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-suite type="TestSuite" id="1072" name="Tests" fullname="VelvetVows.Tests" runstate="Runnable" testcasecount="46" result="Passed" start-time="2026-11-10 15:48:09Z" end-time="2026-11-10 15:48:39Z" duration="30.132412" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <test-suite type="TestFixture" id="1063" name="Phase3JCameraInteractionPlayModeTests" fullname="VelvetVows.Tests.Phase3JCameraInteractionPlayModeTests" classname="VelvetVows.Tests.Phase3JCameraInteractionPlayModeTests" runstate="Runnable" testcasecount="1" result="Passed" start-time="2026-11-10 15:48:09Z" end-time="2026-11-10 15:48:39Z" duration="30.125109" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1064" name="CameraOrbitsAndPhysicalInteractionsRespectWallsAndDoors" fullname="VelvetVows.Tests.Phase3JCameraInteractionPlayModeTests.CameraOrbitsAndPhysicalInteractionsRespectWallsAndDoors" methodname="CameraOrbitsAndPhysicalInteractionsRespectWallsAndDoors" classname="VelvetVows.Tests.Phase3JCameraInteractionPlayModeTests" runstate="Runnable" seed="24259634" result="Passed" start-time="2026-11-10 15:48:09Z" end-time="2026-11-10 15:48:39Z" duration="30.099739" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="Timeout" value="180000" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[VelvetVows] GameManager Awake
+[VelvetVows] GameHUD initialized
+[VelvetVows] Canvas active: True, enabled: True, mode: ScreenSpaceOverlay
+[VelvetVows] Canvas scale: (1.00, 1.00, 1.00)
+[VelvetVows] StartPanel active: True
+[VelvetVows] StartPanel scale: (1.00, 1.00, 1.00)
+[VelvetVows] UI input: EventSystem=True, InputSystemUIInputModule=True, actions=True, cursor=None/visible=True
+[VelvetVows] BEGIN listener registered (serialized)
+[VelvetVows] State: Introduction
+[VelvetVows] Canvas active: True, enabled: True, mode: ScreenSpaceOverlay
+[VelvetVows] Canvas scale: (1.00, 1.00, 1.00)
+[VelvetVows] StartPanel active: True
+[VelvetVows] StartPanel scale: (1.00, 1.00, 1.00)
+[VelvetVows] UI input: EventSystem=True, InputSystemUIInputModule=True, actions=True, cursor=None/visible=True
+Ignoring depth surface load action as it is memoryless
+Ignoring depth surface store action as it is memoryless
+[Phase3J] 72 camera angles, close-camera avatar visibility, physical E pickup, held-key suppression and closed/open Studio door passed.
+Saving results to: /Users/sanzar/Library/Application Support/DefaultCompany/VelvetVows/TestResults.xml
+]]></output>
+            </test-case>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

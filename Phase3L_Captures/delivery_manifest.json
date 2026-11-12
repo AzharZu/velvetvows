@@ -1,0 +1,14 @@
+{
+  "Builds/Phase3L/VelvetVows-macOS.zip": {
+    "bytes": 308690542,
+    "sha256": "8f104382212983088e514340890882289d16e7b970a548e87d23b7213d12fd50"
+  },
+  "Phase3L_Captures/VelvetVows_BURN_Playthrough.mp4": {
+    "bytes": 68548581,
+    "sha256": "d157b799702cd3f9f6297ec17e8e0b0228d1cb6cddfc070bc086162bf5fbd55d"
+  },
+  "Phase3L_Captures/VelvetVows_LEAVE_Playthrough.mp4": {
+    "bytes": 65463122,
+    "sha256": "a1c6b5b27dd02df4ba8363fb43f7a32afdd297e48aefc10b269071faa6140fed"
+  }
+}

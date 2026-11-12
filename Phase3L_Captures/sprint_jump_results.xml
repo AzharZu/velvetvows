@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="1" result="Failed(Child)" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-11-10 20:43:51Z" end-time="2026-11-10 20:44:02Z" duration="11.6564947">
+  <test-suite type="TestSuite" id="1082" name="VelvetVows" fullname="VelvetVows" runstate="Runnable" testcasecount="53" result="Failed" site="Child" start-time="2026-11-10 20:43:51Z" end-time="2026-11-10 20:44:02Z" duration="11.656495" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="PlayMode" />
+    </properties>
+    <failure>
+      <message><![CDATA[One or more child tests had errors]]></message>
+    </failure>
+    <test-suite type="Assembly" id="1079" name="VelvetVows.AnimationCompatibility.PlayModeTests.dll" fullname="/Users/sanzar/VelvetVows/Library/ScriptAssemblies/VelvetVows.AnimationCompatibility.PlayModeTests.dll" runstate="Runnable" testcasecount="53" result="Failed" site="Child" start-time="2026-11-10 20:43:51Z" end-time="2026-11-10 20:44:02Z" duration="11.632974" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="30493" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="PlayMode" />
+        <property name="EditorOnly" value="False" />
+      </properties>
+      <failure>
+        <message><![CDATA[One or more child tests had errors]]></message>
+      </failure>
+      <test-suite type="TestSuite" id="1080" name="VelvetVows" fullname="VelvetVows" runstate="Runnable" testcasecount="53" result="Failed" site="Child" start-time="2026-11-10 20:43:51Z" end-time="2026-11-10 20:44:02Z" duration="11.621023" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <failure>
+          <message><![CDATA[One or more child tests had errors]]></message>
+        </failure>
+        <test-suite type="TestSuite" id="1081" name="Tests" fullname="VelvetVows.Tests" runstate="Runnable" testcasecount="53" result="Failed" site="Child" start-time="2026-11-10 20:43:51Z" end-time="2026-11-10 20:44:02Z" duration="11.613360" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <failure>
+            <message><![CDATA[One or more child tests had errors]]></message>
+          </failure>
+          <test-suite type="TestFixture" id="1067" name="Phase3LAnimationPlayModeTests" fullname="VelvetVows.Tests.Phase3LAnimationPlayModeTests" classname="VelvetVows.Tests.Phase3LAnimationPlayModeTests" runstate="Runnable" testcasecount="5" result="Failed" site="Child" start-time="2026-11-10 20:43:51Z" end-time="2026-11-10 20:44:02Z" duration="11.602379" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <failure>
+              <message><![CDATA[One or more child tests had errors]]></message>
+            </failure>
+            <test-case id="1072" name="SprintAndJumpDriveTheVisibleHumanoidAndRecoverGrounding" fullname="VelvetVows.Tests.Phase3LAnimationPlayModeTests.SprintAndJumpDriveTheVisibleHumanoidAndRecoverGrounding" methodname="SprintAndJumpDriveTheVisibleHumanoidAndRecoverGrounding" classname="VelvetVows.Tests.Phase3LAnimationPlayModeTests" runstate="Runnable" seed="447884983" result="Failed" start-time="2026-11-10 20:43:51Z" end-time="2026-11-10 20:44:02Z" duration="11.565282" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="Timeout" value="90000" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <failure>
+                <message><![CDATA[  Jump never left the ground
+  Expected: True
+  But was:  False
+]]></message>
+                <stack-trace><![CDATA[at VelvetVows.Tests.Phase3LAnimationPlayModeTests+<SprintAndJumpDriveTheVisibleHumanoidAndRecoverGrounding>d__12.MoveNext () [0x006ac] in /Users/sanzar/VelvetVows/Assets/VelvetVows/Tests/PlayMode/Phase3LAnimationPlayModeTests.cs:198
+at UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in ./Library/PackageCache/com.unity.test-framework@082c24152fd4/UnityEngine.TestRunner/NUnitExtensions/Attributes/TestEnumerator.cs:44
+]]></stack-trace>
+              </failure>
+              <output><![CDATA[[VelvetVows] GameManager Awake
+[VelvetVows] GameHUD initialized
+[VelvetVows] Canvas active: True, enabled: True, mode: ScreenSpaceOverlay
+[VelvetVows] Canvas scale: (1.00, 1.00, 1.00)
+[VelvetVows] StartPanel active: True
+[VelvetVows] StartPanel scale: (1.00, 1.00, 1.00)
+[VelvetVows] UI input: EventSystem=True, InputSystemUIInputModule=True, actions=True, cursor=None/visible=True
+[VelvetVows] BEGIN listener registered (serialized)
+[VelvetVows] State: Introduction
+[VelvetVows] Canvas active: True, enabled: True, mode: ScreenSpaceOverlay
+[VelvetVows] Canvas scale: (1.00, 1.00, 1.00)
+[VelvetVows] StartPanel active: True
+[VelvetVows] StartPanel scale: (1.00, 1.00, 1.00)
+[VelvetVows] UI input: EventSystem=True, InputSystemUIInputModule=True, actions=True, cursor=None/visible=True
+[Phase2A Test] Navigation probes: start=True, end=True, hall=True, hall west=False, library door=True, music door=True
+[Phase2A Test] Route (-5.00, 0.04, -5.50) → (1.00, 0.00, -5.50): 4 turns: (-4.20, 0.00, -6.35); (-2.25, 0.00, -8.30); (-1.60, 0.00, -8.30); (0.35, 0.00, -6.35)
+[Phase2A Test] Walk toward (-4.20, 0.00, -6.35): now (-4.22, 0.03, -6.33), elapsed 0.2s
+[Phase2A Test] Walk toward (-2.25, 0.00, -8.30): now (-2.17, 0.03, -8.38), elapsed 0.5s
+[Phase2A Test] Walk toward (-1.60, 0.00, -8.30): now (-1.82, 0.03, -8.33), elapsed 0.7s
+[Phase2A Test] Walk toward (0.35, 0.00, -6.35): now (0.43, 0.03, -6.27), elapsed 0.5s
+[Phase2A Test] Walk toward (1.00, 0.00, -5.50): now (0.43, 0.03, -6.27), elapsed 0.0s
+[Phase3L locomotion diagnostic] airborne=False jumpPose=False rise=1.422159 minIK=1 motor=True
+Saving results to: /Users/sanzar/Library/Application Support/DefaultCompany/VelvetVows/TestResults.xml
+]]></output>
+            </test-case>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

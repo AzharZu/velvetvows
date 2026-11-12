@@ -92,7 +92,8 @@ namespace VelvetVows
                 heading.text = "ADRIAN VALMONT";
                 photograph.gameObject.SetActive(true);
                 visual = 1; visualTime = 0;
-                caption.text = "SEPTEMBER 12, 2026\nThe day he noticed me.";
+                // This caption is already printed in the supplied photograph.
+                caption.text = "";
                 yield return Fade(0, 1, .55f);
                 yield return Lines(new[] {
                     "Adrian Valmont.",
