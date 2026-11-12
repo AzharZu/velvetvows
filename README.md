@@ -41,10 +41,11 @@ Project scripts are in [`Assets/VelvetVows/Scripts`](Assets/VelvetVows/Scripts),
 
 ## Open the project
 
-1. Install **Unity 6000.0.84f1** through Unity Hub.
-2. Add this repository as a project and allow Unity to import the assets and restore the packages.
-3. Open [`Assets/VelvetVows/Scenes/VelvetVows_Main.unity`](Assets/VelvetVows/Scenes/VelvetVows_Main.unity) and enter Play mode.
-4. Follow the controls displayed by the game. The interaction key is **E**.
+1. Install Git LFS, clone the repository, then run `git lfs install` and `git lfs pull` in the project folder. Large assets, recordings and builds require the actual LFS files.
+2. Install **Unity 6000.0.84f1** through Unity Hub.
+3. Add this repository as a project and allow Unity to import the assets and restore the packages.
+4. Open [`Assets/VelvetVows/Scenes/VelvetVows_Main.unity`](Assets/VelvetVows/Scenes/VelvetVows_Main.unity) and enter Play mode.
+5. Follow the controls displayed by the game. The interaction key is **E**.
 
 The package manifest includes URP 17.0.4, Cinemachine 3.1.2, Input System 1.20.0 and AI Navigation 2.0.14. Keep Unity `.meta` files alongside their assets when moving or restoring the project.
 

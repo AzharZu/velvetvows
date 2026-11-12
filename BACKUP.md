@@ -4,7 +4,7 @@ Prepared on 2026-11-12.
 
 ## Current remote status
 
-At preparation time this repository has no configured GitHub remote. **Do not delete the local project until an external copy has been uploaded and independently verified.**
+GitHub remote: `https://github.com/AzharZu/velvetvows.git` (private repository, verified through the GitHub API). **Do not delete the local project until the remote commit and LFS objects have been uploaded and independently verified.**
 
 ## What must be preserved
 
@@ -17,7 +17,9 @@ At preparation time this repository has no configured GitHub remote. **Do not de
 
 ## Large files
 
-The source contains `.blend` and `.glb` files over 100 MiB, and the recordings contain large `.mp4` and `.f32` files. Existing Git history also contains large binary objects. A normal GitHub push may reject these; adding Git LFS rules alone will not convert existing history. Complete a suitable LFS migration or use an external archive, preserving the original history before any rewrite.
+Files larger than 50 MB have been migrated to Git LFS in the published branch, including existing history. Install Git LFS before restoring the project and run `git lfs pull` after cloning. `.gitattributes` records the tracked paths.
+
+The original pre-migration snapshot is commit `b7a3fa0`, retained locally as `backup/pre-lfs-2026-11-12`. This original branch is not intended for a normal GitHub push because it contains oversized ordinary Git blobs. The migrated branch preserves the file contents with new commit hashes.
 
 ## Verification before deleting the laptop copy
 
